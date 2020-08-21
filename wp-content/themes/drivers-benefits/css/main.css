@@ -1,0 +1,37 @@
+.main-header {
+  position: sticky;
+  top: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 15px;
+  background-color: #f3f6f8;
+}
+
+.admin-bar .main-header {
+  top: 32px;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  border-right: 1px solid #D8D8D8;
+}
+.header-left img {
+  width: 100px;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+
+html,
+body {
+  margin: 0;
+  color: #333;
+  background-color: #eee;
+}
+
+/*# sourceMappingURL=main.css.map */

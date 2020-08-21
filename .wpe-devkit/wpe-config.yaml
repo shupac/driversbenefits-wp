@@ -1,0 +1,5 @@
+email: drivers072120
+ssh_key: /Users/shu/Library/Application Support/Local/ssh/wpe-connect
+update_check: false
+analytics: false
+alpha_commands_access: true

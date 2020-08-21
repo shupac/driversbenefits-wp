@@ -1,0 +1,159 @@
+#editor div[class^=wp-block-atomic-blocks-] .ab-change-image {
+  position: absolute;
+  z-index: 50;
+  padding: 0;
+  top: 0;
+  left: 0;
+  opacity: 1;
+  height: 100%;
+}
+#editor div[class^=wp-block-atomic-blocks-] .ab-change-image img {
+  transition: 0.2s ease;
+}
+#editor div[class^=wp-block-atomic-blocks-] .ab-change-image:hover img {
+  opacity: 0.7;
+}
+#editor div[class^=wp-block-atomic-blocks-] .ab-change-image:focus {
+  background: none;
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+#editor div[class^=wp-block-atomic-blocks-] .ab-add-image {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 50;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+#editor div[class^=wp-block-atomic-blocks-] .ab-add-image svg {
+  position: absolute;
+  top: 17px;
+  left: 19px;
+}
+#editor div[class^=wp-block-atomic-blocks-] .ab-remove-image {
+  color: #ec3939;
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: auto;
+  width: 20px;
+  left: auto;
+  z-index: 60;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  border-radius: 50px;
+}
+#editor div[class^=wp-block-atomic-blocks-] .ab-remove-image:active, #editor div[class^=wp-block-atomic-blocks-] .ab-remove-image:focus {
+  color: #ec3939;
+  background: #fff;
+}
+#editor div[class^=wp-block-atomic-blocks-] .ab-remove-image:not(:disabled):not([aria-disabled=true]):focus {
+  background: #fff;
+}
+
+.ab-inspector-help-text .components-base-control__help {
+  margin-top: 0;
+}
+
+/**
+ * Fluid Type
+ * Provide a flexible type override for block typography
+ */
+/* Breakpoints */
+/* Fluid type mixin */
+.wp-block *[class*=gpb-fluid],
+.editor-styles-wrapper *[class*=gpb-fluid] {
+  margin: 0 0 1rem 0;
+  line-height: 1.1;
+  font-weight: normal;
+}
+
+.editor-styles-wrapper .gpb-fluid-1 {
+  font-size: 20px;
+}
+@media (min-width: 600px) {
+  .editor-styles-wrapper .gpb-fluid-1 {
+    font-size: calc(11.5094339623px + 100vw * 0.0141509434);
+  }
+}
+@media (min-width: 1024px) {
+  .editor-styles-wrapper .gpb-fluid-1 {
+    font-size: 26px;
+  }
+}
+
+.editor-styles-wrapper .gpb-fluid-2 {
+  font-size: 22px;
+}
+@media (min-width: 600px) {
+  .editor-styles-wrapper .gpb-fluid-2 {
+    font-size: calc(10.679245283px + 100vw * 0.0188679245);
+  }
+}
+@media (min-width: 1024px) {
+  .editor-styles-wrapper .gpb-fluid-2 {
+    font-size: 30px;
+  }
+}
+
+.editor-styles-wrapper .gpb-fluid-3 {
+  font-size: 24px;
+}
+@media (min-width: 600px) {
+  .editor-styles-wrapper .gpb-fluid-3 {
+    font-size: calc(4.1886792453px + 100vw * 0.0330188679);
+  }
+}
+@media (min-width: 1024px) {
+  .editor-styles-wrapper .gpb-fluid-3 {
+    font-size: 38px;
+  }
+}
+
+.editor-styles-wrapper .gpb-fluid-4 {
+  font-size: 28px;
+}
+@media (min-width: 600px) {
+  .editor-styles-wrapper .gpb-fluid-4 {
+    font-size: calc(5.358490566px + 100vw * 0.0377358491);
+  }
+}
+@media (min-width: 1024px) {
+  .editor-styles-wrapper .gpb-fluid-4 {
+    font-size: 44px;
+  }
+}
+
+.editor-styles-wrapper .gpb-fluid-5 {
+  font-size: 32px;
+}
+@media (min-width: 600px) {
+  .editor-styles-wrapper .gpb-fluid-5 {
+    font-size: calc(3.6981132075px + 100vw * 0.0471698113);
+  }
+}
+@media (min-width: 1024px) {
+  .editor-styles-wrapper .gpb-fluid-5 {
+    font-size: 52px;
+  }
+}
+
+.editor-styles-wrapper .gpb-fluid-6 {
+  font-size: 36px;
+}
+@media (min-width: 600px) {
+  .editor-styles-wrapper .gpb-fluid-6 {
+    font-size: calc(2.0377358491px + 100vw * 0.0566037736);
+  }
+}
+@media (min-width: 1024px) {
+  .editor-styles-wrapper .gpb-fluid-6 {
+    font-size: 60px;
+  }
+}
+
+/*# sourceMappingURL=editor.css.map */

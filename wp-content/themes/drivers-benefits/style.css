@@ -1,0 +1,187 @@
+/*
+	Theme Name: Drivers Benefits
+	Author: Shu Liu
+*/
+
+*, body {
+	box-sizing: border-box;
+	font-family: HelveticaNeue;
+}
+
+#logo {
+	height: 45px;
+	width: auto;
+
+}
+
+#local {
+	height: 25px;
+	width: auto;
+	margin-left: auto;
+}
+
+#telephone {
+	height: 25px;
+	width: auto;
+}
+
+#signup {
+	height: 25px;
+	width: auto;
+	margin-left: auto;
+
+}
+
+.hero {
+	background-color: #f3f6f8;
+	width: 100%;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+
+}
+
+.hero img {
+	margin: auto;
+	width: 50%;
+	display: inline-block;
+}
+
+.main-content {
+	max-width: 1100px;
+	margin: auto;
+	padding-top: 75px;
+}
+
+.main-footer {
+	background-color: #f3f6f8;
+	padding: 25px 0 80px 0;
+	border-top: 2px solid #C8C8C8;
+}
+
+ul#header-nav {
+	display: inline;
+}
+
+ul#header-nav li{
+	display: inline;
+}
+
+header li {
+	text-align: center;
+	list-style: none;
+	display: inline;
+	text-align: center;
+}
+
+body {
+	background-color: #f3f6f8;
+}
+
+/* tk tk placeholder for hero */
+.slider{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+	background-color: #f3f6f8;
+}
+
+.social {
+	text-align: center;
+	padding: 20px;
+	background-color: #f3f6f8;
+}
+
+.social a {
+	font-size: 18px;
+	color: #767676;
+	padding: 10px;
+	transition: .5s;
+}
+
+.social a:hover {
+	color:#bd1e1f;
+}
+
+.footer-list {
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+	flex-flow: row wrap;
+	flex-grow: 1;
+	padding: 0% 5%;
+	text-align: center;
+	width: fit-content;
+	margin: 0 auto;
+	/* from zep - broke layout */
+	/* width: 294px; */
+	/* height: 18px; */
+	font-family: HelveticaNeue;
+	font-size: 16px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	text-align: center;
+	color: #767676;
+}
+
+.fl-item {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	flex-grow: 1;
+	padding: 1em;
+}
+
+#benefits-menu {
+	text-align: center;
+	font-weight: bold;
+	font-size: 18px;
+	background-color: #f3f6f8;
+	padding: 100px 0;
+	color: #000000;
+	background-color: #81c5ff;
+	display: flex;
+
+}
+
+.benefits {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	flex-grow: 1;
+	background-color: #81c5ff;
+}
+
+.news {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	flex-grow: 1;
+	background-color: #3c5ea8;
+	width: 100%;
+}
+
+.p-logo {
+	padding: 20px;
+}
+
+#partners {
+	text-align: center;
+	font-weight: bold;
+	font-size: 18px;
+	background-color: #f3f6f8;
+	padding: 100px 0;
+	color: #000000;;
+}
+
+#copyright {
+	text-align: center;
+	background-color: #f3f6f8;
+	font-family: HelveticaNeue;
+	font-size: 12px;
+	color: #767676;
+}

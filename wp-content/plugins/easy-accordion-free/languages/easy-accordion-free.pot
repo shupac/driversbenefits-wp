@@ -1,0 +1,904 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Easy Accordion Pro V:2.0.3\n"
+"POT-Creation-Date: 2019-05-21 10:59+0600\n"
+"PO-Revision-Date: 2019-05-21 10:59+0600\n"
+"Last-Translator: \n"
+"Language-Team: https://shapedplugin.com/\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: esc_html__;esc_html_e;esc_html_x;esc_attr__;"
+"esc_attr_x;number_format_i18n;__;_e;_n;_n_noop\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/class-easy-accordion-free-admin.php:56
+msgid "Accordion updated."
+msgstr ""
+
+#: admin/class-easy-accordion-free-admin.php:59
+msgid " updated."
+msgstr ""
+
+#: admin/class-easy-accordion-free-admin.php:60
+#, php-format
+msgid "Accordion restored to revision from %s"
+msgstr ""
+
+#: admin/class-easy-accordion-free-admin.php:61
+msgid "Accordion published."
+msgstr ""
+
+#: admin/class-easy-accordion-free-admin.php:62
+msgid "Accordion saved."
+msgstr ""
+
+#: admin/class-easy-accordion-free-admin.php:63
+msgid "Accordion submitted."
+msgstr ""
+
+#: admin/class-easy-accordion-free-admin.php:64
+#, php-format
+msgid "Accordion scheduled for: <strong>%1$s</strong>."
+msgstr ""
+
+#: admin/class-easy-accordion-free-admin.php:64
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: admin/class-easy-accordion-free-admin.php:65
+msgid "Accordion draft updated."
+msgstr ""
+
+#: admin/class-easy-accordion-free-admin.php:77
+msgid "Accordion Title"
+msgstr ""
+
+#: admin/class-easy-accordion-free-admin.php:78
+msgid "Shortcode"
+msgstr ""
+
+#: admin/class-easy-accordion-free-admin.php:79
+msgid "Date"
+msgstr ""
+
+#: admin/class-easy-accordion-free-admin.php:115
+#, php-format
+msgid ""
+"If you like <strong>Easy Accordion</strong>, please leave us a <a href=\"%s"
+"\" target=\"_blank\">&#9733;&#9733;&#9733;&#9733;&#9733;</a> rating. Your "
+"Review is very important to us as it helps us to grow more. "
+msgstr ""
+
+#: admin/class-easy-accordion-free-admin.php:128
+msgid "Live Demo"
+msgstr ""
+
+#: admin/views/eafree-metabox/classes/metabox.class.php:244
+#: admin/views/eafree-metabox/classes/options.class.php:654
+msgid "No option provided by developer."
+msgstr ""
+
+#: admin/views/eafree-metabox/classes/metabox.class.php:262
+msgid "Restore"
+msgstr ""
+
+#: admin/views/eafree-metabox/classes/metabox.class.php:263
+msgid "update post for restore "
+msgstr ""
+
+#: admin/views/eafree-metabox/classes/metabox.class.php:263
+msgid "Cancel"
+msgstr ""
+
+#: admin/views/eafree-metabox/classes/options.class.php:252
+#: admin/views/eafree-metabox/functions/actions.php:116
+#: admin/views/eafree-metabox/functions/actions.php:181
+#: admin/views/eafree-metabox/functions/actions.php:208
+msgid "Error while saving."
+msgstr ""
+
+#: admin/views/eafree-metabox/classes/options.class.php:303
+msgid "Success. Imported backup options."
+msgstr ""
+
+#: admin/views/eafree-metabox/classes/options.class.php:313
+msgid "Default options restored."
+msgstr ""
+
+#: admin/views/eafree-metabox/classes/options.class.php:326
+msgid "Default options restored for only this section."
+msgstr ""
+
+#: admin/views/eafree-metabox/classes/options.class.php:381
+msgid "Settings saved."
+msgstr ""
+
+#: admin/views/eafree-metabox/classes/options.class.php:556
+msgid "show all options"
+msgstr ""
+
+#: admin/views/eafree-metabox/classes/options.class.php:558
+msgid "Search option(s)"
+msgstr ""
+
+#: admin/views/eafree-metabox/classes/options.class.php:561
+#: admin/views/eafree-metabox/classes/options.class.php:678
+msgid "Save"
+msgstr ""
+
+#: admin/views/eafree-metabox/classes/options.class.php:561
+#: admin/views/eafree-metabox/classes/options.class.php:678
+msgid "Saving..."
+msgstr ""
+
+#: admin/views/eafree-metabox/classes/options.class.php:562
+#: admin/views/eafree-metabox/classes/options.class.php:679
+msgid "Reset Section"
+msgstr ""
+
+#: admin/views/eafree-metabox/classes/options.class.php:562
+#: admin/views/eafree-metabox/classes/options.class.php:679
+msgid "Are you sure to reset this section options?"
+msgstr ""
+
+#: admin/views/eafree-metabox/classes/options.class.php:563
+#: admin/views/eafree-metabox/classes/options.class.php:680
+msgid "Reset All"
+msgstr ""
+
+#: admin/views/eafree-metabox/classes/options.class.php:563
+#: admin/views/eafree-metabox/classes/options.class.php:680
+msgid "Are you sure to reset all options?"
+msgstr ""
+
+#: admin/views/eafree-metabox/classes/setup.class.php:377
+msgid "Are you sure?"
+msgstr ""
+
+#: admin/views/eafree-metabox/classes/setup.class.php:378
+msgid "Restoring options."
+msgstr ""
+
+#: admin/views/eafree-metabox/classes/setup.class.php:379
+msgid "Importing options."
+msgstr ""
+
+#: admin/views/eafree-metabox/classes/setup.class.php:415
+#, php-format
+msgid "Ooops! This field type (%s) can not be used here, yet."
+msgstr ""
+
+#: admin/views/eafree-metabox/classes/setup.class.php:458
+msgid "This field class is not available!"
+msgstr ""
+
+#: admin/views/eafree-metabox/classes/setup.class.php:461
+msgid "This type is not found!"
+msgstr ""
+
+#: admin/views/eafree-metabox/fields/border/border.php:27
+#: admin/views/eafree-metabox/fields/spacing/spacing.php:27
+msgid "top"
+msgstr ""
+
+#: admin/views/eafree-metabox/fields/border/border.php:28
+#: admin/views/eafree-metabox/fields/spacing/spacing.php:28
+msgid "right"
+msgstr ""
+
+#: admin/views/eafree-metabox/fields/border/border.php:29
+#: admin/views/eafree-metabox/fields/spacing/spacing.php:29
+msgid "bottom"
+msgstr ""
+
+#: admin/views/eafree-metabox/fields/border/border.php:30
+#: admin/views/eafree-metabox/fields/spacing/spacing.php:30
+msgid "left"
+msgstr ""
+
+#: admin/views/eafree-metabox/fields/border/border.php:31
+#: admin/views/eafree-metabox/fields/spacing/spacing.php:31
+msgid "all"
+msgstr ""
+
+#: admin/views/eafree-metabox/fields/border/border.php:54
+#: admin/views/eafree-metabox/fields/typography/typography.php:224
+msgid "Solid"
+msgstr ""
+
+#: admin/views/eafree-metabox/fields/border/border.php:55
+#: admin/views/eafree-metabox/fields/typography/typography.php:227
+msgid "Dashed"
+msgstr ""
+
+#: admin/views/eafree-metabox/fields/border/border.php:56
+#: admin/views/eafree-metabox/fields/typography/typography.php:226
+msgid "Dotted"
+msgstr ""
+
+#: admin/views/eafree-metabox/fields/border/border.php:57
+#: admin/views/eafree-metabox/fields/typography/typography.php:225
+msgid "Double"
+msgstr ""
+
+#: admin/views/eafree-metabox/fields/border/border.php:58
+msgid "Inset"
+msgstr ""
+
+#: admin/views/eafree-metabox/fields/border/border.php:59
+msgid "Outset"
+msgstr ""
+
+#: admin/views/eafree-metabox/fields/border/border.php:60
+msgid "Groove"
+msgstr ""
+
+#: admin/views/eafree-metabox/fields/border/border.php:61
+msgid "ridge"
+msgstr ""
+
+#: admin/views/eafree-metabox/fields/border/border.php:62
+#: admin/views/eafree-metabox/fields/typography/typography.php:223
+msgid "None"
+msgstr ""
+
+#: admin/views/eafree-metabox/fields/checkbox/checkbox.php:47
+#: admin/views/eafree-metabox/fields/radio/radio.php:46
+#: admin/views/eafree-metabox/fields/select/select.php:76
+#: admin/views/eafree-metabox/fields/theme_select/theme_select.php:63
+msgid "No data provided for this option type."
+msgstr ""
+
+#: admin/views/eafree-metabox/fields/group/group.php:25
+#: includes/class-easy-accordion-free-post-types.php:77
+msgid "Add New"
+msgstr ""
+
+#: admin/views/eafree-metabox/fields/group/group.php:38
+msgid "Error: Nested field id can not be same with another nested field id."
+msgstr ""
+
+#: admin/views/eafree-metabox/fields/group/group.php:49
+#: admin/views/eafree-metabox/fields/group/group.php:88
+msgid "Are you sure to delete this item?"
+msgstr ""
+
+#: admin/views/eafree-metabox/fields/group/group.php:122
+msgid "You can not add more than"
+msgstr ""
+
+#: admin/views/eafree-metabox/fields/group/group.php:123
+msgid "You can not remove less than"
+msgstr ""
+
+#: admin/views/eafree-metabox/fields/switcher/switcher.php:20
+msgid "On"
+msgstr ""
+
+#: admin/views/eafree-metabox/fields/switcher/switcher.php:21
+msgid "Off"
+msgstr ""
+
+#: admin/views/eafree-metabox/fields/typography/typography.php:90
+msgid "Font Family"
+msgstr ""
+
+#: admin/views/eafree-metabox/fields/typography/typography.php:101
+msgid "Backup Font Family"
+msgstr ""
+
+#: admin/views/eafree-metabox/fields/typography/typography.php:121
+#: admin/views/eafree-metabox/fields/typography/typography.php:135
+#: admin/views/eafree-metabox/fields/typography/typography.php:148
+#: admin/views/eafree-metabox/fields/typography/typography.php:163
+#: admin/views/eafree-metabox/fields/typography/typography.php:202
+#: admin/views/eafree-metabox/fields/typography/typography.php:233
+msgid "Default"
+msgstr ""
+
+#: admin/views/eafree-metabox/fields/typography/typography.php:133
+msgid "Font Style"
+msgstr ""
+
+#: admin/views/eafree-metabox/fields/typography/typography.php:147
+#: admin/views/eafree-metabox/fields/typography/typography.php:148
+msgid "Load Extra Styles"
+msgstr ""
+
+#: admin/views/eafree-metabox/fields/typography/typography.php:161
+msgid "Subset"
+msgstr ""
+
+#: admin/views/eafree-metabox/fields/typography/typography.php:173
+msgid "Text Align"
+msgstr ""
+
+#: admin/views/eafree-metabox/fields/typography/typography.php:194
+msgid "Font Variant"
+msgstr ""
+
+#: admin/views/eafree-metabox/fields/typography/typography.php:197
+msgid "Normal"
+msgstr ""
+
+#: admin/views/eafree-metabox/fields/typography/typography.php:198
+msgid "Small Caps"
+msgstr ""
+
+#: admin/views/eafree-metabox/fields/typography/typography.php:199
+msgid "All Small Caps"
+msgstr ""
+
+#: admin/views/eafree-metabox/fields/typography/typography.php:211
+msgid "Text Transform"
+msgstr ""
+
+#: admin/views/eafree-metabox/fields/typography/typography.php:220
+msgid "Text Decoration"
+msgstr ""
+
+#: admin/views/eafree-metabox/fields/typography/typography.php:228
+msgid "Wavy"
+msgstr ""
+
+#: admin/views/eafree-metabox/fields/typography/typography.php:229
+msgid "Overline"
+msgstr ""
+
+#: admin/views/eafree-metabox/fields/typography/typography.php:230
+msgid "Line-through"
+msgstr ""
+
+#: admin/views/eafree-metabox/fields/typography/typography.php:246
+msgid "Font Size"
+msgstr ""
+
+#: admin/views/eafree-metabox/fields/typography/typography.php:258
+msgid "Line Height"
+msgstr ""
+
+#: admin/views/eafree-metabox/fields/typography/typography.php:270
+msgid "Letter Spacing"
+msgstr ""
+
+#: admin/views/eafree-metabox/fields/typography/typography.php:282
+msgid "Word Spacing"
+msgstr ""
+
+#: admin/views/eafree-metabox/fields/typography/typography.php:298
+msgid "Font Color"
+msgstr ""
+
+#: admin/views/eafree-metabox/fields/typography/typography.php:309
+msgid "Font Hover Color"
+msgstr ""
+
+#: admin/views/eafree-metabox/fields/typography/typography.php:320
+msgid "Font Active Color"
+msgstr ""
+
+#: admin/views/eafree-metabox/fields/typography/typography.php:333
+msgid "Custom Style"
+msgstr ""
+
+#: admin/views/eafree-metabox/fields/typography/typography.php:398
+msgid "Custom Web Fonts"
+msgstr ""
+
+#: admin/views/eafree-metabox/fields/typography/typography.php:404
+msgid "Safe Web Fonts"
+msgstr ""
+
+#: admin/views/eafree-metabox/fields/typography/typography.php:427
+msgid "Google Web Fonts"
+msgstr ""
+
+#: admin/views/eafree-metabox/functions/actions.php:100
+msgid "No data provided by developer"
+msgstr ""
+
+#: admin/views/eafree-metabox/functions/actions.php:234
+msgid "Add Icon"
+msgstr ""
+
+#: admin/views/eafree-metabox/functions/actions.php:238
+msgid "Search a Icon..."
+msgstr ""
+
+#: admin/views/eafree-metabox/functions/validate.php:14
+#: admin/views/eafree-metabox/functions/validate.php:82
+msgid "Please write a valid email address!"
+msgstr ""
+
+#: admin/views/eafree-metabox/functions/validate.php:31
+#: admin/views/eafree-metabox/functions/validate.php:101
+msgid "Please write a numeric data!"
+msgstr ""
+
+#: admin/views/eafree-metabox/functions/validate.php:48
+#: admin/views/eafree-metabox/functions/validate.php:120
+msgid "Error! This field is required!"
+msgstr ""
+
+#: admin/views/eafree-metabox/functions/validate.php:65
+#: admin/views/eafree-metabox/functions/validate.php:139
+msgid "Please write a valid url!"
+msgstr ""
+
+#: admin/views/help.php:50
+msgid "Easy Accordion Help"
+msgstr ""
+
+#: admin/views/help.php:51
+msgid "Help"
+msgstr ""
+
+#: admin/views/help.php:69
+msgid "Welcome to Easy Accordion!"
+msgstr ""
+
+#: admin/views/help.php:73
+msgid ""
+"Thank you for installing Easy Accordion! You're now running the most popular "
+"Easy Accordion plugin.\n"
+"\t\t\tThis video will help you get started with the plugin."
+msgstr ""
+
+#: admin/views/help.php:90
+msgid "Need any Assistance?"
+msgstr ""
+
+#: admin/views/help.php:91
+msgid "Our Expert Support Team is always ready to help you out promptly."
+msgstr ""
+
+#: admin/views/help.php:92
+msgid "Contact Support"
+msgstr ""
+
+#: admin/views/help.php:98
+msgid "Looking for Documentation?"
+msgstr ""
+
+#: admin/views/help.php:99
+msgid "We have detailed documentation on every aspects of Easy Accordion."
+msgstr ""
+
+#: admin/views/help.php:100
+msgid "Documentation"
+msgstr ""
+
+#: admin/views/help.php:106
+msgid "Like This Plugin?"
+msgstr ""
+
+#: admin/views/help.php:107
+msgid "If you like Easy Accordion, please leave us a 5 star rating."
+msgstr ""
+
+#: admin/views/help.php:108
+msgid "Rate The Plugin"
+msgstr ""
+
+#: admin/views/help.php:129
+msgid "Add Accordion"
+msgstr ""
+
+#: admin/views/metabox-config.php:16
+msgid "Easy Accordion Pro"
+msgstr ""
+
+#: admin/views/metabox-config.php:39
+msgid "Accordion Type"
+msgstr ""
+
+#: admin/views/metabox-config.php:42
+msgid "Content"
+msgstr ""
+
+#: admin/views/metabox-config.php:45
+msgid "Post (Pro)"
+msgstr ""
+
+#: admin/views/metabox-config.php:59
+#: includes/class-easy-accordion-free-post-types.php:76
+msgid "Accordion"
+msgstr ""
+
+#: admin/views/metabox-config.php:60
+msgid "Add New Item"
+msgstr ""
+
+#: admin/views/metabox-config.php:62
+msgid "Item :"
+msgstr ""
+
+#: admin/views/metabox-config.php:70
+msgid "Title"
+msgstr ""
+
+#: admin/views/metabox-config.php:76
+msgid "Description"
+msgstr ""
+
+#: admin/views/metabox-config.php:99
+msgid "Shortcode Section"
+msgstr ""
+
+#: admin/views/metabox-config.php:112
+msgid "Accordion Settings"
+msgstr ""
+
+#: admin/views/metabox-config.php:118
+msgid "Accordion Layout"
+msgstr ""
+
+#: admin/views/metabox-config.php:119
+msgid "Choose an accordion layout."
+msgstr ""
+
+#: admin/views/metabox-config.php:135
+msgid "Choose a Theme"
+msgstr ""
+
+#: admin/views/metabox-config.php:137
+msgid ""
+"Select an accordion theme style. 16+ Premium Themes available in <a href="
+"\"https://shapedplugin.com/demo/easy-accordion-pro/\" target=\"_blank\">pro "
+"version!</a> "
+msgstr ""
+
+#: admin/views/metabox-config.php:140
+msgid "Theme One"
+msgstr ""
+
+#: admin/views/metabox-config.php:143
+msgid "16+ Themes (Pro)"
+msgstr ""
+
+#: admin/views/metabox-config.php:153
+msgid "Activator Event"
+msgstr ""
+
+#: admin/views/metabox-config.php:154
+msgid "Select event click or mouse over to expand accordion."
+msgstr ""
+
+#: admin/views/metabox-config.php:157
+msgid "Click"
+msgstr ""
+
+#: admin/views/metabox-config.php:160
+msgid "Mouse Over"
+msgstr ""
+
+#: admin/views/metabox-config.php:168
+msgid "Accordion Mode"
+msgstr ""
+
+#: admin/views/metabox-config.php:169
+msgid "Expand or collapse accordion option on page load."
+msgstr ""
+
+#: admin/views/metabox-config.php:171
+msgid "First Open"
+msgstr ""
+
+#: admin/views/metabox-config.php:172
+msgid "All Open"
+msgstr ""
+
+#: admin/views/metabox-config.php:173
+msgid "All Folded"
+msgstr ""
+
+#: admin/views/metabox-config.php:180
+msgid "Multiple Opening Together"
+msgstr ""
+
+#: admin/views/metabox-config.php:181
+msgid "Switch on to open multiple accordions together."
+msgstr ""
+
+#: admin/views/metabox-config.php:187
+msgid "Fixed Content Height"
+msgstr ""
+
+#: admin/views/metabox-config.php:188
+msgid ""
+"Check to display collapsible accordion content in a limited amount of space."
+msgstr ""
+
+#: admin/views/metabox-config.php:194
+msgid "Maximum Height"
+msgstr ""
+
+#: admin/views/metabox-config.php:195
+msgid "Set fixed accordion content panel height. Defualt height 200px."
+msgstr ""
+
+#: admin/views/metabox-config.php:197 admin/views/metabox-config.php:198
+msgid "Height"
+msgstr ""
+
+#: admin/views/metabox-config.php:213
+msgid "Preloader"
+msgstr ""
+
+#: admin/views/metabox-config.php:214
+msgid "Accordion will be hidden until page load completed."
+msgstr ""
+
+#: admin/views/metabox-config.php:227
+msgid "Display Settings"
+msgstr ""
+
+#: admin/views/metabox-config.php:233
+msgid "Accordion Section Title"
+msgstr ""
+
+#: admin/views/metabox-config.php:234
+msgid "Show/hide the accordion section title."
+msgstr ""
+
+#: admin/views/metabox-config.php:240
+msgid "Accordion  Section Title Margin Bottom"
+msgstr ""
+
+#: admin/views/metabox-config.php:241
+msgid ""
+"Set a margin bottom for the accordion section title. Defualt value is 30px."
+msgstr ""
+
+#: admin/views/metabox-config.php:259
+msgid "Accordion Expand & Collapse Icons"
+msgstr ""
+
+#: admin/views/metabox-config.php:264
+msgid "Expand & Collapse Icons"
+msgstr ""
+
+#: admin/views/metabox-config.php:265
+msgid "Show/hide expand and collapse Icons."
+msgstr ""
+
+#: admin/views/metabox-config.php:271
+msgid "Expand & Collapse Icon Style"
+msgstr ""
+
+#: admin/views/metabox-config.php:272
+msgid "Choose a expand and collapse icon style."
+msgstr ""
+
+#: admin/views/metabox-config.php:346
+msgid "Expand & Collapse Icon Size"
+msgstr ""
+
+#: admin/views/metabox-config.php:347
+msgid "Set accordion collapse and expand icon size. Defualt value is 16px."
+msgstr ""
+
+#: admin/views/metabox-config.php:369
+msgid "Icon Color"
+msgstr ""
+
+#: admin/views/metabox-config.php:370
+msgid "Set icon color."
+msgstr ""
+
+#: admin/views/metabox-config.php:382
+msgid "Expand & Collapse Icon Position"
+msgstr ""
+
+#: admin/views/metabox-config.php:383
+msgid "Set accordion expand and collapse icon position or alingment."
+msgstr ""
+
+#: admin/views/metabox-config.php:386
+msgid "Left"
+msgstr ""
+
+#: admin/views/metabox-config.php:389
+msgid "Right"
+msgstr ""
+
+#: admin/views/metabox-config.php:402
+msgid "Accordion Item Title & Description"
+msgstr ""
+
+#: admin/views/metabox-config.php:407
+msgid "Item Border"
+msgstr ""
+
+#: admin/views/metabox-config.php:408
+msgid "Set item border. Defualt value is 1px."
+msgstr ""
+
+#: admin/views/metabox-config.php:419
+msgid "Title  Color"
+msgstr ""
+
+#: admin/views/metabox-config.php:420
+msgid "Set accordion title color."
+msgstr ""
+
+#: admin/views/metabox-config.php:427
+msgid "Title Background Color"
+msgstr ""
+
+#: admin/views/metabox-config.php:428
+msgid "Set accordion title background color."
+msgstr ""
+
+#: admin/views/metabox-config.php:435
+msgid "Description Color"
+msgstr ""
+
+#: admin/views/metabox-config.php:436
+msgid "Set accordion description color."
+msgstr ""
+
+#: admin/views/metabox-config.php:443
+msgid "Description Background Color"
+msgstr ""
+
+#: admin/views/metabox-config.php:444
+msgid "Set accordion description background color."
+msgstr ""
+
+#: admin/views/metabox-config.php:451
+msgid "Transition Time"
+msgstr ""
+
+#: admin/views/metabox-config.php:452
+msgid ""
+"Set accordion expand and collapse transition time. Defualt value is 500ms."
+msgstr ""
+
+#: admin/views/metabox-config.php:468
+msgid "Typography"
+msgstr ""
+
+#: admin/views/metabox-config.php:474
+msgid ""
+"These Typography (840+ Google Fonts) options are available in the <a href="
+"\"https://shapedplugin.com/plugin/easy-accordion-pro/\" target=\"_blank"
+"\">Pro Version</a> only."
+msgstr ""
+
+#: admin/views/metabox-config.php:479
+msgid "Load Accordion Section Title Font"
+msgstr ""
+
+#: admin/views/metabox-config.php:480
+msgid "On/Off google font for the section title."
+msgstr ""
+
+#: admin/views/metabox-config.php:492
+msgid "Accordion Section Title Font"
+msgstr ""
+
+#: admin/views/metabox-config.php:493
+msgid "Set Accordion section title font properties."
+msgstr ""
+
+#: admin/views/metabox-config.php:518
+msgid "Load Item Title Font"
+msgstr ""
+
+#: admin/views/metabox-config.php:519
+msgid "On/Off google font for the accordion item title."
+msgstr ""
+
+#: admin/views/metabox-config.php:525
+msgid "Item Title Font"
+msgstr ""
+
+#: admin/views/metabox-config.php:526
+msgid "Set item title font properties."
+msgstr ""
+
+#: admin/views/metabox-config.php:547
+msgid "Load Item Description Font"
+msgstr ""
+
+#: admin/views/metabox-config.php:548
+msgid "On/Off google font for the accordion item description."
+msgstr ""
+
+#: admin/views/metabox-config.php:554
+msgid "Description Font"
+msgstr ""
+
+#: admin/views/metabox-config.php:555
+msgid "Set description font properties."
+msgstr ""
+
+#: admin/views/metabox-config.php:577
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: admin/views/option-config.php:15
+msgid "Settings"
+msgstr ""
+
+#: admin/views/option-config.php:27
+#: includes/class-easy-accordion-free-post-types.php:86
+msgid "Easy Accordion"
+msgstr ""
+
+#: admin/views/option-config.php:40
+msgid "Advanced Settings"
+msgstr ""
+
+#: admin/views/option-config.php:46
+msgid "Remove Data when Uninstall"
+msgstr ""
+
+#: admin/views/option-config.php:47
+msgid ""
+"Check this box if you would like Easy Accordion to completely remove all of "
+"its data when the plugin is deleted."
+msgstr ""
+
+#: admin/views/option-config.php:52
+msgid "Enqueue or Dequeue CSS"
+msgstr ""
+
+#: admin/views/option-config.php:57
+msgid "Font Awesome CSS"
+msgstr ""
+
+#: admin/views/option-config.php:58
+msgid "On/off the switch to enqueue/dequeue font awesome CSS."
+msgstr ""
+
+#: admin/views/option-config.php:72 admin/views/option-config.php:78
+msgid "Custom CSS"
+msgstr ""
+
+#: admin/views/option-config.php:79
+msgid "Type your custom CSS."
+msgstr ""
+
+#: includes/class-easy-accordion-free-post-types.php:75
+#: includes/class-easy-accordion-free-post-types.php:87
+msgid "All Accordions"
+msgstr ""
+
+#: includes/class-easy-accordion-free-post-types.php:78
+msgid "Add New Accordion"
+msgstr ""
+
+#: includes/class-easy-accordion-free-post-types.php:79
+msgid "Edit Accordion"
+msgstr ""
+
+#: includes/class-easy-accordion-free-post-types.php:80
+msgid "New Accordion"
+msgstr ""
+
+#: includes/class-easy-accordion-free-post-types.php:81
+msgid "View Accordion"
+msgstr ""
+
+#: includes/class-easy-accordion-free-post-types.php:82
+msgid "Search Accordion"
+msgstr ""
+
+#: includes/class-easy-accordion-free-post-types.php:83
+msgid "No WP Accordion found."
+msgstr ""
+
+#: includes/class-easy-accordion-free-post-types.php:84
+msgid "No WP Accordion found in trash."
+msgstr ""
+
+#: includes/class-easy-accordion-free-post-types.php:85
+msgid "Parent Item:"
+msgstr ""

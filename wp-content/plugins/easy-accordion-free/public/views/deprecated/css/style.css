@@ -1,0 +1,20 @@
+
+div#ea_one.easy_accordion_wrapper div.single_accordion h2.ea-item-head{border-bottom: 1px solid #ddd;
+cursor: pointer;
+font-weight: normal;
+margin: 0 0 8px;
+padding-bottom: 10px;
+padding-left: 39px;
+position: relative;}
+div#ea_one.easy_accordion_wrapper div.single_accordion h2.ea-item-head:before{background: none repeat scroll 0 0 #666;
+color: #fff;
+content: "+";
+height: 30px;
+left: 0;
+position: absolute;
+text-align: center;
+top: 0;
+width: 30px;}
+div#ea_one.easy_accordion_wrapper div.single_accordion:hover h2.ea-item-head:before, div#ea_one.easy_accordion_wrapper div.single_accordion.ea-item-expand h2.ea-item-head:before {content:"-";opacity:.6}
+div#ea_one.easy_accordion_wrapper div.single_accordion div.ea-item-body{margin-bottom: 15px;
+padding-left: 40px;}
