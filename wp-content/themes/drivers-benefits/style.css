@@ -5,7 +5,19 @@
 
 *, body {
 	box-sizing: border-box;
-	font-family: HelveticaNeue;
+	font-family: Helvetica Neue;
+	font-size: 14px;
+}
+
+button.btn {
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	height: 40px;
+	border-radius: 8px;
+	display: flex;
+	align-items: center;
 }
 
 .main-footer {

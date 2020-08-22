@@ -1,4 +1,5 @@
 @import '_mixins';
+@import '_variables';
 
 @import '_header';
 @import '_home';
@@ -16,10 +17,6 @@ body {
 	min-height: 100vh;
 }
 
-$body-bg: #F3F6F8;
-$body-color: black;
-$primary: #BD1E1E;
-$darkblue: #3C5EA8;
 
 @import './bootstrap/_bootstrap';
 
