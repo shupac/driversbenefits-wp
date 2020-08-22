@@ -1,8 +1,28 @@
-@import './_header';
+@import '_mixins';
+
+@import '_header';
+@import '_home';
 
 html,
 body {
 	margin: 0;
 	color: #333;
 	background-color: #eee;
+	display: grid;
+	grid-template-rows: auto 1fr auto;
 }
+
+body {
+	min-height: 100vh;
+}
+
+$body-bg: #F3F6F8;
+$body-color: black;
+$primary: #BD1E1E;
+$darkblue: #3C5EA8;
+
+@import './bootstrap/_bootstrap';
+
+// .container {
+// 	@include container();
+// }

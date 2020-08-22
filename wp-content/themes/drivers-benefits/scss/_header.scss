@@ -1,30 +1,44 @@
-.main-header {
+@import '_mixins';
+
+.header__header {
 	position: sticky;
 	top: 0;
+	padding: 36px 0;
+	background-color: #F3F6F8;
+	z-index: 1000;
 
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	padding: 15px;
-	background-color: #f3f6f8;
-}
-
-.admin-bar .main-header {
-  top: 32px;
-}
-
-.header-left {
-	display: flex;
-	align-items: center;
-	padding: 0 10px;
-	border-right: 1px solid #D8D8D8;
-
-	img {
-		width: 100px;
+	.header__container {
+		@include container();
+		display: grid;
+		grid-template-columns: 1fr 1fr;
 	}
 }
 
-.header-right {
+.header__left {
 	display: flex;
 	align-items: center;
-	padding: 0 10px;
+	border-right: 1px solid #D8D8D8;
+
+	img {
+		width: 130px;
+	}
+}
+
+.header__right {
+	display: grid;
+	grid-template-columns: 1fr auto;
+
+	* {
+		display: flex;
+		align-items: center;
+
+		img {
+			width: 14px;
+			margin-right: 15px;
+		}
+
+		a {
+			color: black;
+		}
+	}
 }

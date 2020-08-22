@@ -1,0 +1,10 @@
+@mixin container() {
+	max-width: 940px;
+	margin: 0 auto;
+}
+
+@mixin lastNoMargin() {
+	&:last-of-type {
+		margin: 0;
+	}
+}

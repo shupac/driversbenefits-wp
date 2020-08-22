@@ -8,51 +8,6 @@
 	font-family: HelveticaNeue;
 }
 
-#logo {
-	height: 45px;
-	width: auto;
-
-}
-
-#local {
-	height: 25px;
-	width: auto;
-	margin-left: auto;
-}
-
-#telephone {
-	height: 25px;
-	width: auto;
-}
-
-#signup {
-	height: 25px;
-	width: auto;
-	margin-left: auto;
-
-}
-
-.hero {
-	background-color: #f3f6f8;
-	width: 100%;
-	margin: auto;
-	display: flex;
-	justify-content: center;
-
-}
-
-.hero img {
-	margin: auto;
-	width: 50%;
-	display: inline-block;
-}
-
-.main-content {
-	max-width: 1100px;
-	margin: auto;
-	padding-top: 75px;
-}
-
 .main-footer {
 	background-color: #f3f6f8;
 	padding: 25px 0 80px 0;
