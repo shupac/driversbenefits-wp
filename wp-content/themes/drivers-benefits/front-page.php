@@ -1,26 +1,9 @@
 <?php get_header(); ?>
 	<div class="home__hero">
 		<div class="home__testimonials">
-
+			<img class="home__testimonials_bg" src="<?php echo get_template_directory_uri(); ?>/assets/image-testimonial-1-bg.png">
+			<div class="home__testimonials_slides"></div>
 		</div>
-<!-- 		<div class="home__testimonials">
-			<div class="home__slide">
-				<img src="<?php echo get_template_directory_uri(); ?>/assets/image-testimonial-1-bg.png">
-				<div class="home__testimonial">
-					<div>
-						"Having these benefits gave me and my family peace of mind."
-					</div>
-					<div class="home__testimonial_person">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/icon-uber.png">
-						Gupta Aditi
-					</div>
-					<img class="home__testimonial_avatar" src="<?php echo get_template_directory_uri(); ?>/assets/image-testimonial-1-avatar.png">
-				</div>
-			</div>
-			<div class="home__slide">
-				<img src="<?php echo get_template_directory_uri(); ?>/assets/image-testimonial-1-bg.png">
-			</div>
-		</div> -->
 	</div>
 	<?php if (have_posts()) : while(have_posts()) : the_post(); ?>
 		<?php the_content(); ?>
@@ -56,34 +39,35 @@
 	$('.home__cta').prependTo('.home__hero');
 	$('.home__cta_signin').appendTo('.home__cta');
 	$('.home__testimonial').each((index, el) => {
-		console.log(el);
+		const $el = $(el);
+		const testimonial = $el.find('.ab-testimonial-text p').html();
+		const avatar = $el.find('img').attr('src');
+		const name = $el.find('.ab-testimonial-name').html();
+		const company = $el.find('.ab-testimonial-title').html().toLowerCase();
 		const slide = $.parseHTML(`
 			<div class="home__slide">
-				<img src="<?php echo get_template_directory_uri(); ?>/assets/image-testimonial-1-bg.png">
 				<div class="home__testimonial">
 					<div>
-						"Having these benefits gave me and my family peace of mind."
+						${testimonial}
 					</div>
 					<div class="home__testimonial_person">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/icon-uber.png">
-						Gupta Aditi
+						<img src="<?php echo get_template_directory_uri(); ?>/assets/icon-${company}.png">
+						${name}
 					</div>
-					<img class="home__testimonial_avatar" src="<?php echo get_template_directory_uri(); ?>/assets/image-testimonial-1-avatar.png">
+					<img class="home__testimonial_avatar" src="${avatar}">
 				</div>
 			</div>
 			`
 		)
-
-		$(slide).appendTo($('.home__testimonials'))
-
-
-		// ('.home__hero');
+		$(slide).appendTo($('.home__testimonials_slides'))
 	});
 
-	$('.home__testimonials').slick({
+	$('.home__testimonials_slides').slick({
 		dots: true,
-		infinite: false,
-		speed: 300,
+		autoplay: true,
+		autoplaySpeed: 5000,
+		infinite: true,
+		speed: 500,
 		slidesToShow: 1,
 		slidesToScroll: 1,
 		arrows: false,
