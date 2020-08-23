@@ -45,15 +45,6 @@ body {
 	background-color: #f3f6f8;
 }
 
-/* tk tk placeholder for hero */
-.slider{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 60%;
-	background-color: #f3f6f8;
-}
-
 .social {
 	text-align: center;
 	padding: 20px;
@@ -101,35 +92,6 @@ body {
 	justify-content: space-around;
 	flex-grow: 1;
 	padding: 1em;
-}
-
-#benefits-menu {
-	text-align: center;
-	font-weight: bold;
-	font-size: 18px;
-	background-color: #f3f6f8;
-	padding: 100px 0;
-	color: #000000;
-	background-color: #81c5ff;
-	display: flex;
-
-}
-
-.benefits {
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: space-around;
-	flex-grow: 1;
-	background-color: #81c5ff;
-}
-
-.news {
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: space-around;
-	flex-grow: 1;
-	background-color: #3c5ea8;
-	width: 100%;
 }
 
 .p-logo {

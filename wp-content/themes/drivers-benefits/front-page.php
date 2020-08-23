@@ -1,6 +1,11 @@
 <?php get_header(); ?>
 	<div class="home__hero">
-		<div class="home__cta">
+		<?php if (have_posts()) : while(have_posts()) : the_post(); ?>
+			<?php the_content(); ?>
+		<?php endwhile; endif; ?>
+	</div>
+
+<!-- 		<div class="home__cta">
 			<h3>
 				Free and Discounted Benefits
 			</h3>
@@ -30,25 +35,9 @@
 				<img src="<?php echo get_template_directory_uri(); ?>/assets/image-testimonial-1-bg.png">
 			</div>
 		</div>
-	</div>
-
-<!-- 	<div id='benefits-menu'>
-		<h4 >Benefits</h4>
-		<a class='benefits'><img src="http://drivers072120.wpengine.com/wp-content/uploads/2020/08/telemedicine.png"></a>
-		<a class='benefits'><img src="http://drivers072120.wpengine.com/wp-content/uploads/2020/08/classes.png"></a>
-		<a class='benefits'><img src="http://drivers072120.wpengine.com/wp-content/uploads/2020/08/Drivers-Support.png"></a>
-		<a class='benefits'><img src="http://drivers072120.wpengine.com/wp-content/uploads/2020/08/Prescriptions.png"></a>
-		<a class='benefits'><img src="http://drivers072120.wpengine.com/wp-content/uploads/2020/08/Legal-Assistance.png"></a>
-		<a class='benefits'><img src="http://drivers072120.wpengine.com/wp-content/uploads/2020/08/telemedicine.png"></a>
-		<a class='benefits'><img src="http://drivers072120.wpengine.com/wp-content/uploads/2020/08/Vision.png"></a>
-		<a class='benefits'><img src="http://drivers072120.wpengine.com/wp-content/uploads/2020/08/Dental.png"></a>
-	</div>  -->
-
-<!-- 	<div class='home__posts'>
-		<?php if (have_posts()) : while(have_posts()) : the_post(); ?>
-			<?php the_content(); ?>
-		<?php endwhile; endif; ?>
 	</div> -->
+
+
 
 <!-- 	<div id='partners'>
 		<h4>Partners</h4>

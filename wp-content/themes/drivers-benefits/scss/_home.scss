@@ -153,3 +153,18 @@
 		@include lastNoMargin();
 	}
 }
+
+.home__benefits {
+	background-color: $lightblue;
+	padding-top: 38px;
+	text-align: center;
+
+	h3 {
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 18px;
+		line-height: 22px;
+		margin-bottom: 40px;
+	}
+}

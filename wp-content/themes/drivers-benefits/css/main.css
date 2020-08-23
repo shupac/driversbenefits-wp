@@ -245,6 +245,20 @@
   margin: 0;
 }
 
+.home__benefits {
+  background-color: #DEECF9;
+  padding-top: 38px;
+  text-align: center;
+}
+.home__benefits h3 {
+  font-family: Helvetica Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 40px;
+}
+
 html,
 body {
   margin: 0;
