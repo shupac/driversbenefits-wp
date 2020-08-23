@@ -20,10 +20,8 @@ function load_jquery() {
 }
 
 function load_bootstrap() {
-	wp_deregister_script( 'bootstrap' );
+	wp_enqueue_script( 'popper', get_template_directory_uri() . '/js/lib/popper.min.js' , array(), '1.12.9', false );
 	wp_enqueue_script( 'bootstrap', get_template_directory_uri() . '/js/lib/bootstrap.min.js' , array(), '4.5.0', false );
-	wp_register_style( 'bootstrap', get_template_directory_uri() . '/css/lib/bootstrap.min.css', array(), '4.5.0', 'all' );
-	wp_enqueue_style('bootstrap');
 }
 
 function load_js() {
@@ -50,3 +48,4 @@ add_action( 'wp_enqueue_scripts', 'load_stylesheets' );
 add_action( 'wp_enqueue_scripts', 'load_jquery' );
 add_action( 'wp_enqueue_scripts', 'load_js' );
 add_action( 'wp_enqueue_scripts', 'load_datepicker' );
+add_action( 'wp_enqueue_scripts', 'load_bootstrap' );

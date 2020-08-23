@@ -24,8 +24,55 @@
 	align-items: center;
 	border-right: 1px solid #D8D8D8;
 
-	img {
+	.header__logo {
 		width: 130px;
+	}
+
+	.header__language {
+		margin-left: auto;
+		margin-right: 8px;
+
+		button {
+			width: 135px;
+			height: 35px;
+			padding: 0 10px;
+			box-sizing: border-box;
+			background-color: transparent;
+			border: none;
+			font-family: Helvetica Neue;
+			font-style: normal;
+			font-weight: 500;
+			font-size: 14px;
+			line-height: 17px;
+
+			display: flex;
+			align-items: center;
+
+			img:last-of-type {
+				width: 12px;
+				margin-left: auto;
+			}
+		}
+
+		.dropdown-item {
+			display: flex;
+			align-items: center;
+		}
+
+		.header__flag {
+			width: 12px;
+			height: 12px;
+			border-radius: 6px;
+			margin-right: 10px;
+			overflow: hidden;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+
+			img {
+				height: 12px;
+			}
+		}
 	}
 }
 

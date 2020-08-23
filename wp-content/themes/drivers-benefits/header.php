@@ -15,8 +15,36 @@
 		<div class="header__container">
 			<div class="header__left">
 				<a href="/">
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/icon-logo.png">
+					<img class="header__logo" src="<?php echo get_template_directory_uri(); ?>/assets/icon-logo.png">
 				</a>
+				<div class="header__language">
+				  <button class="" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				  	<div class="header__flag">
+					  	<img src="<?php echo plugins_url(); ?>/sitepress-multilingual-cms/res/flags/us.png">
+				  	</div>
+				    English
+						<img src="<?php echo get_template_directory_uri(); ?>/assets/icon-arrow-down.png">
+				  </button>
+				  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+				    <a class="dropdown-item" href="?lang=sp">
+					  	<div class="header__flag">
+						  	<img src="<?php echo plugins_url(); ?>/sitepress-multilingual-cms/res/flags/es.png">
+					  	</div>
+					    Español</a>
+				    <a class="dropdown-item" href="?lang=zh-hans">
+				    	<div class="header__flag">
+					    	<img src="<?php echo plugins_url(); ?>/sitepress-multilingual-cms/res/flags/cn.png">
+				    	</div>
+				    	简体中文
+				    </a>
+				    <a class="dropdown-item" href="?lang=fr">
+				    	<div class="header__flag">
+					    	<img src="<?php echo plugins_url(); ?>/sitepress-multilingual-cms/res/flags/fr.png">
+				    	</div>
+				    	Français
+				    </a>
+				  </div>
+				</div>
 			</div>
 			<div class="header__right">
 				<div class="header__phone">
