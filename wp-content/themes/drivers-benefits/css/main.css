@@ -32,6 +32,7 @@
 .header__left .header__language button {
   width: 135px;
   height: 35px;
+  border-radius: 8px;
   padding: 0 10px;
   box-sizing: border-box;
   background-color: transparent;
@@ -118,47 +119,68 @@
   opacity: 0;
 }
 
-.home__cta h3 {
+.home__cta {
+  display: none;
+  background-color: transparent;
+  margin: 0;
+  padding: 0;
+}
+.home__cta .ab-font-size-32.ab-cta-title {
   font-family: Helvetica Neue;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
   line-height: 22px;
   margin-bottom: 15px;
+  color: black;
+  text-align: left;
 }
-.home__cta .home__cta_info {
+.home__cta .ab-cta-text p {
   font-family: Helvetica Neue;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 18px;
   margin-bottom: 30px;
+  text-align: left;
 }
-.home__cta button {
+.home__cta .btn {
   font-family: Helvetica Neue;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
   line-height: 22px;
   width: 100%;
+  height: 50px;
+  border-radius: 8px;
   margin-bottom: 18px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.home__cta .home__cta_signin {
+.home__cta .btn a {
+  background-color: transparent !important;
+  padding: 0;
+}
+.home__cta .btn a:hover {
+  text-decoration: none;
+}
+
+.home__cta_signin {
   font-family: Helvetica Neue;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 17px;
   color: rgba(0, 0, 0, 0.5);
+  display: none;
+  text-align: left;
 }
-.home__cta .home__cta_signin a {
+.home__cta_signin a {
   color: #3C5EA8;
   font-weight: 500;
 }
-.home__cta .home__cta_signin a:hover {
+.home__cta_signin a:hover {
   color: #3C5EA8;
 }
 

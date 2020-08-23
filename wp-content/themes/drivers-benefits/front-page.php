@@ -36,8 +36,9 @@
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
 <script>
-	$('.home__cta').prependTo('.home__hero');
-	$('.home__cta_signin').appendTo('.home__cta');
+	$('.home__cta').prependTo('.home__hero').show();
+	$('.ab-button').attr('class', 'btn btn-primary').appendTo($('.home__cta')).attr('style', '');
+	$('.home__cta_signin').appendTo('.home__cta').show();
 	$('.home__testimonial').each((index, el) => {
 		const $el = $(el);
 		const testimonial = $el.find('.ab-testimonial-text p').html();
@@ -73,9 +74,10 @@
 		arrows: false,
 	});
 
+	$('.slick-dots').appendTo($('.home__hero'))
+
 	setTimeout(() => {
-		$('.slick-dots').appendTo($('.home__hero'))
 		$('.home__hero').fadeTo(100, 1);
-	}, 100);
+	}, 10);
 </script>
 
