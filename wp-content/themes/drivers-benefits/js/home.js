@@ -47,7 +47,28 @@ const newsGrid = news
 	.attr('class', 'home__news_grid')
 newsGrid.children().each((index, el) => {
 	const $el = $(el)
-	$el.find('a').attr('class', 'home__news_item').appendTo(newsGrid)
+	const image = $el.find('img')
+	const link = $el.find('.ab-block-post-grid-title a')
+
+	const sizes = image
+		.attr('srcset')
+		.split(', ')
+		.map((str) => {
+			const [url, width] = str.split(' ')
+			return { url, width: Number(width.substring(0, width.length - 1)) }
+		})
+		.sort((a, b) => a.width - b.width)
+	const imageSrc = sizes[0].url
+
+	const title = link.html()
+	const url = link.attr('href')
+	const item = $.parseHTML(`
+		<a class="home__news_item" href="${url}">
+			<img src="${imageSrc}" />
+			<div>${title}</div>
+		</a>
+	`)
+	$(item).appendTo(newsGrid)
 	$el.remove()
 })
 
@@ -55,7 +76,8 @@ const gallery = $('<div class="home__partners_gallery"></div>').appendTo(
 	partners
 )
 partners.find('img').each((index, el) => {
-	$(el).attr('class', null).appendTo(gallery)
+	const $el = $(el)
+	$el.attr('class', null).appendTo(gallery)
 })
 partners.find('figure').remove()
 
