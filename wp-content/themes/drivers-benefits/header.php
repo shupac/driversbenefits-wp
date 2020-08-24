@@ -42,9 +42,8 @@
 				</a>
 			</div>
 		</div>
+		<script src="/wp-content/themes/drivers-benefits/js/header.js"></script>
 	</header>
-	<div class="header__shadow"></div>
-	<div class="header__cover"></div>
-	<script src="/wp-content/themes/drivers-benefits/js/header.js"></script>
+	<main>
 
 

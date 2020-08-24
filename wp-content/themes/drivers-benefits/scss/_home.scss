@@ -5,6 +5,7 @@
 	padding-top: 38px;
 	text-align: center;
 	opacity: 0;
+	overflow: auto;
 
 	h3 {
 		font-family: Helvetica Neue;
@@ -18,6 +19,7 @@
 
 .home__benefits_grid {
 	@include container();
+
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
 	grid-column-gap: 60px;
@@ -61,6 +63,7 @@
 	padding-top: 38px;
 	background-color: $darkblue;
 	opacity: 0;
+	overflow: auto;
 }
 
 .home__covid {

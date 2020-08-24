@@ -46,8 +46,8 @@ setTimeout(() => {
 	header.fadeTo(500, 1)
 }, 10)
 
-setTimeout(() => {
-	$('.header__shadow').fadeTo(0, 1)
-}, 500)
-
 menuShadow.parent().remove()
+
+$(window).scroll(() => {
+	header.toggleClass('header__shadow', !!window.scrollY)
+})
