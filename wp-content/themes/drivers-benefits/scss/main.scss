@@ -2,6 +2,7 @@
 @import '_variables';
 
 @import '_header';
+@import '_homeHero';
 @import '_home';
 
 html,
@@ -20,6 +21,6 @@ body {
 
 @import './bootstrap/_bootstrap';
 
-// .container {
-// 	@include container();
-// }
+.container {
+	@include container();
+}

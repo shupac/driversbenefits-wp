@@ -1,5 +1,5 @@
-@mixin container() {
-	max-width: 940px;
+@mixin container($size: 780px) {
+	max-width: $size;
 	width: 100%;
 	margin: 0 auto;
 }
@@ -7,5 +7,12 @@
 @mixin lastNoMargin() {
 	&:last-of-type {
 		margin: 0;
+	}
+}
+
+@mixin link($color: black) {
+	color: $color;
+	&:hover {
+		color: $color;
 	}
 }

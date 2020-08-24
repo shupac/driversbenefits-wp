@@ -279,10 +279,15 @@
   margin: 0;
 }
 
+.home__testimonials_shadow {
+  display: none;
+}
+
 .home__benefits {
   background-color: #DEECF9;
   padding-top: 38px;
   text-align: center;
+  opacity: 0;
 }
 .home__benefits h3 {
   font-family: Helvetica Neue;
@@ -293,10 +298,29 @@
   margin-bottom: 40px;
 }
 
-.home__testimonials_shadow {
+.home__benefits_grid {
+  max-width: 780px;
+  width: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-column-gap: 60px;
+  grid-row-gap: 35px;
+  margin-bottom: 90px;
+}
+
+.home__benefit {
+  color: black;
+}
+.home__benefit:hover {
+  color: black;
+}
+.home__benefit img {
+  height: 50px;
+}
+
+.home__benefits_shadow {
   display: none;
-  width: 0;
-  height: 0;
 }
 
 html,
@@ -10205,6 +10229,11 @@ h3 {
     color: inherit;
     border-color: #dee2e6;
   }
+}
+.container {
+  max-width: 780px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 /*# sourceMappingURL=main.css.map */
