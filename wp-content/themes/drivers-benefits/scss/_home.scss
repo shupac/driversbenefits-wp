@@ -127,6 +127,7 @@
 	.home__news_item {
 		border-radius: 10px;
 		overflow: hidden;
+		background-color: white;
 
 		img {
 			width: 100%;
@@ -138,7 +139,6 @@
 		div {
 			@include link();
 
-			background-color: white;
 			padding: 8px 16px;
 			font-family: Helvetica Neue;
 			font-style: normal;

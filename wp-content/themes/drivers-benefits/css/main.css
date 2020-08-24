@@ -410,6 +410,7 @@
 .home__news .home__news_item {
   border-radius: 10px;
   overflow: hidden;
+  background-color: white;
 }
 .home__news .home__news_item img {
   width: 100%;
@@ -419,7 +420,6 @@
 }
 .home__news .home__news_item div {
   color: black;
-  background-color: white;
   padding: 8px 16px;
   font-family: Helvetica Neue;
   font-style: normal;
