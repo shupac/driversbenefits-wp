@@ -36,10 +36,9 @@
 			<div class="header__right">
 				<div class="header__phone">
 					<img src="<?php echo get_template_directory_uri(); ?>/assets/icon-phone.png">
-					<a href="tel:18338148590">1-833-814-8590</a>
 				</div>
-				<a href="https://driversbenefits.org/activate-now/?utm_source=WB">
-					<button class="btn btn-primary">Sign Up</button>
+				<a class="header__signup" href="">
+					<button class="btn btn-primary"></button>
 				</a>
 			</div>
 		</div>

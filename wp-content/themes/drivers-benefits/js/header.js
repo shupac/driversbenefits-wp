@@ -6,6 +6,7 @@ const signupShadow = menuShadow.children()[2]
 const header = $('.header__header')
 const currLangButton = header.find('button')
 const langMenu = header.find('.dropdown-menu')
+const signup = header.find('.header__signup')
 
 function getLangData(langEl) {
 	const flag = $(langEl).find('img').attr('src').replace('en.png', 'us.png')
@@ -32,3 +33,21 @@ $(languageShadow)
 		`)
 		$(item).appendTo(langMenu)
 	})
+
+$(phoneShadow).find('a').appendTo('.header__phone')
+
+const signupUrl = $(signupShadow).find('a').attr('href')
+const signupText = $(signupShadow).find('a').html()
+
+signup.attr('href', signupUrl)
+signup.find('button').html(signupText)
+
+setTimeout(() => {
+	header.fadeTo(500, 1)
+}, 10)
+
+setTimeout(() => {
+	$('.header__shadow').fadeTo(0, 1)
+}, 500)
+
+menuShadow.parent().remove()

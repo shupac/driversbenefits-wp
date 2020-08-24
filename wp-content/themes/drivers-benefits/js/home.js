@@ -86,4 +86,4 @@ setTimeout(() => {
 	sections.forEach((el) => {
 		el.fadeTo(500, 1)
 	})
-}, 10)
+}, 100)

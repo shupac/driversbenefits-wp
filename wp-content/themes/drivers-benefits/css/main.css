@@ -7,6 +7,7 @@
   align-items: center;
   background-color: #f3f6f8;
   z-index: 1000;
+  opacity: 0;
 }
 .header__header .header__container {
   max-width: 940px;
@@ -99,6 +100,7 @@
   top: 100px;
   box-shadow: 0px 0.5px 0.5px 3px rgba(0, 0, 0, 0.05);
   z-index: 998;
+  opacity: 0;
 }
 
 .header__cover {
@@ -109,7 +111,7 @@
 }
 
 .menu-top-menu-container {
-  /*display: none;*/
+  display: none;
 }
 
 .home__hero {
