@@ -4,7 +4,7 @@
 	margin: 0 auto;
 }
 
-@mixin lastNoMargin() {
+@mixin lastNoMargin {
 	&:last-of-type {
 		margin: 0;
 	}
@@ -15,4 +15,5 @@
 	&:hover {
 		color: $color;
 	}
+	@content;
 }

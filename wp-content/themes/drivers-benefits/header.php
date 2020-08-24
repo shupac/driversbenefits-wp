@@ -11,7 +11,7 @@
   <?php wp_head();?>
 </head>
 <body <?php body_class();?>>
-	<div class="header__header">
+	<header class="header__header">
 		<div class="header__container">
 			<div class="header__left">
 				<a href="/">
@@ -56,7 +56,7 @@
 				</a>
 			</div>
 		</div>
-	</div>
+	</header>
 	<div class="header__shadow"></div>
 	<div class="header__cover"></div>
 
