@@ -10,7 +10,11 @@
   <title><?php the_title();?></title>
   <?php wp_head();?>
 </head>
+
+
 <body <?php body_class();?>>
+	<?php wp_nav_menu(); ?>
+
 	<header class="header__header">
 		<div class="header__container">
 			<div class="header__left">
@@ -18,33 +22,17 @@
 					<img class="header__logo" src="<?php echo get_template_directory_uri(); ?>/assets/icon-logo.png">
 				</a>
 				<div class="header__language">
-				  <button class="" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				  <button type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 				  	<div class="header__flag">
-					  	<img src="<?php echo plugins_url(); ?>/sitepress-multilingual-cms/res/flags/us.png">
+					  	<img src="">
 				  	</div>
-				    English
+				  	<div class="header__lang"></div>
 						<img src="<?php echo get_template_directory_uri(); ?>/assets/icon-arrow-down.png">
 				  </button>
-				  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-				    <a class="dropdown-item" href="?lang=sp">
-					  	<div class="header__flag">
-						  	<img src="<?php echo plugins_url(); ?>/sitepress-multilingual-cms/res/flags/es.png">
-					  	</div>
-					    Español</a>
-				    <a class="dropdown-item" href="?lang=zh-hans">
-				    	<div class="header__flag">
-					    	<img src="<?php echo plugins_url(); ?>/sitepress-multilingual-cms/res/flags/cn.png">
-				    	</div>
-				    	简体中文
-				    </a>
-				    <a class="dropdown-item" href="?lang=fr">
-				    	<div class="header__flag">
-					    	<img src="<?php echo plugins_url(); ?>/sitepress-multilingual-cms/res/flags/fr.png">
-				    	</div>
-				    	Français
-				    </a>
-				  </div>
 				</div>
+			  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+			  	<a class="dropdown-item">test</a>
+			  </div>
 			</div>
 			<div class="header__right">
 				<div class="header__phone">
@@ -59,5 +47,7 @@
 	</header>
 	<div class="header__shadow"></div>
 	<div class="header__cover"></div>
+	<script src="/wp-content/themes/drivers-benefits/js/header.js"></script>
+	<script src="/wp-content/themes/drivers-benefits/js/lib/popper.min.js"></script>
 
 
