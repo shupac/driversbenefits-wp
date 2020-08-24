@@ -15,20 +15,20 @@ function getLangData(langEl) {
 }
 
 const currLangData = getLangData($(languageShadow).children()[0])
-// currLangButton.find('.header__flag img').attr('src', currLangData.flag)
-// currLangButton.find('.header__lang').html(currLangData.language)
+currLangButton.find('.header__flag img').attr('src', currLangData.flag)
+currLangButton.find('.header__lang').html(currLangData.language)
 
-// $(languageShadow)
-// 	.find('.sub-menu a')
-// 	.each((index, langEl) => {
-// 		const { flag, language, url } = getLangData(langEl)
-// 		const item = $.parseHTML(`
-// 	    <a class="dropdown-item" href="${url}">
-// 		  	<div class="header__flag">
-// 			  	<img src="${flag}">
-// 		  	</div>
-// 		  	<div class="header__lang">${language}</div>
-// 			</a>
-// 		`)
-// 		$(item).appendTo(langMenu)
-// 	})
+$(languageShadow)
+	.find('.sub-menu a')
+	.each((index, langEl) => {
+		const { flag, language, url } = getLangData(langEl)
+		const item = $.parseHTML(`
+	    <a class="dropdown-item" href="${url}">
+		  	<div class="header__flag">
+			  	<img src="${flag}">
+		  	</div>
+		  	<div class="header__lang">${language}</div>
+			</a>
+		`)
+		$(item).appendTo(langMenu)
+	})

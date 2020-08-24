@@ -22,17 +22,16 @@
 					<img class="header__logo" src="<?php echo get_template_directory_uri(); ?>/assets/icon-logo.png">
 				</a>
 				<div class="header__language">
-				  <button type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				  <button class="" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 				  	<div class="header__flag">
 					  	<img src="">
 				  	</div>
 				  	<div class="header__lang"></div>
 						<img src="<?php echo get_template_directory_uri(); ?>/assets/icon-arrow-down.png">
 				  </button>
+				  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+				  </div>
 				</div>
-			  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-			  	<a class="dropdown-item">test</a>
-			  </div>
 			</div>
 			<div class="header__right">
 				<div class="header__phone">
@@ -48,6 +47,5 @@
 	<div class="header__shadow"></div>
 	<div class="header__cover"></div>
 	<script src="/wp-content/themes/drivers-benefits/js/header.js"></script>
-	<script src="/wp-content/themes/drivers-benefits/js/lib/popper.min.js"></script>
 
 
