@@ -1,4 +1,4 @@
-const menuShadow = $('#menu-top-menu')
+const menuShadow = $('.menu-top-menu-container ul')
 const languageShadow = menuShadow.children()[0]
 const phoneShadow = menuShadow.children()[1]
 const signupShadow = menuShadow.children()[2]
@@ -50,4 +50,10 @@ menuShadow.parent().remove()
 
 $(window).scroll(() => {
 	header.toggleClass('header__shadow', !!window.scrollY)
+})
+
+$(window).resize(() => {
+	if (window.innerWidth > 800)
+		header.toggleClass('header__shadow', !!window.scrollY)
+	else header.addClass('header__shadow')
 })

@@ -1,5 +1,25 @@
 @import '_mixins';
 
+.home__header_responsive {
+	display: none;
+
+	@media (max-width: 800px) {
+		display: block;
+	}
+
+	.header__container {
+		@include container();
+		display: flex;
+		justify-content: space-between;
+		padding-top: 25px;
+		padding-bottom: 45px;
+	}
+
+	.header__logo {
+		width: 130px;
+	}
+}
+
 .home__benefits {
 	background-color: $lightblue;
 	padding-top: 38px;

@@ -10,6 +10,11 @@ html,
 body {
 	margin: 0;
 	background-color: $body-bg;
+
+	@media (max-width: 800px) {
+		height: 100%;
+		overflow-y: scroll;
+	}
 }
 
 @import './bootstrap/_bootstrap';

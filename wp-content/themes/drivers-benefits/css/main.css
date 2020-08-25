@@ -162,6 +162,11 @@
     flex-direction: column;
   }
 }
+@media (max-width: 400px) {
+  .home__hero {
+    margin-bottom: 40px;
+  }
+}
 
 .home__cta {
   display: none;
@@ -185,6 +190,11 @@
   color: black;
   text-align: left;
 }
+@media (max-width: 800px) {
+  .home__cta .ab-font-size-32.ab-cta-title {
+    text-align: center;
+  }
+}
 .home__cta .ab-cta-text p {
   font-family: Helvetica Neue;
   font-style: normal;
@@ -193,6 +203,12 @@
   line-height: 18px;
   margin-bottom: 30px;
   text-align: left;
+}
+@media (max-width: 800px) {
+  .home__cta .ab-cta-text p {
+    margin-bottom: 0;
+    text-align: center;
+  }
 }
 .home__cta .btn {
   font-family: Helvetica Neue;
@@ -215,6 +231,11 @@
 .home__cta .btn a:hover {
   text-decoration: none;
 }
+@media (max-width: 800px) {
+  .home__cta .btn {
+    display: none !important;
+  }
+}
 
 .home__cta_signin {
   font-family: Helvetica Neue;
@@ -232,6 +253,11 @@
 }
 .home__cta_signin a:hover {
   color: #3C5EA8;
+}
+@media (max-width: 800px) {
+  .home__cta_signin {
+    display: none !important;
+  }
 }
 
 .home__testimonials {
@@ -391,6 +417,33 @@
 
 .home__testimonials_shadow {
   display: none;
+}
+
+.home__header_responsive {
+  display: none;
+}
+@media (max-width: 800px) {
+  .home__header_responsive {
+    display: block;
+  }
+}
+.home__header_responsive .header__container {
+  max-width: 780px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 25px;
+  padding-bottom: 45px;
+}
+@media (max-width: 840px) {
+  .home__header_responsive .header__container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+.home__header_responsive .header__logo {
+  width: 130px;
 }
 
 .home__benefits {
@@ -671,10 +724,38 @@
   color: #767676;
 }
 
+.footer-responsive {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  padding: 10px 30px;
+  background: #F3F6F8;
+  box-shadow: 0px -0.5px 0.5px 3px rgba(0, 0, 0, 0.05);
+  z-index: 1000;
+  display: none;
+}
+@media (max-width: 800px) {
+  .footer-responsive {
+    display: block;
+  }
+}
+.footer-responsive button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 html,
 body {
   margin: 0;
   background-color: #F3F6F8;
+}
+@media (max-width: 800px) {
+  html,
+body {
+    height: 100%;
+    overflow-y: scroll;
+  }
 }
 
 /*!

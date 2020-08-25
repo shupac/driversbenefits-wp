@@ -7,7 +7,7 @@ $('.ab-button')
 	.attr('class', 'btn btn-primary')
 	.appendTo(cta)
 	.attr('style', null)
-$('.home__cta_signin').appendTo(cta).show()
+$('.home__cta_signin').appendTo(cta).attr('style', null).show()
 
 $('.home__testimonial').each((index, el) => {
 	const $el = $(el)

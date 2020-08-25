@@ -14,6 +14,10 @@
 		display: flex;
 		flex-direction: column;
 	}
+
+	@media (max-width: 400px) {
+		margin-bottom: 40px;
+	}
 }
 
 $ctaLg: 450px;
@@ -40,6 +44,10 @@ $ctaSm: 280px;
 		margin-bottom: 15px;
 		color: black;
 		text-align: left;
+
+		@media (max-width: 800px) {
+			text-align: center;
+		}
 	}
 
 	.ab-cta-text p {
@@ -50,6 +58,11 @@ $ctaSm: 280px;
 		line-height: 18px;
 		margin-bottom: 30px;
 		text-align: left;
+
+		@media (max-width: 800px) {
+			margin-bottom: 0;
+			text-align: center;
+		}
 	}
 
 	.btn {
@@ -74,6 +87,10 @@ $ctaSm: 280px;
 				text-decoration: none;
 			}
 		}
+
+		@media (max-width: 800px) {
+			display: none !important;
+		}
 	}
 }
 
@@ -94,6 +111,10 @@ $ctaSm: 280px;
 		&:hover {
 			color: $darkblue;
 		}
+	}
+
+	@media (max-width: 800px) {
+		display: none !important;
 	}
 }
 
