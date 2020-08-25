@@ -3,7 +3,8 @@
 	Author: Shu Liu
 */
 
-*, body {
+*,
+body {
 	box-sizing: border-box;
 	font-family: Helvetica Neue;
 	font-size: 14px;
@@ -18,99 +19,4 @@ button.btn {
 	border-radius: 8px;
 	display: flex;
 	align-items: center;
-}
-
-.main-footer {
-	background-color: #f3f6f8;
-	padding: 25px 0 80px 0;
-	border-top: 2px solid #C8C8C8;
-}
-
-ul#header-nav {
-	display: inline;
-}
-
-ul#header-nav li{
-	display: inline;
-}
-
-header li {
-	text-align: center;
-	list-style: none;
-	display: inline;
-	text-align: center;
-}
-
-body {
-	background-color: #f3f6f8;
-}
-
-.social {
-	text-align: center;
-	padding: 20px;
-	background-color: #f3f6f8;
-}
-
-.social a {
-	font-size: 18px;
-	color: #767676;
-	padding: 10px;
-	transition: .5s;
-}
-
-.social a:hover {
-	color:#bd1e1f;
-}
-
-.footer-list {
-	list-style: none;
-	display: flex;
-	justify-content: space-around;
-	flex-flow: row wrap;
-	flex-grow: 1;
-	padding: 0% 5%;
-	text-align: center;
-	width: fit-content;
-	margin: 0 auto;
-	/* from zep - broke layout */
-	/* width: 294px; */
-	/* height: 18px; */
-	font-family: HelveticaNeue;
-	font-size: 16px;
-	font-weight: normal;
-	font-stretch: normal;
-	font-style: normal;
-	line-height: normal;
-	letter-spacing: normal;
-	text-align: center;
-	color: #767676;
-}
-
-.fl-item {
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: space-around;
-	flex-grow: 1;
-	padding: 1em;
-}
-
-.p-logo {
-	padding: 20px;
-}
-
-#partners {
-	text-align: center;
-	font-weight: bold;
-	font-size: 18px;
-	background-color: #f3f6f8;
-	padding: 100px 0;
-	color: #000000;;
-}
-
-#copyright {
-	text-align: center;
-	background-color: #f3f6f8;
-	font-family: HelveticaNeue;
-	font-size: 12px;
-	color: #767676;
 }
