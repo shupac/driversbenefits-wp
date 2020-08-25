@@ -175,6 +175,10 @@ $ctaSm: 280px;
 			top: 100px;
 			bottom: unset;
 		}
+
+		@media (max-width: 400px) {
+			top: 80px;
+		}
 	}
 
 	.home__testimonial_person {
@@ -199,6 +203,14 @@ $ctaSm: 280px;
 		position: absolute;
 		bottom: -30px;
 		right: -30px;
+
+		@media (max-width: 400px) {
+			width: 34px;
+			height: 34px;
+			border: 6px solid #ddddd7;
+			bottom: -18px;
+			right: -18px;
+		}
 	}
 }
 
