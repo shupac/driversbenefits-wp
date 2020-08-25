@@ -1,7 +1,14 @@
+// @import 'bootstrap/mixins/_breakpoints';
+
 @mixin container($size: 780px) {
 	max-width: $size;
 	width: 100%;
 	margin: 0 auto;
+
+	@media (max-width: $size + 60px) {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
 }
 
 @mixin lastNoMargin {
