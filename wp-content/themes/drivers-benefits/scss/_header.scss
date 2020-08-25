@@ -18,6 +18,15 @@
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 	}
+
+	@media (max-width: 800px) {
+		height: 50px;
+		background-color: white;
+
+		.header__container {
+			height: 50px;
+		}
+	}
 }
 
 .header__left {
@@ -27,11 +36,19 @@
 
 	.header__logo {
 		width: 130px;
+
+		@media (max-width: 800px) {
+			display: none;
+		}
 	}
 
 	.header__language {
 		margin-left: auto;
 		margin-right: 8px;
+
+		@media (max-width: 800px) {
+			margin-right: auto;
+		}
 
 		button {
 			width: 135px;
@@ -88,6 +105,10 @@
 		font-weight: 500;
 		font-size: 14px;
 		line-height: 17px;
+
+		@media (max-width: 800px) {
+			margin: 0 auto;
+		}
 	}
 
 	* {
@@ -102,6 +123,12 @@
 
 		a {
 			@include link();
+		}
+	}
+
+	.header__signup {
+		@media (max-width: 800px) {
+			display: none;
 		}
 	}
 }
