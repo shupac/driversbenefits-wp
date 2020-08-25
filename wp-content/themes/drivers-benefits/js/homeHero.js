@@ -1,13 +1,14 @@
 const hero = $('.home__hero')
 const cta = $('.home__cta')
+const signin = $('.home__cta_signin')
 const slides = $('.home__testimonials_slides')
 
 cta.prependTo(hero).show()
 $('.ab-button')
-	.attr('class', 'btn btn-primary')
+	.attr('class', 'home__cta_button btn btn-primary')
 	.appendTo(cta)
 	.attr('style', null)
-$('.home__cta_signin').appendTo(cta).attr('style', null).show()
+signin.appendTo(cta).attr('style', null).show()
 
 $('.home__testimonial').each((index, el) => {
 	const $el = $(el)

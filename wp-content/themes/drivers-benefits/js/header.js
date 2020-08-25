@@ -48,12 +48,16 @@ setTimeout(() => {
 
 menuShadow.parent().remove()
 
-$(window).scroll(() => {
+// Add header drop shadow on scroll and responsive
+function addScrollShadow() {
 	header.toggleClass('header__shadow', !!window.scrollY)
-})
+}
 
-$(window).resize(() => {
-	if (window.innerWidth > 800)
-		header.toggleClass('header__shadow', !!window.scrollY)
+function checkShadow() {
+	if (window.innerWidth > 800) addScrollShadow()
 	else header.addClass('header__shadow')
-})
+}
+
+$(window).scroll(addScrollShadow)
+$(window).resize(checkShadow)
+checkShadow()

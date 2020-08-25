@@ -1,7 +1,6 @@
 	</main>
 	<footer class="main-footer">
-		<div class="footer-responsive">
-			<button class="btn btn-primary">Use Your Benefits</button>
+		<div class="footer__cta">
 		</div>
 		<div>
 			<div class="footer-list">
@@ -17,6 +16,7 @@
 		</div>
 		<p id="copyright">© Copyright 2020 Drivers Benefits Fund</p>
 	</footer>
+	<script src="/wp-content/themes/drivers-benefits/js/footer.js"></script>
 <?php wp_footer(); ?>
 </body>
 </html>

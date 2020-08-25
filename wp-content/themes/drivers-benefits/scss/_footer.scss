@@ -1,7 +1,13 @@
+@import '_mixins';
+
 .main-footer {
 	background-color: #f3f6f8;
 	padding: 25px 0 80px 0;
 	border-top: 2px solid #c8c8c8;
+
+	@media (max-width: 800px) {
+		padding-bottom: 180px;
+	}
 }
 
 .social {
@@ -63,23 +69,33 @@
 	color: #767676;
 }
 
-.footer-responsive {
+.footer__cta {
 	position: fixed;
 	bottom: 0;
 	width: 100vw;
-	padding: 10px 30px;
+	padding: 20px 30px;
 	background: $body-bg;
 	box-shadow: 0px -0.5px 0.5px 3px rgba(0, 0, 0, 0.05);
 	z-index: 1000;
 	display: none;
 
 	@media (max-width: 800px) {
-		display: block;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 	}
 
-	button {
+	.footer__cta_button {
+		@include ctaButton();
+
 		width: 100%;
 		display: flex;
 		justify-content: center;
+		margin-bottom: 20px;
+	}
+
+	.footer__cta_signin {
+		@include ctaSignin();
+		margin-bottom: 0;
 	}
 }
