@@ -144,6 +144,7 @@
   max-width: 940px;
   width: 100%;
   margin: 0 auto;
+  margin-top: 20px;
   margin-bottom: 60px;
   display: grid;
   grid-template-columns: 200px 1fr;
@@ -427,7 +428,7 @@
   display: flex;
   justify-content: space-between;
   padding-top: 25px;
-  padding-bottom: 45px;
+  padding-bottom: 25px;
 }
 @media (max-width: 840px) {
   .home__header_responsive .header__container {

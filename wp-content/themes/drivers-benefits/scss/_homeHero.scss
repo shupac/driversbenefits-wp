@@ -3,6 +3,7 @@
 .home__hero {
 	@include container(940px);
 
+	margin-top: 20px;
 	margin-bottom: 60px;
 
 	display: grid;
