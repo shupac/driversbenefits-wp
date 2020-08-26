@@ -1,22 +1,23 @@
-const hero = $('.home__hero')
-const cta = $('.home__cta')
-const signin = $('.home__cta_signin')
-const slides = $('.home__testimonials_slides')
+$(document).ready(() => {
+	const hero = $('.home__hero')
+	const cta = $('.home__cta')
+	const signin = $('.home__cta_signin')
+	const slides = $('.home__testimonials_slides')
 
-cta.prependTo(hero).show()
-$('.ab-button')
-	.attr('class', 'home__cta_button btn btn-primary')
-	.appendTo(cta)
-	.attr('style', null)
-signin.appendTo(cta).attr('style', null).show()
+	cta.prependTo(hero).show()
+	$('.ab-button')
+		.attr('class', 'home__cta_button btn btn-primary')
+		.appendTo(cta)
+		.attr('style', null)
+	signin.appendTo(cta).attr('style', null).show()
 
-$('.home__testimonial').each((index, el) => {
-	const $el = $(el)
-	const testimonial = $el.find('.ab-testimonial-text p').html()
-	const avatar = $el.find('img').attr('src')
-	const name = $el.find('.ab-testimonial-name').html()
-	const company = $el.find('.ab-testimonial-title').html().toLowerCase()
-	const slide = $.parseHTML(`
+	$('.home__testimonial').each((index, el) => {
+		const $el = $(el)
+		const testimonial = $el.find('.ab-testimonial-text p').html()
+		const avatar = $el.find('img').attr('src')
+		const name = $el.find('.ab-testimonial-name').html()
+		const company = $el.find('.ab-testimonial-title').html().toLowerCase()
+		const slide = $.parseHTML(`
 		<div class="home__slide">
 			<div class="home__testimonial">
 				<div>
@@ -31,24 +32,25 @@ $('.home__testimonial').each((index, el) => {
 		</div>
 	`)
 
-	$(slide).appendTo(slides)
+		$(slide).appendTo(slides)
+	})
+
+	slides.slick({
+		dots: true,
+		autoplay: true,
+		autoplaySpeed: 5000,
+		infinite: true,
+		speed: 500,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		arrows: false,
+	})
+
+	$('.slick-dots').appendTo(hero)
+
+	setTimeout(() => {
+		hero.fadeTo(500, 1)
+	}, 10)
+
+	$('.home__testimonials_shadow').parent().parent().remove()
 })
-
-slides.slick({
-	dots: true,
-	autoplay: true,
-	autoplaySpeed: 5000,
-	infinite: true,
-	speed: 500,
-	slidesToShow: 1,
-	slidesToScroll: 1,
-	arrows: false,
-})
-
-$('.slick-dots').appendTo(hero)
-
-setTimeout(() => {
-	hero.fadeTo(500, 1)
-}, 10)
-
-$('.home__testimonials_shadow').parent().parent().remove()

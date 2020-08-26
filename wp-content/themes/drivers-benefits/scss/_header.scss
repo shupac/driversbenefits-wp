@@ -53,7 +53,7 @@
 		}
 
 		button {
-			width: 135px;
+			width: 140px;
 			height: 35px;
 			border-radius: 8px;
 			padding: 0 10px;
@@ -72,6 +72,10 @@
 			img:last-of-type {
 				width: 12px;
 				margin-left: auto;
+			}
+
+			&:focus {
+				outline-color: $primary;
 			}
 		}
 

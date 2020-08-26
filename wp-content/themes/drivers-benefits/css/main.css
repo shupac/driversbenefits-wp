@@ -58,7 +58,7 @@
   }
 }
 .header__left .header__language button {
-  width: 135px;
+  width: 140px;
   height: 35px;
   border-radius: 8px;
   padding: 0 10px;
@@ -76,6 +76,9 @@
 .header__left .header__language button img:last-of-type {
   width: 12px;
   margin-left: auto;
+}
+.header__left .header__language button:focus {
+  outline-color: #BD1E1E;
 }
 .header__left .header__language .dropdown-item {
   display: flex;

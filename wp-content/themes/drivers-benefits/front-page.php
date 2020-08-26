@@ -11,8 +11,10 @@
 		</a>
 	</div>
 	<script>
-		$('.home__header_responsive .header__signup').attr('href', signupUrl)
-		$('.home__header_responsive .header__signup').find('button').html(signupText)
+		$(document).ready(() => {
+			$('.home__header_responsive .header__signup').attr('href', signupUrl)
+			$('.home__header_responsive .header__signup').find('button').html(signupText)
+		})
 	</script>
 </header>
 
