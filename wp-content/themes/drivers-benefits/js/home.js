@@ -3,7 +3,12 @@ $(document).ready(() => {
 	const benefitsGrid = $('.home__benefits_grid')
 
 	const benefitsShadow = $('.home__benefits_shadow')
-	benefitsShadow.find('h3').prependTo(benefits).attr('class', null)
+	const header = benefitsShadow.find('h3').html()
+	$(
+		$.parseHTML(
+			`<a class="home__benefits_header" href="/benefits">${header}</a>`
+		)
+	).prependTo(benefits)
 
 	const benefitsGridShadow = benefitsShadow.find(
 		'.ab-block-layout-column-inner'
@@ -84,10 +89,6 @@ $(document).ready(() => {
 	})
 	partners.find('figure').remove()
 
-	setTimeout(() => {
-		const sections = [benefits, content, covid, news, partners]
-		sections.forEach((el) => {
-			el.fadeTo(500, 1)
-		})
-	}, 100)
+	const sections = [benefits, content, covid, news, partners]
+	sections.forEach((el) => fadeIn(el))
 })

@@ -446,13 +446,18 @@
   opacity: 0;
   overflow: auto;
 }
-.home__benefits h3 {
+.home__benefits .home__benefits_header {
+  color: black;
+  display: block;
   font-family: Helvetica Neue;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
   line-height: 22px;
   margin-bottom: 40px;
+}
+.home__benefits .home__benefits_header:hover {
+  color: black;
 }
 
 .home__benefits_grid {
@@ -651,6 +656,14 @@
   mix-blend-mode: multiply;
   margin-bottom: 10px;
   margin-right: 10px;
+}
+
+.benefits__benefits {
+  opacity: 0;
+}
+
+.benefits__benefit_shadow {
+  display: none;
 }
 
 .main-footer {

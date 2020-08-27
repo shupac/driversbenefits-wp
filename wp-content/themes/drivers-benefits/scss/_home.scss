@@ -27,7 +27,10 @@
 	opacity: 0;
 	overflow: auto;
 
-	h3 {
+	.home__benefits_header {
+		@include link();
+
+		display: block;
 		font-family: Helvetica Neue;
 		font-style: normal;
 		font-weight: bold;
