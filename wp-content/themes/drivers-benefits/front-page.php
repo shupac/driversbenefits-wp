@@ -20,7 +20,6 @@
 
 <section class="home__hero">
 	<div class="home__testimonials">
-		<img class="home__testimonials_bg" src="<?php echo get_template_directory_uri(); ?>/assets/image-testimonial-1-bg.png">
 		<div class="home__testimonials_slides"></div>
 	</div>
 </section>

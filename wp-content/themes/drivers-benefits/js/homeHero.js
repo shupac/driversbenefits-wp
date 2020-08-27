@@ -19,12 +19,16 @@ $(document).ready(() => {
 		const company = $el.find('.ab-testimonial-title').html().toLowerCase()
 		const slide = $.parseHTML(`
 		<div class="home__slide">
+			<img
+				class="home__testimonials_bg"
+				src="${ASSETS}/image-testimonial-bg-${index + 1}.png"
+			>
 			<div class="home__testimonial">
 				<div>
 					${testimonial}
 				</div>
 				<div class="home__testimonial_person">
-					<img src="/wp-content/themes/drivers-benefits/assets/icon-${company}.png">
+					<img src="${ASSETS}/icon-${company}.png">
 					${name}
 				</div>
 				<img class="home__testimonial_avatar" src="${avatar}">
