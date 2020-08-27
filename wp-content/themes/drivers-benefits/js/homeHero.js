@@ -11,13 +11,15 @@ $(document).ready(() => {
 		.attr('style', null)
 	signin.appendTo(cta).attr('style', null).show()
 
-	$('.home__testimonial').each((index, el) => {
-		const $el = $(el)
-		const testimonial = $el.find('.ab-testimonial-text p').html()
-		const avatar = $el.find('img').attr('src')
-		const name = $el.find('.ab-testimonial-name').html()
-		const company = $el.find('.ab-testimonial-title').html().toLowerCase()
-		const slide = $.parseHTML(`
+	$('.home__testimonial')
+		.slice(0, 3)
+		.each((index, el) => {
+			const $el = $(el)
+			const testimonial = $el.find('.ab-testimonial-text p').html()
+			const avatar = $el.find('img').attr('src')
+			const name = $el.find('.ab-testimonial-name').html()
+			const company = $el.find('.ab-testimonial-title').html().toLowerCase()
+			const slide = $.parseHTML(`
 		<div class="home__slide">
 			<img
 				class="home__testimonials_bg"
@@ -36,8 +38,8 @@ $(document).ready(() => {
 		</div>
 	`)
 
-		$(slide).appendTo(slides)
-	})
+			$(slide).appendTo(slides)
+		})
 
 	slides.slick({
 		dots: true,
