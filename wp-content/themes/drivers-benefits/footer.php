@@ -1,3 +1,15 @@
+
+
+	<?php
+		$query = new WP_Query( array( 'pagename' => 'posts-private' ) );
+	  $query->the_post();
+	  echo the_content();
+		wp_reset_postdata();
+	?>
+
+	<section class="footer__posts">
+	</section>
+
 	</main>
 	<footer class="main-footer">
 		<div class="footer__cta">
@@ -16,6 +28,7 @@
 		</div>
 		<p id="copyright">© Copyright 2020 Drivers Benefits Fund</p>
 	</footer>
+	<script src="/wp-content/themes/drivers-benefits/js/posts.js"></script>
 	<script src="/wp-content/themes/drivers-benefits/js/footer.js"></script>
 <?php wp_footer(); ?>
 </body>

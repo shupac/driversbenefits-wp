@@ -9,7 +9,7 @@ $(document).ready(() => {
 		.attr('class', 'home__cta_button btn btn-primary')
 		.appendTo(cta)
 		.attr('style', null)
-	signin.appendTo(cta).attr('style', null).show()
+	signin.appendTo(cta).attr('style', null)
 
 	$('.home__testimonial')
 		.slice(0, 3)
@@ -20,23 +20,23 @@ $(document).ready(() => {
 			const name = $el.find('.ab-testimonial-name').html()
 			const company = $el.find('.ab-testimonial-title').html().toLowerCase()
 			const slide = $.parseHTML(`
-		<div class="home__slide">
-			<img
-				class="home__testimonials_bg"
-				src="${ASSETS}/image-testimonial-bg-${index + 1}.png"
-			>
-			<div class="home__testimonial">
-				<div>
-					${testimonial}
+				<div class="home__slide">
+					<img
+						class="home__testimonials_bg"
+						src="${ASSETS}/image-testimonial-bg-${index + 1}.png"
+					>
+					<div class="home__testimonial">
+						<div>
+							${testimonial}
+						</div>
+						<div class="home__testimonial_person">
+							<img src="${ASSETS}/icon-${company}.png">
+							${name}
+						</div>
+						<img class="home__testimonial_avatar" src="${avatar}">
+					</div>
 				</div>
-				<div class="home__testimonial_person">
-					<img src="${ASSETS}/icon-${company}.png">
-					${name}
-				</div>
-				<img class="home__testimonial_avatar" src="${avatar}">
-			</div>
-		</div>
-	`)
+			`)
 
 			$(slide).appendTo(slides)
 		})
@@ -55,6 +55,7 @@ $(document).ready(() => {
 	$('.slick-dots').appendTo(hero)
 
 	setTimeout(() => {
+		signin.show()
 		hero.fadeTo(500, 1)
 	}, 10)
 
