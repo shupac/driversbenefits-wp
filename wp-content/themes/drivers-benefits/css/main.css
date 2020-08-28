@@ -248,7 +248,6 @@
   color: rgba(0, 0, 0, 0.5);
   display: none;
   text-align: left;
-  display: none;
 }
 .home__cta .home__cta_signin a {
   color: #3C5EA8;
@@ -256,6 +255,10 @@
 }
 .home__cta .home__cta_signin a:hover {
   color: #3C5EA8;
+}
+
+.home__cta_signin {
+  display: none;
 }
 
 .home__testimonials {

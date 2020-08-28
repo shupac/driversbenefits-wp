@@ -34,50 +34,6 @@ $(document).ready(() => {
 
 	benefitsShadow.parent().parent().remove()
 
-	// const content = $('.home__content')
-	// const covid = $('.home__covid').attr('class', 'home__covid').appendTo(content)
-	// const news = $('.home__news').attr('class', 'home__news').appendTo(content)
-
-	// covid.find('h3').attr('class', null)
-	// const covidGrid = covid
-	// 	.find('.ab-post-grid-items')
-	// 	.attr('class', 'home__covid_grid')
-	// covidGrid.children().each((index, el) => {
-	// 	const $el = $(el)
-	// 	$el.find('a').attr('class', 'home__covid_item').appendTo(covidGrid)
-	// 	$el.remove()
-	// })
-
-	// news.find('h3').attr('class', null)
-	// const newsGrid = news
-	// 	.find('.ab-post-grid-items')
-	// 	.attr('class', 'home__news_grid')
-	// newsGrid.children().each((index, el) => {
-	// 	const $el = $(el)
-	// 	const image = $el.find('img')
-	// 	const link = $el.find('.ab-block-post-grid-title a')
-
-	// 	const sizes = image
-	// 		.attr('srcset')
-	// 		.split(', ')
-	// 		.map((str) => {
-	// 			const [url, width] = str.split(' ')
-	// 			return { url, width: Number(width.substring(0, width.length - 1)) }
-	// 		})
-	// 		.sort((a, b) => a.width - b.width)
-	// 	const imageSrc = sizes[0].url
-
-	// 	const title = link.html()
-	// 	const url = link.attr('href')
-	// 	const item = $.parseHTML(`
-	// 	<a class="home__news_item" href="${url}">
-	// 		<img src="${imageSrc}" />
-	// 		<div>${title}</div>
-	// 	</a>
-	// `)
-	// 	$(item).appendTo(newsGrid)
-	// 	$el.remove()
-	// })
 	const partners = $('.home__partners').attr('class', 'home__partners')
 
 	const gallery = $('<div class="home__partners_gallery"></div>').appendTo(

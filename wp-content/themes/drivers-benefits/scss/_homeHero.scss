@@ -77,8 +77,11 @@ $ctaSm: 280px;
 
 	.home__cta_signin {
 		@include ctaSignin();
-		display: none;
 	}
+}
+
+.home__cta_signin {
+	display: none;
 }
 
 .home__testimonials {
