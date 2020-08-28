@@ -1,13 +1,12 @@
 $(document).ready(() => {
 	const hero = $('.home__hero')
-	const cta = $('.home__cta')
-	const signin = $('.home__cta_signin')
+	const cta = $($('.home__cta')[0])
+	const signin = $($('.home__cta_signin')[0])
 	const slides = $('.home__testimonials_slides')
 
-	cta.prependTo(hero).show()
+	cta.attr('style', null).attr('class', 'home__cta').prependTo(hero).show()
 	$('.ab-button')
 		.attr('class', 'home__cta_button btn btn-primary')
-		.appendTo(cta)
 		.attr('style', null)
 	signin.appendTo(cta).attr('style', null)
 

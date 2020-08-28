@@ -1,7 +1,7 @@
 
 
 	<?php
-		$query = new WP_Query( array( 'pagename' => 'posts-private' ) );
+		$query = new WP_Query( array( 'pagename' => '__private__posts' ) );
 	  $query->the_post();
 	  echo the_content();
 		wp_reset_postdata();
@@ -12,8 +12,15 @@
 
 	</main>
 	<footer class="main-footer">
-		<div class="footer__cta">
+		<div class="footer__cta_shadow">
+			<?php
+				$query = new WP_Query( array( 'pagename' => '__private__cta' ) );
+			  $query->the_post();
+			  echo the_content();
+				wp_reset_postdata();
+			?>
 		</div>
+		<div class="footer__cta"></div>
 		<div>
 			<div class="footer-list">
 				<div class="fl-item">FAQ</div>

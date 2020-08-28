@@ -19,6 +19,13 @@
 </header>
 
 <section class="home__hero">
+	<?php
+		$query = new WP_Query( array( 'pagename' => '__private__cta' ) );
+	  $query->the_post();
+	  echo the_content();
+		wp_reset_postdata();
+	?>
+
 	<div class="home__testimonials">
 		<div class="home__testimonials_slides"></div>
 	</div>

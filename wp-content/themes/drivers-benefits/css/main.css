@@ -714,6 +714,10 @@
   color: #767676;
 }
 
+.footer__cta_shadow {
+  display: none;
+}
+
 .footer__cta {
   position: fixed;
   bottom: 0;
@@ -766,6 +770,7 @@
   display: none;
   text-align: left;
   margin-bottom: 0;
+  display: block;
 }
 .footer__cta .footer__cta_signin a {
   color: #3C5EA8;

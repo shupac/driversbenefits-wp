@@ -69,6 +69,10 @@
 	color: #767676;
 }
 
+.footer__cta_shadow {
+	display: none;
+}
+
 .footer__cta {
 	position: fixed;
 	bottom: 0;
@@ -97,5 +101,6 @@
 	.footer__cta_signin {
 		@include ctaSignin();
 		margin-bottom: 0;
+		display: block;
 	}
 }
