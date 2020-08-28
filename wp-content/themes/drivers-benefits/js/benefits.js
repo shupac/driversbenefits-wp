@@ -26,15 +26,6 @@ $(document).ready(() => {
 			<div class="benefits__benefit">
 				<img class="benefits__benefit_image" src="${image}" />
 				<div class="benefits__benefit_main">
-					<button
-						class="benefits__benefit_toggle"
-						data-toggle="collapse"
-						data-target="#benefit-${id}-content"
-						aria-expanded="${isOpen}"
-						aria-controls="${id}"
-					>
-						<img src="${ASSETS}/icon-arrow-down.png">
-					</button>
 					<a
 						id="benefit-${id}"
 						class="benefits__benefit_title"
@@ -47,6 +38,13 @@ $(document).ready(() => {
 							${title}
 						</h3>
 					</a>
+					<button
+						class="benefits__benefit_toggle"
+						aria-expanded="${isOpen}"
+						aria-controls="${id}"
+					>
+						<img src="${ASSETS}/icon-arrow-down.png">
+					</button>
 				</div>
 			</div>
 		`)
@@ -56,6 +54,19 @@ $(document).ready(() => {
 		summary.appendTo(main)
 		if (isOpen) content.addClass('show')
 		content.addClass('collapse').appendTo(main)
+
+		const toggle = benefit.find('.benefits__benefit_toggle')
+		const benefitContent = benefit.find('.benefits__benefit_content')
+		const benefitTitle = benefit.find('.benefits__benefit_title')
+		toggle.click((e) => {
+			benefitTitle.click()
+			$('html, body').animate(
+				{
+					scrollTop: benefitTitle.offset().top - 120,
+				},
+				200
+			)
+		})
 
 		$el.remove()
 	})

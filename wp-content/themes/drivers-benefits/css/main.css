@@ -700,14 +700,6 @@
   color: black;
 }
 
-.benefits__benefit_title[aria-expanded=true] + .benefits__benefit_summary {
-  margin-right: 0;
-}
-
-.benefits__benefit_title[aria-expanded=true] ~ .benefits__benefit_content {
-  margin-bottom: 80px;
-}
-
 .benefits__benefit_image {
   height: 50px;
   justify-self: center;
@@ -730,11 +722,20 @@
   width: 12px;
   transition: transform 0.2s;
 }
-.benefits__benefit_toggle[aria-expanded=true] {
+
+.benefits__benefit_title[aria-expanded=true] ~ .benefits__benefit_summary {
+  margin-right: 0;
+}
+
+.benefits__benefit_title[aria-expanded=true] ~ .benefits__benefit_content {
+  margin-bottom: 80px;
+}
+
+.benefits__benefit_title[aria-expanded=true] ~ .benefits__benefit_toggle {
   top: unset;
   bottom: 0;
 }
-.benefits__benefit_toggle[aria-expanded=true] img {
+.benefits__benefit_title[aria-expanded=true] ~ .benefits__benefit_toggle img {
   transform: rotateZ(180deg);
 }
 
