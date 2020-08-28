@@ -31,15 +31,6 @@
 
 <?php the_content(); ?>
 
-
-
-<!--
-
-<?php if (have_posts()) : while(have_posts()) : the_post(); ?>
-<?php endwhile; endif; ?>
- -->
-
-
 <?php get_footer(); ?>
 
 <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

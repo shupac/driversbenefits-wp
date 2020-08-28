@@ -22,12 +22,12 @@ $(document).ready(() => {
 			const name = $el.find('.ab-profile-title').html()
 			const description = $el.find('.ab-profile-text p').html()
 			const benefit = $.parseHTML(`
-		<a class="home__benefit" href="/benefits/#${hash}">
-			<img src="${image}" alt="${name}"/>
-			<h4>${name}</h4>
-			<small>${description}</small>
-		</a>
-	`)
+				<a class="home__benefit" href="/benefits/#${hash}">
+					<img src="${image}" alt="${name}"/>
+					<h4>${name}</h4>
+					<small>${description}</small>
+				</a>
+			`)
 
 			$(benefit).appendTo(benefitsGrid)
 		})
