@@ -64,7 +64,7 @@ $(document).ready(() => {
 				{
 					scrollTop: benefitTitle.offset().top - 120,
 				},
-				200
+				500
 			)
 		})
 
