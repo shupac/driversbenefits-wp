@@ -7,29 +7,39 @@ $(document).ready(() => {
 		const $el = $(el)
 		const id = $el.attr('id')
 		const isOpen = hash.substring(1) === id
-		const benefitContent = $($el.children()[0])
+		const content = $($el.children()[0])
 			.attr('class', 'benefits__benefit_content')
-			.attr('id', `#benefit-${id}`)
+			.attr('id', `benefit-${id}-content`)
 
-		const titleShadow = benefitContent.find('.benefits__benefit_title_shadow')
+		const titleShadow = content.find('.benefits__benefit_title_shadow')
 		const title = titleShadow.html()
 		titleShadow.remove()
 
-		const imageShadow = benefitContent.find('.benefits__benefit_image_shadow')
+		const imageShadow = content.find('.benefits__benefit_image_shadow')
 		const image = imageShadow.find('img').attr('src')
 		imageShadow.remove()
 
-		const summary = benefitContent.find('.benefits__benefit_summary')
+		const summary = content.find('.benefits__benefit_summary')
 
 		const benefit = $(
 			$.parseHTML(`
 			<div class="benefits__benefit">
 				<img class="benefits__benefit_image" src="${image}" />
 				<div class="benefits__benefit_main">
+					<button
+						class="benefits__benefit_toggle"
+						data-toggle="collapse"
+						data-target="#benefit-${id}-content"
+						aria-expanded="${isOpen}"
+						aria-controls="${id}"
+					>
+						<img src="${ASSETS}/icon-arrow-down.png">
+					</button>
 					<a
+						id="benefit-${id}"
 						class="benefits__benefit_title"
 						data-toggle="collapse"
-						href="#benefit-${id}"
+						href="#benefit-${id}-content"
 						aria-expanded="${isOpen}"
 						aria-controls="${id}"
 					>
@@ -41,17 +51,19 @@ $(document).ready(() => {
 			</div>
 		`)
 		)
+		const main = benefit.find('.benefits__benefit_main')
 		benefit.appendTo(benefits)
-		summary.appendTo(benefit)
-		if (isOpen) benefitContent.addClass('show')
-		benefitContent.addClass('collapse').appendTo(benefit)
-
-		benefit.find('.benefits__benefit_title').click(() => {
-			benefit.find('.benefits__benefit_content').collapse('toggle')
-		})
+		summary.appendTo(main)
+		if (isOpen) content.addClass('show')
+		content.addClass('collapse').appendTo(main)
 
 		$el.remove()
 	})
 
 	fadeIn(benefits)
+
+	setTimeout(() => {
+		const offset = $(`#benefit-${hash.substring(1)}`).offset()
+		offset && window.scrollTo(0, offset.top - 120)
+	}, 100)
 })
