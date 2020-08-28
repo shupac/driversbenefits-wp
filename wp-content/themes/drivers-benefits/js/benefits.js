@@ -1,5 +1,7 @@
 const { hash } = window.location
 
+const getOffset = () => (window.innerWidth <= 800 ? 60 : 120)
+
 $(document).ready(() => {
 	const benefits = $('.benefits__benefits')
 
@@ -59,10 +61,11 @@ $(document).ready(() => {
 		const benefitContent = benefit.find('.benefits__benefit_content')
 		const benefitTitle = benefit.find('.benefits__benefit_title')
 		toggle.click((e) => {
+			const bodyRect = document.body.getBoundingClientRect()
 			benefitTitle.click()
 			$('html, body').animate(
 				{
-					scrollTop: benefitTitle.offset().top - 120,
+					scrollTop: benefitTitle.offset().top - getOffset(),
 				},
 				500
 			)
@@ -75,6 +78,6 @@ $(document).ready(() => {
 
 	setTimeout(() => {
 		const offset = $(`#benefit-${hash.substring(1)}`).offset()
-		offset && window.scrollTo(0, offset.top - 120)
+		offset && window.scrollTo(0, offset.top - getOffset())
 	}, 100)
 })

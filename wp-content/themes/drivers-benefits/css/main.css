@@ -77,9 +77,6 @@
   width: 12px;
   margin-left: auto;
 }
-.header__left .header__language button:focus {
-  outline-color: #BD1E1E;
-}
 .header__left .header__language .dropdown-item {
   display: flex;
   align-items: center;
@@ -998,8 +995,8 @@ body {
 @media (max-width: 800px) {
   html,
 body {
-    height: 100%;
-    overflow-y: scroll;
+    /*height: 100%;*/
+    /*overflow-y: scroll;*/
   }
 }
 
@@ -10896,6 +10893,9 @@ h3 {
     color: inherit;
     border-color: #dee2e6;
   }
+}
+button:focus {
+  outline-color: #BD1E1E;
 }
 
 /*# sourceMappingURL=main.css.map */
