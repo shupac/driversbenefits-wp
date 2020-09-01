@@ -9,15 +9,18 @@
 	@include container();
 	opacity: 0;
 
+	a {
+		@include link(white);
+		display: inline-block;
+		margin-bottom: 18px;
+	}
+
 	h3 {
 		font-family: Helvetica Neue;
 		font-style: normal;
 		font-weight: bold;
 		font-size: 18px;
 		line-height: 22px;
-		color: white;
-
-		margin-bottom: 18px;
 	}
 
 	.posts__covid_grid {
@@ -47,15 +50,18 @@
 	@include container();
 	opacity: 0;
 
+	a {
+		@include link(white);
+		display: inline-block;
+		margin-bottom: 18px;
+	}
+
 	h3 {
 		font-family: Helvetica Neue;
 		font-style: normal;
 		font-weight: bold;
 		font-size: 18px;
 		line-height: 22px;
-		color: white;
-
-		margin-bottom: 18px;
 	}
 
 	.posts__news_grid {

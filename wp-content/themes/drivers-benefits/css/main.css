@@ -840,14 +840,20 @@
     padding-right: 30px;
   }
 }
+.posts__covid a {
+  color: white;
+  display: inline-block;
+  margin-bottom: 18px;
+}
+.posts__covid a:hover {
+  color: white;
+}
 .posts__covid h3 {
   font-family: Helvetica Neue;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
   line-height: 22px;
-  color: white;
-  margin-bottom: 18px;
 }
 .posts__covid .posts__covid_grid {
   display: grid;
@@ -884,14 +890,20 @@
     padding-right: 30px;
   }
 }
+.posts__news a {
+  color: white;
+  display: inline-block;
+  margin-bottom: 18px;
+}
+.posts__news a:hover {
+  color: white;
+}
 .posts__news h3 {
   font-family: Helvetica Neue;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
   line-height: 22px;
-  color: white;
-  margin-bottom: 18px;
 }
 .posts__news .posts__news_grid {
   display: grid;

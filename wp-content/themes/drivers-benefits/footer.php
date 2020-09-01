@@ -1,5 +1,3 @@
-
-
 	<?php
 		$query = new WP_Query( array( 'pagename' => '__private__posts' ) );
 	  $query->the_post();
