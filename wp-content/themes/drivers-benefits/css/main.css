@@ -784,6 +784,11 @@
   object-position: center;
   margin-bottom: 30px;
 }
+@media (max-width: 800px) {
+  .page__header_image {
+    height: 260px;
+  }
+}
 
 .page__title {
   max-width: 780px;

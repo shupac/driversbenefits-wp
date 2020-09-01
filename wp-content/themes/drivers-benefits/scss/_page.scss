@@ -4,6 +4,10 @@
 	object-fit: cover;
 	object-position: center;
 	margin-bottom: 30px;
+
+	@media (max-width: 800px) {
+		height: 260px;
+	}
 }
 
 .page__title {
