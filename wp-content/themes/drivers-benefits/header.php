@@ -44,6 +44,6 @@
 		</div>
 		<script src="/wp-content/themes/drivers-benefits/js/header.js"></script>
 	</header>
-	<main>
+	<main id="main">
 
 

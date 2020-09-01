@@ -1,9 +1,13 @@
 <?php get_header(); ?>
 
-<h1><?php the_title(); ?></h1>
+<h2 class="page__title">
+	<?php the_title(); ?>
+</h2>
 
-<?php if (have_posts()) : while(have_posts()) : the_post(); ?>
+<div class="page__content">
 	<?php the_content(); ?>
-<?php endwhile; endif; ?>
+</div>
 
+<script src="/wp-content/themes/drivers-benefits/js/page.js"></script>
 <?php get_footer(); ?>
+
