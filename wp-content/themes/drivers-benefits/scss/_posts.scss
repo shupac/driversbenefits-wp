@@ -5,15 +5,10 @@
 	overflow: auto;
 }
 
-.posts__covid {
-	@include container();
-	opacity: 0;
-
-	a {
-		@include link(white);
-		display: inline-block;
-		margin-bottom: 18px;
-	}
+.posts__title {
+	@include link(white);
+	display: inline-block;
+	margin-bottom: 18px;
 
 	h3 {
 		font-family: Helvetica Neue;
@@ -22,6 +17,11 @@
 		font-size: 18px;
 		line-height: 22px;
 	}
+}
+
+.posts__covid {
+	@include container();
+	opacity: 0;
 
 	.posts__covid_grid {
 		display: grid;
@@ -49,20 +49,6 @@
 .posts__news {
 	@include container();
 	opacity: 0;
-
-	a {
-		@include link(white);
-		display: inline-block;
-		margin-bottom: 18px;
-	}
-
-	h3 {
-		font-family: Helvetica Neue;
-		font-style: normal;
-		font-weight: bold;
-		font-size: 18px;
-		line-height: 22px;
-	}
 
 	.posts__news_grid {
 		display: grid;

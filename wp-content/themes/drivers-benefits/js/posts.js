@@ -7,7 +7,7 @@ $(document).ready(() => {
 
 	const covidTitle = covid.find('h3')
 	const covidLink = $.parseHTML(
-		`<a href="/covid-19"><h3>${covidTitle.html()}</h3></a>`
+		`<a class="posts__title" href="/covid-19"><h3>${covidTitle.html()}</h3></a>`
 	)
 	$(covidLink).prependTo(covid.find('h3').parent())
 	covidTitle.remove()
@@ -23,7 +23,7 @@ $(document).ready(() => {
 
 	const newsTitle = news.find('h3')
 	const newsLink = $.parseHTML(
-		`<a href="/news"><h3>${newsTitle.html()}</h3></a>`
+		`<a class="posts__title" href="/news"><h3>${newsTitle.html()}</h3></a>`
 	)
 	$(newsLink).prependTo(news.find('h3').parent())
 	newsTitle.remove()
