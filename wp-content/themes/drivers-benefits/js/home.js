@@ -3,10 +3,10 @@ $(document).ready(() => {
 	const benefitsGrid = $('.home__benefits_grid')
 
 	const benefitsShadow = $('.home__benefits_shadow')
-	const header = benefitsShadow.find('h2').html()
+	const header = benefitsShadow.find('h3').html()
 	$(
 		$.parseHTML(
-			`<a class="home__benefits_header" href="/benefits"><h2>${header}</h2></a>`
+			`<a class="home__benefits_header" href="/benefits"><h3>${header}</h3></a>`
 		)
 	).prependTo(benefits)
 

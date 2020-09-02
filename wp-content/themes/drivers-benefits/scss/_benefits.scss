@@ -10,23 +10,32 @@
 	grid-template-columns: 80px 1fr;
 	grid-column-gap: 15px;
 	margin-bottom: 50px;
+
+	@media (max-width: 800px) {
+		grid-template-columns: 60px 1fr;
+		grid-column-gap: 10px;
+	}
 }
 
 .benefits__benefit_main {
 	position: relative;
 }
 
-.benefits__benefit_title h3 {
+.benefits__benefit_title {
 	@include link();
 }
 
 .benefits__benefit_image {
 	height: 50px;
 	justify-self: center;
+
+	@media (max-width: 800px) {
+		height: 35px;
+	}
 }
 
 .benefits__benefit_summary {
-	margin-right: 65px;
+	margin-right: 55px;
 }
 
 .benefits__benefit_toggle {
@@ -41,6 +50,11 @@
 	img {
 		width: 12px;
 		transition: transform 0.2s;
+	}
+
+	@media (max-width: 800px) {
+		width: 40px;
+		height: 40px;
 	}
 }
 

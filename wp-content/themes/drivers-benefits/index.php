@@ -1,8 +1,8 @@
 <?php get_header(); ?>
 
-<h2 class="page__title">
+<h3 class="page__title">
 	<?php the_title(); ?>
-</h2>
+</h3>
 
 <div class="page__content">
 	<?php the_content(); ?>

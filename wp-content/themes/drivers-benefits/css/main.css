@@ -65,11 +65,7 @@
   box-sizing: border-box;
   background-color: transparent;
   border: none;
-  font-family: Helvetica Neue;
-  font-style: normal;
   font-weight: 500;
-  font-size: 14px;
-  line-height: 17px;
   display: flex;
   align-items: center;
 }
@@ -100,11 +96,7 @@
   grid-template-columns: 1fr auto;
 }
 .header__right .header__phone {
-  font-family: Helvetica Neue;
-  font-style: normal;
   font-weight: 500;
-  font-size: 14px;
-  line-height: 17px;
 }
 @media (max-width: 800px) {
   .header__right .header__phone {
@@ -147,7 +139,7 @@
   margin-top: 20px;
   margin-bottom: 60px;
   display: grid;
-  grid-template-columns: 200px 1fr;
+  grid-template-columns: 230px 1fr;
   align-items: center;
   opacity: 0;
 }
@@ -186,11 +178,6 @@
   }
 }
 .home__cta .ab-font-size-32.ab-cta-title {
-  font-family: Helvetica Neue;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 22px;
   margin-bottom: 15px;
   color: black;
   text-align: left;
@@ -201,11 +188,6 @@
   }
 }
 .home__cta .ab-cta-text p {
-  font-family: Helvetica Neue;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 18px;
   margin-bottom: 30px;
   text-align: left;
 }
@@ -237,11 +219,6 @@
   text-decoration: none;
 }
 .home__cta .home__cta_signin {
-  font-family: Helvetica Neue;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 17px;
   color: rgba(0, 0, 0, 0.5);
   display: none;
   text-align: left;
@@ -325,11 +302,6 @@
   width: 200px;
   border-radius: 15px;
   padding: 15px;
-  font-family: Helvetica Neue;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 17px;
   color: #6d6d6d;
 }
 @media (max-width: 800px) {
@@ -523,7 +495,7 @@
     padding-right: 30px;
   }
 }
-.home__partners h2 {
+.home__partners h3 {
   text-align: center;
   margin-bottom: 25px;
 }
@@ -562,15 +534,21 @@
   grid-column-gap: 15px;
   margin-bottom: 50px;
 }
+@media (max-width: 800px) {
+  .benefits__benefit {
+    grid-template-columns: 60px 1fr;
+    grid-column-gap: 10px;
+  }
+}
 
 .benefits__benefit_main {
   position: relative;
 }
 
-.benefits__benefit_title h3 {
+.benefits__benefit_title {
   color: black;
 }
-.benefits__benefit_title h3:hover {
+.benefits__benefit_title:hover {
   color: black;
 }
 
@@ -578,9 +556,14 @@
   height: 50px;
   justify-self: center;
 }
+@media (max-width: 800px) {
+  .benefits__benefit_image {
+    height: 35px;
+  }
+}
 
 .benefits__benefit_summary {
-  margin-right: 65px;
+  margin-right: 55px;
 }
 
 .benefits__benefit_toggle {
@@ -595,6 +578,12 @@
 .benefits__benefit_toggle img {
   width: 12px;
   transition: transform 0.2s;
+}
+@media (max-width: 800px) {
+  .benefits__benefit_toggle {
+    width: 40px;
+    height: 40px;
+  }
 }
 
 .benefits__benefit_title[aria-expanded=true] ~ .benefits__benefit_summary {
@@ -732,11 +721,6 @@
   text-decoration: none;
 }
 .footer__cta .footer__cta_signin {
-  font-family: Helvetica Neue;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 17px;
   color: rgba(0, 0, 0, 0.5);
   display: none;
   text-align: left;
@@ -10782,7 +10766,6 @@ h3 {
     border-color: #dee2e6;
   }
 }
-*,
 body {
   box-sizing: border-box;
   font-family: Helvetica Neue;
@@ -10792,10 +10775,52 @@ body {
   /*line-height: 17px;*/
 }
 @media (max-width: 800px) {
-  *,
-body {
+  body {
     font-size: 14px;
     /*line-height: 18px;*/
+  }
+}
+
+h1 {
+  font-family: Helvetica Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 28px;
+}
+@media (max-width: 800px) {
+  h1 {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+
+h2 {
+  font-family: Helvetica Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 28px;
+  color: #3c5ea8;
+}
+@media (max-width: 800px) {
+  h2 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+h3 {
+  font-family: Helvetica Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+}
+@media (max-width: 800px) {
+  h3 {
+    font-size: 16px;
+    line-height: 20px;
   }
 }
 
@@ -10803,8 +10828,29 @@ h4 {
   font-family: Helvetica Neue;
   font-style: normal;
   font-weight: bold;
-  /*font-size: 16px;*/
-  /*line-height: 20px;*/
+  font-size: 16px;
+  line-height: 20px;
+}
+@media (max-width: 800px) {
+  h4 {
+    font-size: 14px;
+    line-height: 17px;
+  }
+}
+
+h5 {
+  font-family: Helvetica Neue;
+  font-style: normal;
+  font-weight: bold;
+  color: #BD1E1E;
+  font-size: 16px;
+  line-height: 20px;
+}
+@media (max-width: 800px) {
+  h5 {
+    font-size: 14px;
+    line-height: 17px;
+  }
 }
 
 button.btn {

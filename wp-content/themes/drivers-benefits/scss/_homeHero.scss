@@ -7,7 +7,7 @@
 	margin-bottom: 60px;
 
 	display: grid;
-	grid-template-columns: 200px 1fr;
+	grid-template-columns: 230px 1fr;
 	align-items: center;
 	opacity: 0;
 
@@ -42,11 +42,6 @@ $ctaSm: 280px;
 	}
 
 	.ab-font-size-32.ab-cta-title {
-		font-family: Helvetica Neue;
-		font-style: normal;
-		font-weight: bold;
-		font-size: 18px;
-		line-height: 22px;
 		margin-bottom: 15px;
 		color: black;
 		text-align: left;
@@ -57,11 +52,6 @@ $ctaSm: 280px;
 	}
 
 	.ab-cta-text p {
-		font-family: Helvetica Neue;
-		font-style: normal;
-		font-weight: normal;
-		font-size: 14px;
-		line-height: 18px;
 		margin-bottom: 30px;
 		text-align: left;
 
@@ -147,11 +137,6 @@ $ctaSm: 280px;
 		border-radius: 15px;
 		padding: 15px;
 
-		font-family: Helvetica Neue;
-		font-style: normal;
-		font-weight: normal;
-		font-size: 14px;
-		line-height: 17px;
 		color: #6d6d6d;
 
 		@media (max-width: 800px) {

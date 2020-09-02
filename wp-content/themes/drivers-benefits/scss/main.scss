@@ -22,18 +22,77 @@ body {
 
 @import './bootstrap/_bootstrap';
 
-*,
 body {
 	box-sizing: border-box;
 	@include body();
+}
+
+h1 {
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	line-height: 28px;
+
+	@media (max-width: 800px) {
+		font-size: 18px;
+		line-height: 22px;
+	}
+}
+
+h2 {
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	line-height: 28px;
+	color: #3c5ea8;
+
+	@media (max-width: 800px) {
+		font-size: 16px;
+		line-height: 20px;
+	}
+}
+
+h3 {
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 26px;
+
+	@media (max-width: 800px) {
+		font-size: 16px;
+		line-height: 20px;
+	}
 }
 
 h4 {
 	font-family: Helvetica Neue;
 	font-style: normal;
 	font-weight: bold;
-	/*font-size: 16px;*/
-	/*line-height: 20px;*/
+	font-size: 16px;
+	line-height: 20px;
+
+	@media (max-width: 800px) {
+		font-size: 14px;
+		line-height: 17px;
+	}
+}
+
+h5 {
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: bold;
+	color: $primary;
+
+	font-size: 16px;
+	line-height: 20px;
+
+	@media (max-width: 800px) {
+		font-size: 14px;
+		line-height: 17px;
+	}
 }
 
 button.btn {

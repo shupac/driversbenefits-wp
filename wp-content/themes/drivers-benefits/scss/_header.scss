@@ -60,11 +60,7 @@
 			box-sizing: border-box;
 			background-color: transparent;
 			border: none;
-			font-family: Helvetica Neue;
-			font-style: normal;
 			font-weight: 500;
-			font-size: 14px;
-			line-height: 17px;
 
 			display: flex;
 			align-items: center;
@@ -102,11 +98,7 @@
 	grid-template-columns: 1fr auto;
 
 	.header__phone {
-		font-family: Helvetica Neue;
-		font-style: normal;
 		font-weight: 500;
-		font-size: 14px;
-		line-height: 17px;
 
 		@media (max-width: 800px) {
 			margin: 0 auto;

@@ -5,11 +5,11 @@ $(document).ready(() => {
 		.appendTo(wrapper)
 	const news = $('.posts__news').attr('class', 'posts__news').appendTo(wrapper)
 
-	const covidTitle = covid.find('h2')
+	const covidTitle = covid.find('h3')
 	const covidLink = $.parseHTML(
-		`<a class="posts__title" href="/covid-19"><h2>${covidTitle.html()}</h2></a>`
+		`<a class="posts__title" href="/covid-19"><h3>${covidTitle.html()}</h3></a>`
 	)
-	$(covidLink).prependTo(covid.find('h2').parent())
+	$(covidLink).prependTo(covid.find('h3').parent())
 	covidTitle.remove()
 
 	const covidGrid = covid
@@ -21,11 +21,11 @@ $(document).ready(() => {
 		$el.remove()
 	})
 
-	const newsTitle = news.find('h2')
+	const newsTitle = news.find('h3')
 	const newsLink = $.parseHTML(
-		`<a class="posts__title" href="/news"><h2>${newsTitle.html()}</h2></a>`
+		`<a class="posts__title" href="/news"><h3>${newsTitle.html()}</h3></a>`
 	)
-	$(newsLink).prependTo(news.find('h2').parent())
+	$(newsLink).prependTo(news.find('h3').parent())
 	newsTitle.remove()
 
 	const newsGrid = news
