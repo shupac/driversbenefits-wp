@@ -5,9 +5,10 @@
 @import '_homeHero';
 @import '_home';
 @import '_benefits';
+@import '_posts';
 @import '_footer';
 @import '_page';
-@import '_posts';
+@import '_single';
 
 @import './bootstrap/_bootstrap';
 
@@ -113,6 +114,18 @@ button.btn {
 	}
 }
 
+.layout__header-full-width {
+	padding: 25px 0;
+}
+
+.container-full {
+	@include container(full);
+}
+
+.container-narrow {
+	@include container(narrow);
+}
+
 .wp-block-embed__wrapper {
 	position: relative;
 	width: 100%;
@@ -125,5 +138,19 @@ button.btn {
 		left: 0;
 		width: 100%;
 		height: 100%;
+	}
+}
+
+.covid__link_button {
+	width: 300px;
+	box-sizing: border-box;
+
+	a {
+		width: 100%;
+		@include link(white);
+	}
+
+	@media (max-width: 800px) {
+		width: 100%;
 	}
 }

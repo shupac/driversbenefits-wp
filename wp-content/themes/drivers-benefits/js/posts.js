@@ -1,4 +1,8 @@
 $(document).ready(() => {
+	const urlParams = new URLSearchParams(window.location.search)
+	const lang = urlParams.get('lang')
+	const qs = lang ? `?lang=${lang}` : ''
+
 	const wrapper = $($('.footer__posts')[0])
 	const covid = $('.posts__covid')
 		.attr('class', 'posts__covid')
@@ -7,7 +11,7 @@ $(document).ready(() => {
 
 	const covidTitle = covid.find('h3')
 	const covidLink = $.parseHTML(
-		`<a class="posts__title" href="/covid-19"><h3>${covidTitle.html()}</h3></a>`
+		`<a class="posts__title" href="/covid-19${qs}"><h3>${covidTitle.html()}</h3></a>`
 	)
 	$(covidLink).prependTo(covid.find('h3').parent())
 	covidTitle.remove()
@@ -23,7 +27,7 @@ $(document).ready(() => {
 
 	const newsTitle = news.find('h3')
 	const newsLink = $.parseHTML(
-		`<a class="posts__title" href="/news"><h3>${newsTitle.html()}</h3></a>`
+		`<a class="posts__title" href="/news${qs}"><h3>${newsTitle.html()}</h3></a>`
 	)
 	$(newsLink).prependTo(news.find('h3').parent())
 	newsTitle.remove()

@@ -49,3 +49,4 @@ add_action( 'wp_enqueue_scripts', 'load_jquery' );
 add_action( 'wp_enqueue_scripts', 'load_js' );
 add_action( 'wp_enqueue_scripts', 'load_datepicker' );
 add_action( 'wp_enqueue_scripts', 'load_bootstrap' );
+add_theme_support('align-wide');

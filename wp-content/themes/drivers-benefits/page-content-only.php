@@ -1,10 +1,8 @@
+<?php /* Template Name: Content Only */ ?>
+
 <?php get_header(); ?>
 
-<h3 class="single__title">
-	<?php the_title(); ?>
-</h3>
-
-<div class="single__content">
+<div class="page__content_only">
 	<?php the_content(); ?>
 </div>
 
