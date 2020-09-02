@@ -7,4 +7,9 @@ $(document).ready(() => {
 		$el.appendTo(articles)
 	})
 	$('.news__grid_shadow').remove()
+
+	setTimeout(() => {
+		articles.fadeTo(500, 1)
+		$('.news__container').fadeTo(500, 1)
+	}, 10)
 })

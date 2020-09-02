@@ -875,11 +875,16 @@
 }
 
 /*@import '_single';*/
+.news__container {
+  opacity: 0;
+}
+
 .news__articles {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   grid-column-gap: 30px;
   grid-row-gap: 30px;
+  opacity: 0;
 }
 
 .news__article .ab-block-post-grid-image {
@@ -907,6 +912,10 @@
 .news__article .ab-block-post-grid-header .ab-block-post-grid-byline {
   font-size: 14px;
   color: #999;
+}
+
+.news__grid_shadow {
+  display: none;
 }
 
 /*!
