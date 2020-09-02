@@ -34,8 +34,10 @@ $(document).ready(() => {
 
 	benefitsShadow.parent().parent().remove()
 
-	const partners = $('.home__partners').attr('class', 'home__partners')
-
+	const partnersWrapper = $('.home__partners_wrapper')
+	const partners = $('.home__partners')
+		.attr('class', 'home__partners')
+		.appendTo(partnersWrapper)
 	const gallery = $('<div class="home__partners_gallery"></div>').appendTo(
 		partners
 	)
@@ -45,6 +47,6 @@ $(document).ready(() => {
 	})
 	partners.find('figure').remove()
 
-	const sections = [benefits, partners]
+	const sections = [benefits, partners, partnersWrapper]
 	sections.forEach((el) => fadeIn(el))
 })

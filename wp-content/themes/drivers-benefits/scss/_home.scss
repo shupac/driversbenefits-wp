@@ -90,6 +90,11 @@
 	}
 }
 
+.home__partners_wrapper {
+	border-bottom: 2px solid #c8c8c8;
+	opacity: 0;
+}
+
 .home__partners {
 	@include container();
 	opacity: 0;

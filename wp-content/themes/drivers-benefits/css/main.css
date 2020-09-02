@@ -520,6 +520,11 @@
   text-align: center;
 }
 
+.home__partners_wrapper {
+  border-bottom: 2px solid #c8c8c8;
+  opacity: 0;
+}
+
 .home__partners {
   max-width: 780px;
   width: 100%;
@@ -645,7 +650,6 @@
 .main-footer {
   background-color: #f3f6f8;
   padding: 25px 0 80px 0;
-  border-top: 2px solid #c8c8c8;
 }
 @media (max-width: 800px) {
   .main-footer {

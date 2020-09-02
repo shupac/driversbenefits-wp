@@ -35,6 +35,8 @@
 </section>
 <section class="footer__posts">
 </section>
+<section class="home__partners_wrapper">
+</section>
 
 <?php the_content(); ?>
 
