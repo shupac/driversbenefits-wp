@@ -13,21 +13,11 @@
 .page__title {
 	@include container();
 
-	font-family: Helvetica Neue;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 18px;
-	line-height: 22px;
 	margin-bottom: 30px;
 }
 
 .page__content {
 	@include container();
 
-	font-family: Helvetica Neue;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 14px;
-	line-height: 17px;
 	margin-bottom: 45px;
 }

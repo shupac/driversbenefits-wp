@@ -22,8 +22,33 @@ body {
 
 @import './bootstrap/_bootstrap';
 
-button:focus {
-	outline-color: $primary;
+*,
+body {
+	box-sizing: border-box;
+	@include body();
+}
+
+h4 {
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: bold;
+	/*font-size: 16px;*/
+	/*line-height: 20px;*/
+}
+
+button.btn {
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	height: 40px;
+	border-radius: 8px;
+	display: flex;
+	align-items: center;
+
+	&:focus {
+		outline-color: $primary;
+	}
 }
 
 .wp-block-embed__wrapper {

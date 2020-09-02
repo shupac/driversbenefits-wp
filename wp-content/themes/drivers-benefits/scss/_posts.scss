@@ -11,11 +11,6 @@
 	margin-bottom: 18px;
 
 	h3 {
-		font-family: Helvetica Neue;
-		font-style: normal;
-		font-weight: bold;
-		font-size: 18px;
-		line-height: 22px;
 	}
 }
 
@@ -32,17 +27,12 @@
 	}
 
 	.posts__covid_item {
+		@include link(white);
 		background-color: black;
 		border-radius: 10px;
 		min-height: 50px;
 		padding: 8px 16px;
-		font-family: Helvetica Neue;
-		font-style: normal;
 		font-weight: bold;
-		font-size: 14px;
-		line-height: 17px;
-
-		@include link(white);
 	}
 }
 
@@ -72,13 +62,8 @@
 
 		div {
 			@include link();
-
 			padding: 8px 16px;
-			font-family: Helvetica Neue;
-			font-style: normal;
 			font-weight: bold;
-			font-size: 14px;
-			line-height: 17px;
 		}
 	}
 }

@@ -454,11 +454,6 @@
 .home__benefits .home__benefits_header {
   color: black;
   display: block;
-  font-family: Helvetica Neue;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 22px;
   margin-bottom: 40px;
 }
 .home__benefits .home__benefits_header:hover {
@@ -503,20 +498,10 @@
   margin-bottom: 15px;
 }
 .home__benefit h4 {
-  font-family: Helvetica Neue;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 20px;
   text-align: center;
   margin-bottom: 5px;
 }
 .home__benefit small {
-  font-family: Helvetica Neue;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 17px;
   text-align: center;
 }
 
@@ -538,12 +523,7 @@
     padding-right: 30px;
   }
 }
-.home__partners h3 {
-  font-family: Helvetica Neue;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 22px;
+.home__partners h2 {
   text-align: center;
   margin-bottom: 25px;
 }
@@ -582,11 +562,6 @@
   grid-column-gap: 15px;
   margin-bottom: 50px;
 }
-.benefits__benefit * {
-  font-family: Helvetica Neue;
-  font-size: 14px;
-  line-height: 17px;
-}
 
 .benefits__benefit_main {
   position: relative;
@@ -594,11 +569,6 @@
 
 .benefits__benefit_title h3 {
   color: black;
-  font-family: Helvetica Neue;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 20px;
 }
 .benefits__benefit_title h3:hover {
   color: black;
@@ -798,11 +768,6 @@
   max-width: 780px;
   width: 100%;
   margin: 0 auto;
-  font-family: Helvetica Neue;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 22px;
   margin-bottom: 30px;
 }
 @media (max-width: 840px) {
@@ -816,11 +781,6 @@
   max-width: 780px;
   width: 100%;
   margin: 0 auto;
-  font-family: Helvetica Neue;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 17px;
   margin-bottom: 45px;
 }
 @media (max-width: 840px) {
@@ -845,14 +805,6 @@
 .posts__title:hover {
   color: white;
 }
-.posts__title h3 {
-  font-family: Helvetica Neue;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 22px;
-}
-
 .posts__covid {
   max-width: 780px;
   width: 100%;
@@ -873,16 +825,12 @@
   margin-bottom: 50px;
 }
 .posts__covid .posts__covid_item {
+  color: white;
   background-color: black;
   border-radius: 10px;
   min-height: 50px;
   padding: 8px 16px;
-  font-family: Helvetica Neue;
-  font-style: normal;
   font-weight: bold;
-  font-size: 14px;
-  line-height: 17px;
-  color: white;
 }
 .posts__covid .posts__covid_item:hover {
   color: white;
@@ -921,11 +869,7 @@
 .posts__news .posts__news_item div {
   color: black;
   padding: 8px 16px;
-  font-family: Helvetica Neue;
-  font-style: normal;
   font-weight: bold;
-  font-size: 14px;
-  line-height: 17px;
 }
 .posts__news .posts__news_item div:hover {
   color: black;
@@ -10838,7 +10782,42 @@ h3 {
     border-color: #dee2e6;
   }
 }
-button:focus {
+*,
+body {
+  box-sizing: border-box;
+  font-family: Helvetica Neue;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  /*line-height: 17px;*/
+}
+@media (max-width: 800px) {
+  *,
+body {
+    font-size: 14px;
+    /*line-height: 18px;*/
+  }
+}
+
+h4 {
+  font-family: Helvetica Neue;
+  font-style: normal;
+  font-weight: bold;
+  /*font-size: 16px;*/
+  /*line-height: 20px;*/
+}
+
+button.btn {
+  font-family: Helvetica Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  height: 40px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+}
+button.btn:focus {
   outline-color: #BD1E1E;
 }
 
