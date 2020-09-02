@@ -1,23 +1,6 @@
 <?php get_header(); ?>
 <?php wp_nav_menu(); ?>
 
-<header class="home__header_responsive">
-	<div class="header__container">
-		<a href="/">
-			<img class="header__logo" src="<?php echo get_template_directory_uri(); ?>/assets/icon-logo.png">
-		</a>
-		<a class="header__signup" href="">
-			<button class="btn btn-primary"></button>
-		</a>
-	</div>
-	<script>
-		$(document).ready(() => {
-			$('.home__header_responsive .header__signup').attr('href', signupUrl)
-			$('.home__header_responsive .header__signup').find('button').html(signupText)
-		})
-	</script>
-</header>
-
 <section class="home__hero">
 	<?php
 		$query = new WP_Query( array( 'pagename' => '__private__cta' ) );

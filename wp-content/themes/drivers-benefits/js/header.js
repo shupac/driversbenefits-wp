@@ -1,6 +1,3 @@
-let signupText
-let signupUrl
-
 $(document).ready(() => {
 	const menuShadow = $('.menu-top-menu-container ul')
 	const languageShadow = menuShadow.children()[0]
@@ -40,14 +37,19 @@ $(document).ready(() => {
 
 	$(phoneShadow).find('a').appendTo('.header__phone')
 
-	signupUrl = $(signupShadow).find('a').attr('href')
-	signupText = $(signupShadow).find('a').html()
+	const signupUrl = $(signupShadow).find('a').attr('href')
+	const signupText = $(signupShadow).find('a').html()
 
 	signup.attr('href', signupUrl)
 	signup.find('button').html(signupText)
 
+	const headerResponsive = $('.header__header_responsive')
+	headerResponsive.find('.header__signup').attr('href', signupUrl)
+	headerResponsive.find('.header__signup').find('button').html(signupText)
+
 	setTimeout(() => {
 		header.fadeTo(500, 1)
+		// headerResponsive.fadeTo(500, 1)
 	}, 10)
 
 	menuShadow.parent().remove()
@@ -57,12 +59,17 @@ $(document).ready(() => {
 		header.toggleClass('header__shadow', !!window.scrollY)
 	}
 
-	function checkShadow() {
-		if (window.innerWidth > 800) addScrollShadow()
-		else header.addClass('header__shadow')
+	function checkResize() {
+		if (window.innerWidth > 800) {
+			addScrollShadow()
+			headerResponsive.hide()
+		} else {
+			header.addClass('header__shadow')
+			headerResponsive.fadeTo(500, 1)
+		}
 	}
 
 	$(window).scroll(addScrollShadow)
-	$(window).resize(checkShadow)
-	checkShadow()
+	$(window).resize(checkResize)
+	checkResize()
 })

@@ -44,6 +44,17 @@
 		</div>
 		<script src="/wp-content/themes/drivers-benefits/js/header.js"></script>
 	</header>
+	<header class="header__header_responsive">
+		<div class="header__container">
+			<a href="/">
+				<img class="header__logo" src="<?php echo get_template_directory_uri(); ?>/assets/icon-logo.png">
+			</a>
+			<a class="header__signup" href="">
+				<button class="btn btn-primary"></button>
+			</a>
+		</div>
+	</header>
 	<main id="main">
+
 
 
