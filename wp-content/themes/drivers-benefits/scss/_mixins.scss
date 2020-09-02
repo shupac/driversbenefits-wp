@@ -1,9 +1,17 @@
-@mixin container($size: 780px) {
-	max-width: $size;
+@mixin container($size: narrow) {
+	$maxWidth: $size;
+
+	@if ($size == full) {
+		$maxWidth: 940px;
+	} @else if ($size == narrow) {
+		$maxWidth: 700px;
+	}
+
+	max-width: $maxWidth;
 	width: 100%;
 	margin: 0 auto;
 
-	@media (max-width: $size + 60px) {
+	@media (max-width: $maxWidth + 60px) {
 		padding-left: 30px;
 		padding-right: 30px;
 	}

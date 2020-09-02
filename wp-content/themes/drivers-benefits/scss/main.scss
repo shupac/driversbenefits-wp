@@ -9,6 +9,8 @@
 @import '_page';
 @import '_posts';
 
+@import './bootstrap/_bootstrap';
+
 html,
 body {
 	margin: 0;
@@ -19,8 +21,6 @@ body {
 		/*overflow-y: scroll;*/
 	}
 }
-
-@import './bootstrap/_bootstrap';
 
 body {
 	box-sizing: border-box;
@@ -99,7 +99,6 @@ button.btn {
 	font-family: Helvetica Neue;
 	font-style: normal;
 	font-weight: bold;
-	font-size: 14px;
 	height: 40px;
 	border-radius: 8px;
 	display: flex;
@@ -107,6 +106,10 @@ button.btn {
 
 	&:focus {
 		outline-color: $primary;
+	}
+
+	@media (max-width: 800px) {
+		font-size: 14px;
 	}
 }
 

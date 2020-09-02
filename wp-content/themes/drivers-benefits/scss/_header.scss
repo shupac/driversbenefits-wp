@@ -12,7 +12,7 @@
 	opacity: 0;
 
 	.header__container {
-		@include container(940px);
+		@include container(full);
 
 		flex: 1;
 		display: grid;

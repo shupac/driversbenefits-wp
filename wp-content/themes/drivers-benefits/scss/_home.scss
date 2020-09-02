@@ -40,7 +40,7 @@
 }
 
 .home__benefits_grid {
-	@include container();
+	@include container(full);
 
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));

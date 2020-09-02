@@ -303,6 +303,7 @@
   border-radius: 15px;
   padding: 15px;
   color: #6d6d6d;
+  line-height: 125%;
 }
 @media (max-width: 800px) {
   .home__slide .home__testimonial {
@@ -394,7 +395,7 @@
   }
 }
 .home__header_responsive .header__container {
-  max-width: 780px;
+  max-width: 700px;
   width: 100%;
   margin: 0 auto;
   display: flex;
@@ -402,7 +403,7 @@
   padding-top: 25px;
   padding-bottom: 25px;
 }
-@media (max-width: 840px) {
+@media (max-width: 760px) {
   .home__header_responsive .header__container {
     padding-left: 30px;
     padding-right: 30px;
@@ -433,7 +434,7 @@
 }
 
 .home__benefits_grid {
-  max-width: 780px;
+  max-width: 940px;
   width: 100%;
   margin: 0 auto;
   display: grid;
@@ -442,7 +443,7 @@
   grid-row-gap: 35px;
   margin-bottom: 90px;
 }
-@media (max-width: 840px) {
+@media (max-width: 1000px) {
   .home__benefits_grid {
     padding-left: 30px;
     padding-right: 30px;
@@ -483,13 +484,13 @@
 }
 
 .home__partners {
-  max-width: 780px;
+  max-width: 700px;
   width: 100%;
   margin: 0 auto;
   opacity: 0;
   padding-top: 53px;
 }
-@media (max-width: 840px) {
+@media (max-width: 760px) {
   .home__partners {
     padding-left: 30px;
     padding-right: 30px;
@@ -515,13 +516,13 @@
 
 .benefits__benefits {
   opacity: 0;
-  max-width: 780px;
+  max-width: 700px;
   width: 100%;
   margin: 0 auto;
   padding-top: 75px;
   padding-bottom: 75px;
 }
-@media (max-width: 840px) {
+@media (max-width: 760px) {
   .benefits__benefits {
     padding-left: 30px;
     padding-right: 30px;
@@ -563,7 +564,7 @@
 }
 
 .benefits__benefit_summary {
-  margin-right: 55px;
+  margin-right: 75px;
 }
 
 .benefits__benefit_toggle {
@@ -749,12 +750,12 @@
 }
 
 .page__title {
-  max-width: 780px;
+  max-width: 700px;
   width: 100%;
   margin: 0 auto;
   margin-bottom: 30px;
 }
-@media (max-width: 840px) {
+@media (max-width: 760px) {
   .page__title {
     padding-left: 30px;
     padding-right: 30px;
@@ -762,12 +763,12 @@
 }
 
 .page__content {
-  max-width: 780px;
+  max-width: 700px;
   width: 100%;
   margin: 0 auto;
-  margin-bottom: 45px;
+  margin-bottom: 80px;
 }
-@media (max-width: 840px) {
+@media (max-width: 760px) {
   .page__content {
     padding-left: 30px;
     padding-right: 30px;
@@ -790,12 +791,12 @@
   color: white;
 }
 .posts__covid {
-  max-width: 780px;
+  max-width: 940px;
   width: 100%;
   margin: 0 auto;
   opacity: 0;
 }
-@media (max-width: 840px) {
+@media (max-width: 1000px) {
   .posts__covid {
     padding-left: 30px;
     padding-right: 30px;
@@ -803,10 +804,15 @@
 }
 .posts__covid .posts__covid_grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
   grid-column-gap: 8px;
   grid-row-gap: 8px;
   margin-bottom: 50px;
+}
+@media (max-width: 800px) {
+  .posts__covid .posts__covid_grid {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  }
 }
 .posts__covid .posts__covid_item {
   color: white;
@@ -821,12 +827,12 @@
 }
 
 .posts__news {
-  max-width: 780px;
+  max-width: 940px;
   width: 100%;
   margin: 0 auto;
   opacity: 0;
 }
-@media (max-width: 840px) {
+@media (max-width: 1000px) {
   .posts__news {
     padding-left: 30px;
     padding-right: 30px;
@@ -834,10 +840,15 @@
 }
 .posts__news .posts__news_grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
   grid-column-gap: 8px;
   grid-row-gap: 8px;
   margin-bottom: 50px;
+}
+@media (max-width: 800px) {
+  .posts__news .posts__news_grid {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  }
 }
 .posts__news .posts__news_item {
   border-radius: 10px;
@@ -857,19 +868,6 @@
 }
 .posts__news .posts__news_item div:hover {
   color: black;
-}
-
-html,
-body {
-  margin: 0;
-  background-color: #F3F6F8;
-}
-@media (max-width: 800px) {
-  html,
-body {
-    /*height: 100%;*/
-    /*overflow-y: scroll;*/
-  }
 }
 
 /*!
@@ -10766,6 +10764,19 @@ h3 {
     border-color: #dee2e6;
   }
 }
+html,
+body {
+  margin: 0;
+  background-color: #F3F6F8;
+}
+@media (max-width: 800px) {
+  html,
+body {
+    /*height: 100%;*/
+    /*overflow-y: scroll;*/
+  }
+}
+
 body {
   box-sizing: border-box;
   font-family: Helvetica Neue;
@@ -10857,7 +10868,6 @@ button.btn {
   font-family: Helvetica Neue;
   font-style: normal;
   font-weight: bold;
-  font-size: 14px;
   height: 40px;
   border-radius: 8px;
   display: flex;
@@ -10865,6 +10875,11 @@ button.btn {
 }
 button.btn:focus {
   outline-color: #BD1E1E;
+}
+@media (max-width: 800px) {
+  button.btn {
+    font-size: 14px;
+  }
 }
 
 .wp-block-embed__wrapper {
