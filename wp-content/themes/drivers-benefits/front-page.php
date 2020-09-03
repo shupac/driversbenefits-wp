@@ -1,5 +1,4 @@
 <?php get_header(); ?>
-<?php wp_nav_menu(); ?>
 
 <section class="home__hero">
 	<?php

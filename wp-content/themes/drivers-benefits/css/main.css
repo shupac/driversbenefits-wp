@@ -270,7 +270,7 @@ div.wpforms-container-full .wpforms-form .wpforms-page-button:focus {
   box-shadow: 0px 0.5px 0.5px 3px rgba(0, 0, 0, 0.05);
 }
 
-.menu-top-menu-container {
+.menu-header-menu-container {
   display: none;
 }
 
@@ -844,37 +844,21 @@ div.wpforms-container-full .wpforms-form .wpforms-page-button:focus {
   color: #bd1e1f;
 }
 
-.footer-list {
-  list-style: none;
+.menu-footer-menu-container ul {
   display: flex;
-  justify-content: space-around;
   flex-flow: row wrap;
-  flex-grow: 1;
-  padding: 0% 5%;
-  text-align: center;
-  width: fit-content;
-  margin: 0 auto;
-  font-family: Helvetica Neue;
-  font-size: 16px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  text-align: center;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+.menu-footer-menu-container ul li {
+  margin: 1em;
+}
+.menu-footer-menu-container ul li a {
   color: #767676;
 }
-
-.fl-item {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
-  flex-grow: 1;
-  padding: 1em;
-}
-
-.p-logo {
-  padding: 20px;
+.menu-footer-menu-container ul li a:hover {
+  color: #767676;
 }
 
 #copyright {

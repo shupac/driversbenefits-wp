@@ -37,7 +37,7 @@ function load_datepicker() {
 
 register_nav_menus(
 	array(
-		'top-menu' => __('Top Menu', 'theme'),
+		'header-menu' => __('Top Menu', 'theme'),
 		'footer-menu' => __('Footer Menu', 'theme'),
 	)
 );

@@ -13,7 +13,7 @@
 
 
 <body <?php body_class();?>>
-	<?php wp_nav_menu(); ?>
+	<?php wp_nav_menu( array ( 'menu' => 'header-menu' ) ); ?>
 
 	<header class="header__header">
 		<div class="header__container">

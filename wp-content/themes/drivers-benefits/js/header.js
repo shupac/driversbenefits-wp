@@ -1,5 +1,5 @@
 $(document).ready(() => {
-	const menuShadow = $('.menu-top-menu-container ul')
+	const menuShadow = $('.menu-header-menu-container ul')
 	const languageShadow = menuShadow.children()[0]
 	const phoneShadow = menuShadow.children()[1]
 	const signupShadow = menuShadow.children()[2]
