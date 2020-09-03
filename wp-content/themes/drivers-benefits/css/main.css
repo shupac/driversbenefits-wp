@@ -643,6 +643,11 @@ div.wpforms-container-full .wpforms-form .wpforms-page-button:focus {
     padding-right: 30px;
   }
 }
+@media (max-width: 800px) {
+  .benefits__benefits {
+    padding-top: 30px;
+  }
+}
 
 .benefits__benefit {
   display: grid;

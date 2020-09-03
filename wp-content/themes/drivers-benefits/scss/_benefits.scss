@@ -3,6 +3,10 @@
 	@include container();
 	padding-top: 75px;
 	padding-bottom: 75px;
+
+	@media (max-width: 800px) {
+		padding-top: 30px;
+	}
 }
 
 .benefits__benefit {
