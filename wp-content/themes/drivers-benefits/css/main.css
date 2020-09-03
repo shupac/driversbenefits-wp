@@ -10885,32 +10885,19 @@ body {
   }
 }
 
-h1 {
-  font-family: Helvetica Neue;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 22px;
-  line-height: 28px;
-}
-@media (max-width: 800px) {
-  h1 {
-    font-size: 18px;
-    line-height: 22px;
-  }
-}
-
+h1,
 h2 {
   font-family: Helvetica Neue;
   font-style: normal;
   font-weight: bold;
   font-size: 22px;
   line-height: 28px;
-  color: #3c5ea8;
 }
 @media (max-width: 800px) {
-  h2 {
-    font-size: 16px;
-    line-height: 20px;
+  h1,
+h2 {
+    font-size: 18px;
+    line-height: 22px;
   }
 }
 

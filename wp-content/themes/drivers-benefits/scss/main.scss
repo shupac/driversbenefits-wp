@@ -29,7 +29,8 @@ body {
 	@include body();
 }
 
-h1 {
+h1,
+h2 {
 	font-family: Helvetica Neue;
 	font-style: normal;
 	font-weight: bold;
@@ -39,20 +40,6 @@ h1 {
 	@media (max-width: 800px) {
 		font-size: 18px;
 		line-height: 22px;
-	}
-}
-
-h2 {
-	font-family: Helvetica Neue;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 22px;
-	line-height: 28px;
-	color: #3c5ea8;
-
-	@media (max-width: 800px) {
-		font-size: 16px;
-		line-height: 20px;
 	}
 }
 
