@@ -2,6 +2,7 @@
 @import '_colors';
 
 @import '_accordion';
+@import '_forms';
 
 @import '_header';
 @import '_homeHero';
@@ -84,24 +85,5 @@ button.btn {
 
 	@media (max-width: 800px) {
 		width: 100%;
-	}
-}
-
-div.wpforms-container-full .wpforms-form input[type='submit'],
-div.wpforms-container-full .wpforms-form button[type='submit'],
-div.wpforms-container-full .wpforms-form .wpforms-page-button {
-	background-color: $primary;
-	border-color: $primary;
-	color: white;
-	font-family: Helvetica Neue;
-	font-style: normal;
-	font-weight: bold;
-	border-radius: 8px;
-	width: 100%;
-
-	&:hover,
-	&:focus {
-		background-color: #9c1919;
-		border-color: #911717;
 	}
 }

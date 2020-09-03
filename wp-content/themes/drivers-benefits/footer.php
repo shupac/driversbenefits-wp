@@ -37,7 +37,6 @@
 	<script src="/wp-content/themes/drivers-benefits/js/footer.js"></script>
 	<script src="/wp-content/themes/drivers-benefits/js/news.js"></script>
 	<script src="/wp-content/themes/drivers-benefits/js/accordion.js"></script>
-	<script src="/wp-content/themes/drivers-benefits/js/forms.js"></script>
 <?php wp_footer(); ?>
 </body>
 </html>
