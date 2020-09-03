@@ -1,7 +1,5 @@
 const { hash } = window.location
 
-const getOffset = () => (window.innerWidth <= 800 ? 60 : 120)
-
 $(document).ready(() => {
 	const benefits = $('.benefits__benefits')
 

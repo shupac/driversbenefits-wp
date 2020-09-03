@@ -44,9 +44,50 @@ register_nav_menus(
 
 add_theme_support('menus');
 add_theme_support('post-thumbnails');
+add_theme_support('align-wide');
 add_action( 'wp_enqueue_scripts', 'load_stylesheets' );
 add_action( 'wp_enqueue_scripts', 'load_jquery' );
 add_action( 'wp_enqueue_scripts', 'load_js' );
 add_action( 'wp_enqueue_scripts', 'load_datepicker' );
 add_action( 'wp_enqueue_scripts', 'load_bootstrap' );
-add_theme_support('align-wide');
+
+/**
+ * Add support for custom color palettes in Gutenberg.
+ */
+function tabor_gutenberg_color_palette() {
+	add_theme_support(
+		'editor-color-palette', array(
+			array(
+				'name'  => esc_html__( 'Red', '@@textdomain' ),
+				'slug' => 'red',
+				'color' => '#BD1E1E',
+			),
+			array(
+				'name'  => esc_html__( 'Dark Blue', '@@textdomain' ),
+				'slug' => 'darkblue',
+				'color' => '#3C5EA8',
+			),
+			array(
+				'name'  => esc_html__( 'Light Blue', '@@textdomain' ),
+				'slug' => 'lightblue',
+				'color' => '#DEECF9',
+			),
+			array(
+				'name'  => esc_html__( 'Black', '@@textdomain' ),
+				'slug' => 'black',
+				'color' => '#00000',
+			),
+			array(
+				'name'  => esc_html__( 'Gray', '@@textdomain' ),
+				'slug' => 'gray',
+				'color' => '#F3F6F8',
+			),
+			array(
+				'name'  => esc_html__( 'White', '@@textdomain' ),
+				'slug' => 'white',
+				'color' => '#FFFFFF',
+			),
+		)
+	);
+}
+add_action( 'after_setup_theme', 'tabor_gutenberg_color_palette' );
