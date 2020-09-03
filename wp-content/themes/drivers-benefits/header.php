@@ -18,8 +18,8 @@
 	<header class="header__header">
 		<div class="header__container">
 			<div class="header__left">
-				<a href="/">
-					<img class="header__logo" src="<?php echo get_template_directory_uri(); ?>/assets/icon-logo.png">
+				<a class="header__logo" href="/">
+					<img src="<?php echo get_template_directory_uri(); ?>/assets/icon-logo.png">
 				</a>
 				<div class="header__language">
 				  <button class="" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -42,18 +42,12 @@
 				</a>
 			</div>
 		</div>
-		<script src="/wp-content/themes/drivers-benefits/js/header.js"></script>
 	</header>
 	<header class="header__header_responsive">
 		<div class="header__container">
-			<a href="/">
-				<img class="header__logo" src="<?php echo get_template_directory_uri(); ?>/assets/icon-logo.png">
-			</a>
-			<a class="header__signup" href="">
-				<button class="btn btn-primary"></button>
-			</a>
 		</div>
 	</header>
+	<script src="/wp-content/themes/drivers-benefits/js/header.js"></script>
 	<main id="main">
 
 

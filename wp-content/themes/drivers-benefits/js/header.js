@@ -8,6 +8,8 @@ $(document).ready(() => {
 	const currLangButton = header.find('button')
 	const langMenu = header.find('.dropdown-menu')
 	const signup = header.find('.header__signup')
+	const logo = header.find('.header__logo')
+	const headerResponsive = $('.header__header_responsive .header__container')
 
 	function getLangData(langEl) {
 		const flag = $(langEl).find('img').attr('src').replace('en.png', 'us.png')
@@ -43,33 +45,39 @@ $(document).ready(() => {
 	signup.attr('href', signupUrl)
 	signup.find('button').html(signupText)
 
-	const headerResponsive = $('.header__header_responsive')
-	headerResponsive.find('.header__signup').attr('href', signupUrl)
-	headerResponsive.find('.header__signup').find('button').html(signupText)
-
 	setTimeout(() => {
 		header.fadeTo(500, 1)
-		// headerResponsive.fadeTo(500, 1)
 	}, 10)
 
 	menuShadow.parent().remove()
 
 	// Add header drop shadow on scroll and responsive
 	function addScrollShadow() {
-		header.toggleClass('header__shadow', !!window.scrollY)
-	}
-
-	function checkResize() {
 		if (window.innerWidth > 800) {
-			addScrollShadow()
-			headerResponsive.hide()
+			header.toggleClass('header__shadow', !!window.scrollY)
 		} else {
 			header.addClass('header__shadow')
-			headerResponsive.fadeTo(500, 1)
 		}
 	}
 
+	function makeResponsive(isResponsive) {
+		if (isResponsive) {
+			logo.appendTo(headerResponsive)
+			signup.appendTo(headerResponsive)
+			headerResponsive.parent().fadeTo(500, 1)
+		} else {
+			logo.prependTo('.header__left')
+			signup.appendTo('.header__right')
+			headerResponsive.parent().hide()
+		}
+	}
+
+	function handleResize() {
+		makeResponsive(window.innerWidth <= 800)
+		addScrollShadow()
+	}
+
 	$(window).scroll(addScrollShadow)
-	$(window).resize(checkResize)
-	checkResize()
+	$(window).resize(handleResize)
+	handleResize()
 })

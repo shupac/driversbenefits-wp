@@ -40,13 +40,8 @@
   align-items: center;
   border-right: 1px solid #d8d8d8;
 }
-.header__left .header__logo {
+.header__left .header__logo img {
   width: 130px;
-}
-@media (max-width: 800px) {
-  .header__left .header__logo {
-    display: none;
-  }
 }
 .header__left .header__language {
   margin-left: auto;
@@ -118,12 +113,6 @@
 .header__right * a:hover {
   color: black;
 }
-@media (max-width: 800px) {
-  .header__right .header__signup {
-    display: none;
-  }
-}
-
 .header__header_responsive {
   display: none;
   opacity: 0;
@@ -148,7 +137,7 @@
     padding-right: 30px;
   }
 }
-.header__header_responsive .header__logo {
+.header__header_responsive .header__logo img {
   width: 130px;
 }
 
