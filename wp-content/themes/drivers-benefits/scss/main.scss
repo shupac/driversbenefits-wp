@@ -1,7 +1,8 @@
 @import '_mixins';
-@import '_variables';
+@import '_colors';
 
 @import '_accordion';
+
 @import '_header';
 @import '_homeHero';
 @import '_home';
@@ -12,6 +13,8 @@
 @import '_news';
 
 @import './bootstrap/_bootstrap';
+
+@import '_typography';
 
 html,
 body {
@@ -27,63 +30,6 @@ body {
 body {
 	box-sizing: border-box;
 	@include body();
-}
-
-h1,
-h2 {
-	font-family: Helvetica Neue;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 22px;
-	line-height: 28px;
-
-	@media (max-width: 800px) {
-		font-size: 18px;
-		line-height: 22px;
-	}
-}
-
-h3 {
-	font-family: Helvetica Neue;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 20px;
-	line-height: 26px;
-	margin-top: 1.5em;
-	margin-bottom: 1em;
-
-	@media (max-width: 800px) {
-		font-size: 16px;
-		line-height: 20px;
-	}
-}
-
-h4 {
-	font-family: Helvetica Neue;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 16px;
-	line-height: 20px;
-
-	@media (max-width: 800px) {
-		font-size: 14px;
-		line-height: 17px;
-	}
-}
-
-h5 {
-	font-family: Helvetica Neue;
-	font-style: normal;
-	font-weight: bold;
-	color: $primary;
-
-	font-size: 16px;
-	line-height: 20px;
-
-	@media (max-width: 800px) {
-		font-size: 14px;
-		line-height: 17px;
-	}
 }
 
 button.btn {
@@ -138,5 +84,24 @@ button.btn {
 
 	@media (max-width: 800px) {
 		width: 100%;
+	}
+}
+
+div.wpforms-container-full .wpforms-form input[type='submit'],
+div.wpforms-container-full .wpforms-form button[type='submit'],
+div.wpforms-container-full .wpforms-form .wpforms-page-button {
+	background-color: $primary;
+	border-color: $primary;
+	color: white;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: bold;
+	border-radius: 8px;
+	width: 100%;
+
+	&:hover,
+	&:focus {
+		background-color: #9c1919;
+		border-color: #911717;
 	}
 }
