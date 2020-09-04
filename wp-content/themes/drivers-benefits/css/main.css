@@ -169,6 +169,24 @@ div.wpforms-container-full .wpforms-form .wpforms-field-label {
   color: #3a3a3a;
 }
 
+div.wpforms-container-full .wpforms-form .wpforms-field-label-inline {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  color: #3a3a3a;
+}
+
+.wpforms-field-checkbox li {
+  display: flex;
+  align-items: center;
+}
+
+.wpforms-submit-spinner {
+  display: none !important;
+}
+
 .header__header {
   position: sticky;
   top: 0;
@@ -1079,6 +1097,35 @@ div.wpforms-container-full .wpforms-form .wpforms-field-label {
 
 .news__grid_shadow {
   display: none;
+}
+
+.verify__container {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0;
+}
+@media (max-width: 460px) {
+  .verify__container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+@media (max-width: 800px) {
+  .verify__container {
+    padding-top: 10px;
+  }
+}
+
+.verify__main {
+  width: 100%;
+}
+
+.verify__form {
+  width: 100%;
 }
 
 /*!

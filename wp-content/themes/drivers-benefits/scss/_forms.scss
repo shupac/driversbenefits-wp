@@ -58,3 +58,21 @@ div.wpforms-container-full .wpforms-form .wpforms-field-label {
 	line-height: 18px;
 	color: #3a3a3a;
 }
+
+div.wpforms-container-full .wpforms-form .wpforms-field-label-inline {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 18px;
+	color: #3a3a3a;
+}
+
+.wpforms-field-checkbox li {
+	display: flex;
+	align-items: center;
+}
+
+.wpforms-submit-spinner {
+	display: none !important;
+}
