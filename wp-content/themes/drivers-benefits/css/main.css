@@ -111,7 +111,7 @@ div.wpforms-container-full .wpforms-form .wpforms-page-button {
   background-color: #bd1e1e;
   border-color: #bd1e1e;
   color: white;
-  font-family: Helvetica Neue;
+  font-family: Helvetica Neue, Arial, Sans-Serif;
   font-style: normal;
   font-weight: bold;
   border-radius: 8px;
@@ -408,7 +408,7 @@ div.wpforms-container-full .wpforms-form .wpforms-field-label-inline {
   }
 }
 .home__cta .home__cta_button {
-  font-family: Helvetica Neue;
+  font-family: Helvetica Neue, Arial, Sans-Serif;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -991,7 +991,7 @@ div.wpforms-container-full .wpforms-form .wpforms-field-label-inline {
   }
 }
 .footer__cta .footer__cta_button {
-  font-family: Helvetica Neue;
+  font-family: Helvetica Neue, Arial, Sans-Serif;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -11123,7 +11123,7 @@ body {
 
 body {
   box-sizing: border-box;
-  font-family: Helvetica Neue;
+  font-family: Helvetica Neue, Arial, Sans-Serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -11137,7 +11137,7 @@ body {
 }
 
 button.btn {
-  font-family: Helvetica Neue;
+  font-family: Helvetica Neue, Arial, Sans-Serif;
   font-style: normal;
   font-weight: bold;
   height: 40px;

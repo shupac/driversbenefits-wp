@@ -32,7 +32,7 @@
 }
 
 @mixin title {
-	font-family: Helvetica Neue;
+	font-family: Helvetica Neue, Arial, Sans-Serif;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 18px;
@@ -40,7 +40,7 @@
 }
 
 @mixin body {
-	font-family: Helvetica Neue;
+	font-family: Helvetica Neue, Arial, Sans-Serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 16px;
@@ -53,7 +53,7 @@
 }
 
 @mixin ctaButton() {
-	font-family: Helvetica Neue;
+	font-family: Helvetica Neue, Arial, Sans-Serif;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 18px;
