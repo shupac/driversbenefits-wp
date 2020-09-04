@@ -153,11 +153,12 @@ div.wpforms-container-full .wpforms-form input[type=url],
 div.wpforms-container-full .wpforms-form input[type=week],
 div.wpforms-container-full .wpforms-form select,
 div.wpforms-container-full .wpforms-form textarea {
+  font-family: Roboto;
   max-width: 100%;
   width: 100%;
   border-radius: 4px;
-  border: 2px solid #979797;
-  background-color: transparent;
+  border: 1px solid #979797;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 div.wpforms-container-full .wpforms-form .wpforms-field-label {
@@ -11040,7 +11041,7 @@ h3 {
 }
 h1,
 h2 {
-  font-family: Helvetica Neue;
+  font-family: Helvetica Neue, Arial, Sans-Serif;
   font-style: normal;
   font-weight: bold;
   font-size: 22px;
@@ -11055,7 +11056,7 @@ h2 {
 }
 
 h3 {
-  font-family: Helvetica Neue;
+  font-family: Helvetica Neue, Arial, Sans-Serif;
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
@@ -11069,7 +11070,7 @@ h3 {
 }
 
 h4 {
-  font-family: Helvetica Neue;
+  font-family: Helvetica Neue, Arial, Sans-Serif;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -11083,7 +11084,7 @@ h4 {
 }
 
 h5 {
-  font-family: Helvetica Neue;
+  font-family: Helvetica Neue, Arial, Sans-Serif;
   font-style: normal;
   font-weight: bold;
   color: #bd1e1e;
