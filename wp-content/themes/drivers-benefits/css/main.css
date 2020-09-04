@@ -609,6 +609,8 @@ div.wpforms-container-full .wpforms-form .wpforms-field-label-inline {
 .home__benefits .home__benefits_header {
   color: black;
   display: block;
+  width: fit-content;
+  margin: 0 auto;
   margin-bottom: 40px;
 }
 .home__benefits .home__benefits_header:hover {
