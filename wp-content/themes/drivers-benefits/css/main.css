@@ -153,7 +153,7 @@ div.wpforms-container-full .wpforms-form input[type=url],
 div.wpforms-container-full .wpforms-form input[type=week],
 div.wpforms-container-full .wpforms-form select,
 div.wpforms-container-full .wpforms-form textarea {
-  font-family: Roboto;
+  font-family: Roboto, Sans-Serif, Arial;
   max-width: 100%;
   width: 100%;
   border-radius: 4px;
@@ -162,7 +162,7 @@ div.wpforms-container-full .wpforms-form textarea {
 }
 
 div.wpforms-container-full .wpforms-form .wpforms-field-label {
-  font-family: Roboto;
+  font-family: Roboto, Sans-Serif, Arial;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -171,7 +171,7 @@ div.wpforms-container-full .wpforms-form .wpforms-field-label {
 }
 
 div.wpforms-container-full .wpforms-form .wpforms-field-label-inline {
-  font-family: Roboto;
+  font-family: Roboto, Sans-Serif, Arial;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
