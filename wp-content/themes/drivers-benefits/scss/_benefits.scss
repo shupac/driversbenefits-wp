@@ -27,6 +27,11 @@
 
 .benefits__benefit_title {
 	@include link();
+
+	h3 {
+		margin: 0;
+		margin-bottom: 0.5em;
+	}
 }
 
 .benefits__benefit_image {

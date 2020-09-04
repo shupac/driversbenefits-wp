@@ -746,6 +746,10 @@ div.wpforms-container-full .wpforms-form .wpforms-field-label-inline {
 .benefits__benefit_title:hover {
   color: black;
 }
+.benefits__benefit_title h3 {
+  margin: 0;
+  margin-bottom: 0.5em;
+}
 
 .benefits__benefit_image {
   height: 50px;
