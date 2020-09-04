@@ -3,6 +3,7 @@ $(document).ready(() => {
 	const qs = lang ? `?lang=${lang}` : ''
 
 	const wrapper = $($('.footer__posts')[0])
+	$($('.footer__posts')[1]).remove()
 	const covid = $('.posts__covid')
 		.attr('class', 'posts__covid')
 		.appendTo(wrapper)

@@ -386,6 +386,7 @@ div.wpforms-container-full .wpforms-form .wpforms-field-label-inline {
   }
 }
 .home__cta .ab-font-size-32.ab-cta-title {
+  margin: 0;
   margin-bottom: 15px;
   color: black;
   text-align: left;
@@ -613,6 +614,9 @@ div.wpforms-container-full .wpforms-form .wpforms-field-label-inline {
 .home__benefits .home__benefits_header:hover {
   color: black;
 }
+.home__benefits .home__benefits_header h3 {
+  margin: 0;
+}
 
 .home__benefits_grid {
   max-width: 940px;
@@ -653,6 +657,7 @@ div.wpforms-container-full .wpforms-form .wpforms-field-label-inline {
 }
 .home__benefit h4 {
   text-align: center;
+  margin: 0;
   margin-bottom: 5px;
 }
 .home__benefit small {
@@ -679,6 +684,7 @@ div.wpforms-container-full .wpforms-form .wpforms-field-label-inline {
 }
 .home__partners h3 {
   text-align: center;
+  margin: 0;
   margin-bottom: 25px;
 }
 .home__partners .home__partners_gallery {
@@ -808,6 +814,10 @@ div.wpforms-container-full .wpforms-form .wpforms-field-label-inline {
 .posts__title:hover {
   color: white;
 }
+.posts__title h3 {
+  margin: 0;
+}
+
 .posts__covid {
   max-width: 940px;
   width: 100%;
