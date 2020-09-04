@@ -1,6 +1,7 @@
 $(document).ready(() => {
 	const lang = getLang()
 	const langClass = lang ? `${lang}-` : ''
+	const langQs = lang ? `?lang=${lang}` : ''
 
 	const menuShadow = $(`.menu-header-menu-${langClass}container ul`)
 	const languageShadow = menuShadow.children()[0]
@@ -11,7 +12,7 @@ $(document).ready(() => {
 	const currLangButton = header.find('button')
 	const langMenu = header.find('.dropdown-menu')
 	const signup = header.find('.header__signup')
-	const logo = header.find('.header__logo')
+	const logo = header.find('.header__logo').attr('href', `/${langQs}`)
 	const headerResponsive = $('.header__header_responsive .header__container')
 
 	function getLangData(langEl) {
