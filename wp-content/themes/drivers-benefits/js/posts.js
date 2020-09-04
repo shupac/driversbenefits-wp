@@ -1,6 +1,5 @@
 $(document).ready(() => {
-	const urlParams = new URLSearchParams(window.location.search)
-	const lang = urlParams.get('lang')
+	const lang = getLang()
 	const qs = lang ? `?lang=${lang}` : ''
 
 	const wrapper = $($('.footer__posts')[0])

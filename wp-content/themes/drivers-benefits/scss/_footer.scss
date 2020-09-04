@@ -26,18 +26,23 @@
 	color: #bd1e1f;
 }
 
-.menu-footer-menu-container ul {
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: center;
-	list-style: none;
-	padding: 0;
+.menu-footer-menu-container,
+.menu-footer-menu-es-container,
+.menu-footer-menu-zh-hans-container,
+.menu-footer-menu-fr-container {
+	ul {
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: center;
+		list-style: none;
+		padding: 0;
 
-	li {
-		margin: 1em;
+		li {
+			margin: 1em;
 
-		a {
-			@include link(#767676);
+			a {
+				@include link(#767676);
+			}
 		}
 	}
 }

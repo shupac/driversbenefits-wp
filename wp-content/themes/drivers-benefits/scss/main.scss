@@ -87,3 +87,17 @@ button.btn {
 		width: 100%;
 	}
 }
+
+.image__responsive_header {
+	@media (max-width: 800px) {
+		margin: 0 -30px;
+		height: 260px;
+
+		img {
+			width: 100%;
+			height: 100%;
+			object-position: center;
+			object-fit: cover;
+		}
+	}
+}

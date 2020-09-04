@@ -16,3 +16,45 @@ div.wpforms-container-full .wpforms-form .wpforms-page-button {
 		border-color: #911717;
 	}
 }
+
+div.wpforms-container-full .wpforms-form input[type='submit']:disabled,
+div.wpforms-container-full .wpforms-form button[type='submit']:disabled,
+div.wpforms-container-full .wpforms-form .wpforms-page-button:disabled {
+	background-color: #cecece;
+
+	&:hover {
+		border-color: #979797;
+	}
+}
+
+div.wpforms-container-full .wpforms-form input[type='date'],
+div.wpforms-container-full .wpforms-form input[type='datetime'],
+div.wpforms-container-full .wpforms-form input[type='datetime-local'],
+div.wpforms-container-full .wpforms-form input[type='email'],
+div.wpforms-container-full .wpforms-form input[type='month'],
+div.wpforms-container-full .wpforms-form input[type='number'],
+div.wpforms-container-full .wpforms-form input[type='password'],
+div.wpforms-container-full .wpforms-form input[type='range'],
+div.wpforms-container-full .wpforms-form input[type='search'],
+div.wpforms-container-full .wpforms-form input[type='tel'],
+div.wpforms-container-full .wpforms-form input[type='text'],
+div.wpforms-container-full .wpforms-form input[type='time'],
+div.wpforms-container-full .wpforms-form input[type='url'],
+div.wpforms-container-full .wpforms-form input[type='week'],
+div.wpforms-container-full .wpforms-form select,
+div.wpforms-container-full .wpforms-form textarea {
+	max-width: 100%;
+	width: 100%;
+	border-radius: 4px;
+	border: 2px solid #979797;
+	background-color: transparent;
+}
+
+div.wpforms-container-full .wpforms-form .wpforms-field-label {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 18px;
+	color: #3a3a3a;
+}

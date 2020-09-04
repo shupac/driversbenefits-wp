@@ -1,5 +1,8 @@
 $(document).ready(() => {
-	const menuShadow = $('.menu-header-menu-container ul')
+	const lang = getLang()
+	const langClass = lang ? `${lang}-` : ''
+
+	const menuShadow = $(`.menu-header-menu-${langClass}container ul`)
 	const languageShadow = menuShadow.children()[0]
 	const phoneShadow = menuShadow.children()[1]
 	const signupShadow = menuShadow.children()[2]

@@ -1,4 +1,6 @@
 @charset "UTF-8";
+@import '../fonts/helveticaneue/style.css';
+@import '../fonts/roboto/style.css';
 .has-red-background-color {
   background-color: #bd1e1e;
 }
@@ -122,6 +124,49 @@ div.wpforms-container-full .wpforms-form .wpforms-page-button:hover,
 div.wpforms-container-full .wpforms-form .wpforms-page-button:focus {
   background-color: #9c1919;
   border-color: #911717;
+}
+
+div.wpforms-container-full .wpforms-form input[type=submit]:disabled,
+div.wpforms-container-full .wpforms-form button[type=submit]:disabled,
+div.wpforms-container-full .wpforms-form .wpforms-page-button:disabled {
+  background-color: #cecece;
+}
+div.wpforms-container-full .wpforms-form input[type=submit]:disabled:hover,
+div.wpforms-container-full .wpforms-form button[type=submit]:disabled:hover,
+div.wpforms-container-full .wpforms-form .wpforms-page-button:disabled:hover {
+  border-color: #979797;
+}
+
+div.wpforms-container-full .wpforms-form input[type=date],
+div.wpforms-container-full .wpforms-form input[type=datetime],
+div.wpforms-container-full .wpforms-form input[type=datetime-local],
+div.wpforms-container-full .wpforms-form input[type=email],
+div.wpforms-container-full .wpforms-form input[type=month],
+div.wpforms-container-full .wpforms-form input[type=number],
+div.wpforms-container-full .wpforms-form input[type=password],
+div.wpforms-container-full .wpforms-form input[type=range],
+div.wpforms-container-full .wpforms-form input[type=search],
+div.wpforms-container-full .wpforms-form input[type=tel],
+div.wpforms-container-full .wpforms-form input[type=text],
+div.wpforms-container-full .wpforms-form input[type=time],
+div.wpforms-container-full .wpforms-form input[type=url],
+div.wpforms-container-full .wpforms-form input[type=week],
+div.wpforms-container-full .wpforms-form select,
+div.wpforms-container-full .wpforms-form textarea {
+  max-width: 100%;
+  width: 100%;
+  border-radius: 4px;
+  border: 2px solid #979797;
+  background-color: transparent;
+}
+
+div.wpforms-container-full .wpforms-form .wpforms-field-label {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  color: #3a3a3a;
 }
 
 .header__header {
@@ -270,7 +315,10 @@ div.wpforms-container-full .wpforms-form .wpforms-page-button:focus {
   box-shadow: 0px 0.5px 0.5px 3px rgba(0, 0, 0, 0.05);
 }
 
-.menu-header-menu-container {
+.menu-header-menu-container,
+.menu-header-menu-es-container,
+.menu-header-menu-zh-hans-container,
+.menu-header-menu-fr-container {
   display: none;
 }
 
@@ -849,20 +897,32 @@ div.wpforms-container-full .wpforms-form .wpforms-page-button:focus {
   color: #bd1e1f;
 }
 
-.menu-footer-menu-container ul {
+.menu-footer-menu-container ul,
+.menu-footer-menu-es-container ul,
+.menu-footer-menu-zh-hans-container ul,
+.menu-footer-menu-fr-container ul {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
   list-style: none;
   padding: 0;
 }
-.menu-footer-menu-container ul li {
+.menu-footer-menu-container ul li,
+.menu-footer-menu-es-container ul li,
+.menu-footer-menu-zh-hans-container ul li,
+.menu-footer-menu-fr-container ul li {
   margin: 1em;
 }
-.menu-footer-menu-container ul li a {
+.menu-footer-menu-container ul li a,
+.menu-footer-menu-es-container ul li a,
+.menu-footer-menu-zh-hans-container ul li a,
+.menu-footer-menu-fr-container ul li a {
   color: #767676;
 }
-.menu-footer-menu-container ul li a:hover {
+.menu-footer-menu-container ul li a:hover,
+.menu-footer-menu-es-container ul li a:hover,
+.menu-footer-menu-zh-hans-container ul li a:hover,
+.menu-footer-menu-fr-container ul li a:hover {
   color: #767676;
 }
 
@@ -11082,6 +11142,19 @@ button.btn:focus {
 @media (max-width: 800px) {
   .covid__link_button {
     width: 100%;
+  }
+}
+
+@media (max-width: 800px) {
+  .image__responsive_header {
+    margin: 0 -30px;
+    height: 260px;
+  }
+  .image__responsive_header img {
+    width: 100%;
+    height: 100%;
+    object-position: center;
+    object-fit: cover;
   }
 }
 
