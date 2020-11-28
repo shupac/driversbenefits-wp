@@ -54,7 +54,7 @@ $(document).ready(() => {
 	$('.slick-dots').appendTo(hero)
 
 	setTimeout(() => {
-		signin.show()
+		// signin.show()
 		hero.fadeTo(500, 1)
 	}, 10)
 

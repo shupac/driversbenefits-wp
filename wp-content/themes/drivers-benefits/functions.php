@@ -54,7 +54,7 @@ add_action( 'wp_enqueue_scripts', 'load_bootstrap' );
 /**
  * Add support for custom color palettes in Gutenberg.
  */
-function tabor_gutenberg_color_palette() {
+function dbf_gutenberg_color_palette() {
 	add_theme_support(
 		'editor-color-palette', array(
 			array(
@@ -89,5 +89,7 @@ function tabor_gutenberg_color_palette() {
 			),
 		)
 	);
+	add_theme_support( 'editor-styles' );
+	add_editor_style( 'style-editor.css' );
 }
-add_action( 'after_setup_theme', 'tabor_gutenberg_color_palette' );
+add_action( 'after_setup_theme', 'dbf_gutenberg_color_palette' );

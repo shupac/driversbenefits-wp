@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 5.4.x package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-08-03 03:32:12+0000\n"
+"PO-Revision-Date: 2020-11-16 18:41:22+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,11 @@ msgstr ""
 "X-Generator: GlotPress/3.0.0-alpha.2\n"
 "Language: zh_CN\n"
 "Project-Id-Version: WordPress - 5.4.x\n"
+
+#: wp-includes/class-wp-xmlrpc-server.php:3887
+#: wp-includes/class-wp-xmlrpc-server.php:3894
+msgid "Sorry, you are not allowed to comment on this post."
+msgstr "抱歉，您不能对此文章评论。"
 
 #: wp-includes/js/dist/block-directory.js:1479
 #: wp-includes/js/dist/block-directory.js:1495
@@ -3503,39 +3508,39 @@ msgstr "不存在的变更集UUID。"
 msgid "Invalid changeset UUID"
 msgstr "无效的变更集UUID"
 
-#: wp-includes/functions.php:7439
+#: wp-includes/functions.php:7443
 msgid "Update PHP"
 msgstr "更新PHP"
 
 #. translators: %s: Default Update PHP page URL.
-#: wp-includes/functions.php:7382
+#: wp-includes/functions.php:7386
 msgid "This resource is provided by your web host, and is specific to your site. For more information, <a href=\"%s\" target=\"_blank\">see the official WordPress documentation</a>."
 msgstr "此资源由您的主机提供商提供，为您的站点独有。要获取更多信息，<a href=\"%s\" target=\"_blank\">请查阅官方WordPress文档</a>。"
 
-#: wp-includes/functions.php:7339
+#: wp-includes/functions.php:7343
 msgctxt "localized PHP upgrade information page"
 msgid "https://wordpress.org/support/update-php/"
 msgstr "https://wordpress.org/support/update-php/"
 
 #. translators: Deleted long text.
-#: wp-includes/functions.php:7166
+#: wp-includes/functions.php:7170
 msgid "This content was deleted by the author."
 msgstr "此内容已被作者删除。"
 
 #. translators: Deleted text.
-#: wp-includes/functions.php:7162
+#: wp-includes/functions.php:7166
 msgid "[deleted]"
 msgstr "[已删除]"
 
 #. translators: Site admin email change notification email subject. %s: Site
 #. title.
-#: wp-includes/functions.php:7019
+#: wp-includes/functions.php:7023
 msgid "[%s] Admin Email Changed"
 msgstr "[%s] 管理员电子邮件已更改"
 
 #. translators: Do not translate OLD_EMAIL, NEW_EMAIL, SITENAME, SITEURL: those
 #. are placeholders.
-#: wp-includes/functions.php:7002
+#: wp-includes/functions.php:7006
 msgid ""
 "Hi,\n"
 "\n"
@@ -3561,69 +3566,69 @@ msgstr ""
 "###SITENAME###团队\n"
 "###SITEURL###"
 
-#: wp-includes/functions.php:6918
+#: wp-includes/functions.php:6922
 msgid "Only UUID V4 is supported at this time."
 msgstr "现时仅支持UUID V4。"
 
-#: wp-includes/functions.php:6505
+#: wp-includes/functions.php:6509
 msgid "The login page will open in a new tab. After logging in you can close it and return to this page."
 msgstr "登录页将在新标签页中打开。登录后您可关闭该页并返回本页。"
 
-#: wp-includes/functions.php:5804
+#: wp-includes/functions.php:5808
 msgid "Manual Offsets"
 msgstr "手动指定偏差"
 
-#: wp-includes/functions.php:5795 wp-includes/functions.php:5800
+#: wp-includes/functions.php:5799 wp-includes/functions.php:5804
 msgid "UTC"
 msgstr "协调世界时（UTC）"
 
-#: wp-includes/functions.php:5750
+#: wp-includes/functions.php:5754
 msgid "Select a city"
 msgstr "选择一个城市"
 
 #. translators: Developer debugging message. 1: PHP function name, 2:
 #. Explanatory message, 3: Version information message.
-#: wp-includes/functions.php:5162
+#: wp-includes/functions.php:5166
 msgid "%1$s was called <strong>incorrectly</strong>. %2$s %3$s"
 msgstr "%1$s的调用方法<strong>不正确</strong>。%2$s %3$s"
 
 #. translators: %s: Documentation URL.
-#: wp-includes/functions.php:5155
+#: wp-includes/functions.php:5159
 msgid "Please see <a href=\"%s\">Debugging in WordPress</a> for more information."
 msgstr "请查阅<a href=\"%s\">调试WordPress</a>来获取更多信息。"
 
 #. translators: %s: Version number.
-#: wp-includes/functions.php:5150
+#: wp-includes/functions.php:5154
 msgid "(This message was added in version %s.)"
 msgstr "（这个消息是在%s版本添加的。）"
 
 #. translators: 1: PHP function name, 2: Version number.
-#: wp-includes/functions.php:5003
+#: wp-includes/functions.php:5007
 msgid "%1$s was called with an argument that is <strong>deprecated</strong> since version %2$s with no alternative available."
 msgstr "自%2$s版本起，已<strong>不建议</strong>给%1$s传入一个参数！没有替代方案。"
 
 #. translators: 1: PHP function name, 2: Version number, 3: Optional message
 #. regarding the change.
-#: wp-includes/functions.php:4992
+#: wp-includes/functions.php:4996
 msgid "%1$s was called with an argument that is <strong>deprecated</strong> since version %2$s! %3$s"
 msgstr "自%2$s版本起，已<strong>不建议</strong>给%1$s传入一个参数！%3$s"
 
 #. translators: 1: PHP class name, 2: Version number, 3: __construct() method.
-#: wp-includes/functions.php:4812
+#: wp-includes/functions.php:4816
 msgid "The called constructor method for %1$s is <strong>deprecated</strong> since version %2$s! Use %3$s instead."
 msgstr "为%1$s调用的构造方法已自版本%2$s起<strong>废弃</strong>！请改用%3$s。"
 
 #. translators: 1: PHP class name, 2: PHP parent class name, 3: Version number,
 #. 4: __construct() method.
-#: wp-includes/functions.php:4800
+#: wp-includes/functions.php:4804
 msgid "The called constructor method for %1$s in %2$s is <strong>deprecated</strong> since version %3$s! Use %4$s instead."
 msgstr "在%2$s中为%1$s调用的构造函数已自版本%3$s起<strong>废弃</strong>！请改用%4$s。"
 
 #. translators: 1: PHP function name, 2: Version number.
 #. translators: 1: PHP file name, 2: Version number.
 #. translators: 1: WordPress hook name, 2: Version number.
-#: wp-includes/functions.php:4719 wp-includes/functions.php:4909
-#: wp-includes/functions.php:5094
+#: wp-includes/functions.php:4723 wp-includes/functions.php:4913
+#: wp-includes/functions.php:5098
 msgid "%1$s is <strong>deprecated</strong> since version %2$s with no alternative available."
 msgstr "自%2$s版本起，已<strong>不建议使用</strong>%1$s。没有替代方案。"
 
@@ -3632,53 +3637,53 @@ msgstr "自%2$s版本起，已<strong>不建议使用</strong>%1$s。没有替�
 #. translators: 1: PHP file name, 2: Version number, 3: Alternative file name.
 #. translators: 1: WordPress hook name, 2: Version number, 3: Alternative hook
 #. name.
-#: wp-includes/functions.php:4708 wp-includes/functions.php:4898
-#: wp-includes/functions.php:5083
+#: wp-includes/functions.php:4712 wp-includes/functions.php:4902
+#: wp-includes/functions.php:5087
 msgid "%1$s is <strong>deprecated</strong> since version %2$s! Use %3$s instead."
 msgstr "自%2$s版本起，已<strong>不建议使用</strong>%1$s，请换用%3$s。"
 
-#: wp-includes/functions.php:4648
+#: wp-includes/functions.php:4652
 msgid "Database Error"
 msgstr "数据库错误"
 
-#: wp-includes/functions.php:3394
+#: wp-includes/functions.php:3398
 msgid "&laquo; Back"
 msgstr "&laquo; 返回"
 
-#: wp-includes/functions.php:3224
+#: wp-includes/functions.php:3228
 msgid "Please try again."
 msgstr "请重试。"
 
-#: wp-includes/functions.php:3218
+#: wp-includes/functions.php:3222
 msgid "The link you followed has expired."
 msgstr "您点击的链接已过期。"
 
 #. translators: %s: Logout URL.
-#: wp-includes/functions.php:3214
+#: wp-includes/functions.php:3218
 msgid "Do you really want to <a href=\"%s\">log out</a>?"
 msgstr "您确实要<a href=\"%s\">注销</a>？"
 
 #. translators: %s: Site title.
-#: wp-includes/functions.php:3207
+#: wp-includes/functions.php:3211
 msgid "You are attempting to log out of %s"
 msgstr "您正试图注销%s"
 
 #. translators: %s: File name.
-#: wp-includes/functions.php:2685
+#: wp-includes/functions.php:2689
 msgid "Could not write file %s"
 msgstr "无法写文件%s"
 
-#: wp-includes/functions.php:2626
+#: wp-includes/functions.php:2630
 msgid "Empty filename"
 msgstr "文件名为空"
 
 #. translators: %s: Directory path.
-#: wp-includes/functions.php:2311 wp-includes/functions.php:2675
+#: wp-includes/functions.php:2315 wp-includes/functions.php:2679
 msgid "Unable to create directory %s. Is its parent directory writable by the server?"
 msgstr "无法建立目录%s。有没有上级目录的写权限？"
 
 #. translators: %s: Database repair URL.
-#: wp-includes/functions.php:1756
+#: wp-includes/functions.php:1760
 msgid "One or more database tables are unavailable. The database may need to be <a href=\"%s\">repaired</a>."
 msgstr "一些数据表不可用。也许需要<a href=\"%s\">修复数据库</a>。"
 
@@ -5508,7 +5513,7 @@ msgstr "了解更多在WordPress中调试的信息。"
 
 #. translators: Documentation explaining debugging in WordPress.
 #: wp-includes/class-wp-fatal-error-handler.php:190
-#: wp-includes/functions.php:5156
+#: wp-includes/functions.php:5160
 #: wp-admin/includes/class-wp-site-health.php:1389
 msgid "https://wordpress.org/support/article/debugging-in-wordpress/"
 msgstr "https://wordpress.org/support/article/debugging-in-wordpress/"
@@ -6121,7 +6126,7 @@ msgstr "%1$s（%2$s）"
 msgid "<strong>Error</strong>: Your account has been marked as a spammer."
 msgstr "<strong>错误</strong>：您的账户已被标记为垃圾账户。"
 
-#: wp-includes/user.php:291 wp-includes/functions.php:6504
+#: wp-includes/user.php:291 wp-includes/functions.php:6508
 msgid "Please log in again."
 msgstr "请重新登录。"
 
@@ -7719,7 +7724,7 @@ msgstr "相册设置"
 #: wp-includes/media-template.php:810 wp-includes/media-template.php:890
 #: wp-includes/media-template.php:1081 wp-includes/media.php:3535
 #: wp-includes/js/dist/block-editor.js:8758
-#: wp-admin/includes/class-custom-background.php:598
+#: wp-admin/includes/class-custom-background.php:600
 #: wp-admin/includes/media.php:1148 wp-admin/edit-form-blocks.php:218
 msgid "Full Size"
 msgstr "完整尺寸"
@@ -7728,7 +7733,7 @@ msgstr "完整尺寸"
 #: wp-includes/media-template.php:1080 wp-includes/media.php:3534
 #: wp-includes/js/dist/components.js:33402
 #: wp-includes/js/dist/block-editor.js:8755
-#: wp-admin/includes/class-custom-background.php:597
+#: wp-admin/includes/class-custom-background.php:599
 #: wp-admin/includes/media.php:1147 wp-admin/edit-form-blocks.php:217
 msgid "Large"
 msgstr "大"
@@ -7737,7 +7742,7 @@ msgstr "大"
 #: wp-includes/media-template.php:1079 wp-includes/media.php:3533
 #: wp-includes/js/dist/components.js:33399
 #: wp-includes/js/dist/block-editor.js:8752
-#: wp-admin/includes/class-custom-background.php:596
+#: wp-admin/includes/class-custom-background.php:598
 #: wp-admin/includes/media.php:1146 wp-admin/edit-form-blocks.php:216
 msgid "Medium"
 msgstr "中等"
@@ -7745,7 +7750,7 @@ msgstr "中等"
 #: wp-includes/media-template.php:807 wp-includes/media-template.php:887
 #: wp-includes/media-template.php:1078 wp-includes/media.php:3532
 #: wp-includes/js/dist/block-editor.js:8749
-#: wp-admin/includes/class-custom-background.php:595
+#: wp-admin/includes/class-custom-background.php:597
 #: wp-admin/includes/image-edit.php:183 wp-admin/includes/media.php:1145
 #: wp-admin/edit-form-blocks.php:215
 msgid "Thumbnail"
@@ -8108,7 +8113,7 @@ msgid "Drop files to upload"
 msgstr "拖文件至此可上传"
 
 #: wp-includes/media-template.php:205 wp-includes/media-template.php:353
-#: wp-includes/functions.php:6485 wp-includes/js/dist/components.js:37940
+#: wp-includes/functions.php:6489 wp-includes/js/dist/components.js:37940
 msgid "Close dialog"
 msgstr "关闭对话框"
 
@@ -8133,42 +8138,42 @@ msgstr "操作"
 msgid "<a href=\"%1$s\" %2$s>Describe the purpose of the image%3$s</a>. Leave empty if the image is purely decorative."
 msgstr "<a href=\"%1$s\" %2$s>描述此图像的用途%3$s</a>。如此图像仅作装饰用，请留空。"
 
-#: wp-includes/embed.php:1183
+#: wp-includes/embed.php:1188
 msgid "Close sharing dialog"
 msgstr "关闭分享对话框"
 
-#: wp-includes/embed.php:1178
+#: wp-includes/embed.php:1183
 msgid "Copy and paste this code into your site to embed"
 msgstr "复制并粘贴此URL进您的站点来嵌入"
 
-#: wp-includes/embed.php:1171
+#: wp-includes/embed.php:1176
 msgid "Copy and paste this URL into your WordPress site to embed"
 msgstr "复制并粘贴此URL进您的WordPress站点来嵌入"
 
-#: wp-includes/embed.php:1164
+#: wp-includes/embed.php:1169
 msgid "HTML Embed"
 msgstr "HTML嵌入"
 
-#: wp-includes/embed.php:1161
+#: wp-includes/embed.php:1166
 msgid "WordPress Embed"
 msgstr "WordPress嵌入"
 
-#: wp-includes/embed.php:1156
+#: wp-includes/embed.php:1161
 msgid "Sharing options"
 msgstr "分享选项"
 
-#: wp-includes/embed.php:1139
+#: wp-includes/embed.php:1144
 msgid "Open sharing dialog"
 msgstr "打开分享对话框"
 
 #. translators: %s: Number of comments.
-#: wp-includes/embed.php:1115
+#: wp-includes/embed.php:1120
 msgid "%s <span class=\"screen-reader-text\">Comment</span>"
 msgid_plural "%s <span class=\"screen-reader-text\">Comments</span>"
 msgstr[0] "%s<span class=\"screen-reader-text\">条评论</span>"
 
 #. translators: %s: Post title.
-#: wp-includes/embed.php:956 wp-includes/post-template.php:296
+#: wp-includes/embed.php:961 wp-includes/post-template.php:296
 msgid "Continue reading %s"
 msgstr "继续阅读%s"
 
@@ -9010,7 +9015,7 @@ msgstr "您确定用户名和密码正确吗？"
 msgid "This either means that the username and password information in your %1$s file is incorrect or we can&#8217;t contact the database server at %2$s. This could mean your host&#8217;s database server is down."
 msgstr "这意味着您在%1$s文件中指定的用户名和密码信息不正确，或我们未能在%2$s联系到数据库服务器。这可能意味着您主机的数据库服务器未在运行。"
 
-#: wp-includes/wp-db.php:1674 wp-includes/functions.php:4648
+#: wp-includes/wp-db.php:1674 wp-includes/functions.php:4652
 #: wp-includes/ms-load.php:473
 msgid "Error establishing a database connection"
 msgstr "建立数据库连接时出错"
@@ -10539,7 +10544,7 @@ msgstr "此站点已禁用JSONP支持。"
 msgid "The REST API can no longer be completely disabled, the %s filter can be used to restrict access to the API, instead."
 msgstr "REST API不再能被完全禁用，不过您可以用%s过滤器来限制对该API的访问。"
 
-#: wp-includes/meta.php:1210
+#: wp-includes/meta.php:1211
 msgid "When registering an \"array\" meta type to show in the REST API, you must specify the schema for each array item in \"show_in_rest.schema.items\"."
 msgstr "当在REST API中注册“array”媒体类型来显示时，您必须在“show_in_rest.schema.items”中对每个数组项目指定模式。"
 
@@ -11385,129 +11390,129 @@ msgstr "页面"
 msgid "A list of your site&#8217;s Pages."
 msgstr "您站点的文章列表。"
 
-#: wp-includes/class-wp-xmlrpc-server.php:7020
+#: wp-includes/class-wp-xmlrpc-server.php:7035
 msgid "The specified target URL does not exist."
 msgstr "指定的目标URL不存在。"
 
 #. translators: 1: URL of the page linked from, 2: URL of the page linked to.
-#: wp-includes/class-wp-xmlrpc-server.php:6987
+#: wp-includes/class-wp-xmlrpc-server.php:7002
 msgid "Pingback from %1$s to %2$s registered. Keep the web talking! :-)"
 msgstr "自%1$s，到%2$s的pingback引用通告注册成功。保持web交流畅通 :-)"
 
-#: wp-includes/class-wp-xmlrpc-server.php:6943
+#: wp-includes/class-wp-xmlrpc-server.php:6958
 msgid "The source URL does not contain a link to the target URL, and so cannot be used as a source."
 msgstr "源URL不包含目标URL的链接，因此无法作为源。"
 
-#: wp-includes/class-wp-xmlrpc-server.php:6901
+#: wp-includes/class-wp-xmlrpc-server.php:6916
 msgid "We cannot find a title on that page."
 msgstr "我们没有找到页面标题。"
 
-#: wp-includes/class-wp-xmlrpc-server.php:6880
+#: wp-includes/class-wp-xmlrpc-server.php:6895
 msgid "The source URL does not exist."
 msgstr "源URL不存在。"
 
-#: wp-includes/class-wp-xmlrpc-server.php:6853
+#: wp-includes/class-wp-xmlrpc-server.php:6868
 msgid "The pingback has already been registered."
 msgstr "此pingback已被注册过了。"
 
-#: wp-includes/class-wp-xmlrpc-server.php:6843
+#: wp-includes/class-wp-xmlrpc-server.php:6858
 msgid "The source URL and the target URL cannot both point to the same resource."
 msgstr "源URL和目标URL不能指向同一资源。"
 
-#: wp-includes/class-wp-xmlrpc-server.php:6832
-#: wp-includes/class-wp-xmlrpc-server.php:6839
-#: wp-includes/class-wp-xmlrpc-server.php:6848
-#: wp-includes/class-wp-xmlrpc-server.php:7013
+#: wp-includes/class-wp-xmlrpc-server.php:6847
+#: wp-includes/class-wp-xmlrpc-server.php:6854
+#: wp-includes/class-wp-xmlrpc-server.php:6863
+#: wp-includes/class-wp-xmlrpc-server.php:7028
 msgid "The specified target URL cannot be used as a target. It either doesn&#8217;t exist, or it is not a pingback-enabled resource."
 msgstr "指定的目标URL无法作为目标使用。可能因为目标不存在，或不是一个可供pingback的资源。"
 
-#: wp-includes/class-wp-xmlrpc-server.php:6792
+#: wp-includes/class-wp-xmlrpc-server.php:6807
 msgid "Is there no link to us?"
 msgstr "是否没有我们的链接？"
 
-#: wp-includes/class-wp-xmlrpc-server.php:6786 wp-includes/class-http.php:275
+#: wp-includes/class-wp-xmlrpc-server.php:6801 wp-includes/class-http.php:275
 #: wp-includes/class-http.php:503
 msgid "A valid URL was not provided."
 msgstr "URL无效。"
 
 #. translators: 1: File name, 2: Error message.
-#: wp-includes/class-wp-xmlrpc-server.php:6352
+#: wp-includes/class-wp-xmlrpc-server.php:6367
 msgid "Could not write file %1$s (%2$s)."
 msgstr "无法写入文件%1$s（%2$s）。"
 
 #. translators: %s: Allowed space allocation.
-#: wp-includes/class-wp-xmlrpc-server.php:6327 wp-admin/includes/media.php:3059
+#: wp-includes/class-wp-xmlrpc-server.php:6342 wp-admin/includes/media.php:3059
 #: wp-admin/includes/ms.php:231 wp-admin/includes/ms-deprecated.php:35
 msgid "Sorry, you have used your space allocation of %s. Please delete some files to upload more files."
 msgstr "抱歉，您已经用尽了您的空间配额（%s）。请删除一些文件后再上传更多文件。"
 
-#: wp-includes/class-wp-xmlrpc-server.php:5851
+#: wp-includes/class-wp-xmlrpc-server.php:5866
 msgid "Sorry, you are not allowed to publish this page."
 msgstr "抱歉，您不能发布此页面。"
 
-#: wp-includes/class-wp-xmlrpc-server.php:5741
+#: wp-includes/class-wp-xmlrpc-server.php:5756
 msgid "Sorry, you are not allowed to change the page author as this user."
 msgstr "抱歉，您不能作为此用户修改页面作者。"
 
-#: wp-includes/class-wp-xmlrpc-server.php:5736
+#: wp-includes/class-wp-xmlrpc-server.php:5751
 msgid "Sorry, you are not allowed to change the post author as this user."
 msgstr "抱歉，您不能作为此用户修改文章作者。"
 
-#: wp-includes/class-wp-xmlrpc-server.php:5373 wp-admin/includes/post.php:40
+#: wp-includes/class-wp-xmlrpc-server.php:5388 wp-admin/includes/post.php:40
 #: wp-admin/includes/post.php:85
 msgid "Sorry, you are not allowed to create pages as this user."
 msgstr "抱歉，您不能作为此用户创建文章。"
 
-#: wp-includes/class-wp-xmlrpc-server.php:5329
-#: wp-includes/class-wp-xmlrpc-server.php:5684
+#: wp-includes/class-wp-xmlrpc-server.php:5344
+#: wp-includes/class-wp-xmlrpc-server.php:5699
 msgid "Invalid post format."
 msgstr "无效的文章格式。"
 
-#: wp-includes/class-wp-xmlrpc-server.php:5300
-#: wp-includes/class-wp-xmlrpc-server.php:5314
-#: wp-includes/class-wp-xmlrpc-server.php:5319
+#: wp-includes/class-wp-xmlrpc-server.php:5315
+#: wp-includes/class-wp-xmlrpc-server.php:5329
+#: wp-includes/class-wp-xmlrpc-server.php:5334
 msgid "Sorry, you are not allowed to publish posts on this site."
 msgstr "抱歉，您无权在本站点发布文章。"
 
-#: wp-includes/class-wp-xmlrpc-server.php:5287
+#: wp-includes/class-wp-xmlrpc-server.php:5302
 msgid "Sorry, you are not allowed to publish pages on this site."
 msgstr "抱歉，您无权在本站点发布页面。"
 
-#: wp-includes/class-wp-xmlrpc-server.php:5127
-#: wp-includes/class-wp-xmlrpc-server.php:5853
-#: wp-includes/class-wp-xmlrpc-server.php:6733
+#: wp-includes/class-wp-xmlrpc-server.php:5142
+#: wp-includes/class-wp-xmlrpc-server.php:5868
+#: wp-includes/class-wp-xmlrpc-server.php:6748
 msgid "Sorry, you are not allowed to publish this post."
 msgstr "抱歉，您不能发布此文章。"
 
-#: wp-includes/class-wp-xmlrpc-server.php:5118
-#: wp-includes/class-wp-xmlrpc-server.php:5192
-#: wp-includes/class-wp-xmlrpc-server.php:6093
-#: wp-includes/class-wp-xmlrpc-server.php:6673
+#: wp-includes/class-wp-xmlrpc-server.php:5133
+#: wp-includes/class-wp-xmlrpc-server.php:5207
+#: wp-includes/class-wp-xmlrpc-server.php:6108
+#: wp-includes/class-wp-xmlrpc-server.php:6688
 msgid "Sorry, no such post."
 msgstr "抱歉，无此文章。"
 
-#: wp-includes/class-wp-xmlrpc-server.php:4989
-#: wp-includes/class-wp-xmlrpc-server.php:5002
+#: wp-includes/class-wp-xmlrpc-server.php:5004
+#: wp-includes/class-wp-xmlrpc-server.php:5017
 msgid "Sorry, this method is not supported."
 msgstr "抱歉，不支持此方法。"
 
-#: wp-includes/class-wp-xmlrpc-server.php:4951
-#: wp-includes/class-wp-xmlrpc-server.php:6439
+#: wp-includes/class-wp-xmlrpc-server.php:4966
+#: wp-includes/class-wp-xmlrpc-server.php:6454
 msgid "Either there are no posts, or something went wrong."
 msgstr "没有文章，或发生了其它异常。"
 
-#: wp-includes/class-wp-xmlrpc-server.php:4835
+#: wp-includes/class-wp-xmlrpc-server.php:4850
 msgid "Sorry, you are not allowed to access user data on this site."
 msgstr "抱歉，您不能在此站点上访问用户数据。"
 
-#: wp-includes/class-wp-xmlrpc-server.php:4621
-#: wp-includes/class-wp-xmlrpc-server.php:4704
+#: wp-includes/class-wp-xmlrpc-server.php:4636
+#: wp-includes/class-wp-xmlrpc-server.php:4719
 msgid "Sorry, revisions are disabled."
 msgstr "抱歉，修订版本记录功能已关闭。"
 
-#: wp-includes/class-wp-xmlrpc-server.php:4288
-#: wp-includes/class-wp-xmlrpc-server.php:4341
-#: wp-includes/class-wp-xmlrpc-server.php:6318
+#: wp-includes/class-wp-xmlrpc-server.php:4303
+#: wp-includes/class-wp-xmlrpc-server.php:4356
+#: wp-includes/class-wp-xmlrpc-server.php:6333
 #: wp-admin/includes/ajax-actions.php:2426
 #: wp-admin/includes/ajax-actions.php:2492 wp-admin/async-upload.php:38
 #: wp-admin/upload.php:13 wp-admin/media-new.php:16
@@ -11515,27 +11520,27 @@ msgstr "抱歉，修订版本记录功能已关闭。"
 msgid "Sorry, you are not allowed to upload files."
 msgstr "抱歉，您不能上传文件。"
 
-#: wp-includes/class-wp-xmlrpc-server.php:4231
+#: wp-includes/class-wp-xmlrpc-server.php:4246
 msgid "Sorry, you are not allowed to update options."
 msgstr "抱歉，您不能更新选项。"
 
-#: wp-includes/class-wp-xmlrpc-server.php:4018
+#: wp-includes/class-wp-xmlrpc-server.php:4033
 msgid "Sorry, you are not allowed to access details of this post."
 msgstr "抱歉，您不能访问此文章的详情。"
 
-#: wp-includes/class-wp-xmlrpc-server.php:3976
-#: wp-includes/class-wp-xmlrpc-server.php:4060
-#: wp-includes/class-wp-xmlrpc-server.php:4095
-#: wp-includes/class-wp-xmlrpc-server.php:4130
-#: wp-includes/class-wp-xmlrpc-server.php:4397
+#: wp-includes/class-wp-xmlrpc-server.php:3991
+#: wp-includes/class-wp-xmlrpc-server.php:4075
+#: wp-includes/class-wp-xmlrpc-server.php:4110
+#: wp-includes/class-wp-xmlrpc-server.php:4145
+#: wp-includes/class-wp-xmlrpc-server.php:4412
 msgid "Sorry, you are not allowed to access details about this site."
 msgstr "抱歉，您不能访问此站点的详情。"
 
-#: wp-includes/class-wp-xmlrpc-server.php:3918
+#: wp-includes/class-wp-xmlrpc-server.php:3933
 msgid "A valid email address is required."
 msgstr "需要有效的电子邮件地址。"
 
-#: wp-includes/class-wp-xmlrpc-server.php:3916
+#: wp-includes/class-wp-xmlrpc-server.php:3931
 msgid "Comment author name and email are required."
 msgstr "评论作者名字和电邮是必填的。"
 
@@ -11585,8 +11590,8 @@ msgid "Invalid comment ID."
 msgstr "评论ID无效。"
 
 #: wp-includes/class-wp-xmlrpc-server.php:3485
-#: wp-includes/class-wp-xmlrpc-server.php:6250
-#: wp-includes/class-wp-xmlrpc-server.php:6492
+#: wp-includes/class-wp-xmlrpc-server.php:6265
+#: wp-includes/class-wp-xmlrpc-server.php:6507
 msgid "Sorry, you must be able to edit posts on this site in order to view categories."
 msgstr "抱歉，您必须有在本站点编辑文章的权限，才能浏览分类目录。"
 
@@ -11608,9 +11613,9 @@ msgid "Sorry, you must be able to edit posts on this site in order to view tags.
 msgstr "抱歉，您必须有编辑本站点文章的权限，才能浏览标签。"
 
 #: wp-includes/class-wp-xmlrpc-server.php:3251
-#: wp-includes/class-wp-xmlrpc-server.php:4616
-#: wp-includes/class-wp-xmlrpc-server.php:4942
-#: wp-includes/class-wp-xmlrpc-server.php:6129 wp-admin/includes/post.php:470
+#: wp-includes/class-wp-xmlrpc-server.php:4631
+#: wp-includes/class-wp-xmlrpc-server.php:4957
+#: wp-includes/class-wp-xmlrpc-server.php:6144 wp-admin/includes/post.php:470
 msgid "Sorry, you are not allowed to edit posts."
 msgstr "抱歉，您没有编辑这篇文章的权限。"
 
@@ -11738,7 +11743,7 @@ msgid "Sorry, you are not allowed to create terms in this taxonomy."
 msgstr "抱歉，您不能在此分类法中创建项目。"
 
 #: wp-includes/class-wp-xmlrpc-server.php:1947
-#: wp-includes/class-wp-xmlrpc-server.php:4490
+#: wp-includes/class-wp-xmlrpc-server.php:4505
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:143
 #: wp-includes/rest-api/endpoints/class-wp-rest-post-types-controller.php:94
 #: wp-includes/rest-api/endpoints/class-wp-rest-post-types-controller.php:156
@@ -11747,12 +11752,12 @@ msgid "Sorry, you are not allowed to edit posts in this post type."
 msgstr "抱歉，您不能在此文章类型中编辑文章。"
 
 #: wp-includes/class-wp-xmlrpc-server.php:1786
-#: wp-includes/class-wp-xmlrpc-server.php:5202
+#: wp-includes/class-wp-xmlrpc-server.php:5217
 msgid "Sorry, the post could not be deleted."
 msgstr "抱歉，此文章不能被删除。"
 
 #: wp-includes/class-wp-xmlrpc-server.php:1780
-#: wp-includes/class-wp-xmlrpc-server.php:5196
+#: wp-includes/class-wp-xmlrpc-server.php:5211
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:853
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:901
 msgid "Sorry, you are not allowed to delete this post."
@@ -11763,14 +11768,14 @@ msgid "There is a revision of this post that is more recent."
 msgstr "数据库中存在比文章当前状态还新的版本。"
 
 #: wp-includes/class-wp-xmlrpc-server.php:1645
-#: wp-includes/class-wp-xmlrpc-server.php:5062
-#: wp-includes/class-wp-xmlrpc-server.php:5555
+#: wp-includes/class-wp-xmlrpc-server.php:5077
+#: wp-includes/class-wp-xmlrpc-server.php:5570
 msgid "Sorry, the post could not be created."
 msgstr "抱歉，此文章不能被创建。"
 
 #: wp-includes/class-wp-xmlrpc-server.php:1643
-#: wp-includes/class-wp-xmlrpc-server.php:5142
-#: wp-includes/class-wp-xmlrpc-server.php:5900
+#: wp-includes/class-wp-xmlrpc-server.php:5157
+#: wp-includes/class-wp-xmlrpc-server.php:5915
 msgid "Sorry, the post could not be updated."
 msgstr "抱歉，此文章不能被更新。"
 
@@ -11800,20 +11805,20 @@ msgid "Sorry, one of the given taxonomies is not supported by the post type."
 msgstr "抱歉，文章类型不支持您的分类法。"
 
 #: wp-includes/class-wp-xmlrpc-server.php:1498
-#: wp-includes/class-wp-xmlrpc-server.php:4296
-#: wp-includes/class-wp-xmlrpc-server.php:5531
-#: wp-includes/class-wp-xmlrpc-server.php:5925
+#: wp-includes/class-wp-xmlrpc-server.php:4311
+#: wp-includes/class-wp-xmlrpc-server.php:5546
+#: wp-includes/class-wp-xmlrpc-server.php:5940
 msgid "Invalid attachment ID."
 msgstr "无效附件ID。"
 
 #: wp-includes/class-wp-xmlrpc-server.php:1448
-#: wp-includes/class-wp-xmlrpc-server.php:5381
+#: wp-includes/class-wp-xmlrpc-server.php:5396
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1158
 msgid "Invalid author ID."
 msgstr "作者ID无效。"
 
 #: wp-includes/class-wp-xmlrpc-server.php:1442
-#: wp-includes/class-wp-xmlrpc-server.php:5368
+#: wp-includes/class-wp-xmlrpc-server.php:5383
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:537
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:553
 #: wp-admin/includes/post.php:42 wp-admin/includes/post.php:87
@@ -11836,25 +11841,25 @@ msgid "Sorry, you are not allowed to create private posts in this post type."
 msgstr "抱歉，您不能在此文章类型中创建私人文章。"
 
 #: wp-includes/class-wp-xmlrpc-server.php:1409
-#: wp-includes/class-wp-xmlrpc-server.php:5040
+#: wp-includes/class-wp-xmlrpc-server.php:5055
 msgid "Sorry, you are not allowed to post on this site."
 msgstr "抱歉，您无权在本站点进行发布。"
 
 #: wp-includes/class-wp-xmlrpc-server.php:1405
-#: wp-includes/class-wp-xmlrpc-server.php:5677
+#: wp-includes/class-wp-xmlrpc-server.php:5692
 msgid "The post type may not be changed."
 msgstr "不可修改文章类型。"
 
 #: wp-includes/class-wp-xmlrpc-server.php:1402
 #: wp-includes/class-wp-xmlrpc-server.php:1881
-#: wp-includes/class-wp-xmlrpc-server.php:4699
-#: wp-includes/class-wp-xmlrpc-server.php:4885
-#: wp-includes/class-wp-xmlrpc-server.php:5124
-#: wp-includes/class-wp-xmlrpc-server.php:5667
-#: wp-includes/class-wp-xmlrpc-server.php:5988
-#: wp-includes/class-wp-xmlrpc-server.php:6361
-#: wp-includes/class-wp-xmlrpc-server.php:6550
-#: wp-includes/class-wp-xmlrpc-server.php:6608
+#: wp-includes/class-wp-xmlrpc-server.php:4714
+#: wp-includes/class-wp-xmlrpc-server.php:4900
+#: wp-includes/class-wp-xmlrpc-server.php:5139
+#: wp-includes/class-wp-xmlrpc-server.php:5682
+#: wp-includes/class-wp-xmlrpc-server.php:6003
+#: wp-includes/class-wp-xmlrpc-server.php:6376
+#: wp-includes/class-wp-xmlrpc-server.php:6565
+#: wp-includes/class-wp-xmlrpc-server.php:6623
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:431
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:708
 #: wp-admin/includes/post.php:257 wp-admin/includes/post.php:1876
@@ -11870,17 +11875,17 @@ msgstr "抱歉，您没有修改这篇文章的权限。"
 #: wp-includes/class-wp-xmlrpc-server.php:2921
 #: wp-includes/class-wp-xmlrpc-server.php:3867
 #: wp-includes/class-wp-xmlrpc-server.php:3871
-#: wp-includes/class-wp-xmlrpc-server.php:4014
-#: wp-includes/class-wp-xmlrpc-server.php:4612
-#: wp-includes/class-wp-xmlrpc-server.php:4686
-#: wp-includes/class-wp-xmlrpc-server.php:4690
-#: wp-includes/class-wp-xmlrpc-server.php:4695
-#: wp-includes/class-wp-xmlrpc-server.php:4881
-#: wp-includes/class-wp-xmlrpc-server.php:5663
-#: wp-includes/class-wp-xmlrpc-server.php:5984
-#: wp-includes/class-wp-xmlrpc-server.php:6546
-#: wp-includes/class-wp-xmlrpc-server.php:6604
-#: wp-includes/class-wp-xmlrpc-server.php:6729
+#: wp-includes/class-wp-xmlrpc-server.php:4029
+#: wp-includes/class-wp-xmlrpc-server.php:4627
+#: wp-includes/class-wp-xmlrpc-server.php:4701
+#: wp-includes/class-wp-xmlrpc-server.php:4705
+#: wp-includes/class-wp-xmlrpc-server.php:4710
+#: wp-includes/class-wp-xmlrpc-server.php:4896
+#: wp-includes/class-wp-xmlrpc-server.php:5678
+#: wp-includes/class-wp-xmlrpc-server.php:5999
+#: wp-includes/class-wp-xmlrpc-server.php:6561
+#: wp-includes/class-wp-xmlrpc-server.php:6619
+#: wp-includes/class-wp-xmlrpc-server.php:6744
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:361
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:828
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:398
@@ -11892,11 +11897,11 @@ msgstr "文章ID无效。"
 #: wp-includes/class-wp-xmlrpc-server.php:1392
 #: wp-includes/class-wp-xmlrpc-server.php:1940
 #: wp-includes/class-wp-xmlrpc-server.php:3609
-#: wp-includes/class-wp-xmlrpc-server.php:4484
-#: wp-includes/class-wp-xmlrpc-server.php:5304
-#: wp-includes/class-wp-xmlrpc-server.php:5377
-#: wp-includes/class-wp-xmlrpc-server.php:5672
-#: wp-includes/class-wp-xmlrpc-server.php:5745
+#: wp-includes/class-wp-xmlrpc-server.php:4499
+#: wp-includes/class-wp-xmlrpc-server.php:5319
+#: wp-includes/class-wp-xmlrpc-server.php:5392
+#: wp-includes/class-wp-xmlrpc-server.php:5687
+#: wp-includes/class-wp-xmlrpc-server.php:5760
 #: wp-includes/rest-api/endpoints/class-wp-rest-post-types-controller.php:140
 #: wp-includes/post.php:1470 wp-includes/class-wp-customize-nav-menus.php:883
 #: wp-admin/async-upload.php:46 wp-admin/post.php:131 wp-admin/post.php:246
@@ -13031,7 +13036,7 @@ msgctxt "label for hide controls button without length constraints"
 msgid "Hide Controls"
 msgstr "隐藏控制栏"
 
-#: wp-includes/script-loader.php:1172 wp-includes/functions.php:6503
+#: wp-includes/script-loader.php:1172 wp-includes/functions.php:6507
 msgid "Session expired"
 msgstr "会话已过期"
 
@@ -13634,7 +13639,7 @@ msgstr "达到内存限制，请使用小一些的文件。"
 msgid "This file is not an image. Please try another."
 msgstr "该文件不是图像，请使用其它文件。"
 
-#: wp-includes/script-loader.php:857 wp-includes/functions.php:2631
+#: wp-includes/script-loader.php:857 wp-includes/functions.php:2635
 #: wp-includes/js/dist/media-utils.js:1069 wp-admin/includes/file.php:840
 msgid "Sorry, this file type is not permitted for security reasons."
 msgstr "抱歉，由于安全原因，这个文件类型不受支持。"
@@ -13726,7 +13731,7 @@ msgstr "不再显示"
 
 #: wp-includes/script-loader.php:675 wp-includes/script-loader.php:1168
 #: wp-includes/script-loader.php:1259 wp-includes/script-loader.php:1517
-#: wp-includes/class-wp-xmlrpc-server.php:3934 wp-includes/functions.php:3229
+#: wp-includes/class-wp-xmlrpc-server.php:3949 wp-includes/functions.php:3233
 #: wp-includes/class-wp-customize-manager.php:449
 #: wp-admin/includes/class-custom-image-header.php:775
 #: wp-admin/includes/class-custom-image-header.php:939
@@ -14007,7 +14012,7 @@ msgid "Menus"
 msgstr "菜单"
 
 #: wp-includes/admin-bar.php:965 wp-includes/class-wp-customize-widgets.php:417
-#: wp-includes/functions.php:4595 wp-includes/js/dist/blocks.js:5957
+#: wp-includes/functions.php:4599 wp-includes/js/dist/blocks.js:5957
 #: wp-admin/includes/post.php:2184 wp-admin/widgets.php:49
 msgid "Widgets"
 msgstr "小工具"
@@ -14333,7 +14338,7 @@ msgstr "我需要ID来执行操作。"
 msgid "Comment Submission Failure"
 msgstr "评论提交失败"
 
-#: wp-load.php:92 wp-includes/functions.php:3848
+#: wp-load.php:92 wp-includes/functions.php:3852
 msgid "WordPress &rsaquo; Error"
 msgstr "WordPress&rsaquo;错误"
 
@@ -14621,7 +14626,7 @@ msgstr "为什么这很重要？"
 #: wp-login.php:671 wp-includes/widgets/class-wp-widget-custom-html.php:317
 #: wp-includes/media-template.php:173
 #: wp-includes/customize/class-wp-customize-nav-menu-locations-control.php:59
-#: wp-includes/functions.php:7441
+#: wp-includes/functions.php:7445
 #: wp-includes/class-wp-customize-manager.php:4304
 #: wp-includes/class-wp-customize-manager.php:5626
 #: wp-includes/class-wp-customize-manager.php:5647

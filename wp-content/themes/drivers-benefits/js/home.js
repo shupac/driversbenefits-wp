@@ -1,4 +1,6 @@
 $(document).ready(() => {
+	const lang = getLang()
+	const langQs = lang ? `?lang=${lang}` : ''
 	const benefits = $('.home__benefits')
 	const benefitsGrid = $('.home__benefits_grid')
 
@@ -6,7 +8,7 @@ $(document).ready(() => {
 	const header = benefitsShadow.find('h3').html()
 	$(
 		$.parseHTML(
-			`<a class="home__benefits_header" href="/benefits"><h3>${header}</h3></a>`
+			`<a class="home__benefits_header" href="/benefits${langQs}"><h3>${header}</h3></a>`
 		)
 	).prependTo(benefits)
 
@@ -22,7 +24,7 @@ $(document).ready(() => {
 			const name = $el.find('.ab-profile-title').html()
 			const description = $el.find('.ab-profile-text p').html()
 			const benefit = $.parseHTML(`
-				<a class="home__benefit" href="/benefits/#${hash}">
+				<a class="home__benefit" href="/benefits/${langQs}#${hash}">
 					<img src="${image}" alt="${name}"/>
 					<h4>${name}</h4>
 					<p>${description}</p>

@@ -699,6 +699,7 @@ div.wpforms-container-full .wpforms-form .wpforms-field-label-inline {
 }
 .home__partners .home__partners_gallery img {
   height: 60px;
+  width: auto;
   mix-blend-mode: multiply;
   margin-bottom: 10px;
   margin-right: 10px;
@@ -1006,7 +1007,8 @@ div.wpforms-container-full .wpforms-form .wpforms-field-label-inline {
   width: 100%;
   display: flex;
   justify-content: center;
-  margin-bottom: 20px;
+  /*margin-bottom: 20px;*/
+  margin-bottom: 0;
 }
 .footer__cta .footer__cta_button a {
   background-color: transparent !important;

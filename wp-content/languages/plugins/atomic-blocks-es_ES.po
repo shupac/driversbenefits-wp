@@ -1,0 +1,646 @@
+# Translation of Plugins - Atomic Blocks &#8211; Gutenberg Blocks Collection - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Atomic Blocks &#8211; Gutenberg Blocks Collection - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-08-01 02:05:49+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Atomic Blocks &#8211; Gutenberg Blocks Collection - Stable (latest release)\n"
+
+#: dist/getting-started/pages/settings-main.php:86
+msgid "Plugin Documentation"
+msgstr "Documentación del plugin"
+
+#: dist/getting-started/pages/settings-main.php:37
+msgid "General Settings"
+msgstr "Ajustes generales"
+
+#: dist/getting-started/pages/settings-main.php:97
+msgid "View Documentation"
+msgstr "Ver la documentación"
+
+#. translators: %1$s: conditional name of plugin
+#: dist/getting-started/pages/settings-main.php:94
+msgid "Check out the %1$s documentation for feature and setting explanations, advanced usage, and code examples."
+msgstr "Consulta la documentación de %1$s para obtener explicaciones sobre las características y los ajustes, el uso avanzado y los ejemplos de código."
+
+#. translators: %s: This functions name. Will always be
+#. AtomicBlocks\Layouts\Component_Registry::remove().
+#: includes/layout/class-component-registry.php:133
+msgid "You must supply a valid component key in %s."
+msgstr "Debes facilitar una clave válida del componente en %s. "
+
+#: includes/layout/layout-functions.php:63
+msgid "You must supply a key to retrieve a layout component."
+msgstr "Debes facilitar una clave par recuperar un componente de diseño."
+
+#: includes/layout/layout-functions.php:59
+msgid "You must supply a type to retrieve a layout component."
+msgstr "Debes facilitar  un tipo para recuperar un componente de diseño."
+
+#. translators: The requested components unique key.
+#: includes/layout/class-component-registry.php:150
+#: includes/layout/class-component-registry.php:186
+msgid "The %s section is not registered."
+msgstr "La sección %s no está registrada."
+
+#. translators: The requested components unique key.
+#: includes/layout/class-component-registry.php:142
+#: includes/layout/class-component-registry.php:179
+msgid "The %s layout is not registered."
+msgstr "El diseño %s no está registrado."
+
+#. translators: This function name. Will always be
+#. AtomicBlocks\Layouts\Component_Registry::get().
+#: includes/layout/class-component-registry.php:172
+msgid "You must supply a component type in %s."
+msgstr "Debes facilitar un tipo de componente en %s"
+
+#. translators: %s: This functions name. Will always be
+#. AtomicBlocks\Layouts\Component_Registry::add().
+#. translators: %s: This functions name. Will always be
+#. AtomicBlocks\Layouts\Component_Registry::remove().
+#. translators: This function name. Will always be
+#. AtomicBlocks\Layouts\Component_Registry::get().
+#: includes/layout/class-component-registry.php:111
+#: includes/layout/class-component-registry.php:128
+#: includes/layout/class-component-registry.php:192
+msgid "You must supply a valid component type in %s."
+msgstr "Debes facilitar un tipo de componente válido en %s."
+
+#. translators: %s: The component's unique key.
+#: includes/layout/class-component-registry.php:104
+msgid "The %s section is already registered."
+msgstr "La sección %s ya está registrada."
+
+#. translators: %s: The component's unique key.
+#: includes/layout/class-component-registry.php:96
+msgid "The %s layout is already registered."
+msgstr "El diseño %s ya está registrado."
+
+#. translators: %s: The missing key that is required to register a component.
+#: includes/layout/class-component-registry.php:88
+msgid "You must supply a %s to register a layout."
+msgstr "Debes facilitar un %s para registrar un diseño."
+
+#: includes/layout/class-component-registry.php:82
+msgid "You must supply valid layout data to register a layout."
+msgstr "Debes facilitar datos de un diseño válido para registrar un diseño."
+
+#: includes/layout/class-component-registry.php:78
+msgid "You must supply a valid component type."
+msgstr "Debes facilitar un tipo de componente válido."
+
+#: includes/layout/register-layout-components.php:206
+msgid "directions"
+msgstr "direcciones"
+
+#: includes/layout/register-layout-components.php:204
+msgid "map"
+msgstr "mapa"
+
+#: includes/layout/register-layout-components.php:201
+#: includes/layout/register-layout-components.php:203
+msgid "contact"
+msgstr "contacto"
+
+#: includes/layout/register-layout-components.php:200
+msgid "Contact Info and Map"
+msgstr "Información de contacto y mapa"
+
+#: includes/layout/register-layout-components.php:188
+msgid "review"
+msgstr "reseña"
+
+#: includes/layout/register-layout-components.php:171
+#: includes/layout/register-layout-components.php:189
+msgid "user"
+msgstr "usuario"
+
+#: includes/layout/register-layout-components.php:170
+msgid "member"
+msgstr "miembro"
+
+#: includes/layout/register-layout-components.php:167
+#: includes/layout/register-layout-components.php:169
+msgid "team"
+msgstr "equipo"
+
+#: includes/layout/register-layout-components.php:151
+msgid "Text List and Image"
+msgstr "Lista de texto e imagen"
+
+#: includes/layout/register-layout-components.php:137
+#: includes/layout/register-layout-components.php:152
+msgid "media"
+msgstr "medios"
+
+#: includes/layout/register-layout-components.php:136
+msgid "Media / Text"
+msgstr "Medios / Texto"
+
+#: includes/layout/register-layout-components.php:121
+msgid "Services - Four Column"
+msgstr "Servicios - Cuatro columnas"
+
+#: includes/layout/register-layout-components.php:110
+#: includes/layout/register-layout-components.php:125
+#: includes/layout/register-layout-components.php:140
+#: includes/layout/register-layout-components.php:155
+msgid "text"
+msgstr "texto"
+
+#: includes/layout/register-layout-components.php:107
+#: includes/layout/register-layout-components.php:109
+#: includes/layout/register-layout-components.php:122
+#: includes/layout/register-layout-components.php:124
+#: includes/layout/register-layout-components.php:139
+#: includes/layout/register-layout-components.php:154
+msgid "services"
+msgstr "servicios"
+
+#: includes/layout/register-layout-components.php:106
+msgid "Services - Three Column"
+msgstr "Servicios - Tres columnas"
+
+#: includes/layout/register-layout-components.php:95
+msgid "hero"
+msgstr "hero"
+
+#: includes/layout/register-layout-components.php:91
+msgid "Hero Header"
+msgstr "Cabecera hero"
+
+#: includes/layout/register-layout-components.php:80
+msgid "freelance"
+msgstr "autónomo"
+
+#: includes/layout/register-layout-components.php:73
+msgid "Freelancer"
+msgstr "Autónomo"
+
+#: includes/layout/register-layout-components.php:62
+#: includes/layout/register-layout-components.php:79
+msgid "portfolio"
+msgstr "porfolio"
+
+#: includes/layout/register-layout-components.php:60
+#: includes/layout/register-layout-components.php:77
+msgid "personal"
+msgstr "personal"
+
+#: includes/layout/register-layout-components.php:59
+#: includes/layout/register-layout-components.php:76
+msgid "about"
+msgstr "acerca de"
+
+#: includes/layout/register-layout-components.php:55
+msgid "Profile"
+msgstr "Perfil"
+
+#: includes/layout/register-layout-components.php:45
+msgid "newsletter"
+msgstr "boletín"
+
+#: includes/layout/register-layout-components.php:44
+#: includes/layout/register-layout-components.php:205
+msgid "email"
+msgstr "correo electrónico"
+
+#: includes/layout/register-layout-components.php:43
+msgid "marketing"
+msgstr "marketing"
+
+#: includes/layout/register-layout-components.php:37
+msgid "Product Launch"
+msgstr "Lanzamiento de producto"
+
+#: includes/layout/register-layout-components.php:27
+#: includes/layout/register-layout-components.php:41
+msgid "product"
+msgstr "producto"
+
+#: includes/layout/register-layout-components.php:26
+msgid "service"
+msgstr "servicio"
+
+#: includes/layout/register-layout-components.php:23
+#: includes/layout/register-layout-components.php:25
+msgid "business"
+msgstr "negocio"
+
+#: includes/layout/register-layout-components.php:39
+#: includes/layout/register-layout-components.php:42
+#: includes/layout/register-layout-components.php:57
+#: includes/layout/register-layout-components.php:74
+msgid "landing"
+msgstr "página de destino"
+
+#: includes/layout/register-layout-components.php:21
+msgid "Business"
+msgstr "Negocio"
+
+#: includes/layout/layout-endpoints.php:137
+msgid "Layout not found."
+msgstr "Diseño no encontrado."
+
+#: dist/getting-started/pages/settings-main.php:76
+msgid "Save Settings"
+msgstr "Guardar configuración"
+
+#: dist/getting-started/pages/settings-main.php:52
+msgid "Settings saved."
+msgstr "Ajustes guardados."
+
+#: dist/getting-started/getting-started.php:76
+msgid "Settings"
+msgstr "Ajustes"
+
+#: includes/newsletter/newsletter-functions.php:135
+msgid "Invalid list ID."
+msgstr "ID de lista no válido."
+
+#: includes/newsletter/newsletter-functions.php:134
+msgid "Invalid email address."
+msgstr "Dirección de correo electrónico no valida."
+
+#: includes/newsletter/newsletter-functions.php:36
+msgid "You must provide an email address."
+msgstr "Debes facilitar una dirección de correo electrónico."
+
+#: src/blocks/block-newsletter/index.php:206
+msgid "Thanks for subscribing."
+msgstr "Gracias por suscribirte."
+
+#: src/blocks/block-newsletter/index.php:181
+#: src/blocks/block-newsletter/index.js:21
+msgid "Subscribe"
+msgstr "Suscribirse"
+
+#: dist/getting-started/pages/settings-general.php:16
+msgid "Mailchimp API Key"
+msgstr "Clave API de Mailchimp"
+
+#: includes/newsletter/newsletter-functions.php:47
+msgid "Please provide a valid email address."
+msgstr "Por favor, escribe una dirección de correo electrónico válida."
+
+#: src/blocks/block-newsletter/index.php:195
+msgid "Your Email Address"
+msgstr "Tu dirección de correo electrónico"
+
+#: src/blocks/block-newsletter/index.php:191
+msgid "Please wait..."
+msgstr "Por favor, espera..."
+
+#: dist/getting-started/pages/settings-general.php:25
+msgid "Find your Mailchimp API key."
+msgstr "Busca la clave de la API de Mailchimp."
+
+#. translators: %s This PHP class name. Will print
+#. AtomicBlocks\Newsletter\Mailchimp
+#: includes/classes/class-mailchimp.php:40
+msgid "An API key is required to use %s."
+msgstr "Se requiere una clave API para utilizar %s."
+
+#: dist/getting-started/getting-started.php:45
+#: dist/getting-started/pages/settings-main.php:16
+msgid "Atomic Blocks Settings"
+msgstr "Ajustes de Atomic Blocks"
+
+#: includes/newsletter/newsletter-functions.php:241
+msgid "The submission failed."
+msgstr "El envío falló."
+
+#: includes/newsletter/newsletter-functions.php:240
+msgid "The submission successfully succeeded."
+msgstr "El envío se realizó correctamente."
+
+#: includes/newsletter/newsletter-functions.php:239
+msgid "The submission is being processed."
+msgstr "El envío se está procesando."
+
+#: includes/newsletter/newsletter-functions.php:133
+msgid "Invalid newsletter provider."
+msgstr "Proveedor de boletines no válido."
+
+#: includes/newsletter/newsletter-functions.php:32
+msgid "Invalid mailing provider configuration."
+msgstr "Configuración del proveedor de correo no válida."
+
+#. translators: %s The PHP method name. Will be
+#. AtomicBlocks\Newsletter\Mailchimp\subscribe.
+#: includes/classes/class-mailchimp.php:88
+msgid "An invalid Mailchimp list ID was provided in %s"
+msgstr "Se proporcionó un ID de lista de Mailchimp no válida en %s"
+
+#: includes/classes/class-mailchimp.php:78
+msgid "An invalid email address was provided."
+msgstr "Se proporcionó una dirección de correo electrónico no válida."
+
+#: includes/newsletter/newsletter-functions.php:237
+msgid "Invalid configuration. Site owner: Please configure your newsletter provider settings."
+msgstr "Configuración no válida. Propietario del sitio: Por favor, configura los ajustes del proveedor de boletín."
+
+#: includes/newsletter/newsletter-functions.php:136
+msgid "You must enter your email API key in the plugin settings page."
+msgstr "Debes introducir la clave de API del correo electrónico en la página de ajustes del plugin."
+
+#: includes/newsletter/newsletter-functions.php:28
+msgid "Nonce verification failed. Please try again."
+msgstr "Error en la verificación nonce. Por favor, inténtalo de nuevo."
+
+#. translators: %s The error message returns from the Mailchimp API.
+#: includes/classes/class-mailchimp.php:105
+msgid "There was an error subscribing your email address. Please try again. Error: %s"
+msgstr "Se ha producido un error al suscribir tu dirección de correo electrónico. Por favor, inténtalo de nuevo. Error: %s"
+
+#: includes/layout/register-layout-components.php:92
+#: includes/layout/register-layout-components.php:94
+#: src/blocks/block-post-grid/components/inspector.js:106
+msgid "header"
+msgstr "cabecera"
+
+#: includes/layout/register-layout-components.php:184
+#: includes/layout/register-layout-components.php:186
+#: src/blocks/block-testimonial/index.js:29
+msgid "testimonial"
+msgstr "testimonio"
+
+#: includes/layout/register-layout-components.php:187
+#: src/blocks/block-testimonial/index.js:30
+#: src/blocks/block-drop-cap/index.js:88
+msgid "quote"
+msgstr "cita"
+
+#: includes/layout/register-layout-components.php:61
+#: includes/layout/register-layout-components.php:78
+#: src/blocks/block-author-profile/index.js:123
+msgid "profile"
+msgstr "perfil"
+
+#: includes/layout/register-layout-components.php:172
+#: src/blocks/block-author-profile/index.js:122
+msgid "author"
+msgstr "autor"
+
+#: dist/getting-started/pages/ab-getting-started.php:210
+msgid "Install Now"
+msgstr "Instalar ahora"
+
+#: dist/getting-started/pages/ab-getting-started.php:125
+msgid "Customizable Button"
+msgstr "Botón personalizable"
+
+#: dist/getting-started/pages/ab-getting-started.php:117
+msgid "Accordion Block"
+msgstr "Bloque de accordeón"
+
+#: dist/getting-started/pages/ab-getting-started.php:85
+msgid "Testimonial Block"
+msgstr "Bloque de recomendaciones"
+
+#. translators: %1$s StudioPress website URL. %2$s WP Engine website URL.
+#: dist/getting-started/pages/gpb-getting-started.php:122
+#: dist/getting-started/pages/ab-getting-started.php:279
+msgid "Made by the fine folks at %1$s and %2$s."
+msgstr "Hecho por la buena gente de %1$s y %2$s."
+
+#: dist/getting-started/pages/ab-getting-started.php:142
+msgid "Add an adjustable spacer between your blocks with an optional divider with styling options."
+msgstr "Añade un espaciador ajustable entre tus bloques con un divisor opcional con opciones de estilo."
+
+#: dist/getting-started/pages/ab-getting-started.php:141
+msgid "Spacer & Divider"
+msgstr "Espaciador y divisor"
+
+#: dist/getting-started/pages/ab-getting-started.php:139
+msgid "Spacer and Divider Block"
+msgstr "Bloque separador y divisor"
+
+#: dist/getting-started/pages/ab-getting-started.php:134
+msgid "Add a stylized drop cap to the beginning of your paragraph. Choose from three different styles."
+msgstr "Añade una letra capitular estilizada al principio de tu párrafo. Elige entre tres estilos diferentes."
+
+#: dist/getting-started/pages/ab-getting-started.php:131
+#: dist/getting-started/pages/ab-getting-started.php:133
+msgid "Drop Cap Block"
+msgstr "Bloque capitular"
+
+#: dist/getting-started/pages/ab-getting-started.php:126
+msgid "Add a fancy stylized button to your post or page with size, shape, target, and color options."
+msgstr "Añade un botón estilizado y elegante a tu entrada o página con opciones de tamaño, forma, destino y color."
+
+#: dist/getting-started/pages/ab-getting-started.php:123
+msgid "Customizable Button Block"
+msgstr "Bloque de botón personalizable"
+
+#: dist/getting-started/pages/ab-getting-started.php:118
+msgid "Add an accordion text toggle with a title and descriptive text. Includes font size and toggle options."
+msgstr "Añade un texto de acordeón con un título y un texto descriptivo. Incluye opciones de tamaño de fuente y comportamiento."
+
+#: dist/getting-started/pages/ab-getting-started.php:115
+msgid "Accordion Toggle"
+msgstr "Alternar acordeón"
+
+#: dist/getting-started/pages/ab-getting-started.php:110
+msgid "Add a user profile box to your site with a title, bio info, an avatar and social media links."
+msgstr "Añade un cuadro de perfil de usuario a tu sitio con un título, información biográfica, un avatar y enlaces a redes sociales."
+
+#: dist/getting-started/pages/ab-getting-started.php:107
+#: dist/getting-started/pages/ab-getting-started.php:109
+msgid "Author Profile Block"
+msgstr "Bloque de perfil de autor"
+
+#: dist/getting-started/pages/ab-getting-started.php:102
+msgid "Add social sharing icons to your page with size, shape, color and style options."
+msgstr "Añade iconos para compartir en redes sociales a tu página con opciones de tamaño, forma, color y estilo."
+
+#: dist/getting-started/pages/ab-getting-started.php:99
+#: dist/getting-started/pages/ab-getting-started.php:101
+msgid "Sharing Icons Block"
+msgstr "Bloque de iconos para compartir"
+
+#: dist/getting-started/pages/ab-getting-started.php:94
+msgid "Add a colorful notice or message to your site with text, a title and a dismiss icon."
+msgstr "Añade un aviso o mensaje colorido a tu sitio con texto, un título y un icono para descartarlo."
+
+#: dist/getting-started/pages/ab-getting-started.php:93
+msgid "Inline Notice Block"
+msgstr "Bloque de aviso en línea"
+
+#: dist/getting-started/pages/ab-getting-started.php:91
+msgid "Inline Notices Block"
+msgstr "Bloque de avisos en línea"
+
+#: dist/getting-started/pages/ab-getting-started.php:86
+msgid "Add a customer or client testimonial to your site with an avatar, text, citation and more."
+msgstr "Añade un cliente o testimonio de un cliente a tu sitio con un avatar, texto, cita y más."
+
+#: dist/getting-started/pages/ab-getting-started.php:83
+msgid "Testimonials Block"
+msgstr "Bloque de testimonios"
+
+#: dist/getting-started/pages/ab-getting-started.php:77
+msgid "Call-To-Action Block"
+msgstr "Bloque de llamada a la acción"
+
+#: dist/getting-started/pages/gpb-getting-started.php:81
+#: dist/getting-started/pages/ab-getting-started.php:75
+msgid "Call To Action Block"
+msgstr "Bloque de llamada a la acción"
+
+#: dist/getting-started/pages/ab-getting-started.php:70
+msgid "Wrap several blocks into a section and add padding, margins, background colors and images."
+msgstr "Envuelve varios bloques en una sección y añade margen interior, márgenes, colores de fondo e imágenes."
+
+#: dist/getting-started/pages/ab-getting-started.php:69
+msgid "Container Block"
+msgstr "Bloque contenedor"
+
+#: dist/getting-started/pages/ab-getting-started.php:62
+#: dist/getting-started/pages/ab-getting-started.php:78
+msgid "Add an eye-catching, full-width section with a big title, paragraph text, and a customizable button."
+msgstr "Añade una llamativa sección de ancho completo con un título grande, texto de párrafo y un botón personalizable."
+
+#: dist/getting-started/pages/ab-getting-started.php:61
+msgid "Post Grid Block"
+msgstr "Bloque de cuadrícula de entradas"
+
+#: dist/getting-started/pages/ab-getting-started.php:55
+msgid "The following blocks are available in Atomic Blocks. More blocks are on the way so stay tuned!"
+msgstr "¡Los siguientes bloques están disponibles en Atomic Blocks. ¡Hay más bloques están en camino, así que permanece atento!"
+
+#: dist/getting-started/pages/ab-getting-started.php:54
+msgid "Available Atomic Blocks"
+msgstr "Atomic Blocks disponibles"
+
+#: dist/getting-started/pages/ab-getting-started.php:48
+msgid "Atomic Blocks Theme"
+msgstr "Tema Atomic Blocks"
+
+#: dist/getting-started/pages/ab-getting-started.php:43
+msgid "The Atomic Blocks collection is now ready to use in your posts and pages. Simply search for \"atomic\" or \"ab\" in the block inserter to display the Atomic Blocks collection. Check out the help file link above for detailed instructions!"
+msgstr "La colección de Atomic Blocks ya está lista para ser utilizada en tus entradas y páginas. Simplemente busca \"atomic\" o \"ab\" en el insertador de bloques para mostrar la colección de Atomic Blocks. ¡Echa un vistazo al enlace del archivo de ayuda de arriba para obtener instrucciones detalladas!"
+
+#: dist/getting-started/pages/ab-getting-started.php:42
+msgid "Welcome to the future of site building with Gutenberg and Atomic Blocks!"
+msgstr "¡Bienvenido al futuro de la construcción sitios con Gutenberg y Atomic Blocks!"
+
+#: dist/getting-started/getting-started.php:66
+#: dist/getting-started/getting-started.php:67
+#: dist/getting-started/pages/ab-getting-started.php:21
+msgid "Getting Started"
+msgstr "Primeros pasos"
+
+#: src/blocks/block-post-grid/index.php:123
+msgid "Untitled"
+msgstr "Sin título"
+
+#: src/blocks/block-sharing/index.php:249
+#: src/blocks/block-sharing/components/edit.js:105
+msgid "Share via Email"
+msgstr "Compartir por correo electrónico"
+
+#: src/blocks/block-sharing/index.php:217
+#: src/blocks/block-sharing/index.php:233
+msgid "Share on Reddit"
+msgstr "Compartir en Reddit"
+
+#: src/blocks/block-sharing/index.php:195
+#: src/blocks/block-sharing/index.php:211
+#: src/blocks/block-sharing/components/edit.js:80
+msgid "Share on LinkedIn"
+msgstr "Compartir en LinkedIn"
+
+#: src/blocks/block-sharing/index.php:173
+#: src/blocks/block-sharing/index.php:189
+#: src/blocks/block-sharing/components/edit.js:66
+msgid "Share on Pinterest"
+msgstr "Compartir en Pinterest"
+
+#: src/blocks/block-sharing/index.php:151
+#: src/blocks/block-sharing/index.php:167
+#: src/blocks/block-sharing/components/edit.js:52
+msgid "Share on Facebook"
+msgstr "Compartir en Facebook"
+
+#: src/blocks/block-sharing/index.php:129
+#: src/blocks/block-sharing/index.php:145
+#: src/blocks/block-sharing/components/edit.js:38
+msgid "Share on Twitter"
+msgstr "Compartir en Twitter"
+
+#: dist/getting-started/pages/ab-getting-started.php:201
+msgid "Free Theme Download"
+msgstr "Descarga gratuita del tema"
+
+#: dist/getting-started/pages/ab-getting-started.php:225
+msgid "Join the newsletter to receive emails when we add new blocks, release plugin and theme updates, send out free resources, and more!"
+msgstr "Suscríbete al boletín para recibir correos electrónicos cuando añadamos nuevos bloques, publiquemos actualizaciones de plugins y temas, enviemos recursos gratuitos ¡y mucho más!"
+
+#: dist/getting-started/pages/settings-main.php:28
+#: dist/getting-started/pages/ab-getting-started.php:13
+#: dist/getting-started/pages/ab-getting-started.php:206
+msgid "Visit Atomic Blocks"
+msgstr "Visita Atomic Blocks"
+
+#: dist/getting-started/pages/ab-getting-started.php:242
+msgid "Visit AtomicBlocks.com"
+msgstr "Visita AtomicBlocks.com"
+
+#: dist/getting-started/pages/ab-getting-started.php:241
+msgid "Check out the Atomic Blocks site to find block editor tutorials, free blocks and updates about the Atomic Blocks plugin and theme!"
+msgstr "Visita el sitio de Atomic Blocks para encontrar tutoriales de edición de bloques, bloques gratuitos y actualizaciones sobre el plugin y el tema de Atomic Blocks."
+
+#: dist/getting-started/pages/ab-getting-started.php:236
+msgid "Free Blocks & Tutorials"
+msgstr "Bloques y Tutoriales gratis"
+
+#: dist/getting-started/pages/ab-getting-started.php:227
+msgid "Subscribe Now"
+msgstr "Suscríbete"
+
+#: dist/getting-started/pages/ab-getting-started.php:220
+msgid "Stay Updated"
+msgstr "Mantente al día"
+
+#: dist/getting-started/pages/ab-getting-started.php:208
+msgid "Download our FREE Atomic Blocks theme to help you get started with the Atomic Blocks plugin and the new WordPress block editor."
+msgstr "Descarga nuestro tema GRATUITO Atomic Blocks para ayudarte a comenzar con el plugin Atomic Blocks y el nuevo editor de bloques de WordPress."
+
+#: dist/getting-started/pages/ab-getting-started.php:162
+#: dist/getting-started/pages/ab-getting-started.php:185
+msgid "This help file feed seems to be temporarily down. You can always view the help file on the Atomic Blocks site in the meantime."
+msgstr "Este archivo de ayuda parece estar temporalmente caído. Mientras tanto puedes ver el archivo de ayuda en el sitio de Atomic Blocks."
+
+#: dist/getting-started/pages/ab-getting-started.php:31
+msgid "Theme Help File"
+msgstr "Archivo de ayuda del tema"
+
+#: dist/getting-started/pages/ab-getting-started.php:27
+msgid "Plugin Help File"
+msgstr "Archivo de ayuda del plugin"
+
+#: dist/getting-started/pages/gpb-getting-started.php:14
+#: dist/getting-started/pages/ab-getting-started.php:14
+msgid "Getting started with"
+msgstr "Primeros pasos con"
+
+#: dist/init.php:128 dist/getting-started/getting-started.php:46
+#: dist/getting-started/pages/settings-main.php:15
+#: dist/getting-started/pages/ab-getting-started.php:14
+msgid "Atomic Blocks"
+msgstr "Atomic Blocks"
+
+#: includes/layout/register-layout-components.php:183
+msgid "Testimonials"
+msgstr "Testimonios"
+
+#: includes/layout/register-layout-components.php:166
+msgid "Team Members"
+msgstr "Miembros del equipo"

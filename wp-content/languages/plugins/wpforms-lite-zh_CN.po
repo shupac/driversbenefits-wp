@@ -1,0 +1,6298 @@
+# Translation of Plugins - Contact Form by WPForms &#8211; Drag &amp; Drop Form Builder for WordPress - Stable (latest release) in Chinese (China)
+# This file is distributed under the same license as the Plugins - Contact Form by WPForms &#8211; Drag &amp; Drop Form Builder for WordPress - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-06-06 22:28:06+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: zh_CN\n"
+"Project-Id-Version: Plugins - Contact Form by WPForms &#8211; Drag &amp; Drop Form Builder for WordPress - Stable (latest release)\n"
+
+#: includes/functions.php:895
+msgid "North Macedonia (Republic of)"
+msgstr "北马其顿"
+
+#: src/Admin/AdminBarMenu.php:313
+msgid "Support"
+msgstr "支持"
+
+#: src/Admin/Notifications.php:430
+msgid "Previous message"
+msgstr "上一条信息"
+
+#: includes/admin/class-settings.php:337
+msgid "Optimize Email Sending"
+msgstr "优化电子邮件发送"
+
+#: src/Admin/Notifications.php:431
+msgid "Next message"
+msgstr "下一条消息"
+
+#: includes/admin/builder/class-builder.php:422
+msgid "In order to complete your form's {provider} integration, please check that the dropdowns for all required (*) List Fields have been filled out."
+msgstr "为了完成表单的{provider} 集成，请检查所有必需 （*） 列表字段的下拉列表字段已填写完毕。"
+
+#: includes/admin/class-settings.php:525
+msgid "Hide Admin Bar Menu"
+msgstr "隐藏管理栏菜单"
+
+#: includes/admin/class-settings.php:526
+msgid "Check this if you would like to hide the WPForms admin bar menu."
+msgstr "如果您想隐藏WPForms管理栏菜单，请选中此选项。"
+
+#: includes/admin/class-settings.php:338
+msgid "Check this if you would like to enable sending emails asynchronously, which can make submission processing faster."
+msgstr "如果要启用异步发送电子邮件，请选中此项，这样可以加快提交处理速度。"
+
+#: includes/admin/builder/class-builder.php:344
+msgid "Are you sure you want to leave? You have unsaved changes"
+msgstr "您确定要离开吗？您有未保存的更改"
+
+#: includes/admin/class-about.php:1230
+msgid "Form Abandonment, Front-end Post Submission, User Registration, Geo-location, and more (21 total)"
+msgstr "表单中止、前端文章提交、用户注册、地理位置等（共22个）"
+
+#: src/Lite/Admin/Settings/Education.php:74
+#: src/Lite/Admin/Builder/Education.php:94
+msgid "We're sorry, the %name% is not available on your plan. Please upgrade to the Elite plan to unlock all these awesome features."
+msgstr "很抱歉，您的计划中无法使用%name%。请升级到Elite计划，以解锁所有这些超赞功能。"
+
+#: src/Lite/Admin/Settings/Education.php:85
+#: src/Lite/Admin/Builder/Education.php:105
+msgid "Upgrade to Elite"
+msgstr "升级到Elite版"
+
+#. translators: %s - license level, WPForms Pro or WPForms Elite.
+#: includes/admin/admin.php:423
+msgid "Thanks for your interest in %s!"
+msgstr "谢谢您对 %s 感兴趣!"
+
+#: includes/admin/class-about.php:1229
+msgid "Pro Addons Included"
+msgstr "包括专业版扩展"
+
+#: src/Lite/Admin/Settings/Education.php:73
+#: src/Lite/Admin/Builder/Education.php:93
+msgid "is an Elite Feature"
+msgstr "是一项Elite版功能"
+
+#: includes/admin/class-about.php:1043 includes/admin/class-about.php:1050
+msgid "Additional Marketing Integrations"
+msgstr "附加营销整合"
+
+#: includes/admin/class-about.php:1065 includes/admin/class-about.php:1079
+#: includes/admin/class-about.php:1093
+msgid "ActiveCampaign, Constant Contact, Mailchimp, AWeber, GetResponse, Campaign Monitor, and Drip."
+msgstr "ActiveCampaign, Constant Contact, Mailchimp, AWeber, GetResponse, Campaign Monitor, and Drip."
+
+#: src/Forms/Preview.php:178
+msgid "View Entries"
+msgstr "查看条目"
+
+#. translators: %s - WPForms doc link.
+#: src/Forms/Preview.php:207
+msgid "For form testing tips, check out our <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">complete guide!</a>"
+msgstr "有关表单测试的提示，请查看我们的<a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">完整指南</a>"
+
+#: src/Admin/AdminBarMenu.php:230 src/Forms/Preview.php:162
+msgid "Edit Form"
+msgstr "编辑表单"
+
+#: includes/admin/class-menu.php:245
+msgid "Go to WPForms Settings page"
+msgstr "转到 WPForms 设置页面"
+
+#: includes/admin/class-menu.php:260
+msgid "Go to WPForms Lite vs Pro comparison page"
+msgstr "转到 WPForms 精简版和专业版比较页面"
+
+#: includes/admin/class-about.php:889
+msgid "RafflePress"
+msgstr "RafflePress"
+
+#: src/Lite/Admin/Builder/Education.php:716
+msgid "Upgrade to Pro."
+msgstr "升级到Pro版本"
+
+#: includes/admin/builder/class-builder.php:439
+msgid "You should enter a valid absolute address to the Confirmation Redirect URL field."
+msgstr "您应该在确认重定向网址字段中输入有效的绝对地址。"
+
+#: includes/admin/ajax-actions.php:389
+msgid "You do not have permission to perform this operation."
+msgstr "您没有权限执行此操作。"
+
+#: src/Lite/Admin/Builder/Education.php:677
+msgid "You can have multiple notifications with conditional logic."
+msgstr "您可以具有条件逻辑的多个通知。"
+
+#: src/Lite/Admin/Builder/Education.php:692
+msgid "You can have multiple confirmations with conditional logic."
+msgstr "您可以使用条件逻辑进行多次确认。"
+
+#: src/Lite/Admin/Settings/Access.php:138
+msgid "You can easily grant or restrict access using the simple built-in controls, or use our official integrations with Members and User Role Editor plugins."
+msgstr "您可以使用简单的内置控件轻松授予或限制访问，或者使用我们与Members和User Role Editor插件的官方集成。"
+
+#. translators: %1$s - WPBeginner URL; %2$s - OptinMonster URL; %3$s -
+#. MonsterInsights URL; %4$s - RafflePress URL.
+#: includes/admin/class-about.php:269
+msgid "WPForms is brought to you by the same team that’s behind the largest WordPress resource site, <a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">WPBeginner</a>, the most popular lead-generation software, <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">OptinMonster</a>, the best WordPress analytics plugin, <a href=\"%3$s\" target=\"_blank\" rel=\"noopener noreferrer\">MonsterInsights</a>, and the most powerful WordPress contest plugin, <a href=\"%4$s\" target=\"_blank\" rel=\"noopener noreferrer\">RafflePress</a>."
+msgstr "WPForms是由位于最大的WordPress资源站点后面的同一个团队提供给您的，<a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">WP初学者</a>,最流行的潜在客户开发软件, <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">OptinMonster</a>,最好的WordPress分析插件, <a href=\"%3$s\" target=\"_blank\" rel=\"noopener noreferrer\">MonsterInsights</a>, 最强大的WordPress竞赛插件, <a href=\"%4$s\" target=\"_blank\" rel=\"noopener noreferrer\">RafflePress</a>。"
+
+#: src/Lite/Admin/Settings/Access.php:209
+msgid "View Others Forms Entries"
+msgstr "查看其他表单条目"
+
+#: src/Lite/Admin/Settings/Access.php:203
+msgid "View Others Forms"
+msgstr "查看其他表单"
+
+#: src/Lite/Admin/Settings/Access.php:208
+msgid "View Forms Entries"
+msgstr "查看表单条目"
+
+#: src/Lite/Admin/Settings/Access.php:202
+msgid "View Forms"
+msgstr "查看表单"
+
+#: src/Lite/Admin/Settings/Access.php:183
+#: src/Lite/Admin/Settings/Access.php:184
+msgid "User Role Editor Integration"
+msgstr "User Role Editor集成"
+
+#: src/Lite/Admin/Settings/Access.php:242
+msgid "Upgrade to WPForms Now"
+msgstr "升级到专业版"
+
+#: includes/admin/class-about.php:890 includes/admin/class-about.php:896
+msgid "Turn your visitors into brand ambassadors! Easily grow your email list, website traffic, and social media followers with powerful viral giveaways & contests."
+msgstr "把您的访客变成品牌大使！通过强大的病毒式赠品和竞赛，轻松增加您的电子邮件列表、网站流量和社交媒体关注者。"
+
+#: includes/admin/builder/class-builder.php:420
+msgid "This form is currently accepting payments. Entry storage is required to accept payments. To disable entry storage, please first disable payments."
+msgstr "此表单当前正在接受付款。接受付款需要输入存储器。若要禁用条目存储，请首先禁用付款。"
+
+#: src/Integrations/Gutenberg/FormSelector.php:222
+msgid "The form cannot be displayed."
+msgstr "该表单无法显示。"
+
+#: includes/admin/builder/class-builder.php:106
+msgid "Sorry, you are not allowed to edit this form."
+msgstr "抱歉，您不能编辑此表单。"
+
+#: includes/admin/builder/class-builder.php:102
+msgid "Sorry, you are not allowed to create new forms."
+msgstr "抱歉，您不能创建新表单。"
+
+#: src/Lite/Admin/Settings/Access.php:163
+#: src/Lite/Admin/Settings/Access.php:164
+msgid "Simple Built-in Controls"
+msgstr "简单内置控件"
+
+#: includes/admin/class-about.php:895
+msgid "RafflePress Pro"
+msgstr "RafflePress Pro"
+
+#: src/Lite/Admin/Settings/Access.php:136
+msgid "Pro+"
+msgstr "Pro+"
+
+#: src/Lite/Admin/Settings/Access.php:173
+#: src/Lite/Admin/Settings/Access.php:174
+msgid "Members Integration"
+msgstr "Members集成"
+
+#: includes/admin/class-tools.php:740
+msgid "Form data cannot be imported."
+msgstr "无法导入表单数据。"
+
+#: includes/admin/builder/class-builder.php:419
+msgid "Entry storage is currently disabled, but is required to accept payments. Please enable in your form settings."
+msgstr "当前已禁用条目存储，但必须接受付款。请在表单设置中启用。"
+
+#: src/Lite/Admin/Settings/Access.php:213
+msgid "Edit Others Forms Entries"
+msgstr "编辑其他表单条目"
+
+#: src/Lite/Admin/Settings/Access.php:201
+msgid "Edit Others Forms"
+msgstr "编辑其他表单"
+
+#: src/Lite/Admin/Settings/Access.php:212
+msgid "Edit Forms Entries"
+msgstr "编辑表单条目"
+
+#: src/Lite/Admin/Settings/Access.php:200
+msgid "Edit Forms"
+msgstr "编辑表单"
+
+#: src/Lite/Admin/Settings/Access.php:215
+msgid "Delete Others Forms Entries"
+msgstr "删除其他表单条目"
+
+#: src/Lite/Admin/Settings/Access.php:207
+msgid "Delete Others Forms"
+msgstr "删除其他表单"
+
+#: src/Lite/Admin/Settings/Access.php:214
+msgid "Delete Forms Entries"
+msgstr "删除表单条目"
+
+#: src/Lite/Admin/Settings/Access.php:206
+msgid "Delete Forms"
+msgstr "删除表单"
+
+#: src/Lite/Admin/Settings/Access.php:219
+msgid "Custom access to the following capabilities…"
+msgstr "自定义访问以下功能…"
+
+#: src/Lite/Admin/Settings/Access.php:199
+msgid "Create Forms"
+msgstr "创建表单"
+
+#. translators: %s - license level, WPForms Pro or WPForms Elite.
+#: includes/admin/admin.php:444
+msgid "After purchasing a license,<br>just <strong>enter your license key on the WPForms Settings page</strong>.<br>This will let your site automatically upgrade to %s!"
+msgstr "在购买许可证之后，<br>只需 <strong>在WPForms设置页面上输入您的许可证密钥</strong>。<br>即可让您的网站自动升级到 %s！"
+
+#: src/Lite/Admin/Settings/Access.php:137
+msgid "Access controls allows you to manage and customize access to WPForms functionality."
+msgstr "允许您管理和自定义角色对 WPForms 功能的访问。"
+
+#: src/Lite/Admin/Settings/Access.php:134
+msgid "Access Controls"
+msgstr "权限控制"
+
+#: src/Lite/Admin/Settings/Access.php:84
+msgid "Access"
+msgstr "访问"
+
+#: src/Lite/Admin/Builder/Education.php:718
+msgid "Did You Know?"
+msgstr "您知道吗？"
+
+#: src/Admin/Pages/Analytics.php:167 src/Admin/Pages/Analytics.php:459
+#: src/Admin/Pages/SMTP.php:163
+msgid "Install Now"
+msgstr "现在安装"
+
+#: includes/admin/class-menu.php:137 includes/admin/class-menu.php:138
+msgid "SMTP"
+msgstr "SMTP"
+
+#. translators: %s - WPForms.com Upgrade page URL.
+#: src/Lite/Admin/Education.php:80
+msgid "You’re using WPForms Lite. To unlock more features consider <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">upgrading to Pro</a>."
+msgstr "您使用的是 WPForms 精简版。要解锁更多功能，请考虑<a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">升级到专业版</a>。"
+
+#: src/Admin/Pages/SMTP.php:208
+msgid "WPForms ♥ WP Mail SMTP"
+msgstr "WPForms ♥ WP Mail SMTP"
+
+#: src/Admin/Pages/Analytics.php:212
+msgid "WPForms ♥ MonsterInsights"
+msgstr "WPForms ♥ MonsterInsights"
+
+#: src/Admin/Pages/SMTP.php:236
+msgid "WP Mail SMTP screenshot"
+msgstr "WP Mail SMTP屏幕截图"
+
+#: src/Admin/Pages/SMTP.php:162 src/Admin/Pages/SMTP.php:344
+msgid "WP Mail SMTP Installed & Activated"
+msgstr "WP Mail SMTP已安装并激活"
+
+#: src/Admin/Pages/SMTP.php:210
+msgid "WP Mail SMTP allows you to easily set up WordPress to use a trusted provider to reliably send emails, including form notifications. Built by the same folks behind WPForms."
+msgstr "WP Mail SMTP允许您轻松设置WordPress以使用受信任的提供程序来可靠地发送电子邮件，包括表单通知。由WPForms背后的同一个团队开发。"
+
+#: src/Admin/Pages/Analytics.php:350
+msgid "With the MonsterInsights Form addon you can easily track your form views, entries, conversion rates, and more."
+msgstr "使用MonsterInsights表单插件，您可以轻松跟踪表单浏览、条目、转换率等。"
+
+#: src/Admin/Pages/SMTP.php:241
+msgid "Web Mailers: Gmail, G Suite, Office 365, Outlook.com."
+msgstr "网络邮件：Gmail，G Suite，Office 365，Outlook.com。"
+
+#: src/Admin/Pages/Analytics.php:243
+msgid "View form conversion rates from WordPress."
+msgstr "从WordPress查看表单转换率。"
+
+#: includes/fields/class-number-slider.php:238
+msgid "Value Display"
+msgstr "数值显示"
+
+#: includes/fields/class-number-slider.php:124
+msgid "Value"
+msgstr "值"
+
+#: src/Admin/Pages/Analytics.php:242 src/Admin/Pages/Analytics.php:277
+msgid "Track form impressions and conversions."
+msgstr "跟踪表单的展示次数和转化次数。"
+
+#: src/Admin/Pages/Analytics.php:213
+msgid "The Best Google Analytics Plugin for WordPress"
+msgstr "WordPress的最佳Google Analytics插件"
+
+#: src/Lite/Admin/Builder/Education.php:410
+msgid "Surveys and Polls"
+msgstr "调查和民意调查"
+
+#: src/Admin/FlyoutMenu.php:119
+msgid "Support & Docs"
+msgstr "支持和文档"
+
+#: src/Admin/Pages/Analytics.php:348
+msgid "Step 3"
+msgstr "步骤 3"
+
+#: src/Admin/Pages/Analytics.php:312 src/Admin/Pages/SMTP.php:308
+msgid "Step 2"
+msgstr "步骤 2"
+
+#: src/Admin/Pages/Analytics.php:275 src/Admin/Pages/SMTP.php:271
+msgid "Step 1"
+msgstr "步骤 1"
+
+#: src/Admin/Pages/SMTP.php:366
+msgid "Start Setup"
+msgstr "开始安装"
+
+#: src/Lite/Admin/Builder/Education.php:572
+#: src/Lite/Admin/Builder/Education.php:581
+msgid "Something wrong. Please, try again later."
+msgstr "出错了，请稍后再试。"
+
+#: src/Admin/Pages/Analytics.php:313
+msgid "Setup MonsterInsights"
+msgstr "设置 MonsterInsights"
+
+#: src/Admin/Pages/Analytics.php:416
+msgid "Setup Complete"
+msgstr "设置完成"
+
+#: src/Admin/Pages/SMTP.php:309
+msgid "Set Up WP Mail SMTP"
+msgstr "设置 WP Mail SMTP"
+
+#: src/Admin/Pages/SMTP.php:239
+msgid "Send emails authenticated via trusted parties."
+msgstr "发送通过受信任方认证的电子邮件。"
+
+#: includes/fields/class-number-slider.php:250
+#: includes/fields/class-number-slider.php:323
+#: includes/fields/class-number-slider.php:358
+msgid "Selected Value: {value}"
+msgstr "所选值：{value}"
+
+#: src/Admin/Pages/SMTP.php:310
+msgid "Select and configure your mailer."
+msgstr "选择并配置您的邮件程序。"
+
+#: src/Admin/FlyoutMenu.php:63
+msgid "See Quick Links"
+msgstr "查看快速链接"
+
+#: src/Admin/Pages/Analytics.php:410
+msgid "Run Setup Wizard"
+msgstr "再次运行安装向导"
+
+#: includes/admin/class-menu.php:261 includes/admin/class-about.php:1283
+#: includes/admin/class-about.php:1289 includes/admin/class-about.php:1295
+msgid "Premium Support"
+msgstr "高级支持"
+
+#: src/Admin/Pages/Analytics.php:493 src/Admin/Pages/SMTP.php:405
+msgid "Plugin unavailable."
+msgstr "插件不可用。"
+
+#: includes/fields/class-number-slider.php:404
+msgid "Please provide a valid value."
+msgstr "请提供有效值。"
+
+#: includes/class-frontend.php:406
+msgid "Please enable JavaScript in your browser to complete this form."
+msgstr "请在浏览器中启用JavaScript来完成此表单。"
+
+#: src/Lite/Admin/Builder/Education.php:492
+msgid "PayPal Standard"
+msgstr "贝宝（PayPal）标准"
+
+#: src/Admin/Pages/SMTP.php:238
+msgid "Over 1,000,000 websites use WP Mail SMTP."
+msgstr "超过1,000,000个网站使用WP Mail SMTP。"
+
+#: includes/admin/builder/class-builder.php:534
+msgid "Our form builder is optimized for desktop computers and tablets. Please manage your forms on a different device."
+msgstr "我们的表单生成器针对电脑和平板电脑进行了优化。请在其他设备上管理您的表单。"
+
+#: includes/admin/builder/class-builder.php:532
+msgid "Oh, hi there!"
+msgstr "哦，您好！"
+
+#: includes/fields/class-number-slider.php:39
+msgid "Number Slider"
+msgstr "数字滑块"
+
+#: includes/admin/class-about.php:83
+msgid "Number of Sites"
+msgstr "站点数量"
+
+#: src/Lite/Admin/Builder/Education.php:564
+msgid "No form ID found."
+msgstr "找不到表单ID。"
+
+#: src/Admin/Pages/Analytics.php:166 src/Admin/Pages/Analytics.php:383
+msgid "MonsterInsights Installed & Activated"
+msgstr "MonsterInsights 已安装并激活"
+
+#: src/Admin/Pages/Analytics.php:314
+msgid "MonsterInsights has an intuitive setup wizard to guide you through the setup process."
+msgstr "MonsterInsights具有直观的设置向导，可指导您完成设置过程。"
+
+#: src/Admin/Pages/Analytics.php:214
+msgid "MonsterInsights connects WPForms to Google Analytics, providing a powerful integration with their Forms addon. MonsterInsights is a sister company of WPForms."
+msgstr "MonsterInsights将WPForms连接到Google Analytics（分析），并提供与其Forms插件的强大集成。 MonsterInsights是WPForms的姊妹公司。"
+
+#: templates/fields/number-slider/builder-option-min-max.php:4
+msgid "Minimum"
+msgstr "最小"
+
+#: templates/fields/number-slider/builder-option-min-max.php:8
+msgid "Maximum"
+msgstr "最大"
+
+#: src/Admin/Pages/SMTP.php:209
+msgid "Making Email Deliverability Easy for WordPress"
+msgstr "使WordPress的电子邮件可传递性变得容易"
+
+#: src/Admin/FlyoutMenu.php:124
+msgid "Join Our Community"
+msgstr "加入我们的社区"
+
+#: src/Admin/Pages/Analytics.php:164 src/Admin/Pages/SMTP.php:160
+msgid "Installing..."
+msgstr "正在安装…"
+
+#: src/Admin/Pages/SMTP.php:273
+msgid "Install WP Mail SMTP from the WordPress.org plugin repository."
+msgstr "从WordPress.org插件存储库安装 WP Mail SMTP。"
+
+#: src/Admin/Pages/SMTP.php:336
+msgid "Install WP Mail SMTP"
+msgstr "安装 WP Mail SMTP"
+
+#: src/Admin/Pages/Analytics.php:376
+msgid "Install MonsterInsights"
+msgstr "安装 MonsterInsights"
+
+#: src/Admin/Pages/SMTP.php:272
+msgid "Install and Activate WP Mail SMTP"
+msgstr "安装并激活 WP Mail SMTP"
+
+#: src/Admin/Pages/Analytics.php:276
+msgid "Install & Activate MonsterInsights"
+msgstr "安装 + 激活MonsterInsights"
+
+#: includes/fields/class-number-slider.php:270
+msgid "Increment"
+msgstr "增量"
+
+#: src/Lite/Admin/Builder/Education.php:657
+msgid "Google v3 reCAPTCHA"
+msgstr "谷歌v3 reCAPTCHA"
+
+#. translators: %1$s - reCaptcha settings page URL; %2$s - WPForms.com doc URL.
+#: src/Lite/Admin/Builder/Education.php:592
+msgid "Google reCAPTCHA isn't configured yet. Please complete the setup in your <a href=\"%1$s\" target=\"_blank\">WPForms Settings</a>, and check out our <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">step by step tutorial</a> for full details."
+msgstr "Google reCAPTCHA尚未配置。请在<a href=\"%1$s\" target=\"_blank\">WPForms设置</a>中完成设置 ，并查看我们的<a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">分步教程</a>以获取全部详细信息。"
+
+#: src/Lite/Admin/Builder/Education.php:654
+msgid "Google Invisible v2 reCAPTCHA"
+msgstr "谷歌隐形V2 reCAPTCHA"
+
+#: src/Lite/Admin/Builder/Education.php:651
+msgid "Google Checkbox v2 reCAPTCHA"
+msgstr "谷歌复选框V2 reCAPTCHA"
+
+#: src/Admin/Pages/SMTP.php:372
+msgid "Go to SMTP settings"
+msgstr "转到SMTP设置"
+
+#: src/Admin/Pages/SMTP.php:171
+msgid "Go to SMTP Settings"
+msgstr "转到SMTP设置"
+
+#: src/Admin/Pages/Analytics.php:170 src/Admin/Pages/SMTP.php:166
+msgid "Go to Plugins page"
+msgstr "转到插件页面"
+
+#: includes/admin/builder/class-builder.php:536
+msgid "Go back"
+msgstr "返回"
+
+#. translators: %s - next license level.
+#: includes/admin/class-about.php:810
+msgid "Get WPForms %s Today and Unlock all the Powerful Features"
+msgstr "立即获取WPForms%s并解锁所有强大的功能"
+
+#: src/Admin/Pages/Analytics.php:349
+msgid "Get Form Conversion Tracking"
+msgstr "获取表单转换跟踪"
+
+#: src/Lite/Admin/Builder/Education.php:417
+msgid "Form Pages"
+msgstr "表单页面"
+
+#: src/Lite/Admin/Builder/Education.php:424
+msgid "Form Locker"
+msgstr "表单加锁"
+
+#: includes/fields/class-number-slider.php:201
+msgid "Enter a default value for this field."
+msgstr "输入此字段的默认值。"
+
+#: includes/admin/builder/panels/class-fields.php:143
+msgid "Enabled"
+msgstr "激活"
+
+#: src/Admin/Pages/Analytics.php:169 src/Admin/Pages/SMTP.php:165
+msgid "Download Now"
+msgstr "现在下载"
+
+#: includes/fields/class-number-slider.php:239
+msgid "Displays the currently selected value below the slider."
+msgstr "在滑块下方显示当前选定的值。"
+
+#: src/Lite/Admin/Builder/Education.php:717 src/Lite/Admin/Education.php:99
+msgid "Dismiss this message."
+msgstr "关闭此消息。"
+
+#: includes/fields/class-number-slider.php:271
+msgid "Determines the increment between selectable values on the slider."
+msgstr "确定滑块上可选择值之间的增量。"
+
+#: includes/fields/class-number-slider.php:125
+msgid "Define the minimum and the maximum values for the slider."
+msgstr "定义滑块的最小值和最大值。"
+
+#. translators: %s - Lite plugin download URL.
+#: src/Admin/Pages/Analytics.php:141 src/Admin/Pages/SMTP.php:137
+msgid "Could not install plugin. Please <a href=\"%s\">download</a> and install manually."
+msgstr "无法安装插件。请手动<a href=\"%s\">下载</a>并安装。"
+
+#. translators: %s - Lite plugin download URL.
+#: src/Admin/Pages/Analytics.php:153 src/Admin/Pages/SMTP.php:149
+msgid "Could not activate plugin. Please activate from the <a href=\"%s\">Plugins page</a>."
+msgstr "无法激活插件。请从<a href=\"%s\">插件页面</a>激活。"
+
+#: includes/admin/class-welcome.php:272
+#: src/Lite/Admin/Builder/Education.php:403
+msgid "Conversational Forms"
+msgstr "会话表单"
+
+#: includes/admin/class-welcome.php:264
+#: src/Lite/Admin/Builder/Education.php:379
+msgid "Conditional Logic"
+msgstr "条件逻辑"
+
+#: src/Admin/Pages/Analytics.php:244
+msgid "Complete UTM tracking with form entries."
+msgstr "使用表单条目完成UTM跟踪。"
+
+#: src/Admin/Pages/Analytics.php:245
+msgid "Automatic integration with WPForms."
+msgstr "与WPForms自动集成。"
+
+#: src/Lite/Admin/Builder/Education.php:612
+msgid "Are you sure you want to disable Google reCAPTCHA for this form?"
+msgstr "您确定要禁用此表单的Google reCAPTCHA吗？"
+
+#: src/Admin/Pages/Analytics.php:240
+msgid "Analytics screenshot"
+msgstr "分析屏幕截图"
+
+#: src/Admin/Pages/Analytics.php:165 src/Admin/Pages/SMTP.php:161
+msgid "Activating..."
+msgstr "启用中…"
+
+#: src/Admin/Pages/SMTP.php:344
+msgid "Activate WP Mail SMTP"
+msgstr "激活 WP Mail SMTP"
+
+#: src/Admin/Pages/Analytics.php:383
+msgid "Activate MonsterInsights"
+msgstr "激活 MonsterInsights"
+
+#: includes/admin/class-about.php:1315
+msgid "5 Sites"
+msgstr "5个站点"
+
+#: includes/admin/class-about.php:1309
+msgid "3 Sites"
+msgstr "3个站点"
+
+#: includes/admin/class-about.php:1303
+msgid "1 Site"
+msgstr "1个站点"
+
+#. translators: %s - reCAPTCHA type.
+#: src/Lite/Admin/Builder/Education.php:608
+msgid "%s has been enabled for this form. Don't forget to save your form!"
+msgstr "已为此表单启用%s。不要忘记保存表单！"
+
+#. translators: %1$s - current license type; %2$s - suggested license type.
+#: includes/admin/class-about.php:128
+msgid "%1$s vs %2$s"
+msgstr "%1$s vs %2$s"
+
+#. translators: %1$s - Number slider selected value; %2$s - its minimum value;
+#. %3$s - its maximum value.
+#: includes/fields/class-number-slider.php:75
+msgid "%1$s (%2$s min / %3$s max)"
+msgstr "%1$s（最少%2$s / 最多%3$s）"
+
+#: includes/class-frontend.php:1325
+msgid "{count} of {limit} max words."
+msgstr "{count} 个单词，最多{limit}个。"
+
+#: includes/class-frontend.php:1324
+msgid "{count} of {limit} max characters."
+msgstr "{count} 个字符，最多{limit}个."
+
+#: src/Admin/Pages/Community.php:64
+msgid "WPForms VIP Circle Facebook Group"
+msgstr "WPForms VIP圈Facebook组"
+
+#: src/Admin/Pages/Community.php:94
+msgid "WPForms Translators Community"
+msgstr "WPForms翻译者社区"
+
+#: src/Admin/Pages/Community.php:74
+msgid "WPForms Developer Documentation"
+msgstr "WPForms开发人员文档"
+
+#: src/Admin/Pages/Community.php:84
+msgid "WPBeginner Engage Facebook Group"
+msgstr "WPBeginner经营Facebook集团"
+
+#: includes/fields/class-textarea.php:124 includes/fields/class-text.php:278
+msgid "Words"
+msgstr "单词"
+
+#: src/Admin/Pages/Community.php:95
+msgid "We're building a community of translators and i18n experts to translate WPForms. Sign up to our translator community newsletter to learn more and get information on how you can contribute!"
+msgstr "我们正在建立一个由翻译人员和i18n专家组成的社区，以翻译WPForms。订阅我们的翻译社区时事通讯，以了解更多信息并获取有关您如何贡献的信息！"
+
+#: src/Admin/Pages/Community.php:76
+msgid "View WPForms Dev Docs"
+msgstr "查看WPForms开发文档"
+
+#. translators: %s - limit words number.
+#: includes/fields/class-textarea.php:323 includes/fields/class-text.php:493
+msgid "Text can't exceed %d word."
+msgid_plural "Text can't exceed %d words."
+msgstr[0] "文本不能超过 %d 个字。"
+
+#. translators: %s - limit characters number.
+#: includes/fields/class-textarea.php:317 includes/fields/class-text.php:487
+msgid "Text can't exceed %d character."
+msgid_plural "Text can't exceed %d characters."
+msgstr[0] "文本不能超过 %d 个字符。"
+
+#: src/Admin/Pages/Community.php:104 src/Admin/Pages/Community.php:106
+#: src/Admin/FlyoutMenu.php:129
+msgid "Suggest a Feature"
+msgstr "暗示一个特点"
+
+#: src/Admin/Pages/Community.php:65
+msgid "Powered by the community, for the community. Anything and everything WPForms: Discussions. Questions. Tutorials. Insights and sneak peaks. Also, exclusive giveaways!"
+msgstr "由社区提供动力，为社区服务。 WPForms的一切：讨论。问题。教程。洞察力和潜行高峰。此外，独家赠品！"
+
+#: includes/fields/class-textarea.php:92 includes/fields/class-text.php:246
+msgid "Limit Length"
+msgstr "长度范围"
+
+#: src/Admin/Pages/Community.php:66
+msgid "Join WPForms VIP Circle"
+msgstr "加入WPForms VIP圈"
+
+#: src/Admin/Pages/Community.php:86
+msgid "Join WPBeginner Engage"
+msgstr "加入WPBeginner集团"
+
+#: src/Admin/Pages/Community.php:96
+msgid "Join Translators Community"
+msgstr "加入翻译社区"
+
+#: src/Admin/Pages/Community.php:85
+msgid "Hang out with other WordPress experts and like minded website owners such as yourself! Hosted by WPBeginner, the largest free WordPress site for beginners."
+msgstr "与其他WordPress专家以及志趣相投的网站所有者（例如您）一起出去玩！由WPBeginner托管，WPBeginner是面向初学者的最大的免费WordPress网站。"
+
+#: includes/class-frontend.php:1317
+msgid "File exceeds max size allowed. File was not uploaded."
+msgstr "文件超出了允许的最大大小。文件未上传。"
+
+#: src/Admin/Pages/Community.php:105
+msgid "Do you have an idea or suggestion for WPForms? If you have thoughts on features, integrations, addons, or improvements - we want to hear it! We appreciate all feedback and insight from our users."
+msgstr "您对WPForms有想法或建议吗？如果您对功能、集成、扩展或改进有想法 - 我们希望听到它！我们感谢用户提供的所有反馈和见解。"
+
+#: src/Admin/Pages/Community.php:75
+msgid "Customize and extend WPForms with code. Our comprehensive developer resources include tutorials, snippets, and documentation on core actions, filters, functions, and more."
+msgstr "使用代码自定义和扩展WPForms。我们全面的开发人员资源包括有关核心操作、过滤器、函数等的教程，摘要和文档。"
+
+#: includes/admin/class-menu.php:157 includes/admin/class-menu.php:158
+#: src/Admin/Pages/Community.php:125 src/Admin/AdminBarMenu.php:290
+msgid "Community"
+msgstr "社区"
+
+#: includes/fields/class-textarea.php:93 includes/fields/class-text.php:247
+msgid "Check this option to limit text length by characters or words count."
+msgstr "选中此选项可按字符或字数限制文本长度。"
+
+#: includes/fields/class-textarea.php:123 includes/fields/class-text.php:277
+msgid "Characters"
+msgstr "字符"
+
+#: src/Integrations/SiteHealth/SiteHealth.php:63
+msgid "Version"
+msgstr "版本"
+
+#: src/Integrations/SiteHealth/SiteHealth.php:131
+msgid "Total submissions (since v1.5.0)"
+msgstr "提交总数（自 v1.5.0 起）"
+
+#: src/Integrations/SiteHealth/SiteHealth.php:107
+msgid "Total forms"
+msgstr "全部表单"
+
+#: src/Integrations/SiteHealth/SiteHealth.php:114
+msgid "Total entries"
+msgstr "总条目"
+
+#: src/Integrations/SiteHealth/SiteHealth.php:89
+msgid "Pro install date"
+msgstr "专业版安装日期"
+
+#: src/Lite/Admin/Connect.php:78
+msgid "Please enter your license key to connect."
+msgstr "请输入您的许可证密钥进行连接。"
+
+#: src/Integrations/SiteHealth/SiteHealth.php:97
+msgid "Not found"
+msgstr "未找到"
+
+#: src/Lite/Admin/Connect.php:220
+msgid "No key provided."
+msgstr "未提供授权码。"
+
+#: includes/admin/class-about.php:875 includes/admin/class-about.php:881
+msgid "Make sure your website's emails reach the inbox. Our goal is to make email deliverability easy and reliable. Trusted by over 1 million websites."
+msgstr "确保您网站的电子邮件到达收件箱。我们的目标是使电子邮件传递变得简单可靠。被100多万个网站信任。"
+
+#: src/Integrations/SiteHealth/SiteHealth.php:81
+msgid "Lite install date"
+msgstr "精简版安装日期"
+
+#: src/Integrations/SiteHealth/SiteHealth.php:71
+msgid "License key type"
+msgstr "许可证密钥类型"
+
+#: src/Integrations/SiteHealth/SiteHealth.php:100
+msgid "DB tables"
+msgstr "数据库表"
+
+#: src/Lite/Admin/Builder/Education.php:380
+msgid "Conditionals"
+msgstr "条件"
+
+#: includes/admin/class-about.php:880
+msgid "WP Mail SMTP Pro"
+msgstr "WP Mail SMTP Pro"
+
+#: src/Admin/Pages/Analytics.php:168 src/Admin/Pages/Analytics.php:459
+#: src/Admin/Pages/SMTP.php:164
+msgid "Activate Now"
+msgstr "立即激活"
+
+#: src/Emails/Mailer.php:427
+msgid "[WPForms\\Emails\\Mailer] Invalid email address."
+msgstr "[WPForms\\Emails\\Mailer]无效的电子邮件地址。"
+
+#: src/Emails/Mailer.php:431
+msgid "[WPForms\\Emails\\Mailer] Empty subject line."
+msgstr "[WPForms\\Emails\\Mailer]空主题行。"
+
+#: src/Emails/Mailer.php:435
+msgid "[WPForms\\Emails\\Mailer] Empty message."
+msgstr "[WPForms\\Emails\\Mailer]空消息。"
+
+#: src/Emails/Mailer.php:479
+msgid "You cannot send emails with WPForms\\Emails\\Mailer until init/admin_init has been reached."
+msgstr "在到达 init/admin_init 之前，您不能使用 WPForms\\Emails\\Mailer 发送电子邮件。"
+
+#: src/Emails/Summaries.php:222
+msgid "WPForms Summary"
+msgstr "WPForms 摘要"
+
+#: src/Lite/Admin/Connect.php:95
+msgid "WPForms Pro was already installed and has not been activated."
+msgstr "WPForms专业版已安装且尚未激活。"
+
+#: src/Emails/Summaries.php:181
+msgid "Weekly WPForms Email Summaries"
+msgstr "每周 WPForms 电子邮件摘要"
+
+#: src/Emails/Summaries.php:101
+msgid "View Email Summary Example"
+msgstr "查看电子邮件摘要示例"
+
+#: src/Lite/Admin/ConnectSkin.php:31
+msgid "There was an error installing WPForms Pro. Please try again."
+msgstr "安装WPForms专业版时出错。请再试一遍。"
+
+#: src/Lite/Admin/Connect.php:72
+msgid "Sorry, you do not have permission to install plugins."
+msgstr "抱歉，您无权安装插件。"
+
+#: src/Lite/Admin/Connect.php:246
+msgid "Pro version installed but needs to be activated from the Plugins page inside your WordPress admin."
+msgstr "已安装专业版，但需要从WordPress管理员内的“插件”页面激活。"
+
+#: src/Lite/Admin/Connect.php:82
+msgid "Only the Lite version can upgrade."
+msgstr "仅精简版可以升级。"
+
+#: src/Emails/Summaries.php:98
+msgid "Disable Email Summaries weekly delivery."
+msgstr "禁用电子邮件摘要每周传递。"
+
+#: src/Emails/Summaries.php:106
+msgid "Disable Email Summaries"
+msgstr "禁用电子邮件摘要"
+
+#: includes/admin/admin.php:154
+msgid "Unfortunately, there was an server connection error."
+msgstr "不幸的是，有一个服务器连接错误。"
+
+#: includes/admin/class-about.php:294
+msgid "The WPForms Team"
+msgstr "WPForms 团队"
+
+#: includes/admin/settings-api.php:142
+msgid "Paste license key here"
+msgstr "在此处粘贴许可证密钥"
+
+#: includes/admin/admin.php:145
+msgid "Oops!"
+msgstr "哎呀！"
+
+#: templates/emails/summary-body.php:29
+#: templates/emails/summary-body-plain.php:24
+msgid "Let’s see how your forms performed."
+msgstr "让我们看看您的表单表现如何。"
+
+#: templates/emails/summary-body.php:27
+#: templates/emails/summary-body-plain.php:22
+msgid "Let’s see how your forms performed in the past week."
+msgstr "让我们看看您的表单在过去一周的表现如何。"
+
+#: templates/emails/summary-body.php:62
+#: templates/emails/summary-body-plain.php:39
+msgid "It appears you do not have any form entries yet."
+msgstr "看来您还没有任何表单条目。"
+
+#: templates/emails/summary-body.php:25
+#: templates/emails/summary-body-plain.php:19
+msgid "Hi there!"
+msgstr "您好！"
+
+#: templates/emails/summary-body.php:31
+#: templates/emails/summary-body-plain.php:25
+msgid "Below is the total number of submissions for each form, however actual entries are not stored in WPForms Lite. To generate detailed reports and view future entries inside your WordPress dashboard, consider upgrading to Pro."
+msgstr "以下是每种表单的提交总数，但是实际条目未存储在WPForms精简版中。要生成详细的报告并查看WordPress仪表板中将来的条目，请考虑升级到专业版。"
+
+#: includes/admin/settings-api.php:140
+msgid "Already purchased?  Simply enter your license key below to connect with WPForms PRO!"
+msgstr "已经购买了？只需在下面输入您的许可证密钥即可连接到WPForms专业版！"
+
+#: includes/admin/admin.php:144
+msgid "Almost Done"
+msgstr "几乎完成"
+
+#: includes/fields/class-email.php:428
+msgid "The provided emails do not match."
+msgstr "提供的电子邮件不匹配。"
+
+#: includes/admin/builder/panels/class-settings.php:196
+msgid "Enables form submission without page reload."
+msgstr "启用表单提交，无需重新加载页面。"
+
+#: includes/admin/builder/panels/class-settings.php:194
+msgid "Enable AJAX form submission"
+msgstr "启用AJAX表单提交"
+
+#: includes/admin/class-settings.php:419
+msgid "0.4"
+msgstr "0.4"
+
+#: includes/admin/class-settings.php:411
+msgid "Score Threshold"
+msgstr "分数阈值"
+
+#: includes/admin/class-settings.php:407 includes/class-process.php:173
+#: includes/class-frontend.php:1326
+msgid "Google reCAPTCHA verification failed, please try again later."
+msgstr "Google reCAPTCHA验证失败，请稍后再试。"
+
+#: includes/admin/class-settings.php:404
+msgid "Fail Message"
+msgstr "失败消息"
+
+#: includes/admin/class-settings.php:389
+msgid "reCAPTCHA v3"
+msgstr "reCAPTCHA v3"
+
+#: includes/fields/class-email.php:426
+msgid "The provided email is not valid."
+msgstr "提供的电子邮件无效。"
+
+#: includes/admin/class-settings.php:586
+msgid "Sites already using one type of reCAPTCHA will need to create new site keys before switching to a different option."
+msgstr "已经使用一种reCAPTCHA的站点需要在切换到其他选项之前创建新的站点密钥。"
+
+#: includes/class-process.php:522
+msgid "Redirecting…"
+msgstr "重定向…"
+
+#: includes/admin/class-settings.php:412
+msgid "reCAPTCHA v3 returns a score (1.0 is very likely a good interaction, 0.0 is very likely a bot). If the score less than or equal to this threshold, the form submission will be blocked and the message above will be displayed."
+msgstr "reCAPTCHA v3返回一个分数（1.0很可能是一个很好的交互，0.0很可能是一个机器人程序）。如果分数小于或等于此阈值，则将阻止表单提交并显示上面的消息。"
+
+#. translators: %s - URL to reCAPTCHA documentation.
+#: includes/class-frontend.php:847
+msgid "Google reCAPTCHA v2 is not supported by AMP and is currently disabled.<br><a href=\"%s\" rel=\"noopener noreferrer\" target=\"_blank\">Upgrade to reCAPTCHA v3</a> for full AMP support. <br><em>Please note: this message is only displayed to site administrators.</em>"
+msgstr "AMP不支持Google reCAPTCHA v2，目前已被禁用。<br> <a href=\"%s\" rel=\"noopener noreferrer\" target=\"_blank\">升级到reCAPTCHA v3 </a>以全面支持AMP。<br> <em>请注意：此消息仅显示给站点管理员。</em>"
+
+#: includes/admin/class-settings.php:565
+msgid "Google offers 3 versions of reCAPTCHA (all supported within WPForms):"
+msgstr "谷歌提供了3个版本的reCAPTCHA(全部支持WPForms):"
+
+#: includes/admin/builder/panels/class-settings.php:168
+msgid "Enable Google v3 reCAPTCHA"
+msgstr "启用谷歌v3 reCAPTCHA"
+
+#: includes/admin/class-settings.php:532
+msgid "Check this if you would like to remove ALL WPForms data upon plugin deletion. All forms and settings will be unrecoverable."
+msgstr "如果您想在插件删除时删除所有WPForms数据，请选中此选项。所有的表单和设置都是不可恢复的。"
+
+#: includes/admin/class-settings.php:581
+msgid "<strong>v3 reCAPTCHA</strong>: Uses a behind-the-scenes scoring system to detect abusive traffic, and lets you decide the minimum passing score. Recommended for advanced use only (or if using Google AMP)."
+msgstr "<strong>v3 reCAPTCHA</strong>：使用后台评分系统检测滥用流量，并让您决定最低通过分数。建议仅用于高级用途（或如果使用谷歌AMP）。"
+
+#: includes/admin/class-settings.php:575
+msgid "<strong>v2 Invisible reCAPTCHA</strong>: Uses advanced technology to detect real users without requiring any input."
+msgstr "<strong>v2 Invisible reCAPTCHA</strong>：使用先进技术检测真实用户，无需输入。"
+
+#: includes/admin/class-settings.php:569
+msgid "<strong>v2 Checkbox reCAPTCHA</strong>: Prompts users to check a box to prove they're human."
+msgstr "<strong>v2 Checkbox reCAPTCHA</strong>：提示用户选中一个方框以证明他们是人类。"
+
+#: includes/admin/class-settings.php:489 includes/fields/class-checkbox.php:589
+#: includes/class-frontend.php:1323
+msgid "You have exceeded the number of allowed selections: {#}."
+msgstr "您已超过允许的选择数：{#}。"
+
+#: includes/class-process.php:592 includes/class-frontend.php:1322
+msgid "The total size of the selected files {totalSize} Mb exceeds the allowed limit {maxSize} Mb."
+msgstr "所选文件的总大小为{totalSize}Mb，超过了允许的{maxSize}Mb限制。"
+
+#: includes/admin/class-about.php:858
+msgid "MonsterInsights Pro"
+msgstr "MonsterInsights Pro"
+
+#: includes/fields/class-checkbox.php:347
+msgid "Limit the number of checkboxes a user can select. Leave empty for unlimited."
+msgstr "限制用户可以选择的复选框数量。留空将不受限制。"
+
+#: includes/admin/class-settings.php:463
+msgid "Email Suggestion"
+msgstr "电子邮件建议"
+
+#: src/Integrations/Gutenberg/FormSelector.php:106
+msgid "Do not forget to test your form."
+msgstr "不要忘记测试您的表单。"
+
+#: includes/admin/class-settings.php:465 includes/class-frontend.php:1312
+msgid "Did you mean {suggestion}?"
+msgstr "您是说 {suggestion}吗？"
+
+#: src/Integrations/Gutenberg/FormSelector.php:96
+msgid "contact"
+msgstr "偶有联系"
+
+#: includes/class-frontend.php:1313
+msgid "Click to accept this suggestion."
+msgstr "单击以接受该建议。"
+
+#: includes/fields/class-checkbox.php:346
+msgid "Choice Limit"
+msgstr "选择限制"
+
+#: includes/admin/class-settings.php:487
+msgid "Checkbox Selection Limit"
+msgstr "复选框选择限制"
+
+#: src/Integrations/Gutenberg/FormSelector.php:107
+msgid "Check out our complete guide!"
+msgstr "查看我们的完整指南！"
+
+#: src/Integrations/Gutenberg/FormSelector.php:97
+msgid "survey"
+msgstr "调查"
+
+#: includes/admin/class-settings.php:387
+msgid "Checkbox reCAPTCHA v2"
+msgstr "复选框reCAPTCHA v2"
+
+#: includes/admin/builder/panels/class-settings.php:162
+msgid "Enable Google Checkbox v2 reCAPTCHA"
+msgstr "启用谷歌复选框V2 reCAPTCHA"
+
+#: includes/class-widget.php:147
+msgctxt "Widget"
+msgid "Display form name"
+msgstr "显示表单名称"
+
+#: includes/class-widget.php:138
+msgctxt "Widget"
+msgid "No forms"
+msgstr "没有表单"
+
+#: includes/class-widget.php:132
+msgctxt "Widget"
+msgid "Select your form"
+msgstr "选择您的表单"
+
+#: includes/class-widget.php:49
+msgctxt "Widget"
+msgid "WPForms"
+msgstr "WPForms"
+
+#: includes/integrations.php:60
+msgid "Would you like to display the forms name?"
+msgstr "您要显示表单名称吗？"
+
+#: includes/integrations.php:57 includes/integrations.php:72
+msgid "Yes"
+msgstr "是"
+
+#: includes/integrations.php:56 includes/integrations.php:71
+msgid "No"
+msgstr "否"
+
+#: includes/integrations.php:53
+msgid "Display Form Name"
+msgstr "显示表单名称"
+
+#: includes/integrations.php:40
+msgid "Add your form"
+msgstr "添加表单"
+
+#: includes/integrations.php:39
+msgid "Content"
+msgstr "内容"
+
+#: includes/integrations.php:23
+msgid "Select a form to display"
+msgstr "选择要显示的表单"
+
+#: includes/class-conditional-logic-core.php:516
+msgid "Add rule group"
+msgstr "添加规则组"
+
+#: includes/class-conditional-logic-core.php:194
+#: src/Integrations/Elementor/Widget.php:225
+#: src/Integrations/Elementor/Widget.php:239
+msgid "Hide"
+msgstr "隐藏"
+
+#: includes/class-conditional-logic-core.php:193
+#: src/Integrations/Elementor/Widget.php:224
+#: src/Integrations/Elementor/Widget.php:238
+msgid "Show"
+msgstr "显示"
+
+#: includes/class-conditional-logic-core.php:510
+msgctxt "Conditional Logic: new rule logic."
+msgid "or"
+msgstr "或"
+
+#: includes/class-conditional-logic-core.php:500
+msgctxt "Conditional Logic: new rule logic."
+msgid "AND"
+msgstr "和"
+
+#: includes/class-conditional-logic-core.php:245
+msgid "Don't process"
+msgstr "不要处理"
+
+#: includes/class-conditional-logic-core.php:244
+msgid "Process"
+msgstr "处理"
+
+#: includes/class-conditional-logic-core.php:240
+msgid "this connection if"
+msgstr "如果这个连接"
+
+#: includes/class-conditional-logic-core.php:208
+#: includes/class-conditional-logic-core.php:284
+msgid "How to use Conditional Logic"
+msgstr "如何使用条件逻辑"
+
+#: includes/class-conditional-logic-core.php:207
+#: includes/class-conditional-logic-core.php:282
+msgid "Enable conditional logic"
+msgstr "启用条件逻辑"
+
+#: includes/admin/class-about.php:1259
+msgid "Limited Support"
+msgstr "有限支持"
+
+#: includes/admin/class-menu.php:87
+msgid "WPForms Settings"
+msgstr "WPForms设置"
+
+#: includes/admin/class-menu.php:147
+msgid "About WPForms"
+msgstr "关于WPForms"
+
+#: includes/admin/class-menu.php:148 includes/admin/class-about.php:113
+msgid "About Us"
+msgstr "关于我们"
+
+#: includes/admin/class-tools.php:97 includes/admin/class-tools.php:572
+msgid "Export"
+msgstr "导出"
+
+#: includes/admin/builder/class-builder.php:397
+#: includes/admin/builder/class-builder.php:592
+msgid "Exit"
+msgstr "退出"
+
+#: includes/functions.php:835
+msgid "Ethiopia"
+msgstr "埃塞俄比亚"
+
+#: includes/functions.php:834
+msgid "Estonia"
+msgstr "爱沙尼亚"
+
+#: includes/functions.php:1001
+msgid "Uruguay"
+msgstr "乌拉圭"
+
+#: includes/admin/class-menu.php:88 includes/admin/class-menu.php:246
+#: includes/admin/builder/panels/class-settings.php:18
+msgid "Settings"
+msgstr "设置"
+
+#: includes/admin/class-about.php:867
+msgid "OptinMonster"
+msgstr "OptinMonster"
+
+#: includes/admin/builder/class-builder.php:378
+#: includes/admin/builder/class-builder.php:587
+msgid "Save"
+msgstr "保存"
+
+#: includes/admin/builder/class-builder.php:381
+msgid "Save and Exit"
+msgstr "保存并退出"
+
+#: includes/functions.php:839
+msgid "Finland"
+msgstr "芬兰"
+
+#: includes/functions.php:810
+msgid "China"
+msgstr "中国"
+
+#: includes/functions.php:809
+msgid "Chile"
+msgstr "智利"
+
+#: includes/admin/class-settings.php:360
+msgid "Background Color"
+msgstr "背景颜色"
+
+#: includes/admin/class-tools.php:255
+msgid "WPForms Import"
+msgstr "WPForms导入"
+
+#: includes/admin/class-about.php:874
+msgid "WP Mail SMTP"
+msgstr "WP Mail SMTP"
+
+#: includes/admin/admin.php:186
+msgid "Upgrade was successfully completed!"
+msgstr "升级成功完成！"
+
+#: includes/functions.php:979
+msgid "Switzerland"
+msgstr "瑞士"
+
+#: includes/functions.php:978
+msgid "Sweden"
+msgstr "瑞典"
+
+#: includes/functions.php:977
+msgid "Swaziland"
+msgstr "斯威士兰"
+
+#: includes/functions.php:975
+msgid "Suriname"
+msgstr "苏里南"
+
+#: includes/functions.php:1056
+msgid "Sunday"
+msgstr "星期日"
+
+#: includes/admin/class-about.php:1265 includes/admin/class-about.php:1271
+msgid "Standard Support"
+msgstr "标准支持"
+
+#: includes/functions.php:969
+msgid "South Africa"
+msgstr "南非"
+
+#: includes/admin/class-review.php:93 includes/admin/class-review.php:157
+msgid "~ Syed Balkhi<br>Co-Founder of WPForms"
+msgstr "~ Syed Balkhi<br>WPForms表单的联合创始人之一"
+
+#: includes/functions.php:1013
+msgid "Zimbabwe"
+msgstr "津巴布韦"
+
+#: includes/functions.php:1012
+msgid "Zambia"
+msgstr "赞比亚"
+
+#: includes/admin/class-about.php:286
+msgid "Yup, we know a thing or two about building awesome products that customers love."
+msgstr "是的, 我们对制造客户喜爱的优质产品了如指掌。"
+
+#. translators: %1$s - WPForms plugin name; %2$s - WPForms.com URL to a related
+#. doc.
+#: includes/admin/admin.php:375
+msgid "Your site is running an outdated version of PHP that is no longer supported and may cause issues with %1$s. <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">Read more</a> for additional information."
+msgstr "您的站点正在运行不再受支持的过时版本的PHP，可能会导致 %1$s. 出现问题。有关其他信息，请<a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">了解详情</a>."
+
+#: includes/admin/class-settings.php:251
+msgid "Your license key provides access to updates and addons."
+msgstr "您的许可密钥提供了对更新和扩展的访问。"
+
+#. translators: %s - WPForms.com docs page URL.
+#: includes/admin/admin.php:173
+msgid "You've selected <strong>No Styling</strong>, which will likely result in significant styling issues and is recommended only for developers. <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Please check out our tutorial</a> for more details and recommendations."
+msgstr "您已选择<strong>无样式</strong>，这可能会导致显著的样式问题，建议只针对开发人员。更多细节和建议<a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">请看我们的教程</a>。"
+
+#. translators: %s - WPForms.com docs page URL.
+#: includes/admin/admin.php:158
+msgid "You've selected <strong>Base Styling Only</strong>, which may result in styling issues. <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Please check out our tutorial</a> for common issues and recommendations."
+msgstr "您已选择 <strong>仅基本样式</strong>，这可能导致样式问题。针对常见问题和建议<a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">请看我们的教程</a>。"
+
+#: includes/admin/settings-api.php:109
+msgid "You're using WPForms Lite - no license needed. Enjoy!"
+msgstr "您正在使用WPForms 精简版-不需要许可证。享用吧！"
+
+#: includes/providers/class-constant-contact.php:776
+msgid "You&#39;ve Already Started - Here&#39;s the Next Step (It&#39;s Easy)"
+msgstr "您已经开始 - 这是下一步（很容易）"
+
+#: includes/admin/class-tools.php:566
+msgid "You need to create a form before you can use form export."
+msgstr "在使用表单导出之前，您需要创建一个表单。"
+
+#: includes/admin/class-tools.php:617
+msgid "You need to create a form before you can generate a template."
+msgstr "您需要先创建表单，然后才能生成模板。"
+
+#: includes/admin/builder/panels/class-payments.php:58
+#: includes/admin/builder/panels/class-providers.php:92
+msgid "You need to <a href=\"#\" class=\"wpforms-panel-switch\" data-panel=\"setup\">setup your form</a> before you can manage these settings."
+msgstr "在管理这些设置之前，您需要先<a href=\"#\" class=\"wpforms-panel-switch\" data-panel=\"setup\">开始表单</a>。"
+
+#: includes/admin/builder/panels/class-settings.php:59
+msgid "You need to <a href=\"#\" class=\"wpforms-panel-switch\" data-panel=\"setup\">setup your form</a> before you can manage the settings."
+msgstr "在管理设置之前，您需要先<a href=\"#\" class=\"wpforms-panel-switch\" data-panel=\"setup\">开始表单</a>。"
+
+#: includes/admin/builder/panels/class-fields.php:101
+msgid "You need to <a href=\"#\" class=\"wpforms-panel-switch\" data-panel=\"setup\">setup your form</a> before you can manage the fields."
+msgstr "在管理字段之前，您需要先<a href=\"#\" class=\"wpforms-panel-switch\" data-panel=\"setup\">开始表单</a>。"
+
+#: includes/admin/builder/class-builder.php:371
+msgid "You must provide a notification name"
+msgstr "您必须提供通知名称"
+
+#: includes/admin/builder/panels/class-providers.php:56
+msgid "You must provide a connection nickname."
+msgstr "必须提供连接昵称。"
+
+#: includes/admin/builder/class-builder.php:376
+msgid "You must provide a confirmation name"
+msgstr "您必须提供确认名称"
+
+#: includes/admin/builder/panels/class-fields.php:330
+msgid "You don't have any fields yet. Add some!"
+msgstr "您还没有任何字段。添加一些！"
+
+#: includes/admin/builder/panels/class-fields.php:317
+msgid "You don't have any fields yet."
+msgstr "您还没有任何字段。"
+
+#: includes/emails/class-emails.php:345
+msgid "You cannot send emails with WPForms_WP_Emails() until init/admin_init has been reached."
+msgstr "在达到init / admin_init之前，您无法使用WPForms_WP_Emails()发送电子邮件。"
+
+#: includes/admin/class-tools.php:394
+msgid "You can continue with the import without upgrading, and we will do our best to match the fields. However, some of them will be omitted due to compatibility issues."
+msgstr "您可以继续导入而无需升级，我们将尽力匹配这些字段。但是，由于兼容性问题，其中一些将被省略。"
+
+#: includes/functions.php:1011
+msgid "Yemen"
+msgstr "也门"
+
+#: includes/functions.php:750
+msgid "Wyoming"
+msgstr "怀俄明州"
+
+#: includes/admin/class-menu.php:97
+msgid "WPForms Tools"
+msgstr "WPForms工具"
+
+#: includes/providers/class-constant-contact.php:789
+msgid "WPForms plugin makes it fast and easy to capture all kinds of visitor information right from your WordPress site - even if you don&#39;t have a Constant Contact account."
+msgstr "WPForms插件可以直接从您的WordPress网站快速轻松地捕获各种访问者信息 - 即使您没有Constant Contact帐户。"
+
+#: includes/providers/class-constant-contact.php:802
+msgid "WPForms Makes List Building Easy"
+msgstr "WPForms使列表构建变得容易"
+
+#: includes/admin/class-welcome.php:152
+msgid "WPForms makes it easy to create forms in WordPress. You can watch the video tutorial or read our guide on how create your first form."
+msgstr "WPForms使得在WordPress中创建表单变得容易。您可以观看视频教程或阅读有关如何创建第一个表单的指南。"
+
+#: includes/admin/class-tools.php:278
+msgid "WPForms makes it easy for you to switch by allowing you import your third-party forms with a single click."
+msgstr "WPForms允许您只需单击一次即可导入第三方表单，从而使您可以轻松地进行切换。"
+
+#: includes/class-logging.php:35
+msgid "WPForms Logs"
+msgstr "WPForms日志"
+
+#: includes/admin/class-welcome.php:302
+msgid "WPForms is by far the easiest form plugin to use. My clients love it – it’s one of the few plugins they can use without any training. As a developer I appreciate how fast, modern, clean and extensible it is."
+msgstr "WPForms是迄今为止最容易使用的表单插件。我的客户很喜欢它——它是少数几个不需要任何培训就可以使用的插件之一。作为一个开发人员，我很欣赏它的快速、现代、干净和可扩展性。"
+
+#: includes/admin/class-welcome.php:179
+msgid "WPForms is both easy to use and extremely powerful. We have tons of helpful features that allow us to give you everything you need from a form builder."
+msgstr "WPForms既易于使用，又非常强大。我们有很多有用的功能，可以让我们为您提供表单生成器所需的一切。"
+
+#: includes/admin/class-welcome.php:198
+msgid "WPForms is 100% responsive meaning it works on mobile, tablets & desktop."
+msgstr "WPForms是100%响应意味着它可以在手机、平板和电脑上工作。"
+
+#: includes/admin/class-welcome.php:178
+msgid "WPForms Features &amp; Addons"
+msgstr "WPForms功能和扩展"
+
+#: includes/admin/class-menu.php:59
+msgid "WPForms Builder"
+msgstr "WPForms生成器"
+
+#: includes/admin/class-about.php:643
+msgid "Would you like to learn more about all of the settings available in WPForms? In addition to tons of customization options within the form builder, WPForms has an extensive list of plugin-wide options available. This includes choosing your currency, adding GDPR enhancements, setting up integrations."
+msgstr "您想了解有关WPForms中所有可用设置的更多信息吗？ 除了表单生成器中的大量自定义选项外，WPForms还提供了大量可供插件使用的选项。 这包括选择货币，添加GDPR增强功能，设置集成。"
+
+#: includes/integrations.php:75
+msgid "Would you like to display the form description?"
+msgstr "要显示表单说明吗？"
+
+#: includes/admin/class-about.php:681
+msgid "Would you like to access WPForms addons to extend the functionality of your forms? The first thing you need to do is install WPForms. Once that’s done, let’s go ahead and look at the process of activating addons."
+msgstr "您是否希望访问WPForms插件以扩展表单的功能？ 您需要做的第一件事是安装WPForms。 完成后，让我们继续看看激活插件的过程。"
+
+#: includes/admin/class-about.php:547
+msgid "WordPress user registration and login forms."
+msgstr "WordPress 用户注册和登录表单。"
+
+#: includes/providers/class-constant-contact.php:745
+msgid "Wondering if email marketing is really worth your time?"
+msgstr "想知道电子​​邮件营销是否值得花时间？"
+
+#: includes/providers/class-constant-contact.php:825
+msgid "With Constant Contact + WPForms, growing your list is easy."
+msgstr "使用Constant Contact + WPForms，可以轻松扩展您的列表。"
+
+#: includes/providers/class-constant-contact.php:783
+msgid "With a powerful email marketing service like Constant Contact, you can instantly send out mass notifications and beautifully designed newsletters to engage your subscribers."
+msgstr "通过Constant Contact等强大的电子邮件营销服务，您可以立即发送大量通知和设计精美的新闻通讯，吸引订阅者。"
+
+#: includes/functions.php:749
+msgid "Wisconsin"
+msgstr "威斯康辛州"
+
+#. translators: %s - WPForms Builder page.
+#: includes/admin/class-editor.php:128
+#: includes/admin/overview/class-overview-table.php:329
+msgid "Whoops, you haven't created a form yet. Want to <a href=\"%s\">give it a go</a>?"
+msgstr "哎呀，您还没有创建一个表单。想要<a href=\"%s\">试一试</a>？"
+
+#: includes/templates/class-suggestion.php:45
+msgid "Which department do you have a suggestion for?"
+msgstr "您对哪个部门有什么建议?"
+
+#: includes/providers/class-constant-contact.php:803
+msgid "When creating WPForms, our goal was to make a WordPress forms plugin that&#39;s both EASY and POWERFUL."
+msgstr "在创建WPForms时，我们的目标是制作一个既简单又强大的WordPress表单插件。"
+
+#: includes/functions.php:1010
+msgid "Western Sahara"
+msgstr "西撒哈拉"
+
+#: includes/functions.php:748
+msgid "West Virginia"
+msgstr "西维吉尼亚州"
+
+#: includes/admin/class-welcome.php:63 includes/admin/class-welcome.php:64
+#: includes/admin/class-welcome.php:142
+msgid "Welcome to WPForms"
+msgstr "欢迎使用WPForms"
+
+#: includes/functions.php:1059
+msgid "Wednesday"
+msgstr "星期三"
+
+#: includes/admin/class-settings.php:451
+msgid "Website URL"
+msgstr "网站地址"
+
+#: includes/admin/builder/panels/class-providers.php:52
+msgid "We need to save your progress to continue to the Marketing panel. Is that OK?"
+msgstr "我们需要保存您的进度以便继续进入营销面板。这样可以吗？"
+
+#: includes/providers/class-constant-contact.php:804
+msgid "We made the form creation process extremely intuitive, so you can create a form to start capturing emails within 5 minutes or less."
+msgstr "我们使表单创建过程非常直观，因此您可以创建一个表单，以便在5分钟或更短的时间内开始捕获电子邮件。"
+
+#. translators: %s - stars.
+#: includes/admin/class-about.php:514
+msgid "We know that you will truly love WPForms. It has over <strong>5000+ five star ratings</strong> (%s) and is active on over 1 million websites."
+msgstr "我们知道您会非常喜欢WPForms。它拥有超过<strong>5000个以上的五星级评级</strong> (%s)，活跃在超过100万个网站上。"
+
+#: includes/providers/class-base.php:823
+msgid "We also noticed that you have some segments in your list. You can select specific list segments below if needed. This is optional."
+msgstr "我们还注意到您的列表中有一些段。如果需要，您可以在下面选择特定的列表段。这是可选的。"
+
+#: includes/admin/class-welcome.php:146 includes/admin/class-welcome.php:147
+msgid "Watch how to create your first form"
+msgstr "观看如何创建您的第一个表单"
+
+#: includes/functions.php:747
+msgid "Washington"
+msgstr "华盛顿州"
+
+#: includes/admin/class-about.php:452
+msgid "Want to get started creating your first form with WPForms? By following the step by step instructions in this walkthrough, you can easily publish your first form on your site."
+msgstr "想要开始使用WPForms创建您的第一个表单？ 按照本演练中的分步说明，您可以轻松地在您的网站上发布您的第一个表单。"
+
+#: includes/functions.php:1009
+msgid "Wallis and Futuna"
+msgstr "瓦利斯群岛和富图纳群岛"
+
+#: includes/functions.php:746
+msgid "Virginia"
+msgstr "弗吉尼亚"
+
+#: includes/functions.php:1008
+msgid "Virgin Islands (U.S.)"
+msgstr "维尔京群岛（美国）"
+
+#: includes/functions.php:1007
+msgid "Virgin Islands (British)"
+msgstr "维尔京群岛（英属）"
+
+#: includes/admin/overview/class-overview-table.php:153
+#: includes/admin/overview/class-overview-table.php:250
+msgid "View preview"
+msgstr "查看预览"
+
+#: includes/admin/overview/class-overview-table.php:170
+#: includes/admin/overview/class-overview-table.php:240
+msgid "View entries"
+msgstr "查看条目"
+
+#: includes/admin/class-welcome.php:216
+msgid "View all your leads in one place to streamline your workflow."
+msgstr "在一个位置查看所有潜在客户，以简化工作流程。"
+
+#: includes/functions.php:1006
+msgid "Viet Nam"
+msgstr "越南"
+
+#: includes/functions.php:745
+msgid "Vermont"
+msgstr "佛蒙特州"
+
+#: includes/admin/settings-api.php:153
+msgid "Verify Key"
+msgstr "验证密钥"
+
+#: includes/functions.php:1005
+msgid "Venezuela (Bolivarian Republic of)"
+msgstr "委内瑞拉（玻利瓦尔共和国）"
+
+#: includes/functions.php:1004
+msgid "Vatican City State"
+msgstr "梵蒂冈城国"
+
+#: includes/functions.php:1003
+msgid "Vanuatu"
+msgstr "瓦努阿图"
+
+#: includes/admin/class-settings.php:434
+msgid "Validation Messages"
+msgstr "验证消息"
+
+#: includes/admin/class-settings.php:196
+msgid "Validation"
+msgstr "验证"
+
+#: includes/functions.php:1002
+msgid "Uzbekistan"
+msgstr "乌兹别克斯坦"
+
+#: includes/functions.php:744
+msgid "Utah"
+msgstr "犹他州"
+
+#: includes/class-smart-tags.php:46
+msgid "User Meta"
+msgstr "用户元数据"
+
+#: includes/class-smart-tags.php:44
+msgid "User Last Name"
+msgstr "用户名字"
+
+#: includes/class-smart-tags.php:39
+msgid "User IP Address"
+msgstr "用户 IP 地址"
+
+#: includes/class-smart-tags.php:40
+msgid "User ID"
+msgstr "用户 ID"
+
+#: includes/class-smart-tags.php:42
+msgid "User Full Name"
+msgstr "用户全名"
+
+#: includes/class-smart-tags.php:43
+msgid "User First Name"
+msgstr "用户姓氏"
+
+#: includes/class-smart-tags.php:41
+msgid "User Display Name"
+msgstr "显示用户姓名"
+
+#: includes/admin/builder/class-builder.php:394
+msgid "Use Template"
+msgstr "使用模板"
+
+#: includes/admin/builder/class-builder.php:433 includes/admin/admin.php:188
+msgid "Use Image"
+msgstr "使用图片"
+
+#: includes/admin/builder/class-builder.php:432 includes/admin/admin.php:187
+msgid "Upload or Choose Your Image"
+msgstr "上传或选择图像"
+
+#: includes/admin/class-settings.php:355
+msgid "Upload or choose a logo to be displayed at the top of email notifications.<br>Recommended size is 300x100 or smaller for best support on all devices."
+msgstr "上传或选择要显示在电子邮件通知顶部的徽标。<br>建议大小为300x100或更小，以便在所有设备上获得最佳支持。"
+
+#: includes/admin/class-tools.php:512
+msgid "Upgrade to the PRO plan to import these fields."
+msgstr "升级到PRO计划以导入这些字段。"
+
+#: includes/admin/admin.php:134
+msgid "Unstar entry"
+msgstr "取消标星"
+
+#: includes/admin/class-about.php:1321 includes/admin/class-about.php:1327
+#: includes/admin/class-about.php:1333
+msgid "Unlimited Sites"
+msgstr "无限网站"
+
+#: includes/admin/importers/class-contact-form-7.php:89
+msgid "Unknown Form"
+msgstr "未知表单"
+
+#: includes/functions.php:999
+msgid "United States of America"
+msgstr "美国"
+
+#: includes/functions.php:1000
+msgid "United States Minor Outlying Islands"
+msgstr "美国本土外小岛屿"
+
+#: includes/functions.php:998
+msgid "United Kingdom of Great Britain and Northern Ireland"
+msgstr "大不列颠及北爱尔兰联合王国"
+
+#: includes/functions.php:997
+msgid "United Arab Emirates"
+msgstr "阿拉伯联合酋长国"
+
+#: includes/admin/class-settings.php:531
+msgid "Uninstall WPForms"
+msgstr "卸载WPForms"
+
+#: includes/functions.php:996
+msgid "Ukraine"
+msgstr "乌克兰"
+
+#: includes/functions.php:995
+msgid "Uganda"
+msgstr "乌干达"
+
+#: includes/admin/class-settings.php:383
+msgid "Type"
+msgstr "类型"
+
+#: includes/functions.php:994
+msgid "Tuvalu"
+msgstr "图瓦卢"
+
+#: includes/functions.php:993
+msgid "Turks and Caicos Islands"
+msgstr "特克斯和凯科斯群岛"
+
+#: includes/functions.php:992
+msgid "Turkmenistan"
+msgstr "土库曼斯坦"
+
+#: includes/functions.php:991
+msgid "Turkey"
+msgstr "土耳其"
+
+#: includes/functions.php:990
+msgid "Tunisia"
+msgstr "突尼斯"
+
+#: includes/functions.php:1058
+msgid "Tuesday"
+msgstr "星期二"
+
+#: includes/providers/class-constant-contact.php:798
+msgid "Try Constant Contact Today"
+msgstr "立即尝试Constant Contact"
+
+#: includes/providers/class-constant-contact.php:556
+#: includes/providers/class-constant-contact.php:663
+msgid "Try Constant Contact for Free"
+msgstr "免费试用Constant Contact"
+
+#: includes/functions.php:989
+msgid "Trinidad and Tobago"
+msgstr "特立尼达和多巴哥"
+
+#: includes/admin/class-menu.php:98
+msgid "Tools"
+msgstr "工具"
+
+#: includes/functions.php:988
+msgid "Tonga"
+msgstr "汤加语"
+
+#: includes/functions.php:987
+msgid "Tokelau"
+msgstr "托克劳"
+
+#: includes/functions.php:986
+msgid "Togo"
+msgstr "多哥"
+
+#. translators: %s - WPForms.com upgrade URL.
+#: includes/admin/settings-api.php:115
+msgid "To unlock more features consider <strong><a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"wpforms-upgrade-modal\">upgrading to PRO</a></strong>."
+msgstr "要解锁更多功能，请考虑<strong><a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"wpforms-upgrade-modal\">升级到专业版</a></strong>。"
+
+#: includes/admin/builder/panels/class-setup.php:63
+msgid "To speed up the process, you can select from one of our pre-made templates or start with a <strong><a href=\"#\" class=\"wpforms-trigger-blank\">blank form.</a></strong>"
+msgstr "要加快进程，您可以从我们的一个预先制作的模板中进行选择，或从一个<strong><a href=\"#\" class=\"wpforms-trigger-blank\">空白表单</a></strong>开始"
+
+#: includes/admin/class-about.php:456
+msgid "To begin, you’ll need to be logged into the WordPress admin area. Once there, click on WPForms in the admin sidebar to go the Forms Overview page."
+msgstr "首先，您需要登录WordPress管理区域。 在那里，单击管理侧栏中的WPForms以进入“表单概述”页面。"
+
+#: includes/class-widget.php:115
+msgctxt "Widget"
+msgid "Title:"
+msgstr "标题："
+
+#: includes/functions.php:985
+msgid "Timor-Leste"
+msgstr "东帝汶"
+
+#: includes/functions.php:1060
+msgid "Thursday"
+msgstr "星期四"
+
+#: includes/admin/builder/class-builder.php:404
+msgid "This item must contain at least one choice."
+msgstr "此项目必须包含至少一个选项。"
+
+#: includes/admin/class-settings.php:447 includes/functions.php:1719
+#: includes/class-frontend.php:1309
+msgid "This field is required."
+msgstr "该字段是必填项。"
+
+#: includes/class-conditional-logic-core.php:189
+msgid "this field if"
+msgstr "这个字段，如果"
+
+#: includes/admin/builder/class-builder.php:361
+msgid "This field cannot be deleted or duplicated."
+msgstr "无法删除或复制此字段。"
+
+#: includes/admin/importers/class-base.php:110
+msgid "There was an error while creating a new form."
+msgstr "创建新表单时出错。"
+
+#: includes/admin/ajax-actions.php:406
+msgid "There was an error and the connection failed. Please contact your web host with the technical details below."
+msgstr "出现错误，连接失败。请联系您的网站主机，并提供以下技术详情。"
+
+#: includes/admin/builder/class-builder.php:353
+msgid "The {source} {type} contains over {limit} items ({total}). This may make the field difficult for your visitors to use and/or cause the form to be slow."
+msgstr "{source} {type}包含超过{limit}项（{total}）。这可能会使访问者难以使用和/或导致表单变慢。"
+
+#: includes/admin/class-about.php:292
+msgid "The WPForms Team photo"
+msgstr "WPForms团队照片"
+
+#: includes/admin/importers/class-contact-form-7.php:90
+msgid "The form you are trying to import does not exist."
+msgstr "您试图导入的表单不存在。"
+
+#: includes/admin/class-tools.php:503
+msgid "The following fields are not supported and were not imported:"
+msgstr "以下字段不受支持且未导入："
+
+#: includes/admin/class-tools.php:487
+msgid "The following fields are available in PRO and were not imported:"
+msgstr "以下字段在专业版中可用，但未导入："
+
+#: includes/admin/class-tools.php:495
+msgid "The following fields are available in PRO and were imported as text fields:"
+msgstr "以下字段在专业版中可用，并作为文本字段导入："
+
+#: includes/admin/class-tools.php:582
+msgid "The following code can be used to register your custom form template. Copy and paste the following code to your theme's functions.php file or include it within an external file."
+msgstr "以下代码可用于注册自定义表单模板。将以下代码复制并粘贴到主题的functions.php文件中，或将其包含在外部文件中。"
+
+#. translators: %s - ID of a setting.
+#: includes/admin/settings-api.php:77
+msgid "The callback function used for the %s setting is missing."
+msgstr "用于 %s 设置的回调函数缺失。"
+
+#: includes/templates/class-blank.php:19
+msgid "The blank form allows you to create any type of form using our drag & drop builder."
+msgstr "空白表单允许您使用拖放生成器创建任何类型的表单。"
+
+#: includes/providers/class-constant-contact.php:781
+msgid "The Best Email Marketing Service"
+msgstr "最好的电子邮件营销服务"
+
+#: includes/providers/class-constant-contact.php:756
+msgid "That&#39;s why it&#39;s crucial to start collecting email addresses and building your list as soon as possible."
+msgstr "这就是为什么开始收集电子邮件地址并尽快建立列表至关重要的原因。"
+
+#: includes/admin/class-about.php:500
+msgid "Thanks for being a loyal WPForms Lite user. <strong>Upgrade to WPForms Pro</strong> to unlock all the awesome features and experience<br>why WPForms is consistently rated the best WordPress form builder."
+msgstr "感谢您成为忠实的WPForms Lite用户。 <strong>升级到WPForms Pro </strong>以解锁所有令人敬畏的功能和体验<br>为什么WPForms一直被评为最佳WordPress表单生成器。"
+
+#: includes/admin/class-welcome.php:143
+msgid "Thank you for choosing WPForms - the most powerful drag & drop WordPress form builder in the market."
+msgstr "感谢您选择WPForms - 市场上最强大的拖放式WordPress表单生成器。"
+
+#: includes/functions.php:984
+msgid "Thailand"
+msgstr "泰国"
+
+#: includes/functions.php:743
+msgid "Texas"
+msgstr "德克萨斯州"
+
+#: includes/admin/admin.php:185
+msgid "Testing"
+msgstr "测试"
+
+#: includes/admin/class-welcome.php:298
+msgid "Testimonials"
+msgstr "客户评价"
+
+#: includes/admin/class-tools.php:650
+msgid "Test SSL Connections"
+msgstr "测试SSL连接"
+
+#: includes/admin/class-tools.php:652
+msgid "Test Connection"
+msgstr "测试连接"
+
+#: includes/functions.php:742
+msgid "Tennessee"
+msgstr "田纳西州"
+
+#: includes/admin/class-settings.php:343
+msgid "Template"
+msgstr "模板"
+
+#: includes/functions.php:982
+msgid "Tajikistan"
+msgstr "塔吉克斯坦斯坦斯坦"
+
+#: includes/functions.php:981
+msgid "Taiwan, Province of China"
+msgstr "中国台湾"
+
+#: includes/admin/class-tools.php:645
+msgid "System Information"
+msgstr "系统信息"
+
+#: includes/admin/class-tools.php:101
+msgid "System Info"
+msgstr "系统信息"
+
+#: includes/functions.php:980
+msgid "Syrian Arab Republic"
+msgstr "阿拉伯叙利亚共和国"
+
+#: includes/admin/class-welcome.php:266 includes/admin/class-about.php:79
+msgid "Surveys & Polls"
+msgstr "调查和民意测验"
+
+#: includes/templates/class-suggestion.php:17
+msgid "Suggestion Form"
+msgstr "建议表单"
+
+#: includes/functions.php:974
+msgid "Sudan"
+msgstr "苏丹"
+
+#: includes/admin/ajax-actions.php:399
+msgid "Success! Your server can make SSL connections."
+msgstr "成功！您的服务器可以建立SSL连接。"
+
+#: includes/admin/builder/panels/class-settings.php:113
+msgid "Submit Button Text"
+msgstr "提交按钮文本"
+
+#: includes/admin/builder/panels/class-settings.php:123
+msgid "Submit Button Processing Text"
+msgstr "提交按钮处理文本"
+
+#: includes/admin/builder/panels/class-settings.php:133
+msgid "Submit Button CSS Class"
+msgstr "提交按钮CSS类"
+
+#: includes/class-form.php:277
+#: includes/admin/importers/class-ninja-forms.php:119
+#: includes/admin/importers/class-contact-form-7.php:111
+#: includes/admin/builder/panels/class-fields.php:150
+#: includes/admin/builder/panels/class-settings.php:115
+#: includes/templates/class-contact.php:71
+msgid "Submit"
+msgstr "提交评论"
+
+#: includes/templates/class-suggestion.php:65
+msgid "Subject"
+msgstr "主题内容"
+
+#: src/Lite/Admin/Builder/Education.php:498
+msgid "Stripe"
+msgstr "Stripe支付"
+
+#. translators: %s - addon status label.
+#: includes/admin/class-about.php:343
+msgid "Status: %s"
+msgstr "状态： %s"
+
+#: includes/admin/builder/class-builder.php:492
+msgid "States Postal Code"
+msgstr "省邮政编码"
+
+#: includes/admin/builder/class-builder.php:488
+msgid "States"
+msgstr "状态"
+
+#: includes/class-conditional-logic-core.php:422
+#: includes/admin/builder/class-builder.php:415
+msgid "starts with"
+msgstr "开始于"
+
+#: includes/admin/class-welcome.php:192
+msgid "Start with pre-built form templates to save even more time."
+msgstr "从预先构建的表单模板开始，以节省更多时间。"
+
+#: includes/admin/admin.php:135
+msgid "Star entry"
+msgstr "标星"
+
+#: includes/admin/class-about.php:947
+msgid "Standard Fields Only"
+msgstr "仅标准字段"
+
+#: includes/admin/builder/panels/class-fields.php:171
+msgid "Standard Fields"
+msgstr "标准字段"
+
+#: includes/functions.php:973
+msgid "Sri Lanka"
+msgstr "斯里兰卡"
+
+#: includes/admin/class-welcome.php:239
+msgid "Spam Protection"
+msgstr "垃圾邮件保护"
+
+#: includes/functions.php:972
+msgid "Spain"
+msgstr "西班牙"
+
+#: includes/functions.php:971
+msgid "South Sudan"
+msgstr "南非"
+
+#: includes/functions.php:970
+msgid "South Georgia and the South Sandwich Islands"
+msgstr "南乔治亚及南桑威奇群岛"
+
+#: includes/functions.php:741
+msgid "South Dakota"
+msgstr "南达科他州"
+
+#: includes/functions.php:740
+msgid "South Carolina"
+msgstr "南卡罗来纳州"
+
+#: includes/functions.php:968
+msgid "Somalia"
+msgstr "索马里"
+
+#: includes/functions.php:967
+msgid "Solomon Islands"
+msgstr "所罗门群岛"
+
+#: includes/admin/class-welcome.php:203 includes/admin/class-about.php:76
+msgid "Smart Conditional Logic"
+msgstr "智能条件逻辑"
+
+#: includes/functions.php:966
+msgid "Slovenia"
+msgstr "斯洛文尼亚"
+
+#: includes/functions.php:965
+msgid "Slovakia"
+msgstr "斯洛伐克"
+
+#: includes/admin/class-settings.php:394
+msgid "Site Key"
+msgstr "站点密钥"
+
+#: includes/class-smart-tags.php:30
+msgid "Site Administrator Email"
+msgstr "网站管理员电子邮件"
+
+#: includes/functions.php:964
+msgid "Sint Maarten (Dutch part)"
+msgstr "圣马丁岛（荷兰的一部分）"
+
+#: includes/fields/class-text.php:18
+msgid "Single Line Text"
+msgstr "单行文本"
+
+#: includes/admin/importers/class-ninja-forms.php:227
+#: includes/admin/importers/class-pirate-forms.php:239
+#: includes/admin/importers/class-pirate-forms.php:331
+msgid "Single Checkbox Field"
+msgstr "单个复选框字段"
+
+#: includes/functions.php:963
+msgid "Singapore"
+msgstr "新加坡"
+
+#: includes/templates/class-contact.php:17
+msgid "Simple Contact Form"
+msgstr "简单的联系表单"
+
+#: includes/fields/class-name.php:227
+msgid "Simple"
+msgstr "简单"
+
+#: includes/admin/class-welcome.php:267
+msgid "Signatures"
+msgstr "签名"
+
+#: includes/functions.php:962
+msgid "Sierra Leone"
+msgstr "塞拉利昂"
+
+#: includes/admin/builder/class-builder.php:348
+msgid "Show presets"
+msgstr "显示预设"
+
+#: includes/admin/class-editor.php:121
+msgid "Show form name"
+msgstr "显示表单名称"
+
+#: includes/admin/class-editor.php:122
+msgid "Show form description"
+msgstr "显示表单说明"
+
+#: includes/functions.php:961
+msgid "Seychelles"
+msgstr "塞舌尔群岛"
+
+#: includes/admin/builder/panels/class-setup.php:18
+msgid "Setup"
+msgstr "设置"
+
+#: includes/admin/class-settings.php:157
+msgid "Settings were successfully saved."
+msgstr "设置已成功保存。"
+
+#: includes/functions.php:960
+msgid "Serbia"
+msgstr "塞尔维亚"
+
+#: includes/functions.php:1037
+msgid "September"
+msgstr "九月"
+
+#. translators: %s - link to a site.
+#: templates/emails/general-footer.php:24
+#: includes/emails/templates/footer-default.php:37
+msgid "Sent from %s"
+msgstr "从%s发送"
+
+#: includes/functions.php:959
+msgid "Senegal"
+msgstr "塞内加尔"
+
+#: includes/class-form.php:278 includes/templates/class-subscribe.php:48
+#: includes/templates/class-contact.php:72
+#: includes/templates/class-blank.php:30
+#: includes/templates/class-suggestion.php:87
+msgid "Sending..."
+msgstr "发送中…"
+
+#: includes/admin/importers/class-ninja-forms.php:120
+#: includes/admin/importers/class-contact-form-7.php:112
+#: includes/admin/importers/class-pirate-forms.php:436
+msgid "Sending"
+msgstr "发送"
+
+#: includes/admin/builder/panels/class-setup.php:166
+msgid "Selected"
+msgstr "已选择"
+
+#: includes/admin/builder/panels/class-payments.php:109
+msgid "Select your payment provider from the options on the left. If you don't see your payment service listed, then let us know and we'll do our best to get it added as fast as possible."
+msgstr "从左侧的选项中选择您的支付提供商。如果您没有看到您的支付服务列表，那么请通知我们，我们将尽最大努力尽快将其添加。"
+
+#: includes/admin/builder/panels/class-payments.php:108
+msgid "Select Your Payment Integration"
+msgstr "选择支付集成"
+
+#: includes/admin/builder/panels/class-providers.php:135
+msgid "Select Your Marketing Integration"
+msgstr "选择您的营销应用集成"
+
+#: includes/admin/builder/class-builder.php:386
+msgid "Select your layout"
+msgstr "选择您的布局"
+
+#: includes/admin/builder/panels/class-providers.php:136
+msgid "Select your email marketing service provider or CRM from the options on the left. If you don't see your email marketing service listed, then let us know and we'll do our best to get it added as fast as possible."
+msgstr "从左侧的选项中选择您的电子邮件营销服务提供商或CRM。如果您没有看到您的电子邮件营销服务列表，那么让我们知道，我们会尽最大努力让它尽快添加。"
+
+#: includes/admin/builder/class-builder.php:387
+msgid "Select your column"
+msgstr "选择您的列"
+
+#: includes/admin/class-tools.php:337
+msgid "Select the forms you would like to import."
+msgstr "选择要导入的表单。"
+
+#: includes/admin/class-tools.php:287
+msgid "Select previous contact form plugin..."
+msgstr "选择以前的联系表单插件…"
+
+#: includes/providers/class-base.php:775
+msgid "Select List"
+msgstr "选择列表"
+
+#: includes/providers/class-base.php:821
+msgid "Select Groups"
+msgstr "选择组"
+
+#: includes/fields/class-name.php:216
+msgid "Select format to use for the name form field"
+msgstr "选择用于名称表单字段的格式"
+
+#: includes/admin/class-tools.php:360
+msgid "Select All"
+msgstr "选择所有"
+
+#: includes/providers/class-base.php:730
+msgid "Select Account"
+msgstr "选择帐户"
+
+#: includes/admin/class-tools.php:256
+msgid "Select a WPForms export file."
+msgstr "选择WPForms导出文件。"
+
+#: includes/admin/class-tools.php:603
+msgid "Select a form to generate PHP code that can be used to register a custom form template."
+msgstr "选择一个表单以生成可用于注册自定义表单模板的PHP代码。"
+
+#: includes/integrations.php:48
+msgid "Select a form to add it to your post or page."
+msgstr "选择一个表单将它添加到您的文章或者网页。"
+
+#: includes/admin/class-editor.php:115
+msgid "Select a form below to insert"
+msgstr "选择下面的表单进行插入"
+
+#: includes/fields/class-text.php:304
+msgid "See Examples & Docs"
+msgstr "参见示例和文档"
+
+#: includes/admin/class-welcome.php:248
+msgid "See All Features"
+msgstr "查看全部功能"
+
+#: includes/admin/overview/class-overview.php:187
+msgid "Security check failed. Please try again."
+msgstr "安全检查失败。请再试一次。"
+
+#: includes/admin/class-settings.php:399
+msgid "Secret Key"
+msgstr "私钥"
+
+#: includes/admin/builder/panels/class-setup.php:106
+msgid "Search additional templates..."
+msgstr "搜索其他模板…"
+
+#: includes/providers/class-constant-contact.php:792
+msgid "Seamlessly add new contacts to your email list"
+msgstr "将新联系人无缝添加到电子邮件列表中"
+
+#: includes/admin/builder/class-builder.php:379
+msgid "Saving ..."
+msgstr "保存中…"
+
+#: includes/admin/builder/class-builder.php:380
+msgid "Saved!"
+msgstr "已保存!"
+
+#: includes/admin/class-settings.php:183 includes/admin/class-settings.php:188
+#: includes/admin/class-settings.php:193 includes/admin/class-settings.php:198
+#: includes/admin/class-settings.php:208
+msgid "Save Settings"
+msgstr "保持设置"
+
+#: includes/admin/builder/class-builder.php:585
+msgid "Save Form"
+msgstr "保存表单"
+
+#: includes/admin/admin.php:153
+msgid "Save and Refresh"
+msgstr "保存并更新"
+
+#: includes/functions.php:958
+msgid "Saudi Arabia"
+msgstr "沙特阿拉伯"
+
+#: includes/functions.php:1062
+msgid "Saturday"
+msgstr "星期六"
+
+#: includes/functions.php:957
+msgid "Sao Tome and Principe"
+msgstr "圣多美和普林西比"
+
+#: includes/functions.php:956
+msgid "San Marino"
+msgstr "圣马力诺"
+
+#: includes/functions.php:955
+msgid "Samoa"
+msgstr "萨摩亚"
+
+#: includes/templates/class-suggestion.php:48
+msgid "Sales"
+msgstr "批发"
+
+#: includes/functions.php:954
+msgid "Saint Vincent and the Grenadines"
+msgstr "圣文森特和格林纳丁斯"
+
+#: includes/functions.php:953
+msgid "Saint Pierre and Miquelon"
+msgstr "圣皮埃尔和密克隆"
+
+#: includes/functions.php:952
+msgid "Saint Martin (French part)"
+msgstr "圣马丁（法国部分）"
+
+#: includes/functions.php:951
+msgid "Saint Lucia"
+msgstr "圣卢西亚"
+
+#: includes/functions.php:950
+msgid "Saint Kitts and Nevis"
+msgstr "圣基茨和尼维斯"
+
+#: includes/functions.php:949
+msgid "Saint Helena, Ascension and Tristan da Cunha"
+msgstr "圣赫勒拿，阿森松岛和特里斯坦达库尼亚"
+
+#: includes/functions.php:948
+msgid "Saint Barthélemy"
+msgstr "圣巴泰勒米"
+
+#: includes/functions.php:947
+msgid "Rwanda"
+msgstr "卢旺达"
+
+#: includes/functions.php:946
+msgid "Russian Federation"
+msgstr "俄罗斯联邦"
+
+#: includes/functions.php:945
+msgid "Romania"
+msgstr "罗马尼亚"
+
+#: includes/functions.php:739
+msgid "Rhode Island"
+msgstr "罗德岛州"
+
+#: includes/admin/class-welcome.php:197
+msgid "Responsive Mobile Friendly"
+msgstr "响应式移动友好"
+
+#: includes/admin/class-welcome.php:210
+msgid "Respond to leads quickly with our instant form notification feature for your team."
+msgstr "使用我们为您的团队提供的即时表单通知功能快速回复潜在客户。"
+
+#: includes/class-smart-tags.php:53
+msgid "Register URL"
+msgstr "注册网址"
+
+#: includes/class-smart-tags.php:50
+msgid "Referrer URL"
+msgstr "推荐人网址"
+
+#: includes/admin/class-settings.php:564
+msgid "reCAPTCHA is a free anti-spam service from Google which helps to protect your website from spam and abuse while letting real people pass through with ease."
+msgstr "reCAPTCHA是一个来自谷歌的免费反垃圾邮件服务，帮助保护您的网站免受垃圾邮件和滥用，同时让真实的人轻松通过。"
+
+#: includes/admin/class-settings.php:191 includes/admin/class-settings.php:376
+#: includes/admin/builder/panels/class-fields.php:141
+#: src/Lite/Admin/Builder/Education.php:206
+msgid "reCAPTCHA"
+msgstr "reCAPTCHA人机识别系统"
+
+#: includes/admin/class-welcome.php:163
+msgid "Read the Full Guide"
+msgstr "阅读完整指南"
+
+#: includes/functions.php:944
+msgid "Réunion"
+msgstr "留尼汪岛"
+
+#: includes/class-smart-tags.php:38
+msgid "Query String Variable"
+msgstr "查询字符串变量"
+
+#: includes/functions.php:943
+msgid "Qatar"
+msgstr "卡塔尔"
+
+#: includes/functions.php:942
+msgid "Puerto Rico"
+msgstr "波多黎各"
+
+#: includes/templates/class-suggestion.php:54
+msgid "Product Development"
+msgstr "产品开发"
+
+#: includes/admin/class-welcome.php:279
+msgid "PRO"
+msgstr "专业版"
+
+#: includes/admin/class-about.php:1277
+msgid "Priority Support"
+msgstr "优先支持"
+
+#: includes/admin/builder/class-builder.php:421
+msgid "Previous"
+msgstr "上一条"
+
+#: includes/admin/class-tools.php:483
+#: includes/admin/overview/class-overview-table.php:251
+msgid "Preview"
+msgstr "预览"
+
+#: includes/admin/admin.php:193
+msgid "Press to select"
+msgstr "点击选择"
+
+#: includes/admin/class-about.php:983 includes/admin/class-about.php:989
+#: includes/admin/class-about.php:995
+msgid "Powerful Form Logic for Building Smart Forms"
+msgstr "用于构建智能表单的强大表单逻辑"
+
+#: src/Lite/Admin/Builder/Education.php:438
+msgid "Post Submissions"
+msgstr "文章提交"
+
+#: includes/functions.php:941
+msgid "Portugal"
+msgstr "葡萄牙"
+
+#: includes/functions.php:940
+msgid "Poland"
+msgstr "波兰"
+
+#: includes/admin/ajax-actions.php:574
+msgid "Plugin installed."
+msgstr "已安装插件。"
+
+#: includes/admin/ajax-actions.php:566 src/Lite/Admin/Connect.php:178
+#: src/Lite/Admin/Connect.php:186 src/Lite/Admin/Connect.php:242
+msgid "Plugin installed & activated."
+msgstr "已安装并启用插件。"
+
+#: includes/admin/ajax-actions.php:437
+msgid "Plugin deactivated."
+msgstr "插件已停用。"
+
+#: includes/admin/ajax-actions.php:473
+msgid "Plugin activated."
+msgstr "插件已启用。"
+
+#: includes/admin/class-tools.php:727
+msgid "Please upload a valid .json form export file."
+msgstr "请上载有效的.json表单导出文件。"
+
+#: includes/providers/class-constant-contact.php:489
+msgid "Please fill out all of the fields below to register your new Constant Contact account."
+msgstr "请填写下面的所有字段,以注册您的新固定联系帐户."
+
+#: includes/templates/class-suggestion.php:38
+msgid "Please enter your email, so we can follow up with you."
+msgstr "请输入您的电子邮件，以便我们跟进。"
+
+#: includes/class-frontend.php:1319
+msgid "Please enter time in 24-hour format (eg 22:45)."
+msgstr "请以24小时格式输入时间（如22:45）。"
+
+#: includes/class-frontend.php:1318
+msgid "Please enter time in 12-hour AM/PM format (eg 8:45 AM)."
+msgstr "请以12小时AM/PM格式输入时间（如上午8:45）。"
+
+#: includes/admin/class-settings.php:453 includes/class-frontend.php:1310
+msgid "Please enter a valid URL."
+msgstr "请输入有效网址。"
+
+#: includes/admin/class-settings.php:471 includes/fields/class-number.php:159
+#: includes/class-frontend.php:1314
+msgid "Please enter a valid number."
+msgstr "请输入有效的号码。"
+
+#: includes/admin/class-settings.php:459 includes/class-frontend.php:1311
+msgid "Please enter a valid email address."
+msgstr "请输入正确的电子邮件地址。"
+
+#: includes/class-frontend.php:1321
+msgid "Please enter a valid credit card number."
+msgstr "请输入一个有效的信用卡号码。"
+
+#: includes/admin/builder/class-builder.php:403
+msgid "Please enter a form name."
+msgstr "请输入一个表单名称。"
+
+#: includes/admin/class-settings.php:349
+msgid "Plain text"
+msgstr "以纯文本粘贴"
+
+#: includes/fields/class-name.php:274 includes/fields/class-name.php:289
+#: includes/fields/class-name.php:304 includes/fields/class-name.php:319
+msgid "Placeholder"
+msgstr "占位符"
+
+#: includes/functions.php:939
+msgid "Pitcairn"
+msgstr "皮特凯恩"
+
+#: includes/functions.php:938
+msgid "Philippines"
+msgstr "菲律宾"
+
+#: includes/functions.php:937
+msgid "Peru"
+msgstr "秘鲁"
+
+#: includes/admin/class-welcome.php:282
+msgid "per year"
+msgstr "每年"
+
+#: includes/functions.php:738
+msgid "Pennsylvania"
+msgstr "宾夕法尼亚州"
+
+#: includes/admin/class-welcome.php:221
+msgid "Payments Made Easy"
+msgstr "支付方便"
+
+#: includes/admin/builder/panels/class-payments.php:18
+msgid "Payments"
+msgstr "支付"
+
+#: includes/class-frontend.php:1320
+msgid "Payment is required."
+msgstr "付款是必需的."
+
+#: includes/admin/class-welcome.php:265 includes/admin/class-about.php:78
+msgid "Payment Forms"
+msgstr "付款表单"
+
+#: includes/admin/builder/panels/class-fields.php:179
+msgid "Payment Fields"
+msgstr "付款字段"
+
+#: includes/functions.php:936
+msgid "Paraguay"
+msgstr "巴拉圭"
+
+#: includes/functions.php:935
+msgid "Papua New Guinea"
+msgstr "巴布亚新几内亚"
+
+#: includes/functions.php:934
+msgid "Panama"
+msgstr "巴拿马"
+
+#: includes/functions.php:933
+msgid "Palestine (State of)"
+msgstr "巴勒斯坦(国家)"
+
+#: includes/functions.php:932
+msgid "Palau"
+msgstr "帕劳共和国"
+
+#: includes/functions.php:931
+msgid "Pakistan"
+msgstr "巴基斯坦"
+
+#: includes/admin/class-about.php:259
+msgid "Over the years, we found that most WordPress contact form plugins were bloated, buggy, slow, and very hard to use. So we started with a simple goal: build a WordPress forms plugin that’s both easy and powerful."
+msgstr "多年来, 我们发现大多数 WordPress 联系表形式插件都是臃肿的、缓慢的, 而且非常难以使用。所以我们从一个简单的目标开始: 构建一个既简单又强大的 WordPress 表表插件。"
+
+#: includes/admin/class-welcome.php:240
+msgid "Our smart captcha and honeypot automatically prevent spam submissions."
+msgstr "我们的智能验证码和蜜罐自动防止垃圾邮件提交。"
+
+#: includes/admin/class-about.php:868
+msgid "Our high-converting optin forms like Exit-Intent® popups, Fullscreen Welcome Mats, and Scroll boxes help you dramatically boost conversions and get more email subscribers."
+msgstr "我们的高转换选项表形式, 如 Exit-Intent®弹出窗口、全屏欢迎和滚动框, 可帮助您显著提升转化率并获得更多电子邮件订阅者。"
+
+#: includes/admin/class-about.php:262
+msgid "Our goal is to take the pain out of creating online forms and make it easy."
+msgstr "我们的目标是减轻创建在线表单的痛苦, 让它变得容易。"
+
+#: includes/admin/builder/class-builder.php:408
+#: includes/templates/class-suggestion.php:57
+msgid "Other"
+msgstr "其他"
+
+#: includes/functions.php:737
+msgid "Oregon"
+msgstr "俄勒冈州"
+
+#: includes/admin/builder/class-builder.php:407
+msgid "or"
+msgstr "或"
+
+#: includes/admin/class-tools.php:393
+msgid "One or more of your forms contain fields that are not available in WPForms Lite. To properly import these fields, we recommend upgrading to WPForms Pro."
+msgstr "您的一个或多个表单包含WPForms Lite中不可用的字段。要正确导入这些字段，我们建议您升级到WPForms Pro。"
+
+#: includes/functions.php:930
+msgid "Oman"
+msgstr "阿曼"
+
+#: includes/functions.php:736
+msgid "Oklahoma"
+msgstr "俄克拉荷马州"
+
+#: includes/admin/class-review.php:95 includes/admin/class-review.php:159
+msgid "Ok, you deserve it"
+msgstr "好，您应得的"
+
+#: includes/admin/builder/class-builder.php:355 includes/admin/admin.php:146
+msgid "OK"
+msgstr "OK"
+
+#: includes/functions.php:735
+msgid "Ohio"
+msgstr "俄亥俄州"
+
+#: includes/functions.php:1038
+msgid "October"
+msgstr "十月"
+
+#: includes/admin/overview/class-overview.php:74
+msgid "Number of forms per page:"
+msgstr "每页表单数："
+
+#: includes/admin/class-settings.php:469
+msgid "Number"
+msgstr "号码"
+
+#: includes/admin/builder/class-builder.php:569
+msgid "Now editing"
+msgstr "正在编辑"
+
+#: includes/functions.php:1039
+msgid "November"
+msgstr "十一月"
+
+#: includes/admin/importers/class-contact-form-7.php:407
+msgid "Notification 2"
+msgstr "通知2"
+
+#: includes/admin/importers/class-ninja-forms.php:125
+#: includes/admin/importers/class-contact-form-7.php:117
+msgid "Notification 1"
+msgstr "通知1"
+
+#: includes/admin/importers/class-ninja-forms.php:402
+#: includes/admin/importers/class-ninja-forms.php:418
+msgid "Notification"
+msgstr "通知"
+
+#: includes/admin/class-tools.php:292 includes/admin/class-about.php:421
+msgid "Not Installed"
+msgstr "没有安装"
+
+#: includes/admin/class-tools.php:277
+msgid "Not happy with other WordPress contact form plugins?"
+msgstr "对其他WordPress联系表单插件不满意？"
+
+#: includes/class-conditional-logic-core.php:411
+#: includes/admin/builder/class-builder.php:412
+msgid "not empty"
+msgstr "非空"
+
+#: includes/admin/class-tools.php:294
+msgid "Not Active"
+msgstr "未启用"
+
+#: includes/functions.php:929
+msgid "Norway"
+msgstr "挪威"
+
+#: includes/functions.php:928
+msgid "Northern Mariana Islands"
+msgstr "北马里亚纳群岛"
+
+#: includes/functions.php:734
+msgid "North Dakota"
+msgstr "北达科他州"
+
+#: includes/functions.php:733
+msgid "North Carolina"
+msgstr "北卡罗莱纳州"
+
+#: includes/functions.php:927
+msgid "Norfolk Island"
+msgstr "诺福克岛"
+
+#: includes/admin/class-review.php:96 includes/admin/class-review.php:160
+msgid "Nope, maybe later"
+msgstr "不，以后再说"
+
+#: includes/admin/class-settings.php:423
+msgid "No-Conflict Mode"
+msgstr "无冲突模式"
+
+#: includes/admin/class-settings.php:290
+msgid "No styling"
+msgstr "没有样式"
+
+#: includes/admin/admin.php:191
+msgid "No results found"
+msgstr "找不到结果"
+
+#: includes/admin/class-tools.php:346
+msgid "No forms found."
+msgstr "没有找到表单。"
+
+#: includes/integrations.php:30
+msgid "No forms found"
+msgstr "找不到任何表单"
+
+#: includes/admin/ajax-actions.php:96
+msgid "No form name provided"
+msgstr "没有提供表单名称"
+
+#: includes/admin/class-tools.php:282
+msgid "No form importers are currently enabled."
+msgstr "当前未启用表单导入程序。"
+
+#: includes/admin/ajax-actions.php:160
+msgid "No form ID provided"
+msgstr "没有提供表单ID"
+
+#: includes/admin/importers/class-ninja-forms.php:151
+#: includes/admin/importers/class-contact-form-7.php:143
+#: includes/admin/importers/class-pirate-forms.php:422
+msgid "No form fields found."
+msgstr "找不到表单字段。"
+
+#: includes/admin/class-tools.php:262
+msgid "No file chosen"
+msgstr "没有选择文件"
+
+#: includes/admin/builder/class-builder.php:363
+msgid "No fields available"
+msgstr "没有可用的字段"
+
+#: includes/admin/builder/class-builder.php:367
+msgid "No email fields"
+msgstr "没有电子邮件字段"
+
+#: includes/admin/ajax-actions.php:25
+msgid "No data provided"
+msgstr "没有提供数据"
+
+#: includes/admin/admin.php:192
+msgid "No choices to choose from"
+msgstr "没有选择可供选择"
+
+#: includes/admin/class-about.php:1211
+msgid "No Addons Included"
+msgstr "不包含插件"
+
+#: includes/functions.php:926
+msgid "Niue"
+msgstr "纽埃"
+
+#: includes/functions.php:925
+msgid "Nigeria"
+msgstr "尼日尔尔利亚"
+
+#: includes/functions.php:924
+msgid "Niger"
+msgstr "尼日尔尔尔"
+
+#: includes/functions.php:923
+msgid "Nicaragua"
+msgstr "尼加拉瓜"
+
+#: includes/templates/class-subscribe.php:17
+msgid "Newsletter Signup Form"
+msgstr "通讯注册表单"
+
+#: includes/functions.php:922
+msgid "New Zealand"
+msgstr "新西兰"
+
+#: includes/functions.php:732
+msgid "New York"
+msgstr "纽约"
+
+#: includes/functions.php:731
+msgid "New Mexico"
+msgstr "新墨西哥"
+
+#: includes/functions.php:730
+msgid "New Jersey"
+msgstr "新泽西"
+
+#: includes/functions.php:729
+msgid "New Hampshire"
+msgstr "新汉普郡"
+
+#: includes/functions.php:921
+msgid "New Caledonia"
+msgstr "新喀里多尼亚"
+
+#: includes/functions.php:728
+msgid "Nevada"
+msgstr "内布拉斯加州"
+
+#: includes/functions.php:920
+msgid "Netherlands"
+msgstr "荷兰"
+
+#: includes/functions.php:919
+msgid "Nepal"
+msgstr "尼泊尔"
+
+#: includes/admin/admin.php:150
+msgid "needs to be activated to import its forms. Would you like us to activate it for you?"
+msgstr "需要激活才能导入其表单。您是否希望我们为您激活它？"
+
+#: includes/functions.php:727
+msgid "Nebraska"
+msgstr "内布拉斯加州"
+
+#: includes/functions.php:918
+msgid "Nauru"
+msgstr "瑙鲁语 (Naoero)"
+
+#: includes/functions.php:917
+msgid "Namibia"
+msgstr "纳米比亚"
+
+#: includes/admin/class-about.php:948
+msgid "Name, Email, Single Line Text, Paragraph Text, Dropdown, Multiple Choice, Checkboxes, and Numbers"
+msgstr "名称、电子邮件、单行文本、段落文本、下拉列表、多项选择、复选框和数字"
+
+#: includes/fields/class-name.php:271
+msgid "Name field advanced options."
+msgstr "名称字段高级选项。"
+
+#: includes/admin/overview/class-overview-table.php:50
+#: includes/templates/class-subscribe.php:33
+#: includes/templates/class-contact.php:31
+#: includes/templates/class-suggestion.php:30 includes/fields/class-name.php:18
+#: includes/fields/class-name.php:271
+msgid "Name"
+msgstr "名称"
+
+#: includes/functions.php:916
+msgid "Myanmar"
+msgstr "缅甸"
+
+#: includes/admin/class-about.php:1203
+msgid "Multi-page Forms, File Upload Forms, Multiple Form Notifications, Conditional Form Confirmation, Custom CAPTCHA, Offline Forms, Signature Forms"
+msgstr "多页表单、文件上传表单、多表单通知、条件表单确认、自定义验证码、脱机表单、签名表单"
+
+#: includes/admin/class-about.php:1189 includes/admin/class-about.php:1196
+msgid "Multi-page Forms, File Upload Forms, Multiple Form Notifications, Conditional Form Confirmation"
+msgstr "多页表单、文件上传表单、多表单通知、条件表单确认"
+
+#: includes/functions.php:915
+msgid "Mozambique"
+msgstr "莫桑比克"
+
+#: includes/functions.php:914
+msgid "Morocco"
+msgstr "摩洛哥"
+
+#. translators: %1$s - WPForms.com URL to an addon page; %2$s - WPForms.com URL
+#. to a docs article.
+#: includes/admin/builder/panels/class-setup.php:118
+msgid "More are available in the <a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">Form Templates Pack addon</a> or by <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">creating your own</a>."
+msgstr "有关更多信息，请参见<a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">表单模板应用</a>或<a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">创建您自己的表单模板</a>。"
+
+#: includes/functions.php:913
+msgid "Montserrat"
+msgstr "蒙特塞拉特"
+
+#: includes/admin/builder/class-builder.php:496
+msgid "Months"
+msgstr "月"
+
+#: includes/functions.php:912
+msgid "Montenegro"
+msgstr "黑山"
+
+#: includes/functions.php:726
+msgid "Montana"
+msgstr "蒙塔纳州"
+
+#: includes/admin/class-about.php:853 includes/admin/class-about.php:859
+msgid "MonsterInsights makes it “effortless” to properly connect your WordPress site with Google Analytics, so you can start making data-driven decisions to grow your business."
+msgstr "MonsterInsights使您能够 \"毫不费力地\" 将您的 wordpress 网站与 google analytics 正确连接, 这样您就可以开始做出数据驱动的决策来发展您的业务。"
+
+#: includes/functions.php:911
+msgid "Mongolia"
+msgstr "蒙古国"
+
+#: includes/functions.php:1057
+msgid "Monday"
+msgstr "星期一"
+
+#: includes/functions.php:910
+msgid "Monaco"
+msgstr "摩纳哥"
+
+#: includes/functions.php:909
+msgid "Moldova (Republic of)"
+msgstr "摩尔多瓦（共和国）"
+
+#: includes/functions.php:725
+msgid "Missouri"
+msgstr "密苏里"
+
+#: includes/functions.php:724
+msgid "Mississippi"
+msgstr "密西西比州"
+
+#: includes/admin/class-settings.php:206 includes/admin/class-settings.php:512
+msgid "Misc"
+msgstr "杂项"
+
+#: includes/functions.php:723
+msgid "Minnesota"
+msgstr "明尼苏达州"
+
+#: includes/fields/class-name.php:301
+msgid "Middle name field advanced options."
+msgstr "中间名字段高级选项。"
+
+#: includes/fields/class-name.php:301
+msgid "Middle Name"
+msgstr "名"
+
+#: includes/fields/class-name.php:101 includes/fields/class-name.php:378
+msgid "Middle"
+msgstr "居中"
+
+#: includes/functions.php:908
+msgid "Micronesia (Federated States of)"
+msgstr "密克罗尼西亚（联邦）"
+
+#: includes/functions.php:722
+msgid "Michigan"
+msgstr "密歇根州"
+
+#: includes/functions.php:907
+msgid "Mexico"
+msgstr "墨西哥"
+
+#: includes/functions.php:906
+msgid "Mayotte"
+msgstr "马约特岛"
+
+#: includes/functions.php:1033
+msgid "May"
+msgstr "五月"
+
+#: includes/functions.php:905
+msgid "Mauritius"
+msgstr "毛里求斯"
+
+#: includes/functions.php:904
+msgid "Mauritania"
+msgstr "毛里塔尼亚"
+
+#: includes/functions.php:721
+msgid "Massachusetts"
+msgstr "马萨诸塞州"
+
+#: includes/functions.php:720
+msgid "Maryland"
+msgstr "马里兰"
+
+#: includes/functions.php:903
+msgid "Martinique"
+msgstr "马提尼克"
+
+#: includes/functions.php:902
+msgid "Marshall Islands"
+msgstr "马绍尔群岛"
+
+#: includes/admin/class-welcome.php:274 includes/admin/class-about.php:77
+msgid "Marketing Integrations"
+msgstr "营销整合"
+
+#: includes/admin/class-welcome.php:227
+msgid "Marketing &amp; Subscriptions"
+msgstr "营销和订阅"
+
+#: includes/admin/builder/panels/class-providers.php:18
+msgid "Marketing"
+msgstr "营销"
+
+#: includes/functions.php:1031
+msgid "March"
+msgstr "三月"
+
+#: includes/admin/class-settings.php:496 includes/admin/class-settings.php:503
+msgid "Manage integrations with popular providers such as Constant Contact, Mailchimp, Zapier, and more."
+msgstr "管理与流行提供商的集成，如Constant Contact、Mailchimp、Zapier等。"
+
+#: includes/functions.php:901
+msgid "Malta"
+msgstr "马耳他"
+
+#: includes/functions.php:900
+msgid "Mali"
+msgstr "马里"
+
+#: includes/functions.php:899
+msgid "Maldives"
+msgstr "马尔代夫"
+
+#: includes/functions.php:898
+msgid "Malaysia"
+msgstr "马来西亚"
+
+#: includes/functions.php:897
+msgid "Malawi"
+msgstr "马拉维"
+
+#: includes/functions.php:719
+msgid "Maine"
+msgstr "曼恩河"
+
+#: includes/functions.php:896
+msgid "Madagascar"
+msgstr "马达加斯加"
+
+#: includes/functions.php:894
+msgid "Macao"
+msgstr "澳门"
+
+#: includes/admin/class-tools.php:916 includes/admin/class-tools.php:920
+#: src/Integrations/SiteHealth/SiteHealth.php:82
+#: src/Integrations/SiteHealth/SiteHealth.php:90
+msgid "M j, Y @ g:ia"
+msgstr "Y年n月j日@ H：i"
+
+#: includes/functions.php:893
+msgid "Luxembourg"
+msgstr "卢森堡"
+
+#: includes/functions.php:718
+msgid "Louisiana"
+msgstr "美国路易斯安那州"
+
+#: includes/class-smart-tags.php:54
+msgid "Lost Password URL"
+msgstr "忘记密码URL"
+
+#: includes/class-logging.php:35
+msgid "Logs"
+msgstr "日志"
+
+#: includes/class-smart-tags.php:52
+msgid "Logout URL"
+msgstr "注销网址"
+
+#: includes/class-smart-tags.php:51
+msgid "Login URL"
+msgstr "登录网址"
+
+#: includes/admin/admin.php:190 includes/fields/class-select.php:613
+msgid "Loading..."
+msgstr "载入中…"
+
+#: includes/admin/builder/class-builder.php:388
+#: includes/admin/builder/class-builder.php:546
+msgid "Loading"
+msgstr "加载"
+
+#: includes/admin/class-settings.php:295
+msgid "Load Assets Globally"
+msgstr "全局加载资源"
+
+#: includes/functions.php:892
+msgid "Lithuania"
+msgstr "立陶宛"
+
+#: includes/providers/class-base.php:883 includes/providers/class-base.php:888
+msgid "List Fields"
+msgstr "列表字段"
+
+#: includes/admin/class-about.php:1029 includes/admin/class-about.php:1036
+msgid "Limited Marketing Integration"
+msgstr "有限的营销集成"
+
+#: includes/functions.php:891
+msgid "Liechtenstein"
+msgstr "列支敦士登"
+
+#: includes/admin/class-settings.php:258
+msgid "License Key"
+msgstr "许可密钥"
+
+#: includes/admin/class-settings.php:251
+msgid "License"
+msgstr "许可证"
+
+#: includes/functions.php:890
+msgid "Libya"
+msgstr "利比亚"
+
+#: includes/functions.php:889
+msgid "Liberia"
+msgstr "利比里亚"
+
+#: includes/class-conditional-logic-core.php:425
+#: includes/admin/builder/class-builder.php:418
+msgid "less than"
+msgstr "少于"
+
+#: includes/functions.php:888
+msgid "Lesotho"
+msgstr "莱索托"
+
+#: includes/functions.php:887
+msgid "Lebanon"
+msgstr "黎巴嫩"
+
+#. translators: %s - WPForms Constant Contact internal URL.
+#: includes/providers/class-constant-contact.php:672
+msgid "Learn More about the <a href=\"%s\">power of email marketing</a>"
+msgstr "详细了解<a href=\"%s\">电子邮件营销的力量</a>"
+
+#. translators: %s - WPForms Constant Contact internal URL.
+#: includes/providers/class-constant-contact.php:562
+msgid "Learn More about the <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">power of email marketing</a>"
+msgstr "详细了解<a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">电子邮件营销的力量</a>"
+
+#: includes/functions.php:886
+msgid "Latvia"
+msgstr "拉脱维亚"
+
+#: includes/fields/class-name.php:316
+msgid "Last name field advanced options."
+msgstr "姓氏字段高级选项。"
+
+#: includes/fields/class-name.php:316
+msgid "Last Name"
+msgstr "姓"
+
+#: includes/fields/class-name.php:122 includes/fields/class-name.php:383
+msgid "Last"
+msgstr "后一页"
+
+#: includes/functions.php:885
+msgid "Lao People's Democratic Republic"
+msgstr "老挝人民民主共和国"
+
+#: includes/functions.php:884
+msgid "Kyrgyzstan"
+msgstr "吉尔吉斯斯坦"
+
+#: includes/functions.php:883
+msgid "Kuwait"
+msgstr "科威特"
+
+#: includes/functions.php:880
+msgid "Kiribati"
+msgstr "基里巴斯"
+
+#: includes/functions.php:879
+msgid "Kenya"
+msgstr "肯尼亚"
+
+#: includes/functions.php:717
+msgid "Kentucky"
+msgstr "肯塔基州"
+
+#: includes/functions.php:878
+msgid "Kazakhstan"
+msgstr "哈萨克斯坦"
+
+#: includes/functions.php:716
+msgid "Kansas"
+msgstr "堪萨斯州"
+
+#: includes/functions.php:1034
+msgid "June"
+msgstr "六月"
+
+#: includes/functions.php:1035
+msgid "July"
+msgstr "七月"
+
+#: includes/functions.php:877
+msgid "Jordan"
+msgstr "约旦"
+
+#: includes/functions.php:876
+msgid "Jersey"
+msgstr "新泽西"
+
+#: includes/functions.php:875
+msgid "Japan"
+msgstr "日本"
+
+#: includes/functions.php:1029
+msgid "January"
+msgstr "一月"
+
+#: includes/functions.php:874
+msgid "Jamaica"
+msgstr "牙买加"
+
+#: includes/functions.php:873
+msgid "Italy"
+msgstr "意大利"
+
+#. translators: %s - Addons page URL.
+#: includes/admin/builder/panels/class-payments.php:93
+msgid "It seems you do not have any payment addons activated. You can head over to the <a href=\"%s\">Addons page</a> to install and activate the addon for your payment service."
+msgstr "您似乎没有激活任何支付应用。您可以去<a href=\"%s\">应用页面</a>安装并激活支付服务应用。"
+
+#. translators: %s - plugin admin area Addons page.
+#: includes/admin/builder/panels/class-providers.php:120
+msgid "It seems you do not have any marketing addons activated. You can head over to the <a href=\"%s\">Addons page</a> to install and activate the addon for your provider."
+msgstr "似乎没有激活任何营销应用。您可以前往<a href=\"%s\">应用页面</a>去安装并激活应用。"
+
+#: includes/providers/class-constant-contact.php:824
+msgid "It doesn&#39;t matter what kind of business you run, what kind of website you have, or what industry you are in - you need to start building your email list today."
+msgstr "您运营什么样的业务，拥有什么样的网站或您所在的行业并不重要 - 您需要立即开始构建您的电子邮件列表。"
+
+#: includes/functions.php:872
+msgid "Israel"
+msgstr "以色列"
+
+#: includes/functions.php:871
+msgid "Isle of Man"
+msgstr "马恩岛"
+
+#: includes/class-conditional-logic-core.php:409
+#: includes/admin/builder/class-builder.php:410
+msgid "is not"
+msgstr "不是"
+
+#: includes/class-conditional-logic-core.php:408
+#: includes/admin/builder/class-builder.php:409
+msgid "is"
+msgstr "是"
+
+#: includes/functions.php:870
+msgid "Ireland (Republic of)"
+msgstr "爱尔兰(共和国)"
+
+#: includes/functions.php:869
+msgid "Iraq"
+msgstr "伊拉克"
+
+#: includes/functions.php:868
+msgid "Iran (Islamic Republic of)"
+msgstr "伊朗（伊斯兰共和国）"
+
+#: includes/functions.php:715
+msgid "Iowa"
+msgstr "爱荷华州"
+
+#: includes/admin/class-settings.php:388
+msgid "Invisible reCAPTCHA v2"
+msgstr "不可见reCAPTCHA v2"
+
+#: includes/admin/class-settings.php:201 includes/admin/class-settings.php:496
+#: includes/admin/class-settings.php:503
+msgid "Integrations"
+msgstr "集成"
+
+#: includes/admin/class-welcome.php:209
+msgid "Instant Notifications"
+msgstr "即时通知"
+
+#: includes/admin/builder/panels/class-payments.php:87
+msgid "Install Your Payment Integration"
+msgstr "安装您的付款集成"
+
+#: includes/admin/builder/panels/class-providers.php:115
+msgid "Install Your Marketing Integration"
+msgstr "安装营销应用集成"
+
+#: includes/admin/class-about.php:424
+msgid "Install Plugin"
+msgstr "安装插件"
+
+#: includes/admin/admin.php:147
+msgid "Install and Activate"
+msgstr "安装并启用它"
+
+#: includes/admin/class-editor.php:89
+msgid "Insert Form"
+msgstr "插入表单"
+
+#: includes/fields/class-text.php:302
+msgid "Input Mask"
+msgstr "输入掩码"
+
+#: includes/admin/class-menu.php:108
+msgid "Info"
+msgstr "信息"
+
+#: includes/functions.php:867
+msgid "Indonesia"
+msgstr "印尼"
+
+#: includes/functions.php:714
+msgid "Indiana"
+msgstr "印第安纳州"
+
+#: includes/functions.php:866
+msgid "India"
+msgstr "印度"
+
+#: includes/admin/class-settings.php:270
+msgid "Include Form Styling"
+msgstr "包括表单样式"
+
+#: includes/admin/class-about.php:408 includes/admin/admin.php:120
+msgid "Inactive"
+msgstr "未启用"
+
+#: includes/admin/class-about.php:460
+msgid "In the Forms Overview page, the forms list will be empty because there are no forms yet. To create a new form, click on the Add New button, and this will launch the WPForms Form Builder."
+msgstr "在“表单概述”页面中，表单列表将为空，因为还没有表单。 要创建新表单，请单击“添加新”按钮，这将启动WPForms表单生成器。"
+
+#. translators: %1$s - current forms counter; %2$s - total forms counter; %3$s
+#. - provider name.
+#: includes/admin/class-tools.php:411
+msgid "Importing %1$s of %2$s forms from %3$s."
+msgstr "从%3$s导入%2$s表单的%1$s。"
+
+#. translators: %s - Forms list page URL.
+#: includes/admin/class-tools.php:206
+msgid "Import was successfully finished. You can go and <a href=\"%s\">check your forms</a>."
+msgstr "导入已成功完成。您可以去<a href=\"%s\">查看表单</a>。"
+
+#: includes/admin/class-tools.php:276
+msgid "Import from Other Form Plugins"
+msgstr "从其他表单插件导入"
+
+#: includes/admin/class-tools.php:93 includes/admin/class-tools.php:270
+#: includes/admin/class-tools.php:310 includes/admin/class-tools.php:373
+msgid "Import"
+msgstr "导入"
+
+#: includes/functions.php:713
+msgid "Illinois"
+msgstr "伊利诺斯州"
+
+#. translators: %s - WPForms.com contact page URL.
+#: includes/admin/admin.php:429
+msgid "If you have any questions or issues just <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">let us know</a>."
+msgstr "如果您有任何问题或疑问，请<a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">告诉我们</a>."
+
+#: includes/functions.php:712
+msgid "Idaho"
+msgstr "爱达荷"
+
+#: includes/functions.php:865
+msgid "Iceland"
+msgstr "冰岛"
+
+#: includes/admin/class-review.php:97 includes/admin/class-review.php:161
+msgid "I already did"
+msgstr "我已经做了"
+
+#: includes/functions.php:864
+msgid "Hungary"
+msgstr "匈牙利"
+
+#: includes/admin/class-settings.php:348
+msgid "HTML Template"
+msgstr "HTML模板"
+
+#: includes/admin/builder/panels/class-settings.php:186
+msgid "How to use Dynamic Field Population"
+msgstr "如何使用动态字段填充"
+
+#: includes/admin/class-about.php:677
+msgid "How to Install and Activate WPForms Addons"
+msgstr "如何安装和激活 WPForms插件"
+
+#: includes/admin/class-about.php:476
+msgid "How to Display Forms on Your Site"
+msgstr "如何在您的网站上显示表单"
+
+#: includes/admin/class-about.php:471
+msgid "How to Customize Form Fields"
+msgstr "如何自定义表单域"
+
+#: includes/admin/class-about.php:620
+msgid "How to Choose the Right Form Field"
+msgstr "如何选择正确的表单字段"
+
+#: includes/admin/class-about.php:466
+msgid "How to Add a New Form"
+msgstr "如何添加新表单"
+
+#: includes/functions.php:863
+msgid "Hong Kong"
+msgstr "香港证券交易所"
+
+#: includes/functions.php:862
+msgid "Honduras"
+msgstr "洪都拉斯"
+
+#: includes/providers/class-constant-contact.php:780
+msgid "High-Converting Form Builder"
+msgstr "高转换表单生成器"
+
+#: includes/admin/builder/class-builder.php:429
+msgid "Hide Smart Tags"
+msgstr "隐藏智能标记"
+
+#: includes/admin/builder/class-builder.php:349
+msgid "Hide presets"
+msgstr "隐藏预设"
+
+#: includes/admin/builder/class-builder.php:385
+msgid "Hide Layouts"
+msgstr "隐藏布局"
+
+#: includes/admin/builder/class-builder.php:345
+msgid "Hide Bulk Add"
+msgstr "隐藏批量添加"
+
+#: includes/admin/class-settings.php:519
+msgid "Hide Announcements"
+msgstr "隐藏公告"
+
+#: includes/admin/class-review.php:156
+msgid "Hey, I noticed you created a contact form with WPForms - that’s awesome! Could you please do me a BIG favor and give it a 5-star rating on WordPress to help us spread the word and boost our motivation?"
+msgstr "嘿，我注意到您用WPForms创建了一个联系表单-太棒了！您能帮我一个大忙，在WordPress上给它5星级的评价，帮助我们传播插件，提高我们的积极性吗？"
+
+#: includes/admin/class-review.php:92
+msgid "Hey, I noticed you collected over 50 entries from WPForms - that’s awesome! Could you please do me a BIG favor and give it a 5-star rating on WordPress to help us spread the word and boost our motivation?"
+msgstr "嘿，我注意到您从WPForms上收集了超过50个条目——太棒了!您能帮我一个大忙吗?帮我在WordPress上给它一个5星的评级，帮助我们传播这个词，提高我们的动力?"
+
+#: includes/providers/class-constant-contact.php:805
+msgid "Here&#39;s how it works."
+msgstr "这是它的工作原理。"
+
+#: includes/providers/class-constant-contact.php:777
+msgid "Here are the 3 things you need to build an email list:"
+msgstr "以下是构建电子邮件列表所需的3件事："
+
+#: includes/providers/class-constant-contact.php:747
+msgid "Here are 3 big reasons why every smart business in the world has an email list:"
+msgstr "以下是世界上每个智能企业都有电子邮件列表的三个重要原因："
+
+#: includes/admin/class-about.php:255
+msgid "Hello and welcome to WPForms, the most beginner friendly drag & drop WordPress forms plugin. At WPForms, we build software that helps you create beautiful responsive online forms for your website in minutes."
+msgstr "您好，欢迎使用WPForms，这是最适合初学者的拖放式WordPress表单插件。在WPForms，我们构建的软件可以帮助您在几分钟内创建漂亮的响应式在线表单。"
+
+#: includes/functions.php:861
+msgid "Heard Island and McDonald Islands"
+msgstr "赫德岛和麦克唐纳群岛"
+
+#. translators: %s - WPForms documentation link.
+#: includes/admin/class-editor.php:100
+msgid "Heads up! Don't forget to test your form. <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Check out our complete guide</a>!"
+msgstr "小心！别忘了测试一下您的表单。 <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">查看我们的完整指南</a>！"
+
+#: includes/admin/builder/class-builder.php:364 includes/admin/admin.php:140
+#: src/Integrations/Gutenberg/FormSelector.php:105
+#: src/Lite/Admin/Builder/Education.php:589 wpforms.php:143
+msgid "Heads up!"
+msgstr "小心！"
+
+#: includes/admin/class-tools.php:392
+msgid "Heads Up!"
+msgstr "小心!"
+
+#: includes/admin/class-settings.php:354
+msgid "Header Image"
+msgstr "页眉图像"
+
+#: includes/functions.php:711
+msgid "Hawaii"
+msgstr "夏威夷州"
+
+#. translators: %1$s - WPForms.com URL to a template suggestion; %2$s -
+#. WPForms.com URL to a doc about custom templates.
+#: includes/admin/builder/panels/class-setup.php:89
+msgid "Have a suggestion for a new template? <a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">We'd love to hear it</a>. Also, you can <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">create your own templates</a>!"
+msgstr "有新模板的建议吗？<a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">我们很想听听。</a>此外，您可以创建<a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">自己的模板</a>！"
+
+#: includes/functions.php:860
+msgid "Haiti"
+msgstr "海地"
+
+#: includes/functions.php:859
+msgid "Guyana"
+msgstr "圭亚那"
+
+#: includes/functions.php:858
+msgid "Guinea-Bissau"
+msgstr "几内亚比绍"
+
+#: includes/functions.php:857
+msgid "Guinea"
+msgstr "几内亚"
+
+#: includes/functions.php:856
+msgid "Guernsey"
+msgstr "格恩西"
+
+#: includes/functions.php:855
+msgid "Guatemala"
+msgstr "危地马拉"
+
+#: includes/functions.php:854
+msgid "Guam"
+msgstr "关岛"
+
+#: includes/functions.php:853
+msgid "Guadeloupe"
+msgstr "瓜德罗普岛"
+
+#: includes/providers/class-constant-contact.php:744
+msgid "Grow Your Website with WPForms + Email Marketing"
+msgstr "使用WPForms +电子邮件营销拓展您的网站"
+
+#: includes/functions.php:852
+msgid "Grenada"
+msgstr "格林纳达"
+
+#: includes/functions.php:851
+msgid "Greenland"
+msgstr "格陵兰"
+
+#: includes/functions.php:850
+msgid "Greece"
+msgstr "希腊"
+
+#: includes/class-conditional-logic-core.php:424
+#: includes/admin/builder/class-builder.php:417
+msgid "greater than"
+msgstr "多于"
+
+#: includes/functions.php:849
+msgid "Gibraltar"
+msgstr "直布罗陀"
+
+#: includes/functions.php:848
+msgid "Ghana"
+msgstr "加纳"
+
+#: includes/admin/class-about.php:114
+msgid "Getting Started"
+msgstr "入门"
+
+#: includes/admin/class-about.php:590
+msgid "Get WPForms Pro Today and Unlock all the Powerful Features"
+msgstr "立即获取 WPForms Pro和解锁所有的强大功能"
+
+#: includes/providers/class-constant-contact.php:654
+msgid "Get the most out of the <strong>WPForms</strong> plugin &mdash; use it with an active Constant Contact account."
+msgstr "充分利用<strong> WPForms </strong>插件＆mdash; 将它与活动的常量联系人帐户一起使用。"
+
+#: includes/providers/class-constant-contact.php:547
+msgid "Get the most out of <strong>WPForms</strong> &mdash; use it with an active Constant Contact account."
+msgstr "充分利用<strong> WPForms </strong>＆mdash; 将它与活动的常量联系人帐户一起使用。"
+
+#: includes/providers/class-constant-contact.php:786
+msgid "Get Started with Constant Contact for Free"
+msgstr "免费使用Constant Contact"
+
+#: includes/providers/class-constant-contact.php:794
+msgid "Get expert marketing and support"
+msgstr "获得专业的营销和支持"
+
+#: includes/functions.php:847
+msgid "Germany"
+msgstr "德国"
+
+#: includes/functions.php:710
+msgctxt "US State"
+msgid "Georgia"
+msgstr "格鲁吉亚"
+
+#: includes/functions.php:846
+msgctxt "Country"
+msgid "Georgia"
+msgstr "格鲁吉亚"
+
+#: includes/admin/class-welcome.php:271
+msgid "Geolocation"
+msgstr "地理位置"
+
+#: includes/admin/class-settings.php:181 includes/admin/class-settings.php:263
+#: includes/admin/builder/panels/class-settings.php:38
+#: includes/admin/builder/panels/class-settings.php:78
+msgid "General"
+msgstr "通用"
+
+#: includes/admin/class-settings.php:308
+msgid "GDPR Enhancements"
+msgstr "GDPR增强"
+
+#: includes/admin/class-settings.php:301
+msgid "GDPR"
+msgstr "GDPR"
+
+#: includes/functions.php:845
+msgid "Gambia"
+msgstr "冈比亚 (西非的独立国)"
+
+#: includes/functions.php:844
+msgid "Gabon"
+msgstr "加蓬"
+
+#: includes/functions.php:1061
+msgid "Friday"
+msgstr "星期五"
+
+#: includes/functions.php:843
+msgid "French Southern Territories"
+msgstr "法国南部领土"
+
+#: includes/functions.php:842
+msgid "French Polynesia"
+msgstr "法属波利尼西亚"
+
+#: includes/functions.php:841
+msgid "French Guiana"
+msgstr "法属圭亚那"
+
+#: includes/functions.php:840
+msgid "France"
+msgstr "法国"
+
+#: includes/admin/class-tools.php:365
+msgid "Forms to Import"
+msgstr "要导入的表单"
+
+#: includes/admin/overview/class-overview.php:123
+msgid "Forms Overview"
+msgstr "表单概述"
+
+#: includes/fields/class-name.php:215
+msgid "Format"
+msgstr "格式"
+
+#: includes/class-widget.php:124
+msgctxt "Widget"
+msgid "Form:"
+msgstr "表单："
+
+#: includes/admin/class-welcome.php:191 includes/admin/class-about.php:75
+msgid "Form Templates"
+msgstr "表单模板"
+
+#: includes/admin/class-tools.php:578
+msgid "Form Template Export"
+msgstr "表单模板导出"
+
+#: includes/admin/builder/panels/class-settings.php:86
+#: includes/admin/builder/panels/class-setup.php:52
+#: includes/class-smart-tags.php:33 src/Integrations/Elementor/Widget.php:222
+msgid "Form Name"
+msgstr "表单名称"
+
+#: includes/admin/class-tools.php:331
+msgid "Form Import"
+msgstr "表单导入"
+
+#: includes/class-smart-tags.php:32
+msgid "Form ID"
+msgstr "表单 ID"
+
+#: includes/admin/class-about.php:74
+msgid "Form Fields"
+msgstr "您能隐藏不需要的表单字段"
+
+#: includes/admin/class-tools.php:552
+msgid "Form exports files can be used to create a backup of your forms or to import forms into another site."
+msgstr "表单导出文件可用于创建表单备份或将表单导入其他网站。"
+
+#: includes/admin/class-tools.php:550
+msgid "Form Export"
+msgstr "表单导出"
+
+#: includes/admin/class-menu.php:69 includes/admin/class-about.php:73
+msgid "Form Entries"
+msgstr "表单条目"
+
+#: includes/admin/builder/panels/class-settings.php:96
+#: src/Integrations/Elementor/Widget.php:236
+msgid "Form Description"
+msgstr "表单描述"
+
+#: includes/admin/builder/panels/class-settings.php:103
+msgid "Form CSS Class"
+msgstr "表单CSS类"
+
+#: includes/admin/class-welcome.php:268
+#: src/Lite/Admin/Builder/Education.php:431
+msgid "Form Abandonment"
+msgstr "表单废弃"
+
+#. translators: %s - WPForms.com docs URL.
+#: includes/admin/class-tools.php:587
+msgid "For more information <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">see our documentation</a>."
+msgstr "有关更多信息，请<a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">查看我们的文档</a>。"
+
+#. translators: %s - WPBeginners.com Guide to Email Lists URL.
+#: includes/providers/class-constant-contact.php:762
+msgid "For more details, see this guide on <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">why building your email list is so important</a>."
+msgstr "有关详细信息，请参阅<a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">为何建立您的电子邮件列表非常重要</a>的指南。"
+
+#: includes/functions.php:709
+msgid "Florida"
+msgstr "佛罗里达"
+
+#: includes/fields/class-name.php:286
+msgid "First name field advanced options."
+msgstr "名字字段高级选项。"
+
+#: includes/fields/class-name.php:286
+msgid "First Name"
+msgstr "名"
+
+#: includes/fields/class-name.php:229
+msgid "First Middle Last"
+msgstr "前中后"
+
+#: includes/fields/class-name.php:228
+msgid "First Last"
+msgstr "最后一个"
+
+#: includes/fields/class-name.php:80 includes/fields/class-name.php:373
+msgid "First"
+msgstr "前一页"
+
+#: includes/admin/class-tools.php:260
+msgid "files selected"
+msgstr "已选的文件"
+
+#: includes/class-frontend.php:1316
+msgid "File type is not allowed."
+msgstr "不允许使用文件类型。"
+
+#: includes/functions.php:838
+msgid "Fiji"
+msgstr "斐济"
+
+#: includes/admin/builder/panels/class-fields.php:18
+msgid "Fields"
+msgstr "字段"
+
+#: includes/admin/class-settings.php:477 includes/class-frontend.php:1315
+msgid "Field values do not match."
+msgstr "字段值不匹配。"
+
+#: includes/admin/builder/panels/class-providers.php:57
+msgid "Field required"
+msgstr "必填字段"
+
+#: includes/admin/builder/panels/class-fields.php:73
+msgid "Field Options"
+msgstr "字段选项"
+
+#: includes/admin/builder/class-builder.php:360
+msgid "Field Locked"
+msgstr "字段锁定"
+
+#. translators: %d - field ID.
+#: includes/emails/class-emails.php:570 includes/emails/class-emails.php:615
+msgid "Field ID #%d"
+msgstr "字段ID＃%d"
+
+#: includes/admin/builder/class-builder.php:359
+msgid "Field"
+msgstr "字段"
+
+#: includes/functions.php:1030
+msgid "February"
+msgstr "二月"
+
+#: includes/admin/class-about.php:741
+msgid "Feature"
+msgstr "特征"
+
+#: includes/functions.php:837
+msgid "Faroe Islands"
+msgstr "法罗群岛"
+
+#: includes/admin/builder/panels/class-fields.php:175
+msgid "Fancy Fields"
+msgstr "功能字段"
+
+#: includes/functions.php:836
+msgid "Falkland Islands (Malvinas)"
+msgstr "福克兰群岛"
+
+#: includes/admin/class-tools.php:623
+msgid "Export Template"
+msgstr "导出模板"
+
+#: includes/admin/ajax-actions.php:190
+msgid "Error updating form template"
+msgstr "更新表单模板时出错"
+
+#: includes/admin/ajax-actions.php:120
+msgid "Error creating form"
+msgstr "创建表单时出错"
+
+#: includes/admin/class-tools.php:728 includes/admin/class-tools.php:741
+msgid "Error"
+msgstr "错误"
+
+#: includes/functions.php:833
+msgid "Eritrea"
+msgstr "厄立特里亚"
+
+#: includes/functions.php:832
+msgid "Equatorial Guinea"
+msgstr "赤道几内亚"
+
+#: includes/admin/class-about.php:535
+msgid "Entry Management - view all leads in one place."
+msgstr "入门管理 - 在一个地方查看所有潜在客户。"
+
+#: includes/admin/class-welcome.php:215 includes/admin/class-welcome.php:269
+msgid "Entry Management"
+msgstr "进入管理"
+
+#: includes/class-smart-tags.php:31
+msgid "Entry ID"
+msgstr "条目 ID"
+
+#: includes/admin/class-about.php:921
+msgid "Entries via Email Only"
+msgstr "仅通过电子邮件发送条目"
+
+#: includes/admin/builder/panels/class-setup.php:53
+msgid "Enter your form name here&hellip;"
+msgstr "在此处输入表单名称&hellip;"
+
+#: includes/fields/class-text.php:303
+msgid "Enter your custom input mask."
+msgstr "输入自定义输入掩码。"
+
+#: includes/admin/builder/panels/class-settings.php:125
+msgid "Enter the submit button text you would like the button display while the form submit is processing."
+msgstr "在表单提交处理期间输入您希望按钮显示的提交按钮文本."
+
+#: includes/admin/builder/panels/class-settings.php:105
+msgid "Enter CSS class names for the form wrapper. Multiple class names should be separated with spaces."
+msgstr "输入表单包装的CSS类名。多个类名应该用空格分隔。"
+
+#: includes/admin/builder/panels/class-settings.php:135
+msgid "Enter CSS class names for the form submit button. Multiple names should be separated with spaces."
+msgstr "输入表单提交按钮的CSS类名。应使用空格分隔多个类名。"
+
+#: includes/admin/builder/class-builder.php:369
+msgid "Enter a notification name"
+msgstr "输入通知名称"
+
+#: includes/admin/builder/class-builder.php:374
+msgid "Enter a confirmation name"
+msgstr "输入确认名称"
+
+#: includes/admin/builder/panels/class-providers.php:54
+msgid "Enter a %type% nickname"
+msgstr "输入%type%昵称"
+
+#: includes/class-conditional-logic-core.php:423
+#: includes/admin/builder/class-builder.php:416
+msgid "ends with"
+msgstr "结束于"
+
+#: includes/admin/builder/panels/class-settings.php:165
+msgid "Enable Google Invisible v2 reCAPTCHA"
+msgstr "启用谷歌隐形V2 reCAPTCHA"
+
+#: includes/admin/builder/panels/class-settings.php:184
+msgid "Enable dynamic fields population"
+msgstr "启用动态字段填充"
+
+#: includes/admin/builder/panels/class-settings.php:144
+msgid "Enable anti-spam honeypot"
+msgstr "启用反垃圾信息 honeypot"
+
+#: includes/class-conditional-logic-core.php:410
+#: includes/admin/builder/class-builder.php:411
+msgid "empty"
+msgstr "空白"
+
+#: includes/class-smart-tags.php:35
+msgid "Embedded Post/Page URL"
+msgstr "嵌入的文章/页面的URL"
+
+#: includes/class-smart-tags.php:34
+msgid "Embedded Post/Page Title"
+msgstr "嵌入的文章/页面标题"
+
+#: includes/class-smart-tags.php:36
+msgid "Embedded Post/Page ID"
+msgstr "嵌入的文章/页面ID"
+
+#: includes/admin/builder/class-builder.php:580
+msgid "Embed Form"
+msgstr "嵌入表单"
+
+#: includes/admin/builder/class-builder.php:396
+#: includes/admin/builder/class-builder.php:582
+msgid "Embed"
+msgstr "嵌入"
+
+#: includes/admin/class-about.php:1223
+msgid "Email Marketing Addons included"
+msgstr "包括电子邮件营销扩展插件"
+
+#: includes/providers/class-constant-contact.php:746
+msgid "Email is hands-down the most effective way to nurture leads and turn them into customers, with a return on investment (ROI) of <strong>$44 back for every $1 spent</strong> according to DMA."
+msgstr "电子邮件是不二之选，是培育潜在客户并将其转变为客户的最有效方法，根据DMA的调查，每花费1美元 ，电子邮件的投资回报率（ROI） <strong>为44美元</strong> 。"
+
+#: includes/functions.php:831
+msgid "El Salvador"
+msgstr "萨尔瓦多"
+
+#: includes/functions.php:830
+msgid "Egypt"
+msgstr "埃及"
+
+#: includes/admin/builder/class-builder.php:370
+msgid "Eg: User Confirmation"
+msgstr "例如：用户确认"
+
+#: includes/admin/builder/panels/class-providers.php:55
+msgid "Eg: Newsletter Optin"
+msgstr "例如:通讯选项"
+
+#: includes/admin/builder/class-builder.php:375
+msgid "Eg: Alternative Confirmation"
+msgstr "例如：替代确认"
+
+#: includes/admin/overview/class-overview-table.php:187
+#: includes/admin/overview/class-overview-table.php:222
+msgid "Edit This Form"
+msgstr "编辑此表单"
+
+#: includes/admin/class-tools.php:481
+#: includes/admin/overview/class-overview-table.php:223
+msgid "Edit"
+msgstr "编辑"
+
+#: includes/functions.php:829
+msgid "Ecuador"
+msgstr "厄瓜多尔"
+
+#: includes/admin/class-welcome.php:233
+msgid "Easy to Embed"
+msgstr "易于嵌入"
+
+#: includes/admin/class-welcome.php:234
+msgid "Easily embed your forms in blog posts, pages, sidebar widgets, footer, etc."
+msgstr "轻松地将表单嵌入博客文章、页面、边栏小工具、页脚等。"
+
+#: includes/admin/class-welcome.php:204
+msgid "Easily create high performance forms with our smart conditional logic."
+msgstr "使用我们的智能条件逻辑轻松创建高性能表单。"
+
+#: includes/admin/class-welcome.php:186
+msgid "Easily create an amazing form in just a few minutes without writing any code."
+msgstr "不需要编写任何代码，只需几分钟就可以轻松创建一个令人惊叹的表单。"
+
+#: includes/admin/class-welcome.php:222
+msgid "Easily collect payments, donations, and online orders without hiring a developer."
+msgstr "无需聘请开发人员即可轻松收集付款、捐款和在线订单。"
+
+#: includes/admin/overview/class-overview-table.php:271
+msgid "Duplicate this form"
+msgstr "复制表单"
+
+#: includes/admin/overview/class-overview-table.php:272
+msgid "Duplicate"
+msgstr "重复"
+
+#: includes/admin/builder/class-builder.php:357
+msgid "Due to form changes, conditional logic rules have been removed or updated:"
+msgstr "由于表单更改，条件逻辑规则已被删除或更新："
+
+#: includes/admin/class-welcome.php:185
+msgid "Drag &amp; Drop Form Builder"
+msgstr "拖拽表单生成器"
+
+#: includes/templates/class-subscribe.php:24
+msgid "Don&#39;t Forget"
+msgstr "别忘了"
+
+#: includes/functions.php:828
+msgid "Dominican Republic"
+msgstr "多明尼加共和国"
+
+#: includes/functions.php:827
+msgid "Dominica"
+msgstr "多米尼加"
+
+#: includes/class-conditional-logic-core.php:421
+#: includes/admin/builder/class-builder.php:414
+msgid "does not contain"
+msgstr "不包含"
+
+#: includes/admin/class-about.php:662
+msgid "Do you need to check that your forms are compliant with the European Union’s General Data Protection Regulation? The best way to ensure GDPR compliance for your specific site is always to consult legal counsel. In this guide, we’ll discuss general considerations for GDPR compliance in your WordPress forms."
+msgstr "您是否需要检查您的表单是否符合欧盟的通用数据保护法规？ 确保您的特定网站遵守GDPR的最佳方法始终是咨询法律顾问。 在本指南中，我们将讨论WordPress表单中GDPR合规性的一般注意事项。"
+
+#: includes/functions.php:826
+msgid "Djibouti"
+msgstr "吉布提"
+
+#: includes/functions.php:708
+msgid "District of Columbia"
+msgstr "哥伦比亚特区"
+
+#: includes/class-widget.php:153
+msgctxt "Widget"
+msgid "Display form description"
+msgstr "显示表单描述"
+
+#: includes/integrations.php:68
+msgid "Display Form Description"
+msgstr "显示表单描述"
+
+#: includes/class-widget.php:40
+msgctxt "Widget"
+msgid "Display a form."
+msgstr "显示一个表单."
+
+#: includes/admin/class-settings.php:344
+msgid "Determines how email notifications will be formatted. HTML Templates are the default."
+msgstr "确定电子邮件通知的格式。HTML模板是默认的。"
+
+#: includes/functions.php:825
+msgid "Denmark"
+msgstr "丹麦"
+
+#: includes/admin/overview/class-overview-table.php:292
+msgid "Delete this form"
+msgstr "删除此表单"
+
+#: includes/class-conditional-logic-core.php:501
+#: includes/admin/builder/class-builder.php:425
+msgid "Delete rule"
+msgstr "删除规则"
+
+#: includes/functions.php:707
+msgid "Delaware"
+msgstr "特拉华州"
+
+#: includes/admin/importers/class-pirate-forms.php:84
+#: includes/admin/importers/class-pirate-forms.php:172
+msgid "Default Form"
+msgstr "默认表单"
+
+#: includes/admin/builder/panels/class-payments.php:37
+msgid "Default"
+msgstr "默认"
+
+#: includes/functions.php:1040
+msgid "December"
+msgstr "十二月"
+
+#: includes/admin/settings-api.php:157
+msgid "Deactivate Key"
+msgstr "取消启用密钥"
+
+#: includes/admin/builder/class-builder.php:500
+msgid "Days"
+msgstr "天数"
+
+#: includes/class-smart-tags.php:37
+msgid "Date"
+msgstr "日期"
+
+#: includes/functions.php:824
+msgid "Czech Republic"
+msgstr "捷克共和国"
+
+#: includes/functions.php:823
+msgid "Cyprus"
+msgstr "塞浦路斯"
+
+#: includes/admin/class-settings.php:361
+msgid "Customize the background color of the HTML email template."
+msgstr "自定义HTML电子邮件模板的背景色。"
+
+#: includes/admin/class-about.php:82 includes/templates/class-suggestion.php:51
+msgid "Customer Support"
+msgstr "客户支持"
+
+#: includes/admin/class-about.php:1217
+msgid "Custom Captcha Addon included"
+msgstr "包括自定义Captcha附加"
+
+#: includes/functions.php:822
+msgid "Curaçao"
+msgstr "库拉索"
+
+#: includes/functions.php:821
+msgid "Cuba"
+msgstr "古巴"
+
+#: includes/functions.php:820
+msgid "Croatia"
+msgstr "克罗地亚"
+
+#: includes/admin/class-about.php:448
+msgid "Creating Your First Form"
+msgstr "创建第一个表单"
+
+#: includes/admin/overview/class-overview-table.php:52
+msgid "Created"
+msgstr "创建"
+
+#: includes/admin/class-welcome.php:157 includes/admin/class-welcome.php:326
+msgid "Create Your First Form"
+msgstr "创建您的第一个表单"
+
+#: includes/admin/class-welcome.php:228
+msgid "Create subscription forms and connect with your email marketing service."
+msgstr "创建订阅表单并连接到您的电子邮件营销服务。"
+
+#: includes/admin/class-about.php:1126 includes/admin/class-about.php:1133
+#: includes/admin/class-about.php:1140 includes/admin/class-about.php:1147
+msgid "Create Payment Forms"
+msgstr "创建支付表单"
+
+#: includes/class-conditional-logic-core.php:500
+#: includes/admin/builder/class-builder.php:423
+msgid "Create new rule"
+msgstr "创建新规则"
+
+#: includes/admin/class-about.php:1174
+msgid "Create interactive Surveys and Polls with beautiful reports"
+msgstr "创建交互式调查和投票与好看的报告"
+
+#: includes/providers/class-constant-contact.php:793
+msgid "Create and send professional email newsletters"
+msgstr "创建和发送专业的电子邮件简报"
+
+#. translators: %s - Form template name.
+#: includes/admin/builder/panels/class-setup.php:191
+msgid "Create a %s"
+msgstr "创建一个 %s"
+
+#: includes/admin/builder/class-builder.php:484
+msgid "Countries Postal Code"
+msgstr "国家邮政编码"
+
+#: includes/admin/builder/class-builder.php:480
+msgid "Countries"
+msgstr "国家"
+
+#: includes/admin/ajax-actions.php:499 includes/admin/admin.php:122
+msgid "Could not install addon. Please download from wpforms.com and install manually."
+msgstr "无法安装插件。请从wpforms.com下载并手动安装。"
+
+#: includes/admin/ajax-actions.php:443
+msgid "Could not deactivate the addon. Please deactivate from the Plugins page."
+msgstr "无法停用插件。 请从“插件”页面停用。"
+
+#: includes/providers/class-base.php:1210
+msgid "Could not connect to the provider."
+msgstr "无法连接到提供商。"
+
+#: includes/admin/ajax-actions.php:480
+msgid "Could not activate addon. Please activate from the Plugins page."
+msgstr "无法激活插件。 请从插件页面激活。"
+
+#: includes/functions.php:818
+msgid "Costa Rica"
+msgstr "哥斯达黎加"
+
+#: includes/functions.php:817
+msgid "Cook Islands"
+msgstr "库克群岛"
+
+#: includes/admin/class-tools.php:397
+msgid "Continue Import without Upgrading"
+msgstr "继续导入而不升级"
+
+#: includes/class-conditional-logic-core.php:420
+#: includes/admin/builder/class-builder.php:413
+msgid "contains"
+msgstr "包含"
+
+#: includes/providers/class-constant-contact.php:109
+msgid "Constant Contact Subscription stopped by conditional logic"
+msgstr "常量联系订阅由条件逻辑停止"
+
+#: includes/admin/class-about.php:1030 includes/admin/class-about.php:1037
+msgid "Constant Contact only"
+msgstr "仅限常用联系人"
+
+#: includes/providers/class-constant-contact.php:127
+#: includes/providers/class-constant-contact.php:305
+#: includes/providers/class-constant-contact.php:390
+msgid "Constant Contact API Error"
+msgstr "常量联系API错误"
+
+#: includes/providers/class-base.php:89
+msgid "Connection"
+msgstr "连接"
+
+#: includes/functions.php:706
+msgid "Connecticut"
+msgstr "康乃狄克州"
+
+#: includes/providers/class-constant-contact.php:666
+msgid "Connect your existing account"
+msgstr "连接您现有的帐户"
+
+#: includes/admin/settings-api.php:143
+#: includes/providers/class-constant-contact.php:507
+msgid "Connect"
+msgstr "连接"
+
+#. translators: %s - number of imported forms.
+#: includes/admin/class-tools.php:423
+msgid "Congrats, the import process has finished! We have successfully imported %s forms. You can review the results below."
+msgstr "恭喜，导入过程已经完成！我们已成功导入%s表单。您可以查看下面的结果。"
+
+#: includes/functions.php:816
+msgid "Congo (Democratic Republic of the)"
+msgstr "刚果(民主共和国)"
+
+#: includes/functions.php:815
+msgid "Congo"
+msgstr "刚果"
+
+#: includes/admin/class-settings.php:475
+msgid "Confirm Value"
+msgstr "确认值"
+
+#: includes/admin/class-about.php:927 includes/admin/class-about.php:933
+#: includes/admin/class-about.php:939
+msgid "Complete Entry Management inside WordPress"
+msgstr "完成WordPress内部的入口管理"
+
+#: includes/functions.php:814
+msgid "Comoros"
+msgstr "科摩罗"
+
+#: includes/templates/class-contact.php:45
+msgid "Comment or Message"
+msgstr "评论或消息"
+
+#: includes/functions.php:705
+msgid "Colorado"
+msgstr "科罗拉多州"
+
+#: includes/functions.php:813
+msgid "Colombia"
+msgstr "哥伦比亚"
+
+#: includes/admin/class-about.php:567
+msgid "Collect signatures, geo-location data, and more."
+msgstr "收集签名，地理位置数据等."
+
+#: includes/functions.php:812
+msgid "Cocos (Keeling) Islands"
+msgstr "科科斯（基林）群岛"
+
+#: includes/admin/class-editor.php:90
+#: includes/admin/builder/class-builder.php:356 includes/admin/admin.php:127
+msgid "Close"
+msgstr "关闭"
+
+#: includes/templates/class-subscribe.php:25
+msgid "Click the marketing tab to configure your newsletter service provider"
+msgstr "单击“营销”选项卡配置邮件订阅提供商"
+
+#: includes/admin/class-tools.php:651
+msgid "Click the button below to verify your web server can perform SSL connections successfully."
+msgstr "单击下面的按钮以验证您的Web服务器是否可以成功执行SSL连接。"
+
+#: includes/providers/class-constant-contact.php:500
+#: includes/providers/class-constant-contact.php:601
+msgid "Click here to register with Constant Contact"
+msgstr "点击这里注册Constant Contact"
+
+#: includes/providers/class-constant-contact.php:491
+#: includes/providers/class-constant-contact.php:592
+msgid "Click here for documentation on connecting WPForms with Constant Contact."
+msgstr "单击此处获取有关将WPForms与Constant Contact连接的文档。"
+
+#: includes/functions.php:811
+msgid "Christmas Island"
+msgstr "圣诞岛"
+
+#: includes/admin/class-tools.php:264
+msgid "Choose a file&hellip;"
+msgstr "选择一个文件&hellip;"
+
+#: includes/admin/class-settings.php:540
+msgid "Check this if you would like to remove ALL WPForms data upon plugin deletion. All forms, entries, and uploaded files will be unrecoverable."
+msgstr "勾选此您想在删除所有WPForms数据插件删除。所有表单，条目和上传的文件将无法恢复。"
+
+#: includes/admin/class-settings.php:296
+msgid "Check this if you would like to load WPForms assets site-wide. Only check if your site is having compatibility issues or instructed to by support."
+msgstr "如果要在站点范围内加载WPForms脚本，请选中此项。仅检查您的站点是否存在兼容性问题或技术支持人员是否指示您进行此操作。"
+
+#: includes/admin/class-settings.php:520
+msgid "Check this if you would like to hide plugin announcements and update details."
+msgstr "如果您想要隐藏插件公告和更新详细信息，请检查此项。"
+
+#: includes/admin/class-settings.php:368
+msgid "Check this if you would like to enable the ability to CC: email addresses in the form notification settings."
+msgstr "如果您想在表单通知设置中启用抄送：电子邮件地址的功能,请检查此选项."
+
+#. translators: %s - WPForms.com upgrade from Lite to paid docs page URL.
+#: includes/admin/admin.php:457
+msgid "Check out <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">our documentation</a> for step-by-step instructions."
+msgstr "有关分步说明，请查看 <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">我们的文档</a>."
+
+#: includes/admin/builder/class-builder.php:395
+msgid "Changing templates on an existing form will DELETE existing form fields. Are you sure you want apply the new template?"
+msgstr "更改现有表单上的模板将删除现有表单字段。确实要应用新模板吗？"
+
+#: includes/functions.php:808
+msgid "Chad"
+msgstr "乍得"
+
+#: includes/functions.php:807
+msgid "Central African Republic"
+msgstr "中非共和国"
+
+#: includes/functions.php:819
+msgid "Côte d'Ivoire"
+msgstr "科特迪瓦"
+
+#: includes/functions.php:806
+msgid "Cayman Islands"
+msgstr "开曼群岛"
+
+#: includes/admin/class-settings.php:367
+msgid "Carbon Copy"
+msgstr "抄送"
+
+#: includes/admin/class-editor.php:144
+#: includes/admin/builder/class-builder.php:354 includes/admin/admin.php:126
+msgid "Cancel"
+msgstr "取消"
+
+#: includes/functions.php:805
+msgid "Canada"
+msgstr "加拿大"
+
+#: includes/functions.php:804
+msgid "Cameroon"
+msgstr "喀麦隆"
+
+#: includes/functions.php:803
+msgid "Cambodia"
+msgstr "柬埔寨"
+
+#: includes/functions.php:704
+msgid "California"
+msgstr "加利福尼亚"
+
+#: includes/functions.php:802
+msgid "Cabo Verde"
+msgstr "佛得角"
+
+#: includes/providers/class-constant-contact.php:790
+msgid "But when you combine WPForms with Constant Contact, you can nurture your contacts and engage with them even after they leave your website. When you use Constant Contact + WPForms together, you can:"
+msgstr "但是当您将WPForms与Constant Contact结合使用时，即使他们离开您的网站，您也可以培养您的联系人并与他们互动。当您一起使用Constant Contact + WPForms时，您可以："
+
+#: includes/functions.php:801
+msgid "Burundi"
+msgstr "布隆迪"
+
+#: includes/functions.php:800
+msgid "Burkina Faso"
+msgstr "布吉纳法索"
+
+#: includes/functions.php:799
+msgid "Bulgaria"
+msgstr "保加利亚"
+
+#: includes/functions.php:798
+msgid "Brunei Darussalam"
+msgstr "汶莱"
+
+#: includes/functions.php:797
+msgid "British Indian Ocean Territory"
+msgstr "英属印度洋领地"
+
+#: includes/functions.php:796
+msgid "Brazil"
+msgstr "巴西"
+
+#: includes/functions.php:795
+msgid "Bouvet Island"
+msgstr "布维岛"
+
+#: includes/functions.php:794
+msgid "Botswana"
+msgstr "博茨瓦纳"
+
+#: includes/functions.php:793
+msgid "Bosnia and Herzegovina"
+msgstr "波斯尼亚和黑塞哥维那"
+
+#: includes/admin/class-about.php:599 includes/admin/class-about.php:821
+msgid "Bonus: WPForms Lite users get <span class=\"price-20-off\">50% off regular price</span>, automatically applied at checkout."
+msgstr "奖励: wpforms 精简版用户可获得 <span class=\"price-20-off\">50% o 比正常价格低% </span>, 在结账时自动应用。"
+
+#: includes/admin/class-about.php:575
+msgid "Bonus form templates, form abandonment, and more."
+msgstr "奖励表单模板、表单中止等。"
+
+#: includes/functions.php:792
+msgid "Bolivia (Plurinational State of)"
+msgstr "玻利维亚（多民族国）"
+
+#: includes/admin/builder/class-builder.php:347
+msgid ""
+"Blue\n"
+"Red\n"
+"Green"
+msgstr ""
+"蓝\n"
+"红\n"
+"绿"
+
+#: includes/templates/class-blank.php:17
+msgid "Blank Form"
+msgstr "空白表单"
+
+#: includes/functions.php:791
+msgid "Bhutan"
+msgstr "不丹"
+
+#: includes/functions.php:790
+msgid "Bermuda"
+msgstr "百慕大"
+
+#: includes/functions.php:789
+msgid "Benin"
+msgstr "贝宁"
+
+#: includes/admin/class-tools.php:400
+msgid "Below is the list of form fields that may be impacted:"
+msgstr "以下是可能受影响的表单字段列表："
+
+#: includes/functions.php:788
+msgid "Belize"
+msgstr "伯利兹"
+
+#: includes/functions.php:787
+msgid "Belgium"
+msgstr "比利时"
+
+#: includes/functions.php:786
+msgid "Belarus"
+msgstr "白俄罗斯"
+
+#: includes/providers/class-constant-contact.php:496
+#: includes/providers/class-constant-contact.php:597
+msgid "Because Constant Contact requires external authentication, you will need to register WPForms with Constant Contact before you can proceed."
+msgstr "由于Constant Contact需要外部身份验证，因此您需要先注册WPForms和Constant Contact，然后才能继续。"
+
+#: includes/admin/class-settings.php:289
+msgid "Base styling only"
+msgstr "仅基础样式"
+
+#: includes/admin/class-settings.php:288
+msgid "Base and form theme styling"
+msgstr "基础和表单的主题样式"
+
+#: includes/functions.php:785
+msgid "Barbados"
+msgstr "巴巴多斯"
+
+#: includes/functions.php:784
+msgid "Bangladesh"
+msgstr "孟加拉国"
+
+#: includes/functions.php:783
+msgid "Bahrain"
+msgstr "巴林"
+
+#: includes/functions.php:782
+msgid "Bahamas"
+msgstr "巴哈马"
+
+#: includes/functions.php:767
+msgid "Åland Islands"
+msgstr "奥兰群岛"
+
+#: includes/functions.php:781
+msgid "Azerbaijan"
+msgstr "阿塞拜疆"
+
+#: includes/admin/class-tools.php:341
+msgid "Available Forms"
+msgstr "可用表单"
+
+#: includes/providers/class-base.php:888
+msgid "Available Form Fields"
+msgstr "可用表单选项"
+
+#: includes/admin/builder/class-builder.php:362
+msgid "Available Fields"
+msgstr "可用字段"
+
+#: includes/providers/class-constant-contact.php:503
+#: includes/providers/class-constant-contact.php:604
+msgid "Authorization Code"
+msgstr "授权码"
+
+#: includes/class-smart-tags.php:48
+msgid "Author Name"
+msgstr "作者姓名"
+
+#: includes/class-smart-tags.php:47
+msgid "Author ID"
+msgstr "作者ID"
+
+#: includes/class-smart-tags.php:49
+msgid "Author Email"
+msgstr "作者电子邮件"
+
+#: includes/functions.php:780
+msgid "Austria"
+msgstr "奥地利"
+
+#: includes/functions.php:779
+msgid "Australia"
+msgstr "澳洲"
+
+#: includes/functions.php:1036
+msgid "August"
+msgstr "八月"
+
+#: includes/templates/class-suggestion.php:19
+msgid "Ask your users for suggestions with this simple form template. You can add and remove fields as needed."
+msgstr "使用此简单表单模板向用户征求建议。您可以根据需要添加和删除字段。"
+
+#: includes/admin/settings-api.php:132
+msgid "As a valued WPForms Lite user you receive <strong>50% off</strong>, automatically applied at checkout!"
+msgstr "作为一个有价值的WPForms精简版用户，您可以享受<strong>50% o的折扣</strong>，在结帐时自动应用！"
+
+#: includes/admin/class-welcome.php:309
+msgid "As a business owner, time is my most valuable asset. WPForms allow me to create smart online forms with just a few clicks. With their pre-built form templates and the drag & drop builder, I can create a new form that works in less than 2 minutes without writing a single line of code. Well worth the investment."
+msgstr "作为企业主，时间是我最宝贵的资产。WPForms允许我只需点击几下即可创建智能在线表单。通过预先构建的表单模板和拖放生成器，我可以创建一个在不到2分钟的时间内工作的新表单，而无需编写任何代码。非常值得投资。"
+
+#: includes/functions.php:778
+msgid "Aruba"
+msgstr "阿鲁巴"
+
+#: includes/functions.php:777
+msgid "Armenia"
+msgstr "亚美尼亚"
+
+#: includes/functions.php:703
+msgid "Arkansas"
+msgstr "阿肯色州"
+
+#: includes/functions.php:702
+msgid "Arizona"
+msgstr "亚利桑那州"
+
+#: includes/functions.php:776
+msgid "Argentina"
+msgstr "阿根廷"
+
+#: includes/admin/class-about.php:624
+msgid "Are you wondering which form fields you have access to in WPForms and what each field does? WPForms has lots of field types to make creating and filling out forms easy. In this tutorial, we’ll cover all of the fields available in WPForms."
+msgstr "您是否想知道您在WPForms中可以访问哪些表单字段以及每个字段的作用？ WPForms有许多字段类型可以轻松创建和填写表单。 在本教程中，我们将介绍WPForms中可用的所有字段。"
+
+#: includes/admin/builder/class-builder.php:401
+msgid "Are you sure you want to duplicate this field?"
+msgstr "是否确定复制此字段？"
+
+#: includes/admin/builder/class-builder.php:358
+msgid "Are you sure you want to disable conditional logic? This will remove the rules for this field or setting."
+msgstr "您确定要禁用条件逻辑吗？这将删除此字段或设置的规则。"
+
+#: includes/admin/builder/class-builder.php:368
+msgid "Are you sure you want to delete this notification?"
+msgstr "您确定要删除此通知吗？"
+
+#: includes/admin/admin.php:133
+msgid "Are you sure you want to delete this note?"
+msgstr "确实要删除此注释吗？"
+
+#: includes/admin/admin.php:138
+msgid "Are you sure you want to delete this form?"
+msgstr "您确定要删除这个表单吗？"
+
+#: includes/admin/builder/class-builder.php:400
+msgid "Are you sure you want to delete this field?"
+msgstr "您确定要删除此字段吗？"
+
+#: includes/admin/admin.php:128
+msgid "Are you sure you want to delete this entry?"
+msgstr "您确定要删除此条目吗?"
+
+#: includes/admin/builder/panels/class-providers.php:53
+msgid "Are you sure you want to delete this connection?"
+msgstr "确定要删除此连接？"
+
+#: includes/admin/builder/class-builder.php:373
+msgid "Are you sure you want to delete this confirmation?"
+msgstr "您确定要删除此确认吗？"
+
+#: includes/admin/admin.php:129
+msgid "Are you sure you want to delete ALL entries?"
+msgstr "确实要删除所有条目吗？"
+
+#: includes/functions.php:1032
+msgid "April"
+msgstr "四月"
+
+#: includes/providers/class-constant-contact.php:397
+msgid "API list error: Constant API error"
+msgstr "API列表错误：常量API错误"
+
+#: includes/functions.php:775
+msgid "Antigua and Barbuda"
+msgstr "安提瓜岛和巴布达"
+
+#: includes/functions.php:774
+msgid "Antarctica"
+msgstr "南极洲"
+
+#: includes/functions.php:773
+msgid "Anguilla"
+msgstr "安圭拉"
+
+#: includes/functions.php:772
+msgid "Angola"
+msgstr "安哥拉"
+
+#: includes/functions.php:771
+msgid "Andorra"
+msgstr "安道尔"
+
+#: includes/admin/builder/class-builder.php:340
+msgid "AND"
+msgstr "和"
+
+#. translators: %1$s - current forms counter; %2$s - total forms counter; %3$s
+#. - provider name.
+#: includes/admin/class-tools.php:384
+msgid "Analyzing %1$s of %2$s forms from %3$s."
+msgstr "从%3$s.分析%2$s表单的%1$s。"
+
+#: includes/admin/class-menu.php:127 includes/admin/class-menu.php:128
+msgid "Analytics"
+msgstr "分析"
+
+#: includes/admin/ajax-actions.php:65
+msgid "An error occurred and the form could not be saved"
+msgstr "发生错误，无法保存表单"
+
+#: includes/emails/class-emails.php:627
+msgid "An empty form was submitted."
+msgstr "已提交空表单。"
+
+#: includes/functions.php:770
+msgid "American Samoa"
+msgstr "美属萨摩亚"
+
+#: includes/templates/class-contact.php:19
+msgid "Allow your users to contact you with this simple contact form. You can add and remove fields as needed."
+msgstr "让您的用户使用这个简单的联系表单与您联系。可以根据需要添加和删除字段。"
+
+#: includes/admin/class-about.php:1064 includes/admin/class-about.php:1078
+#: includes/admin/class-about.php:1092
+msgid "All Marketing Integrations"
+msgstr "所有营销整合"
+
+#: includes/admin/class-menu.php:50 src/Admin/AdminBarMenu.php:252
+msgid "All Forms"
+msgstr "全部表单"
+
+#: includes/admin/class-about.php:1021
+msgid "All Form Templates including Bonus 150+ pre-made form templates."
+msgstr "所有表单模板, 包括额外 150 + 预先制作的表单模板。"
+
+#: includes/admin/class-about.php:539
+msgid "All form features like file upload, pagination, etc."
+msgstr "所有表单功能，如文件上传、分页等。"
+
+#: includes/admin/class-about.php:1236 includes/admin/class-about.php:1243
+#: includes/admin/class-about.php:1250
+msgid "All Addons Included"
+msgstr "包括所有扩展"
+
+#: includes/functions.php:769
+msgid "Algeria"
+msgstr "阿尔及利亚"
+
+#: includes/functions.php:768
+msgid "Albania"
+msgstr "阿尔巴尼亚"
+
+#: includes/functions.php:701
+msgid "Alaska"
+msgstr "阿拉斯加州"
+
+#: includes/functions.php:700
+msgid "Alabama"
+msgstr "亚拉巴马州"
+
+#: includes/functions.php:766
+msgid "Afghanistan"
+msgstr "阿富汗"
+
+#: includes/admin/class-about.php:80
+msgid "Advanced Form Features"
+msgstr "高级表单功能"
+
+#: includes/admin/class-about.php:955 includes/admin/class-about.php:962
+#: includes/admin/class-about.php:969
+msgid "Address, Phone, Website URL, Date/Time, Password, File Upload, HTML, Pagebreaks, Section Dividers, Ratings, and Hidden Field"
+msgstr "地址、电话、网站URL、日期/时间、密码、文件上传、HTML、分页符、节分隔符、分级和隐藏字段"
+
+#: includes/admin/class-menu.php:118
+msgid "Addons"
+msgstr "插件"
+
+#: includes/admin/ajax-actions.php:574
+msgid "Addon installed."
+msgstr "已安装加载项。"
+
+#: includes/admin/ajax-actions.php:566
+msgid "Addon installed & activated."
+msgstr "插件安装和启用成功。"
+
+#: includes/admin/ajax-actions.php:439
+msgid "Addon deactivated."
+msgstr "扩展已停用。"
+
+#: includes/admin/ajax-actions.php:475
+msgid "Addon activated."
+msgstr "扩展已启用。"
+
+#: includes/admin/builder/panels/class-setup.php:78
+msgid "Additional Templates"
+msgstr "其他模板"
+
+#: includes/templates/class-subscribe.php:19
+msgid "Add subscribers and grow your email list with this newsletter signup form. You can add and remove fields as needed."
+msgstr "添加订户并使用此邮件订阅表单增加您的电子邮件列表。您可以根据需要添加和删除字段。"
+
+#: includes/admin/builder/class-builder.php:424
+msgid "Add new group"
+msgstr "添加新组"
+
+#: includes/admin/builder/class-builder.php:342
+msgid "Add New Choices"
+msgstr "添加新选项"
+
+#. translators: %s - Provider type.
+#: includes/providers/class-base.php:1076
+msgid "Add New %s"
+msgstr "添加 %s"
+
+#: includes/admin/class-editor.php:45 includes/admin/class-editor.php:47
+#: includes/admin/class-editor.php:148
+msgid "Add Form"
+msgstr "添加表单"
+
+#: includes/admin/builder/panels/class-fields.php:66
+msgid "Add Fields"
+msgstr "添加字段"
+
+#: includes/admin/builder/class-builder.php:346
+msgid "Add Choices (one per line)"
+msgstr "添加选项（每行一个）"
+
+#: includes/admin/builder/class-builder.php:435
+msgid "Add"
+msgstr "新增"
+
+#: includes/admin/class-about.php:400 includes/admin/admin.php:118
+msgid "Active"
+msgstr "活动"
+
+#: includes/admin/class-about.php:403 includes/admin/admin.php:117
+msgid "Activated"
+msgstr "已启用"
+
+#: includes/admin/class-about.php:411 includes/admin/admin.php:116
+#: includes/admin/admin.php:149
+msgid "Activate"
+msgstr "启用"
+
+#: includes/providers/class-constant-contact.php:505
+#: includes/providers/class-constant-contact.php:606
+msgid "Account Nickname"
+msgstr "帐户昵称"
+
+#: includes/admin/class-about.php:954 includes/admin/class-about.php:961
+#: includes/admin/class-about.php:968
+msgid "Access to all Standard and Fancy Fields"
+msgstr "访问所有标准和自定义字段"
+
+#: includes/admin/importers/class-contact-form-7.php:312
+msgid "Acceptance Field"
+msgstr "接受字段"
+
+#: includes/admin/class-about.php:571
+msgid "Accept user submitted content with Post Submissions addon."
+msgstr "使用文章提交插件接受用户提交的内容."
+
+#: includes/admin/class-about.php:1127
+msgid "Accept payments using Stripe (credit card) and PayPal"
+msgstr "使用Stripe（信用卡）和贝宝接受付款"
+
+#: includes/providers/class-constant-contact.php:779
+msgid "A Website or Blog"
+msgstr "网站或博客"
+
+#: includes/providers/class-constant-contact.php:753
+msgid "<strong>You own your email list</strong> - Unlike with social media, your list is your property and no one can revoke your access to it."
+msgstr "<strong>您拥有自己的电子邮件列表</strong> - 与社交媒体不同，您的列表是您的财产，任何人都无法撤销您对其的访问权限。"
+
+#: includes/admin/admin.php:389
+msgid "<strong>Please Note:</strong> Support for PHP 5.5 will be discontinued in 2020. After this, if no further action is taken, WPForms functionality will be disabled."
+msgstr "<strong>请注意：</strong>2020年将停止对PHP5.5的支持。在此之后，如果不采取进一步的操作，WPForms功能将被禁用。"
+
+#: includes/providers/class-constant-contact.php:752
+msgid "<strong>Email is still #1</strong> - At least 91% of consumers check their email on a daily basis. You get direct access to your subscribers, without having to play by social media&#39;s rules and algorithms."
+msgstr "<strong>电子邮件仍然是＃1</strong> - 至少91%的消费者每天检查他们的电子邮件。您可以直接访问订阅者，而无需通过社交媒体的规则和算法进行播放。"
+
+#: includes/providers/class-constant-contact.php:754
+msgid "<strong>Email converts</strong> - People who buy products marketed through email spend 138% more than those who don&#39;t receive email offers."
+msgstr "<strong>电子邮件转换</strong> - 购买通过电子邮件销售的产品的用户比未收到电子邮件优惠的用户多花费138％。"
+
+#: includes/admin/class-about.php:1054 includes/admin/class-about.php:1068
+#: includes/admin/class-about.php:1082 includes/admin/class-about.php:1096
+msgid "<strong>Bonus:</strong> 500+ integrations with Zapier."
+msgstr "<strong>奖励：</strong>500+与Zapier的集成。"
+
+#. translators: %s - URL to a non-amp version of a page with the form.
+#: includes/class-frontend.php:157
+msgid "<a href=\"%s\">Go to the full page</a> to view and submit the form."
+msgstr "<a href=\"%s\">转到页面</a>查看并提交表单。"
+
+#. translators: %s - WPForms.com Setup Captcha URL.
+#: includes/admin/class-settings.php:590
+msgid "<a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Read our walk through</a> to learn more and for step-by-step directions."
+msgstr "<a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">通过阅读我们的指南</a> ，了解更多信息和逐步指导。"
+
+#: includes/providers/class-constant-contact.php:821
+msgid "4. Add your new form to any post, page, or sidebar."
+msgstr "4.将新表单添加到任何文章，页面或侧栏。"
+
+#: includes/providers/class-constant-contact.php:817
+msgid "3. Connect your Constant Contact email list."
+msgstr "3.连接您的Constant Contact电子邮件列表。"
+
+#: includes/providers/class-constant-contact.php:813
+msgid "2. Drag and drop any field you want onto your signup form."
+msgstr "2.将所需的任何字段拖放到注册表单上。"
+
+#: includes/providers/class-constant-contact.php:809
+msgid "1. Select from our pre-built templates, or create a form from scratch."
+msgstr "1.从我们预先构建的模板中选择，或从头开始创建表单。"
+
+#: includes/class-conditional-logic-core.php:470
+#: includes/admin/builder/class-builder.php:431
+msgid "--- Select Choice ---"
+msgstr "--- 选择选项 ---"
+
+#: includes/admin/admin.php:452
+msgid "(Don't worry, all your forms and settings will be preserved.)"
+msgstr "(别担心,您所有的表单和设置都会保存下来.)"
+
+#: includes/admin/builder/class-builder.php:402
+msgid "(copy)"
+msgstr "(复制)"
+
+#. translators: %s - Form template name.
+#: includes/admin/builder/panels/class-setup.php:178
+msgid "%s template"
+msgstr "%s模板"
+
+#. translators: %s - Duplicated forms count.
+#: includes/admin/overview/class-overview.php:180
+msgid "%s form was successfully duplicated."
+msgid_plural "%s forms were successfully duplicated."
+msgstr[0] "已成功复制%s表单。"
+
+#. translators: %s - Deleted forms count.
+#: includes/admin/overview/class-overview.php:172
+msgid "%s form was successfully deleted."
+msgid_plural "%s forms were successfully deleted."
+msgstr[0] "已成功删除%s表单。"
+
+#. translators: %s - Name field label.
+#: includes/providers/class-base.php:508
+msgid "%s (Middle)"
+msgstr "%s(中)"
+
+#. translators: %s - Name field label.
+#: includes/providers/class-base.php:524
+msgid "%s (Last)"
+msgstr "%s(最后)"
+
+#. translators: %s - Name field label.
+#: includes/providers/class-base.php:477
+msgid "%s (Full)"
+msgstr "%s(全)"
+
+#. translators: %s - Name field label.
+#: includes/providers/class-base.php:492
+msgid "%s (First)"
+msgstr "%s(第一个)"
+
+#. translators: %1$s - field type; %2$s - field name if available.
+#: includes/admin/importers/class-contact-form-7.php:500
+msgid "%1$s Field %2$s"
+msgstr "%1$s 字段 %2$s"
+
+#. translators: %1$s - field type; %2$s - field name if available.
+#: includes/admin/importers/class-ninja-forms.php:472
+msgid "%1$s Field"
+msgstr "%1$s 字段"
+
+#: includes/functions.php:881
+msgid "Korea (Democratic People's Republic of)"
+msgstr "朝鲜"
+
+#: includes/functions.php:882
+msgid "Korea (Republic of)"
+msgstr "韩国"
+
+#: includes/admin/class-welcome.php:273
+msgid "User Registration"
+msgstr "用户注册"
+
+#: includes/class-smart-tags.php:45
+msgid "User Email"
+msgstr "用户邮箱"
+
+#: includes/functions.php:976
+msgid "Svalbard and Jan Mayen"
+msgstr "斯瓦尔巴岛和扬马延岛"
+
+#: includes/admin/admin.php:131
+msgid "Show Empty Fields"
+msgstr "显示空字段"
+
+#: includes/admin/admin.php:124
+msgid "Searching Addons"
+msgstr "搜索插件"
+
+#: includes/admin/class-about.php:628 includes/admin/class-about.php:647
+#: includes/admin/class-about.php:666 includes/admin/class-about.php:685
+msgid "Read Documentation"
+msgstr "阅读文档"
+
+#: includes/admin/class-about.php:559
+msgid "Powerful Conditional Logic so you can create smart forms."
+msgstr "强大的条件逻辑，因此您可以创建智能表单。"
+
+#: includes/admin/admin.php:141
+msgid "Please select at least one form to import."
+msgstr "请选择至少一个要导入的表单。"
+
+#: includes/admin/class-about.php:1108 includes/admin/class-about.php:1114
+#: includes/admin/class-about.php:1120 includes/admin/class-about.php:1156
+#: includes/admin/class-about.php:1162 includes/admin/class-about.php:1168
+msgid "Not Available"
+msgstr "不可用"
+
+#: includes/admin/class-about.php:977
+msgid "Not available"
+msgstr "不可用"
+
+#: includes/admin/class-about.php:1182
+msgid "No Advanced Features"
+msgstr "没有高级功能"
+
+#: includes/admin/admin.php:148
+msgid "needs to be installed and activated to import its forms. Would you like us to install and activate it for you?"
+msgstr "需要安装和激活才能导入其表单。您是否希望我们为您安装并激活它？"
+
+#: includes/admin/admin.php:137
+msgid "Mark entry unread"
+msgstr "标记条目未读"
+
+#: includes/admin/admin.php:136
+msgid "Mark entry read"
+msgstr "标记条目已读"
+
+#: includes/admin/class-about.php:1188 includes/admin/class-about.php:1195
+msgid "Limited Advanced Features"
+msgstr "有限的高级功能"
+
+#: includes/admin/admin.php:121
+msgid "Install Addon"
+msgstr "安装插件"
+
+#: includes/admin/class-about.php:658
+msgid "How to Create GDPR Compliant Forms"
+msgstr "如何创建符合GDPR标准的表单"
+
+#: includes/admin/admin.php:130
+msgid "Hide Empty Fields"
+msgstr "隐藏空字段"
+
+#: includes/admin/class-about.php:732
+msgid "Get the most out of WPForms by upgrading to Pro and unlocking all of the powerful features."
+msgstr "通过升级到Pro并解锁所有强大功能，充分利用WPForms。"
+
+#: includes/admin/admin.php:132
+msgid "Entries Field Columns"
+msgstr "条目字段列"
+
+#: includes/admin/admin.php:119
+msgid "Deactivate"
+msgstr "停用"
+
+#: includes/admin/class-about.php:543
+msgid "Create surveys & polls with the surveys addon."
+msgstr "使用调查插件创建调查和民意调查。"
+
+#: includes/admin/admin.php:123
+msgid "Could not install a plugin. Please download from WordPress.org and install manually."
+msgstr "无法安装插件。请从WordPress.org下载并手动安装。"
+
+#: includes/admin/admin.php:152
+msgid "Could not authenticate with the provider."
+msgstr "无法与提供商进行身份验证。"
+
+#: includes/admin/class-about.php:1051
+msgid "Constant Contact, Mailchimp, AWeber, GetResponse, Campaign Monitor, and Drip."
+msgstr "Constant Contact, MailChimp, AWeber, GetResponse, Campaign Monitor, 和 Drip."
+
+#: includes/admin/class-about.php:1044
+msgid "Constant Contact, Mailchimp, AWeber, GetResponse, Campaign Monitor, and Drip"
+msgstr "Constant Contact, Mailchimp, AWeber, GetResponse, Campaign Monitor, 和 Drip"
+
+#: includes/admin/class-about.php:1003 includes/admin/class-about.php:1009
+#: includes/admin/class-about.php:1015
+msgid "Basic Form Templates"
+msgstr "基本表单模板"
+
+#: includes/admin/admin.php:139
+msgid "Are you sure you want to duplicate this form?"
+msgstr "您确定要复制此表单吗？"
+
+#: includes/admin/admin.php:151
+msgid "Are you sure you want to disconnect this account?"
+msgstr "您确定要断开此帐户吗？"
+
+#: includes/admin/class-about.php:1202
+msgid "All Advanced Features"
+msgstr "所有高级功能"
+
+#: includes/admin/class-about.php:639
+msgid "A Complete Guide to WPForms Settings"
+msgstr "WPForms设置的完整指南"
+
+#: includes/admin/class-about.php:563
+msgid "500+ integrations with different marketing & payment services."
+msgstr "500多种与不同营销和支付服务的集成。"
+
+#: includes/admin/overview/class-overview-table.php:51
+msgid "Shortcode"
+msgstr "短代码"
+
+#: includes/functions.php:983
+msgid "Tanzania (United Republic of)"
+msgstr "坦桑尼亚联合共和国"
+
+#: includes/admin/class-menu.php:60
+#: includes/admin/overview/class-overview.php:126
+#: src/Admin/AdminBarMenu.php:271
+msgid "Add New"
+msgstr "新增"
+
+#. translators: $1$s - WPForms plugin name; $2$s - WP.org review link; $3$s -
+#. WP.org review link.
+#: includes/admin/class-review.php:214
+msgid "Please rate %1$s <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">&#9733;&#9733;&#9733;&#9733;&#9733;</a> on <a href=\"%3$s\" target=\"_blank\" rel=\"noopener\">WordPress.org</a> to help us spread the word. Thank you from the WPForms team!"
+msgstr "请评价 %1$s <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">&#9733;&#9733;&#9733;&#9733;&#9733;</a>在<a href=\"%3$s\" target=\"_blank\" rel=\"noopener\">WordPress.org</a>，帮助我们宣传。 来自WPForms团队的感谢！"
+
+#: src/Lite/Admin/Settings/Education.php:67
+#: src/Lite/Admin/Settings/Education.php:84
+#: src/Lite/Admin/Builder/Education.php:87
+#: src/Lite/Admin/Builder/Education.php:104
+msgid "Already purchased?"
+msgstr "已经购买？"
+
+#: src/Lite/Admin/DashboardWidget.php:365
+msgid "Install"
+msgstr "安装"
+
+#. Author of the plugin
+#: includes/class-form.php:71 includes/admin/class-menu.php:37
+#: includes/admin/class-menu.php:38 includes/admin/class-menu.php:49
+#: includes/admin/class-menu.php:107 includes/integrations.php:36
+#: src/Integrations/Elementor/Widget.php:41
+#: src/Integrations/Gutenberg/FormSelector.php:92
+#: src/Lite/Admin/DashboardWidget.php:162 src/Emails/Templates/General.php:93
+msgid "WPForms"
+msgstr "WPForms"
+
+#: includes/admin/overview/class-overview-table.php:293
+#: includes/admin/overview/class-overview-table.php:313
+#: src/Providers/Provider/Settings/FormBuilder.php:222
+msgid "Delete"
+msgstr "删除"
+
+#: includes/admin/settings-api.php:379 includes/fields/class-base.php:958
+#: includes/fields/class-base.php:1089
+msgid "Upload Image"
+msgstr "上传图像"
+
+#. translators: %s - WPBeginner URL for recommended WordPress hosting.
+#: wpforms.php:177
+msgid "Your site is running an <strong>insecure version</strong> of PHP that is no longer supported. Please contact your web hosting provider to update your PHP version or switch to a <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">recommended WordPress hosting company</a>."
+msgstr "您的网站正在运行一个 <strong> 不安全的 php 版本 </strong> 不再受支持。请联系您的虚拟主机提供商更新您的 php 版本或切换到一个 <a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">推荐 wordpress 主机公司 </a>。"
+
+#. translators: %s - WPForms.com docs page URL.
+#: lite/wpforms-lite.php:401
+msgid "You've just turned off notification emails for this form. Since entries are not stored in WPForms Lite, notification emails are recommended for collecting entry details. For setup steps, <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">please see our notification tutorial</a>."
+msgstr "您刚刚关闭了此表单的通知电子邮件。由于条目不存储在 wpforms lite 中, 因此建议发送通知电子邮件来收集条目详细信息。有关设置步骤, <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\"> 请参阅我们的通知教程 </a>。"
+
+#: src/Providers/Provider/Settings/PageIntegrations.php:227
+msgid "You do not have permissions."
+msgstr "您没有权限。"
+
+#: includes/admin/ajax-actions.php:20 includes/fields/class-base.php:1737
+#: src/Lite/Admin/Builder/Education.php:559 src/Admin/Pages/Analytics.php:483
+#: src/Admin/Pages/SMTP.php:395
+msgid "You do not have permission."
+msgstr "您没有权限。"
+
+#: src/Lite/Admin/Builder/Education.php:759 src/Lite/Admin/Education.php:118
+#: src/Providers/Provider/Settings/FormBuilder.php:291
+msgid "You do not have permission to perform this action."
+msgstr "您无权执行此操作。"
+
+#: includes/providers/class-base.php:159 includes/providers/class-base.php:1142
+#: includes/providers/class-base.php:1190
+#: src/Providers/Provider/Settings/PageIntegrations.php:181
+msgid "You do not have permission"
+msgstr "您没有得到许可"
+
+#: src/Lite/Admin/DashboardWidget.php:218
+msgid "You can use WPForms to build contact forms, surveys, payment forms, and more with just a few clicks."
+msgstr "只需点击几下，您就可以使用WPForms构建联系表单、调查表单、付款表单等。"
+
+#: templates/admin/challenge/embed.php:105
+msgid "Yes, I give WPForms permission to contact me for any follow up questions."
+msgstr "是的，如果有任何后续问题，我会允许WPForms与我联系。"
+
+#: src/Forms/Honeypot.php:79
+msgid "WPForms honeypot field triggered."
+msgstr "WPForms蜜罐字段已触发。"
+
+#: templates/admin/challenge/modal.php:54
+msgid "WPForms Challenge"
+msgstr "WPForms 挑战"
+
+#: lite/wpforms-lite.php:1108 includes/admin/class-menu.php:117
+#: includes/admin/class-about.php:81
+msgid "WPForms Addons"
+msgstr "WPForms插件"
+
+#: lite/wpforms-lite.php:463
+msgid "WordPress user registration and login forms"
+msgstr "WordPress用户注册和登录表单"
+
+#: src/Lite/Admin/Builder/Education.php:167
+msgid "While WPForms Lite allows you to create any type of form, you can speed up the process by unlocking our other pre-built form templates among other features, so you never have to start from scratch again..."
+msgstr "虽然 WPForms Lite 允许您创建任何类型的表单，但是您可以通过解锁我们的其他预构建表单模板以及其他功能来加快进程，因此您不必从头开始…"
+
+#: src/Lite/Admin/Builder/Education.php:236
+msgid "Website / URL"
+msgstr "网站 / URL"
+
+#: src/Lite/Admin/Settings/Education.php:57
+#: src/Lite/Admin/Builder/Education.php:77
+msgid "We're sorry, the %name% is not available on your plan. Please upgrade to the PRO plan to unlock all these awesome features."
+msgstr "很抱歉，您的计划中没有%name%。请升级到专业版以解锁所有这些非常棒的功能。"
+
+#. translators: %s - star icons.
+#: lite/wpforms-lite.php:445
+msgid "We know that you will truly love WPForms. It has over 5000+ five star ratings (%s) and is active on over 3 million websites."
+msgstr "我们知道您将真正喜欢WPForms。它拥有超过5000+的五星级（%s），并且活跃在超过300万个网站上。"
+
+#: lite/wpforms-lite.php:658
+msgid "View Entries in Dashboard"
+msgstr "在仪表板中查看条目"
+
+#: lite/wpforms-lite.php:651
+msgid "View and Manage All Your Form Entries inside WordPress"
+msgstr "查看和管理WordPress中的所有表单条目"
+
+#: src/Lite/Admin/DashboardWidget.php:255
+msgid "View all Form Entries inside WordPress Dashboard"
+msgstr "查看WordPress仪表板中的所有表单条目"
+
+#: includes/fields/class-base.php:1132
+msgid "Use image choices"
+msgstr "使用图像选项"
+
+#: includes/class-process.php:394
+msgid "Uploaded files combined size exceeds allowed maximum."
+msgstr "上载的文件总计大小超过了允许的最大值。"
+
+#: lite/wpforms-lite.php:673
+msgid "Upgrade to WPForms Pro Now"
+msgstr "立即升级到WPForms专业版"
+
+#: includes/admin/class-tools.php:396 includes/admin/class-welcome.php:333
+#: src/Lite/Admin/DashboardWidget.php:261 src/Admin/FlyoutMenu.php:112
+msgid "Upgrade to WPForms Pro"
+msgstr "升级至WPForms专业版"
+
+#: src/Lite/Admin/DashboardWidget.php:258
+msgid "Upgrade to Pro and get access to the reports."
+msgstr "升级到专业版并访问报告。"
+
+#: includes/admin/class-welcome.php:261
+#: includes/admin/builder/panels/class-payments.php:78
+#: src/Lite/Admin/Settings/Education.php:68
+#: src/Lite/Admin/Builder/Education.php:88
+msgid "Upgrade to PRO"
+msgstr "升级到PRO"
+
+#: lite/wpforms-lite.php:1116 lite/wpforms-lite.php:1142
+#: includes/admin/class-tools.php:514 includes/admin/class-welcome.php:286
+msgid "Upgrade Now"
+msgstr "现在升级"
+
+#: src/Lite/Admin/Builder/Education.php:163
+msgid "Upgrade"
+msgstr "更新"
+
+#: src/Lite/Admin/Builder/Education.php:159
+msgid "Unlock Pre-Made Form Templates"
+msgstr "解锁预制表单模板"
+
+#: includes/fields/class-base.php:1302
+msgid "Two Columns"
+msgstr "两栏"
+
+#: src/Lite/Admin/DashboardWidget.php:277
+msgid "Total Entries by Form"
+msgstr "按窗体的条目总数"
+
+#: src/Lite/Admin/DashboardWidget.php:242
+msgid "Total Entries"
+msgstr "全部条目"
+
+#: src/Lite/Admin/Builder/Education.php:351
+msgid "Total"
+msgstr "合计"
+
+#. translators: %s - {all_fields} Smart Tag.
+#: lite/wpforms-lite.php:221
+msgid "To display all form fields, use the %s Smart Tag."
+msgstr "要显示所有表单域，请使用%s智能标记。"
+
+#: includes/fields/class-base.php:1303
+msgid "Three Columns"
+msgstr "三栏"
+
+#. translators: %s - URL WP Mail SMTP settings.
+#: src/Integrations/WPMailSMTP/Notifications.php:74
+msgid "This setting is disabled because you have the \"Force From Name\" setting enabled in <a href=\"%s\" rel=\"noopener noreferrer\" target=\"_blank\">WP Mail SMTP</a>."
+msgstr "此设置已禁用，因为您在<a href=\"%s\" rel=\"noopener noreferrer\" target=\"_blank\"> WP Mail SMTP </a>中启用了“强制使用发件人名称”设置。"
+
+#. translators: %s - URL WP Mail SMTP settings.
+#: src/Integrations/WPMailSMTP/Notifications.php:105
+msgid "This setting is disabled because you have the \"Force From Email\" setting enabled in <a href=\"%s\" rel=\"noopener noreferrer\" target=\"_blank\">WP Mail SMTP</a>."
+msgstr "此设置已禁用，因为您在<a href=\"%s\" rel=\"noopener noreferrer\" target=\"_blank\"> WP Mail SMTP </a>中启用了“强制使用发件人电子邮件地址”设置。"
+
+#: src/Forms/Preview.php:190
+msgid "This is a preview of your form. This page is not publicly accessible."
+msgstr "这是表单的预览。此页面无法公开访问。"
+
+#: includes/fields/class-select.php:52 includes/fields/class-checkbox.php:36
+#: includes/fields/class-radio.php:36
+msgid "Third Choice"
+msgstr "第三选择"
+
+#: templates/admin/challenge/builder.php:32
+msgid "The default notification settings might be sufficient, but double&#8209;check to be sure."
+msgstr "默认通知设置可能已足够，但请仔细检查确认。"
+
+#: lite/wpforms-lite.php:271 lite/wpforms-lite.php:321
+#: includes/class-form.php:293
+#: includes/admin/importers/class-ninja-forms.php:138
+#: includes/admin/importers/class-contact-form-7.php:130
+#: includes/admin/importers/class-pirate-forms.php:454
+#: includes/class-process.php:470 includes/templates/class-contact.php:66
+msgid "Thanks for contacting us! We will be in touch with you shortly."
+msgstr "谢谢您联络我们！我们会尽快与您联系。"
+
+#: lite/wpforms-lite.php:439
+msgid "Thanks for being a loyal WPForms Lite user. Upgrade to WPForms Pro to unlock all the awesome features and experience why WPForms is consistently rated the best WordPress form builder."
+msgstr "感谢您成为忠实的WPF​​orms Lite用户。升级到WPForms Pro以解锁所有令人敬畏的功能，并体验WPForms一直被评为最佳WordPress表单生成器的原因。"
+
+#: includes/admin/ajax-actions.php:329 includes/fields/class-base.php:983
+msgid "taxonomy"
+msgstr "分类"
+
+#: includes/fields/class-base.php:1320 includes/fields/class-base.php:1352
+msgid "Taxonomy"
+msgstr "类别"
+
+#: templates/admin/challenge/welcome.php:15
+msgid "Take the WPForms Challenge"
+msgstr "参加WPForms挑战"
+
+#: templates/admin/challenge/modal.php:52 includes/admin/class-welcome.php:138
+#: includes/admin/builder/class-builder.php:530
+#: includes/admin/builder/class-builder.php:561
+#: src/Lite/Admin/DashboardWidget.php:216
+msgid "Sullie the WPForms mascot"
+msgstr "Sullie 是 WPForms的吉祥物"
+
+#: templates/admin/challenge/embed.php:107
+msgid "Submit Feedback"
+msgstr "提交反馈"
+
+#: templates/admin/challenge/welcome.php:19
+msgid "Start the WPForms Challenge"
+msgstr "启动 WPForms 挑战"
+
+#: src/Lite/Admin/Builder/Education.php:143
+msgid "Start collecting leads with this pre-made Request a quote form. You can add and remove fields as needed."
+msgstr "用这个预先提出的请求报价表单开始收集潜在客户。您可以根据需要添加和删除字段。"
+
+#: src/Lite/Admin/Builder/Education.php:148
+msgid "Start collecting donation payments on your website with this ready-made Donation form. You can add and remove fields as needed."
+msgstr "使用此现成的捐赠表单开始在您的网站上收集捐款。您可以根据需要添加和删除字段。"
+
+#: templates/admin/challenge/modal.php:70
+msgid "Start Challenge"
+msgstr "开始挑战"
+
+#: src/Providers/Provider/Settings/FormBuilder.php:297
+msgid "Something went wrong while performing an AJAX request."
+msgstr "执行AJAX请求时出错了。"
+
+#: includes/fields/class-base.php:1220
+msgid "Small"
+msgstr "小型"
+
+#. translators: %d - total amount of choices.
+#: includes/fields/class-base.php:1706
+msgid "Showing the first 20 choices.<br> All %d choices will be displayed when viewing the form."
+msgstr "显示前20个选项。<br>查看表单时将显示所有%d个选项。"
+
+#: includes/fields/class-select.php:225 includes/fields/class-checkbox.php:318
+#: includes/fields/class-radio.php:283
+msgid "Show Values"
+msgstr "显示值"
+
+#: src/Integrations/Gutenberg/FormSelector.php:103
+msgid "Show Title"
+msgstr "显示标题"
+
+#: includes/admin/builder/class-builder.php:428
+#: includes/admin/builder/functions.php:275 includes/fields/class-base.php:1206
+msgid "Show Smart Tags"
+msgstr "显示智能标签"
+
+#: lite/wpforms-lite.php:305
+msgid "Show Page"
+msgstr "显示页面"
+
+#: src/Lite/Admin/DashboardWidget.php:140
+#: src/Lite/Admin/DashboardWidget.php:341
+msgid "Show More"
+msgstr "显示更多"
+
+#: src/Lite/Admin/DashboardWidget.php:141
+msgid "Show Less"
+msgstr "显示更少"
+
+#: includes/admin/builder/class-builder.php:384
+#: includes/fields/class-base.php:1264
+msgid "Show Layouts"
+msgstr "显示布局"
+
+#: src/Integrations/Gutenberg/FormSelector.php:104
+msgid "Show Description"
+msgstr "显示说明"
+
+#: src/Lite/Admin/DashboardWidget.php:340
+msgid "Show all forms"
+msgstr "显示所有表单"
+
+#: includes/providers/class-base.php:1265
+#: src/Providers/Provider/Settings/PageIntegrations.php:77
+msgid "Show Accounts"
+msgstr "显示帐户"
+
+#: lite/wpforms-lite.php:106
+msgid "Send To Email Address"
+msgstr "发送到电子邮件地址"
+
+#: includes/fields/class-base.php:1162
+msgid "Select the style for the image choices."
+msgstr "为图像选项选择样式。"
+
+#: includes/fields/class-base.php:1299
+msgid "Select the layout for displaying field choices."
+msgstr "选择用于显示字段选项的布局。"
+
+#: includes/fields/class-base.php:1218
+msgid "Select the default form field size."
+msgstr "选择默认表单字段大小。"
+
+#: includes/fields/class-base.php:1316
+msgid "Select auto-populate method to use."
+msgstr "选择要使用的自动填充方法。"
+
+#: src/Integrations/Gutenberg/FormSelector.php:93
+msgid "Select and display one of your forms."
+msgstr "选择并显示一个表单。"
+
+#: templates/admin/challenge/builder.php:21
+#: templates/admin/challenge/modal.php:39 includes/admin/class-tools.php:610
+#: includes/admin/builder/panels/class-setup.php:57
+msgid "Select a Template"
+msgstr "选择一个模板"
+
+#: src/Integrations/Gutenberg/FormSelector.php:100
+msgid "Select a Form"
+msgstr "选择一个表单"
+
+#. translators: %s - dynamic source type name.
+#: includes/fields/class-base.php:1363
+msgid "Select %s to use for auto-populating field choices."
+msgstr "选择%s以用于自动填充字段选择。"
+
+#: lite/wpforms-lite.php:667
+msgid "See Geolocation Data"
+msgstr "请参阅地理位置数据"
+
+#: src/Lite/Admin/Builder/Education.php:264
+msgid "Section Divider"
+msgstr "部分分割器"
+
+#: includes/fields/class-select.php:47 includes/fields/class-checkbox.php:30
+#: includes/fields/class-radio.php:30
+msgid "Second Choice"
+msgstr "第二选择"
+
+#: templates/admin/challenge/embed.php:63
+msgid "second"
+msgid_plural "seconds"
+msgstr[0] "秒"
+
+#: lite/wpforms-lite.php:1109
+msgid "Search Addons"
+msgstr "搜索插件"
+
+#: lite/wpforms-lite.php:661
+msgid "Save Favorite Entries"
+msgstr "保存收藏的条目"
+
+#: lite/wpforms-lite.php:666
+msgid "Resend Notifications"
+msgstr "重新发送通知"
+
+#: includes/admin/class-settings.php:445 includes/fields/class-base.php:850
+msgid "Required"
+msgstr "必填"
+
+#: src/Lite/Admin/Builder/Education.php:141
+msgid "Request A Quote Form"
+msgstr "申请报价表"
+
+#: lite/wpforms-lite.php:193
+msgid "Reply-To"
+msgstr "回复至"
+
+#: includes/admin/builder/class-builder.php:434
+#: includes/fields/class-base.php:948 includes/fields/class-base.php:1079
+msgid "Remove Image"
+msgstr "移除图片"
+
+#: src/Providers/Provider/Settings/FormBuilder.php:173
+msgid "Remove"
+msgstr "移除"
+
+#: src/Lite/Admin/DashboardWidget.php:363
+msgid "Recommended Plugin:"
+msgstr "推荐插件："
+
+#: templates/admin/challenge/embed.php:79
+msgid "Rate WPForms on WordPress.org"
+msgstr "在WordPress.org上对 WPForms 进行评分"
+
+#: includes/fields/class-checkbox.php:296 includes/fields/class-radio.php:261
+msgid "Randomize Choices"
+msgstr "随机选择"
+
+#: lite/wpforms-lite.php:457
+msgid "Pro Features:"
+msgstr "专业版特色："
+
+#: lite/wpforms-lite.php:665
+msgid "Print Entries"
+msgstr "打印条目"
+
+#: lite/wpforms-lite.php:467
+msgid "Powerful Conditional Logic so you can create smart forms"
+msgstr "强大的条件逻辑，因此您可以创建智能表单"
+
+#: includes/admin/ajax-actions.php:298 includes/fields/class-base.php:976
+msgid "post type"
+msgstr "文章类型"
+
+#: includes/fields/class-base.php:1319 includes/fields/class-base.php:1341
+msgid "Post Type"
+msgstr "文章"
+
+#: lite/wpforms-lite.php:1113
+msgid "Please upgrade to the PRO plan to unlock them and more awesome features."
+msgstr "请升级到PRO计划以解锁它们和更棒的功能。"
+
+#: includes/providers/class-base.php:1310
+#: src/Providers/Provider/Settings/PageIntegrations.php:143
+msgid "Please fill out all of the fields below to add your new provider account."
+msgstr "请填写以下所有字段以添加新的提供商帐户。"
+
+#: includes/fields/class-base.php:1251
+msgid "Placeholder Text"
+msgstr "点位符文本"
+
+#: includes/fields/class-textarea.php:18
+msgid "Paragraph Text"
+msgstr "多段文本"
+
+#: includes/emails/class-emails.php:549
+#: src/Lite/Admin/Builder/Education.php:257
+msgid "Page Break"
+msgstr "分页符"
+
+#: includes/fields/class-base.php:1301
+msgid "One Column"
+msgstr "一栏"
+
+#: lite/wpforms-lite.php:654
+msgid "Once you upgrade to WPForms Pro, all future form entries will be stored in your WordPress database and displayed on this Entries screen."
+msgstr "一旦您升级到WPForms Pro，所有未来的表单条目将存储在您的WordPress数据库中，并显示在这个条目屏幕上。"
+
+#: lite/wpforms-lite.php:85 includes/admin/builder/class-builder.php:406
+#: includes/fields/class-base.php:762
+msgid "On"
+msgstr "开启"
+
+#: lite/wpforms-lite.php:86 includes/admin/builder/class-builder.php:405
+#: includes/fields/class-base.php:762 includes/fields/class-base.php:1318
+msgid "Off"
+msgstr "关闭"
+
+#: includes/fields/class-number.php:18
+msgid "Numbers"
+msgstr "数字"
+
+#: lite/wpforms-lite.php:67 lite/wpforms-lite.php:81
+#: includes/admin/builder/panels/class-settings.php:39
+#: src/Admin/AdminBarMenu.php:168
+msgid "Notifications"
+msgstr "通知"
+
+#: includes/fields/class-base.php:1177
+msgid "None"
+msgstr "暂无"
+
+#: includes/fields/class-base.php:1742
+msgid "No form ID found"
+msgstr "找不到表单ID"
+
+#: includes/fields/class-base.php:1747
+msgid "No field type found"
+msgstr "没有找到字段类型"
+
+#: src/Lite/Admin/DashboardWidget.php:312
+msgid "No entries were submitted yet."
+msgstr "尚未提交任何条目。"
+
+#. translators: %s - form name.
+#: lite/wpforms-lite.php:144 includes/class-form.php:283
+#: includes/admin/importers/class-ninja-forms.php:128
+#: includes/admin/importers/class-ninja-forms.php:405
+#: includes/admin/importers/class-contact-form-7.php:120
+#: includes/admin/importers/class-contact-form-7.php:410
+#: includes/admin/importers/class-pirate-forms.php:443
+msgid "New Entry: %s"
+msgstr "新条目：%s"
+
+#. translators: %s - form name.
+#: lite/wpforms-lite.php:57 includes/class-process.php:664
+msgid "New %s Entry"
+msgstr "新%s条目"
+
+#: src/Lite/Admin/Builder/Education.php:313
+msgid "Net Promoter Score"
+msgstr "净推荐人得分"
+
+#: templates/admin/challenge/builder.php:15
+#: templates/admin/challenge/modal.php:38
+msgid "Name Your Form"
+msgstr "命名您的表单"
+
+#: lite/wpforms-lite.php:69
+msgid "Multiple notifications"
+msgstr "多个通知"
+
+#: lite/wpforms-lite.php:280
+msgid "Multiple confirmations"
+msgstr "多次确认"
+
+#: includes/fields/class-radio.php:18
+msgid "Multiple Choice"
+msgstr "多项选择"
+
+#: includes/admin/class-about.php:852 src/Lite/Admin/DashboardWidget.php:364
+msgid "MonsterInsights"
+msgstr "MonsterInsights"
+
+#: includes/fields/class-select.php:282 includes/fields/class-base.php:1175
+msgid "Modern"
+msgstr "现代"
+
+#: src/Providers/Provider/Settings/PageIntegrations.php:235
+msgid "Missing required data in payload."
+msgstr "缺少有效负载中的所需数据。"
+
+#: includes/providers/class-base.php:1150
+#: includes/providers/class-base.php:1198
+#: src/Providers/Provider/Settings/PageIntegrations.php:189
+msgid "Missing data"
+msgstr "缺失数据"
+
+#: templates/admin/challenge/modal.php:31
+#: templates/admin/challenge/embed.php:61
+#: templates/admin/challenge/embed.php:98
+msgid "minute"
+msgid_plural "minutes"
+msgstr[0] "分钟"
+
+#: lite/wpforms-lite.php:208 lite/wpforms-lite.php:304
+#: includes/templates/class-suggestion.php:72
+msgid "Message"
+msgstr "邮件"
+
+#: includes/fields/class-base.php:1221
+msgid "Medium"
+msgstr "中型"
+
+#: includes/providers/class-base.php:961
+#: src/Providers/Provider/Settings/FormBuilder.php:107
+msgid "Marketing provider connection"
+msgstr "营销提供商连接"
+
+#: lite/wpforms-lite.php:664
+msgid "Mark Read / Unread"
+msgstr "标记已读/未读"
+
+#: src/Providers/Provider/Settings/FormBuilder.php:232
+msgid "Map custom fields (or properties) to form fields values."
+msgstr "映射自定义字段（或属性）以形成字段值。"
+
+#: src/Lite/Admin/Builder/Education.php:306
+msgid "Likert Scale"
+msgstr " 好感度"
+
+#: src/Lite/Admin/Builder/Education.php:719
+#: src/Lite/Admin/DashboardWidget.php:223
+#: src/Lite/Admin/DashboardWidget.php:366 src/Admin/Pages/Analytics.php:437
+msgid "Learn More"
+msgstr "了解更多"
+
+#: src/Lite/Admin/DashboardWidget.php:245
+msgid "Last 7 days"
+msgstr "最近一周"
+
+#: includes/fields/class-base.php:1222
+msgid "Large"
+msgstr "大型"
+
+#: includes/fields/class-base.php:827
+msgid "Label"
+msgstr "标签"
+
+#: includes/fields/class-base.php:1034
+msgid "Items"
+msgstr "个项目"
+
+#: src/Lite/Admin/Settings/Education.php:56
+#: src/Lite/Admin/Builder/Education.php:76
+msgid "is a PRO Feature"
+msgstr "是PRO功能"
+
+#: includes/class-process.php:136
+msgid "Invalid form."
+msgstr "无效的表单。"
+
+#. translators: %s - provider name.
+#. translators: %s - addon name.
+#: includes/providers/class-base.php:1274
+#: src/Lite/Admin/Settings/Education.php:127
+#: src/Providers/Provider/Settings/PageIntegrations.php:86
+msgid "Integrate %s with WPForms"
+msgstr "将%s 与WPForms集成"
+
+#: includes/fields/class-base.php:1304
+msgid "Inline"
+msgstr "内联"
+
+#: includes/fields/class-base.php:1122
+msgid "Images are not cropped or resized. For best results, they should be the same size and 250x250 pixels or smaller."
+msgstr "图像不会被裁剪或调整大小。为了获得最佳效果，它们的大小应该相同，像素大小为250x250或更小。"
+
+#: includes/fields/class-base.php:1161
+msgid "Image Choice Style"
+msgstr "图像选项样式"
+
+#: includes/fields/class-gdpr-checkbox.php:24
+msgid "I consent to having this website store my submitted information so they can respond to my inquiry."
+msgstr "我同意让这个网站存储我提交的信息，以便他们可以回应我的查询。"
+
+#: src/Lite/Admin/Builder/Education.php:278
+msgid "HTML"
+msgstr "编辑 HTML 源码"
+
+#: includes/fields/class-base.php:1290
+msgid "Hide Sub-Labels"
+msgstr "隐藏子标签"
+
+#: includes/fields/class-base.php:1279
+msgid "Hide Label"
+msgstr "隐藏标签"
+
+#: templates/admin/challenge/embed.php:90
+msgid "Help us improve WPForms"
+msgstr "帮助我们改善WPForms"
+
+#: src/Lite/Admin/DashboardWidget.php:267
+msgid "Go to WPForms.com"
+msgstr "前往WPForms.com"
+
+#: lite/wpforms-lite.php:306
+msgid "Go to URL (Redirect)"
+msgstr "转到网址（重定向）"
+
+#: templates/admin/challenge/builder.php:16
+msgid "Give your form a name so you can easily identify it."
+msgstr "为表单指定一个名称，以便您可以轻松地识别它。"
+
+#: lite/wpforms-lite.php:476
+msgid "Get WPForms Pro Today and Unlock all the Powerful Features »"
+msgstr "立即获取WPForms Pro并解锁所有强大的功能»"
+
+#: lite/wpforms-lite.php:438 includes/admin/class-about.php:494
+msgid "Get WPForms Pro and Unlock all the Powerful Features"
+msgstr "获取WPForms Pro并解锁所有强大的功能"
+
+#: includes/fields/class-gdpr-checkbox.php:18
+msgid "GDPR Agreement"
+msgstr "GDPR协议"
+
+#: lite/wpforms-lite.php:157
+msgid "From Name"
+msgstr "从名字"
+
+#: lite/wpforms-lite.php:175
+msgid "From Email"
+msgstr "发件人邮箱"
+
+#: src/Integrations/Gutenberg/FormSelector.php:101
+msgid "Form Settings"
+msgstr "表单设置"
+
+#: includes/class-process.php:256 includes/class-process.php:333
+#: includes/class-process.php:591
+msgid "Form has not been submitted, please see the errors below."
+msgstr "表单尚未提交，请参阅以下错误。"
+
+#: src/Providers/Provider/Settings/FormBuilder.php:121
+msgid "Form Field Value"
+msgstr "表单字段值"
+
+#: src/Lite/Admin/DashboardWidget.php:256
+msgid "Form entries reports are not available."
+msgstr "表单条目报告不可用。"
+
+#: lite/wpforms-lite.php:653
+msgid "Form entries are not stored in WPForms Lite."
+msgstr "表单条目不存储在WPForms Lite中。"
+
+#: src/Lite/Admin/DashboardWidget.php:257
+msgid "Form entries are not stored in Lite."
+msgstr "精简版不存储表单条目。"
+
+#: lite/wpforms-lite.php:1112
+msgid "Form Addons are a PRO feature."
+msgstr "表单插件是PRO功能。"
+
+#: templates/emails/summary-body.php:37
+#: templates/emails/summary-body-plain.php:30 includes/integrations.php:44
+#: src/Integrations/Elementor/Widget.php:115
+#: src/Integrations/Elementor/Widget.php:143
+#: src/Integrations/Gutenberg/FormSelector.php:102 src/Forms/Preview.php:124
+msgid "Form"
+msgstr "表单"
+
+#: includes/fields/class-select.php:42 includes/fields/class-checkbox.php:24
+#: includes/fields/class-radio.php:24
+msgid "First Choice"
+msgstr "第一选择"
+
+#: includes/fields/class-base.php:1224
+msgid "Field Size"
+msgstr "字段大小"
+
+#: src/Providers/Provider/Settings/FormBuilder.php:147
+#: src/Providers/Provider/Settings/FormBuilder.php:198
+msgid "Field Name"
+msgstr "字段名称"
+
+#: lite/wpforms-lite.php:659
+msgid "Export Entries in a CSV File"
+msgstr "导出CSV文件中的条目"
+
+#: lite/wpforms-lite.php:460
+msgid "Entry Management - view all leads in one place"
+msgstr "条目管理 - 在一个地方查看所有潜在客户"
+
+#: templates/emails/summary-body.php:38
+#: templates/emails/summary-body-plain.php:30 includes/admin/class-menu.php:70
+#: includes/admin/overview/class-overview-table.php:241
+#: src/Lite/Admin/DashboardWidget.php:143
+msgid "Entries"
+msgstr "条目"
+
+#: lite/wpforms-lite.php:109
+msgid "Enter the email address to receive form entry notifications. For multiple notifications, separate email addresses with a comma."
+msgstr "输入接收表单输入通知的电子邮件地址。对于多个通知，使用逗号分隔电子邮件地址。"
+
+#: includes/fields/class-base.php:1250
+msgid "Enter text for the form field placeholder."
+msgstr "输入表单字段占位符文本。"
+
+#: includes/fields/class-base.php:826
+msgid "Enter text for the form field label. Field labels are recommended and can be hidden in the Advanced Settings."
+msgstr "输入表单字段标题文本。建议使用字段标题，可以在高级设置中隐藏。"
+
+#: includes/fields/class-base.php:837
+msgid "Enter text for the form field description."
+msgstr "输入表单字段描述文本。"
+
+#: includes/fields/class-base.php:1205
+msgid "Enter text for the default form field value."
+msgstr "输入默认表单字段值的文本。"
+
+#: includes/fields/class-email.php:240
+msgid "Enter text for the confirmation field placeholder."
+msgstr "输入确认字段占位符的文本。"
+
+#: includes/fields/class-base.php:1262
+msgid "Enter CSS class names for the form field container. Class names should be separated with spaces."
+msgstr "为表单域字段输入CSS类名。类名应该用空格分隔。"
+
+#: includes/fields/class-base.php:868
+msgid "Enter code for the form field."
+msgstr "输入表单字段的代码。"
+
+#: includes/fields/class-email.php:200
+msgid "Enable Email Confirmation"
+msgstr "启用电子邮件确认"
+
+#: includes/fields/class-checkbox.php:387
+msgid "Enable Disclaimer / Terms of Service Display"
+msgstr "启用免责声明/服务条款显示"
+
+#: templates/admin/form-embed-wizard/tooltip.php:38
+#: templates/admin/form-embed-wizard/popup.php:17
+#: templates/admin/challenge/modal.php:42
+#: templates/admin/challenge/embed.php:40
+msgid "Embed in a Page"
+msgstr "嵌入页面"
+
+#: lite/wpforms-lite.php:141
+msgid "Email Subject"
+msgstr "邮件标题"
+
+#: includes/admin/class-settings.php:186 includes/admin/class-settings.php:330
+#: includes/admin/class-settings.php:457
+#: includes/templates/class-subscribe.php:40
+#: includes/templates/class-contact.php:38
+#: includes/templates/class-suggestion.php:37
+#: includes/fields/class-email.php:18 includes/fields/class-email.php:65
+#: includes/fields/class-email.php:299
+msgid "Email"
+msgstr "电邮"
+
+#: includes/fields/class-base.php:1322
+msgid "Dynamic Choices"
+msgstr "动态选择"
+
+#. translators: %s - dynamic source type name.
+#: includes/fields/class-base.php:1365
+msgid "Dynamic %s Source"
+msgstr "动态%s源"
+
+#: includes/admin/builder/panels/class-fields.php:295
+#: includes/fields/class-base.php:1777
+msgid "Duplicate Field"
+msgstr "复制字段"
+
+#: includes/fields/class-select.php:36
+msgid "Dropdown"
+msgstr "下拉"
+
+#: templates/admin/form-embed-wizard/tooltip.php:41
+#: templates/admin/challenge/builder.php:17
+#: templates/admin/challenge/builder.php:27
+#: templates/admin/challenge/builder.php:33
+#: templates/admin/challenge/embed.php:43
+msgid "Done"
+msgstr "完成"
+
+#: src/Lite/Admin/Builder/Education.php:146
+msgid "Donation Form"
+msgstr "打赏表单"
+
+#: lite/wpforms-lite.php:437 src/Admin/Notifications.php:427
+msgid "Dismiss this message"
+msgstr "关闭此消息"
+
+#: includes/providers/class-base.php:1221
+#: includes/providers/class-base.php:1293
+#: src/Providers/Provider/Settings/PageIntegrations.php:105
+msgid "Disconnect"
+msgstr "断开"
+
+#: includes/fields/class-base.php:838
+msgid "Description"
+msgstr "描述"
+
+#: includes/admin/builder/panels/class-fields.php:298
+#: includes/fields/class-base.php:1779
+msgid "Delete Field"
+msgstr "删除字段"
+
+#: includes/fields/class-base.php:1207 includes/fields/class-name.php:278
+#: includes/fields/class-name.php:293 includes/fields/class-name.php:308
+#: includes/fields/class-name.php:323
+#: includes/fields/class-number-slider.php:200
+msgid "Default Value"
+msgstr "默认值"
+
+#: lite/wpforms-lite.php:95 includes/admin/importers/class-pirate-forms.php:440
+#: includes/admin/builder/class-builder.php:372
+msgid "Default Notification"
+msgstr "默认通知"
+
+#: lite/wpforms-lite.php:289 includes/admin/builder/class-builder.php:377
+msgid "Default Confirmation"
+msgstr "默认确认"
+
+#: src/Lite/Admin/Builder/Education.php:229
+msgid "Date / Time"
+msgstr "日期 / 时间"
+
+#: src/Providers/Provider/Settings/FormBuilder.php:120
+msgid "Custom Field Name"
+msgstr "自定义字段名称"
+
+#: includes/fields/class-base.php:1267
+msgid "CSS Classes"
+msgstr "CSS类"
+
+#: src/Lite/Admin/DashboardWidget.php:220
+msgid "Create Your Form"
+msgstr "创建表单"
+
+#: templates/admin/challenge/welcome.php:16
+msgid "Create your first form with our guided setup wizard in less than 5 minutes to experience the WPForms difference."
+msgstr "使用我们的指导设置向导在不到5分钟的时间内创建您的第一个表单，以体验WPForms的魅力。"
+
+#: src/Lite/Admin/DashboardWidget.php:217
+msgid "Create Your First Form to Start Collecting Leads"
+msgstr "创建第一个表单开始收集潜在顾客"
+
+#: lite/wpforms-lite.php:462
+msgid "Create surveys & polls with the surveys addon"
+msgstr "使用调查插件创建调查和民意调查"
+
+#: lite/wpforms-lite.php:464
+msgid "Create payment forms with Stripe and PayPal"
+msgstr "使用Stripe和PayPal创建支付表单"
+
+#: includes/providers/class-base.php:1166
+#: src/Providers/Provider/Settings/PageIntegrations.php:205
+msgid "Connection missing"
+msgstr "连接丢失"
+
+#. translators: %s - Connection date.
+#: includes/providers/class-base.php:1220
+#: includes/providers/class-base.php:1292
+#: src/Providers/Provider/Settings/PageIntegrations.php:104
+msgid "Connected on: %s"
+msgstr "已连接：%s"
+
+#: includes/providers/class-base.php:1277
+#: src/Providers/Provider/Settings/PageIntegrations.php:89
+msgid "Connected"
+msgstr "已连接"
+
+#. translators: %s - provider name.
+#: includes/providers/class-base.php:1247
+#: src/Providers/Provider/Settings/PageIntegrations.php:131
+msgid "Connect to %s"
+msgstr "绑定 %s 帐号"
+
+#: templates/admin/challenge/embed.php:53
+msgid "Congrats, you did it!"
+msgstr "恭喜，您做到了！"
+
+#: lite/wpforms-lite.php:279
+#: includes/admin/builder/panels/class-settings.php:40
+msgid "Confirmations"
+msgstr "确认"
+
+#: lite/wpforms-lite.php:300
+msgid "Confirmation Type"
+msgstr "确认类型"
+
+#: lite/wpforms-lite.php:367
+msgid "Confirmation Redirect URL"
+msgstr "确认重定向网址"
+
+#: includes/fields/class-email.php:239
+msgid "Confirmation Placeholder Text"
+msgstr "确认占位符文本"
+
+#: lite/wpforms-lite.php:354
+msgid "Confirmation Page"
+msgstr "确认页"
+
+#: lite/wpforms-lite.php:319
+msgid "Confirmation Message"
+msgstr "确认消息"
+
+#: includes/fields/class-email.php:88 includes/fields/class-email.php:304
+msgid "Confirm Email"
+msgstr "确认邮件地址"
+
+#. translators: %1$d - Number of minutes; %2$s - Single or plural word
+#. 'minute'.
+#: templates/admin/challenge/modal.php:29
+msgid "Complete the <b>WPForms Challenge</b> and get up and running within %1$d&nbsp;%2$s."
+msgstr "完成 <b> WPForms挑战 </b>, 并在 %1$d&nbsp;%2$s 内启动并运行。"
+
+#: lite/wpforms-lite.php:469
+msgid "Collect signatures, geo-location data, and more"
+msgstr "收集签名、地理位置数据等"
+
+#: src/Lite/Admin/Builder/Education.php:153
+msgid "Collect payments for product and service orders with this ready-made form template. You can add and remove fields as needed."
+msgstr "使用此现成的表单模板收集产品和服务订单的付款。您可以根据需要添加和删除字段。"
+
+#: includes/fields/class-base.php:869
+msgid "Code"
+msgstr "代码"
+
+#: src/Forms/Preview.php:185
+msgid "Close this window"
+msgstr "关闭此窗口"
+
+#: includes/admin/builder/panels/class-fields.php:300
+#: includes/fields/class-base.php:1780
+msgid "Click to edit. Drag to reorder."
+msgstr "点击编辑。拖动可重新排序。"
+
+#: templates/admin/form-embed-wizard/tooltip.php:39
+#: templates/admin/challenge/embed.php:41
+msgid "Click the “Add Form” button, select your form, then add the embed code."
+msgstr "单击“添加表单”按钮，选择您的表单，然后添加嵌入代码。"
+
+#: includes/fields/class-select.php:281 includes/fields/class-base.php:1176
+msgid "Classic"
+msgstr "经典"
+
+#. translators: %1$s - source name; %2$s - type name.
+#: includes/fields/class-base.php:998
+msgid "Choices are dynamically populated from the %1$s %2$s."
+msgstr "选择是从 %1$s %2$s。"
+
+#: includes/fields/class-base.php:879
+msgid "Choices"
+msgstr "选择"
+
+#: includes/fields/class-base.php:1306
+msgid "Choice Layout"
+msgstr "选择布局"
+
+#: includes/fields/class-checkbox.php:148
+msgid "Checked"
+msgstr "复选"
+
+#: includes/fields/class-checkbox.php:18
+msgid "Checkboxes"
+msgstr "多选按钮"
+
+#: src/Lite/Admin/Builder/Education.php:337
+msgid "Checkbox Items"
+msgstr "复选框项目"
+
+#: includes/fields/class-select.php:226 includes/fields/class-checkbox.php:319
+#: includes/fields/class-radio.php:284
+msgid "Check this to manually set form field values."
+msgstr "选中此项可手动设置表单字段值。"
+
+#: includes/fields/class-checkbox.php:297 includes/fields/class-radio.php:262
+msgid "Check this option to randomize the order of the choices."
+msgstr "选中此选项可随机化选项的顺序。"
+
+#: includes/fields/class-base.php:849
+msgid "Check this option to mark the field required. A form will not submit unless all required fields are provided."
+msgstr "选中此选项可标记必填字段。除非提供了所有必填字段，否则表单将不会提交。"
+
+#: includes/fields/class-base.php:1288
+msgid "Check this option to hide the form field sub-label."
+msgstr "选中此选项可隐藏表单字段子标题。"
+
+#: includes/fields/class-base.php:1277
+msgid "Check this option to hide the form field label."
+msgstr "选中此选项可隐藏表单字段标题。"
+
+#: includes/fields/class-base.php:1133
+msgid "Check this option to enable using images with the choices."
+msgstr "选中此选项以启用带有选项的图像使用."
+
+#: includes/fields/class-email.php:201
+msgid "Check this option to ask users to provide an email address twice."
+msgstr "选中此选项可要求用户提供两次电子邮件地址。"
+
+#: includes/fields/class-checkbox.php:388
+msgid "Check this option to adjust the field styling to support Disclaimers and Terms of Service type agreements."
+msgstr "选中此选项可调整字段样式以支持免责声明和服务条款类型协议。"
+
+#: templates/admin/challenge/builder.php:31
+msgid "Check Notification Settings"
+msgstr "检查通知设置"
+
+#: lite/wpforms-lite.php:125
+msgid "CC"
+msgstr "抄送"
+
+#: includes/admin/builder/class-builder.php:343
+#: includes/fields/class-base.php:905
+msgid "Bulk Add"
+msgstr "批量添加"
+
+#: templates/admin/challenge/builder.php:22
+msgid "Build your form from scratch or use one of our pre-made templates."
+msgstr "从头开始构建表单或使用我们预先制作的模板之一。"
+
+#: lite/wpforms-lite.php:471
+msgid "Bonus form templates, form abandonment, and more"
+msgstr "奖金表单模板，表单放弃等"
+
+#: src/Lite/Admin/Builder/Education.php:151
+msgid "Billing / Order Form"
+msgstr "账单/订单表单"
+
+#: lite/wpforms-lite.php:336
+msgid "Automatically scroll to the confirmation message"
+msgstr "自动滚动到确认消息"
+
+#: lite/wpforms-lite.php:461
+msgid "All form features like file upload, pagination, etc"
+msgstr "所有表单功能，如文件上传、分页等"
+
+#: includes/fields/class-gdpr-checkbox.php:175
+msgid "Agreement"
+msgstr "协议"
+
+#: includes/fields/class-base.php:1238
+msgid "Advanced Options"
+msgstr "高级选项"
+
+#: lite/wpforms-lite.php:660
+msgid "Add Notes / Comments"
+msgstr "添加备注/评论"
+
+#: lite/wpforms-lite.php:70
+msgid "Add New Notification"
+msgstr "添加新通知"
+
+#: src/Providers/Provider/Settings/FormBuilder.php:419
+msgid "Add New Connection"
+msgstr "添加新连接"
+
+#: lite/wpforms-lite.php:281
+msgid "Add New Confirmation"
+msgstr "添加新确认"
+
+#: includes/providers/class-base.php:742 includes/providers/class-base.php:1303
+#: includes/providers/class-constant-contact.php:486
+#: src/Providers/Provider/Settings/PageIntegrations.php:136
+#: src/Providers/Provider/Settings/FormBuilder.php:425
+msgid "Add New Account"
+msgstr "添加新帐户"
+
+#: templates/admin/challenge/modal.php:40
+msgid "Add Fields to Your Form"
+msgstr "向表单中添加字段"
+
+#: includes/fields/class-base.php:904 includes/fields/class-base.php:1035
+msgid "Add choices for the form field."
+msgstr "为表单字段添加选项。"
+
+#: src/Providers/Provider/Settings/FormBuilder.php:167
+#: src/Providers/Provider/Settings/FormBuilder.php:216
+msgid "Add Another"
+msgstr "添加另一个"
+
+#: templates/admin/form-embed-wizard/tooltip.php:17
+#: templates/admin/challenge/embed.php:18
+msgid "Add a Block"
+msgstr "添加块"
+
+#: lite/wpforms-lite.php:470
+msgid "Accept user submitted content with Post Submissions addon"
+msgstr "使用文章提交扩展来接受用户提交的内容"
+
+#. translators: %s - WPForms.com URL for documentation with more details.
+#: wpforms.php:195
+msgid "<strong>Note:</strong> WPForms plugin is disabled on your site until you fix the issue. <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Read more for additional information.</a>"
+msgstr "<strong> 注: </strong>在解决此问题之前, 您的网站上禁用了WPForms插件。<a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">阅读更多信息 </a>"
+
+#: src/Lite/Admin/Settings/Education.php:60
+#: src/Lite/Admin/Settings/Education.php:77
+#: src/Lite/Admin/Builder/Education.php:80
+#: src/Lite/Admin/Builder/Education.php:97
+msgid "<strong>Bonus:</strong> WPForms Lite users get <span>50% off</span> regular price, automatically applied at checkout."
+msgstr "<strong>奖励</strong>：WPForms Lite用户可获得<span> 50％折扣</span>正常价格，并在结帐时自动应用。"
+
+#: lite/wpforms-lite.php:482
+msgid "<strong>Bonus:</strong> WPForms Lite users get <span class=\"green\">50% off regular price</span>, automatically applied at checkout."
+msgstr "<strong> 优惠: </strong>wpforms 精简版用户获得 <span class=\"green\">50%优惠</span>, 在结账时自动应用。"
+
+#: lite/wpforms-lite.php:468
+msgid "500+ integrations with different marketing & payment services"
+msgstr "500多种与不同营销和支付服务的集成"
+
+#: includes/class-conditional-logic-core.php:367
+#: includes/admin/builder/class-builder.php:430
+#: src/Providers/Provider/Settings/FormBuilder.php:132
+#: src/Providers/Provider/Settings/FormBuilder.php:154
+#: src/Providers/Provider/Settings/FormBuilder.php:185
+#: src/Providers/Provider/Settings/FormBuilder.php:205
+msgid "--- Select Field ---"
+msgstr "--- 选择字段 ---"
+
+#: includes/admin/ajax-actions.php:356 includes/class-smart-tags.php:329
+#: includes/fields/class-base.php:1543 includes/emails/class-emails.php:565
+#: includes/emails/class-emails.php:610
+msgid "(empty)"
+msgstr "（空）"
+
+#. translators: %s - form title.
+#: src/Forms/Preview.php:123
+msgid "%s Preview"
+msgstr "%s预览"
+
+#. translators: %s - addon name.
+#: lite/wpforms-lite.php:1132
+msgid "%s Addon"
+msgstr "%s插件"
+
+#. translators: %s - addon name.
+#: src/Lite/Admin/Settings/Education.php:124
+#: src/Lite/Admin/Builder/Education.php:456
+#: src/Lite/Admin/Builder/Education.php:530
+msgid "%s addon"
+msgstr "%s插件"
+
+#: src/Lite/Admin/Builder/Education.php:323
+msgid "Single Item"
+msgstr "单项"
+
+#: src/Lite/Admin/Builder/Education.php:299
+msgid "Signature"
+msgstr "签名"
+
+#: src/Lite/Admin/Builder/Education.php:285
+msgid "Rating"
+msgstr "评分"
+
+#: src/Lite/Admin/Builder/Education.php:215
+msgid "Phone"
+msgstr "电话"
+
+#: src/Lite/Admin/Builder/Education.php:250
+msgid "Password"
+msgstr "密码"
+
+#: src/Lite/Admin/Builder/Education.php:330
+msgid "Multiple Items"
+msgstr "多项"
+
+#: src/Lite/Admin/Builder/Education.php:271
+msgid "Hidden Field"
+msgstr "隐藏字段"
+
+#: src/Integrations/Gutenberg/FormSelector.php:95
+msgid "form"
+msgstr "表单"
+
+#: src/Lite/Admin/Builder/Education.php:243
+msgid "File Upload"
+msgstr "文件上传"
+
+#: src/Lite/Admin/Builder/Education.php:344
+msgid "Dropdown Items"
+msgstr "下拉项"
+
+#. translators: %s - choice number.
+#: includes/fields/class-checkbox.php:151
+#: includes/fields/class-checkbox.php:709 includes/fields/class-radio.php:130
+#: includes/fields/class-radio.php:539
+msgid "Choice %s"
+msgstr "选择%s"
+
+#: src/Lite/Admin/Builder/Education.php:292
+msgid "Captcha"
+msgstr "验证码"
+
+#: src/Lite/Admin/Builder/Education.php:222
+msgid "Address"
+msgstr "地址"
+
+#. translators: %s - minutes in 2:00 format.
+#: templates/admin/challenge/modal.php:59
+msgid "%s remaining"
+msgstr "还剩%s"

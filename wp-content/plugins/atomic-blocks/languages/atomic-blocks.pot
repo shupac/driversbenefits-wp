@@ -2,14 +2,14 @@
 # This file is distributed under the same license as the Atomic Blocks - Gutenberg Blocks Collection plugin.
 msgid ""
 msgstr ""
-"Project-Id-Version: Atomic Blocks - Gutenberg Blocks Collection 2.8.5\n"
+"Project-Id-Version: Atomic Blocks - Gutenberg Blocks Collection 2.9.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/atomic-blocks\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2020-07-15T19:06:51+00:00\n"
+"POT-Creation-Date: 2020-10-28T16:49:37+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.4.0\n"
 "X-Domain: atomic-blocks\n"
@@ -47,11 +47,14 @@ msgid "Atomic Blocks"
 msgstr ""
 
 #: dist/getting-started/getting-started.php:50
-msgid "Genesis Page Builder Settings"
+msgid "Genesis Blocks Pro Settings"
 msgstr ""
 
 #: dist/getting-started/getting-started.php:51
-msgid "Page Builder"
+#: dist/init.php:131
+#: dist/migration/class-notice.php:96
+#: dist/migration/migrate-page/ab-migrate.php:14
+msgid "Genesis Blocks"
 msgstr ""
 
 #: dist/getting-started/getting-started.php:66
@@ -71,6 +74,7 @@ msgstr ""
 #: dist/getting-started/pages/ab-getting-started.php:13
 #: dist/getting-started/pages/ab-getting-started.php:206
 #: dist/getting-started/pages/settings-main.php:28
+#: dist/migration/migrate-page/ab-migrate.php:13
 msgid "Visit Atomic Blocks"
 msgstr ""
 
@@ -96,6 +100,7 @@ msgid "The Atomic Blocks collection is now ready to use in your posts and pages.
 msgstr ""
 
 #: dist/getting-started/pages/ab-getting-started.php:48
+#: dist/migration/migrate-page/ab-migrate.php:68
 msgid "Atomic Blocks Theme"
 msgstr ""
 
@@ -458,8 +463,98 @@ msgstr ""
 msgid "View Documentation"
 msgstr ""
 
-#: dist/init.php:131
-msgid "Genesis Page Builder"
+#: dist/migration/class-install-genesis-blocks-api.php:68
+#: dist/migration/migrate-page/ab-migrate.php:39
+msgid "Successfully installed and activated Genesis Blocks!"
+msgstr ""
+
+#: dist/migration/class-install-genesis-blocks-api.php:137
+msgid "Unable to connect to the filesystem. Please confirm your credentials."
+msgstr ""
+
+#: dist/migration/class-install-genesis-blocks-api.php:142
+msgid "Unable to determine what plugin was installed."
+msgstr ""
+
+#: dist/migration/class-install-genesis-blocks-api.php:171
+msgid "The filesystem is currently unavailable for managing plugins."
+msgstr ""
+
+#: dist/migration/class-install-genesis-blocks-api.php:204
+msgid "There was no download_link in the API"
+msgstr ""
+
+#. translators: %1$s: the plugin name
+#: dist/migration/class-notice.php:93
+msgid "Atomic Blocks has moved! For future updates and improvements, migrate now to the new home of site building with Gutenberg: %1$s."
+msgstr ""
+
+#: dist/migration/class-notice.php:101
+msgid "Learn more about migrating"
+msgstr ""
+
+#: dist/migration/class-notice.php:106
+msgid "Not Now"
+msgstr ""
+
+#: dist/migration/class-notice.php:109
+#: dist/migration/migrate-page/migrate-page.php:48
+#: dist/migration/migrate-page/migrate-page.php:49
+msgid "Migrate"
+msgstr ""
+
+#: dist/migration/class-notice.php:114
+msgid "When you're ready, our migration tool is available in the main menu, under Atomic Blocks > Migrate."
+msgstr ""
+
+#: dist/migration/class-notice.php:117
+msgid "Okay"
+msgstr ""
+
+#: dist/migration/migrate-page/ab-migrate.php:14
+msgid "Get ready for"
+msgstr ""
+
+#: dist/migration/migrate-page/ab-migrate.php:24
+msgid "Atomic Blocks has moved!"
+msgstr ""
+
+#. translators: %1$s Genesis Pro website URL.
+#: dist/migration/migrate-page/ab-migrate.php:28
+msgid "Same powerful blocks, same beautiful designs, same innovative team. Atomic Blocks has been renamed to Genesis Blocks. %1$s"
+msgstr ""
+
+#: dist/migration/migrate-page/ab-migrate.php:34
+msgid "With our migration tool built right into Genesis Blocks, the transition between plugins will be simple and seamless - plus you'll be ready to receive the new blocks and features we're releasing soon."
+msgstr ""
+
+#: dist/migration/migrate-page/ab-migrate.php:36
+msgid "Install and Activate Genesis Blocks"
+msgstr ""
+
+#: dist/migration/migrate-page/ab-migrate.php:38
+msgid "Something went wrong. Try again."
+msgstr ""
+
+#: dist/migration/migrate-page/ab-migrate.php:41
+msgid "Already using Genesis Blocks?"
+msgstr ""
+
+#: dist/migration/migrate-page/ab-migrate.php:42
+msgid "Update to 1.1.0+ and visit Genesis Blocks → Migrate to begin your migration."
+msgstr ""
+
+#: dist/migration/migrate-page/ab-migrate.php:49
+msgid "Your server does not meet the minimum requirements for Genesis Blocks."
+msgstr ""
+
+#: dist/migration/migrate-page/ab-migrate.php:50
+msgid "In order to continue receiving the new blocks and new features we're working on, please update the following:"
+msgstr ""
+
+#. Translators: The version of PHP that the user has currently installed.
+#: dist/migration/migrate-page/ab-migrate.php:55
+msgid "Required PHP Version: PHP 7.1 or later (currently using PHP %s)"
 msgstr ""
 
 #. translators: %s This PHP class name. Will print AtomicBlocks\Newsletter\Mailchimp
@@ -1227,7 +1322,7 @@ msgid "Background Image"
 msgstr ""
 
 #: src/blocks/block-column/components/column-layouts.js:13
-#: src/blocks/block-column/components/edit.js:65
+#: src/blocks/block-column/components/edit.js:72
 msgid "1 Column"
 msgstr ""
 
@@ -1272,55 +1367,55 @@ msgid "4 Columns - 20/20/20/40"
 msgstr ""
 
 #: src/blocks/block-column/components/column-layouts.js:95
-#: src/blocks/block-column/components/edit.js:89
+#: src/blocks/block-column/components/edit.js:96
 msgid "5 Columns"
 msgstr ""
 
 #: src/blocks/block-column/components/column-layouts.js:105
-#: src/blocks/block-column/components/edit.js:95
+#: src/blocks/block-column/components/edit.js:102
 msgid "6 Columns"
 msgstr ""
 
-#: src/blocks/block-column/components/edit.js:71
+#: src/blocks/block-column/components/edit.js:78
 msgid "2 Columns"
 msgstr ""
 
-#: src/blocks/block-column/components/edit.js:77
+#: src/blocks/block-column/components/edit.js:84
 msgid "3 Columns"
 msgstr ""
 
-#: src/blocks/block-column/components/edit.js:83
+#: src/blocks/block-column/components/edit.js:90
 msgid "4 Columns"
 msgstr ""
 
-#: src/blocks/block-column/components/edit.js:108
+#: src/blocks/block-column/components/edit.js:115
 #: src/blocks/block-column/components/inspector.js:105
 #: src/blocks/block-column/components/inspector.js:111
 #: src/blocks/block-column/index.js:124
 msgid "Column Layout"
 msgstr ""
 
-#: src/blocks/block-column/components/edit.js:108
+#: src/blocks/block-column/components/edit.js:115
 msgid "Column Number"
 msgstr ""
 
-#: src/blocks/block-column/components/edit.js:109
+#: src/blocks/block-column/components/edit.js:116
 msgid "Select a layout for this column."
 msgstr ""
 
-#: src/blocks/block-column/components/edit.js:109
+#: src/blocks/block-column/components/edit.js:116
 msgid "Select the number of columns for this layout."
 msgstr ""
 
-#: src/blocks/block-column/components/edit.js:114
+#: src/blocks/block-column/components/edit.js:121
 msgid "Select Row Columns"
 msgstr ""
 
-#: src/blocks/block-column/components/edit.js:142
+#: src/blocks/block-column/components/edit.js:149
 msgid "Select Column Layout"
 msgstr ""
 
-#: src/blocks/block-column/components/edit.js:174
+#: src/blocks/block-column/components/edit.js:181
 msgid "Return to Column Selection"
 msgstr ""
 
@@ -1593,7 +1688,7 @@ msgid "Drop Cap Style"
 msgstr ""
 
 #: src/blocks/block-layout/components/edit.js:39
-#: src/blocks/block-layout/components/layout/layout-modal.js:76
+#: src/blocks/block-layout/components/layout/layout-modal.js:75
 msgid "Layout Selector"
 msgstr ""
 
@@ -1628,23 +1723,23 @@ msgid "Favorites"
 msgstr ""
 
 #: src/blocks/block-layout/components/layout/layout-modal.js:48
-#: src/blocks/block-layout/components/layout/layout-modal.js:107
+#: src/blocks/block-layout/components/layout/layout-modal.js:106
 msgid "Reusable Blocks"
 msgstr ""
 
-#: src/blocks/block-layout/components/layout/layout-modal.js:67
+#: src/blocks/block-layout/components/layout/layout-modal.js:66
 msgid "Layout Library"
 msgstr ""
 
-#: src/blocks/block-layout/components/layout/layout-modal.js:94
+#: src/blocks/block-layout/components/layout/layout-modal.js:93
 msgid "Add Custom Layouts"
 msgstr ""
 
-#: src/blocks/block-layout/components/layout/layout-modal.js:118
+#: src/blocks/block-layout/components/layout/layout-modal.js:117
 msgid "Send Feedback"
 msgstr ""
 
-#: src/blocks/block-layout/components/layout/layout-modal.js:136
+#: src/blocks/block-layout/components/layout/layout-modal.js:135
 msgid "Default tab content"
 msgstr ""
 
@@ -2049,7 +2144,7 @@ msgstr ""
 #: src/blocks/block-pricing-table-inner/components/price/index.js:34
 #: src/blocks/block-pricing-table-inner/components/subtitle/index.js:32
 #: src/blocks/block-pricing-table-inner/components/title/index.js:32
-#: src/blocks/block-pricing-table/index.js:79
+#: src/blocks/block-pricing-table/index.js:88
 msgid "pricing table"
 msgstr ""
 
@@ -2064,7 +2159,7 @@ msgstr ""
 #: src/blocks/block-pricing-table-inner/components/subtitle/index.js:34
 #: src/blocks/block-pricing-table-inner/components/title/index.js:34
 #: src/blocks/block-pricing-table-inner/index.js:172
-#: src/blocks/block-pricing-table/index.js:80
+#: src/blocks/block-pricing-table/index.js:89
 msgid "shop"
 msgstr ""
 
@@ -2228,24 +2323,24 @@ msgid "buy"
 msgstr ""
 
 #: src/blocks/block-pricing-table/components/inspector.js:36
-#: src/blocks/block-pricing-table/index.js:99
+#: src/blocks/block-pricing-table/index.js:108
 msgid "Pricing Columns"
 msgstr ""
 
 #: src/blocks/block-pricing-table/components/inspector.js:47
-#: src/blocks/block-pricing-table/index.js:102
+#: src/blocks/block-pricing-table/index.js:111
 msgid "Pricing Columns Gap"
 msgstr ""
 
-#: src/blocks/block-pricing-table/index.js:74
+#: src/blocks/block-pricing-table/index.js:83
 msgid "Pricing"
 msgstr ""
 
-#: src/blocks/block-pricing-table/index.js:75
+#: src/blocks/block-pricing-table/index.js:84
 msgid "Add a pricing table."
 msgstr ""
 
-#: src/blocks/block-pricing-table/index.js:81
+#: src/blocks/block-pricing-table/index.js:90
 msgid "purchase"
 msgstr ""
 

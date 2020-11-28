@@ -1,0 +1,162 @@
+# Translation of Plugins - Atomic Blocks &#8211; Gutenberg Blocks Collection - Stable (latest release) in French (France)
+# This file is distributed under the same license as the Plugins - Atomic Blocks &#8211; Gutenberg Blocks Collection - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-06-06 06:38:24+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: fr\n"
+"Project-Id-Version: Plugins - Atomic Blocks &#8211; Gutenberg Blocks Collection - Stable (latest release)\n"
+
+#: dist/getting-started/pages/ab-getting-started.php:48
+msgid "Atomic Blocks Theme"
+msgstr "Thème Atomic Blocks"
+
+#: dist/getting-started/pages/ab-getting-started.php:42
+msgid "Welcome to the future of site building with Gutenberg and Atomic Blocks!"
+msgstr "Bienvenue dans le futur de la construction de sites avec Gutenberg et Atomic Blocks !"
+
+#: dist/getting-started/getting-started.php:66
+#: dist/getting-started/getting-started.php:67
+#: dist/getting-started/pages/ab-getting-started.php:21
+msgid "Getting Started"
+msgstr "Démarrage"
+
+#: dist/getting-started/pages/ab-getting-started.php:54
+msgid "Available Atomic Blocks"
+msgstr "Atomic Blocks disponibles"
+
+#: src/blocks/block-post-grid/index.php:123
+msgid "Untitled"
+msgstr "Sans titre"
+
+#: src/blocks/block-sharing/index.php:249
+#: src/blocks/block-sharing/components/edit.js:105
+msgid "Share via Email"
+msgstr "Partager par e-mail"
+
+#: src/blocks/block-sharing/index.php:217
+#: src/blocks/block-sharing/index.php:233
+msgid "Share on Reddit"
+msgstr "Partager sur Reddit"
+
+#: src/blocks/block-sharing/index.php:195
+#: src/blocks/block-sharing/index.php:211
+#: src/blocks/block-sharing/components/edit.js:80
+msgid "Share on LinkedIn"
+msgstr "Partager sur LinkedIn"
+
+#: src/blocks/block-sharing/index.php:173
+#: src/blocks/block-sharing/index.php:189
+#: src/blocks/block-sharing/components/edit.js:66
+msgid "Share on Pinterest"
+msgstr "Partager sur Pinterest"
+
+#: src/blocks/block-sharing/index.php:151
+#: src/blocks/block-sharing/index.php:167
+#: src/blocks/block-sharing/components/edit.js:52
+msgid "Share on Facebook"
+msgstr "Partager sur Facebook"
+
+#: src/blocks/block-sharing/index.php:129
+#: src/blocks/block-sharing/index.php:145
+#: src/blocks/block-sharing/components/edit.js:38
+msgid "Share on Twitter"
+msgstr "Partager sur Twitter"
+
+#: dist/getting-started/pages/ab-getting-started.php:201
+msgid "Free Theme Download"
+msgstr "Téléchargement gratuit du thème"
+
+#: dist/getting-started/pages/settings-main.php:28
+#: dist/getting-started/pages/ab-getting-started.php:13
+#: dist/getting-started/pages/ab-getting-started.php:206
+msgid "Visit Atomic Blocks"
+msgstr "Visiter Atomic Blocks"
+
+#: dist/getting-started/pages/ab-getting-started.php:225
+msgid "Join the newsletter to receive emails when we add new blocks, release plugin and theme updates, send out free resources, and more!"
+msgstr "Inscrivez-vous à la newsletter pour recevoir des e-mails lorsque nous ajoutons de nouveaux blocs, publions des mises à jour de l’extension et du thème, envoyons des ressources gratuites, et plus !"
+
+#. Plugin Name of the plugin
+msgid "Atomic Blocks - Gutenberg Blocks Collection"
+msgstr "Atomic Blocks - Collection de blocs Gutenberg"
+
+#. Description of the plugin
+msgid "A beautiful collection of handy Gutenberg blocks to help you get started with the new WordPress editor."
+msgstr "Une belle collection de blocs Gutenberg utiles pour vous aider à démarrer avec le nouvel éditeur de WordPress."
+
+#. Author of the plugin
+msgid "atomicblocks"
+msgstr "atomicblocks"
+
+#. Plugin URI of the plugin
+msgid "https://atomicblocks.com"
+msgstr "https://atomicblocks.com"
+
+#: dist/getting-started/pages/ab-getting-started.php:242
+msgid "Visit AtomicBlocks.com"
+msgstr "Visiter AtomicBlocks.com"
+
+#: dist/init.php:128 dist/getting-started/getting-started.php:46
+#: dist/getting-started/pages/settings-main.php:15
+#: dist/getting-started/pages/ab-getting-started.php:14
+msgid "Atomic Blocks"
+msgstr "Atomic Blocks"
+
+#: src/blocks/block-testimonial/index.js:21
+msgid "Testimonial"
+msgstr "Témoignage"
+
+#: includes/layout/register-layout-components.php:183
+msgid "Testimonials"
+msgstr "Témoignages"
+
+#: dist/getting-started/pages/ab-getting-started.php:236
+msgid "Free Blocks & Tutorials"
+msgstr "Blocs et tutoriels gratuits"
+
+#: dist/getting-started/pages/ab-getting-started.php:227
+msgid "Subscribe Now"
+msgstr "S’abonner"
+
+#: dist/getting-started/pages/ab-getting-started.php:208
+msgid "Download our FREE Atomic Blocks theme to help you get started with the Atomic Blocks plugin and the new WordPress block editor."
+msgstr "Téléchargez notre thème gratuit Atomic Blocks pour vous aider à démarrer avec l’extension Atomic Blocks et le nouvel éditeur de bloc de WordPress."
+
+#: dist/getting-started/pages/ab-getting-started.php:162
+#: dist/getting-started/pages/ab-getting-started.php:185
+msgid "This help file feed seems to be temporarily down. You can always view the help file on the Atomic Blocks site in the meantime."
+msgstr "Le flux de ce fichier d’aide semble être temporairement indisponible. Vous pouvez toujours consulter le fichier d’aide sur le site Atomic Blocks en attendant (en anglais)."
+
+#: dist/getting-started/pages/ab-getting-started.php:31
+msgid "Theme Help File"
+msgstr "Fichier d’aide du thème"
+
+#: dist/getting-started/pages/ab-getting-started.php:27
+msgid "Plugin Help File"
+msgstr "Fichier d’aide de l’extension"
+
+#: dist/getting-started/pages/gpb-getting-started.php:14
+#: dist/getting-started/pages/ab-getting-started.php:14
+msgid "Getting started with"
+msgstr "Démarrer avec"
+
+#: src/blocks/block-pricing-table/index.js:74
+msgid "Pricing"
+msgstr "Prix"
+
+#: dist/getting-started/pages/ab-getting-started.php:220
+msgid "Stay Updated"
+msgstr "Restez informé·e"
+
+#: dist/getting-started/pages/ab-getting-started.php:241
+msgid "Check out the Atomic Blocks site to find block editor tutorials, free blocks and updates about the Atomic Blocks plugin and theme!"
+msgstr "Consultez le site Atomic Blocks pour trouver des tutoriels sur le nouvel éditeur, des blocs gratuits et des mises à jour de l’extension et du thème Atomic Blocks !"
+
+#: includes/layout/register-layout-components.php:166
+msgid "Team Members"
+msgstr "Membres d’équipe"

@@ -1238,215 +1238,217 @@ msgstr "上传新媒体文件"
 
 #. translators: 1: WordPress version number, 2: Plural number of bugs. Singular
 #. security issue.
-#: wp-admin/about.php:306
+#: wp-admin/about.php:351
 msgid "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bugs."
 msgstr[0] "<strong>%1$s版本</strong>修补了安全漏洞、修正了%2$s个问题。"
 
 #. translators: 1: WordPress version number, 2: Plural number of bugs.
-#: wp-admin/about.php:300
+#: wp-admin/about.php:58 wp-admin/about.php:345
 msgid "<strong>Version %1$s</strong> addressed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed %2$s bugs."
 msgstr[0] "<strong>%1$s版本</strong>修复了%2$s个问题。"
 
+#. translators: %s: WordPress version number
 #. translators: %s: WordPress version number.
-#: wp-admin/about.php:297
+#: wp-admin/about.php:83 wp-admin/about.php:342
 msgid "<strong>Version %s</strong> addressed some security issues."
 msgstr "<strong>版本%s</strong>修正了一些安全问题。"
 
 #. translators: %s: WordPress version number.
-#: wp-admin/about.php:295
+#: wp-admin/about.php:340
 msgid "<strong>Version %s</strong> addressed one security issue."
 msgstr "<strong>版本%s</strong>修正了一个安全问题。"
 
-#: wp-admin/about.php:291
+#: wp-admin/about.php:336
 msgid "Maintenance and Security Release"
 msgstr "维护和安全更新"
 
-#: wp-admin/about.php:289
+#: wp-admin/about.php:334
 msgid "Security Releases"
 msgstr "安全更新"
 
-#: wp-admin/about.php:288
+#: wp-admin/about.php:333
 msgid "Security Release"
 msgstr "安全更新"
 
-#: wp-admin/about.php:286
+#: wp-admin/about.php:331
 msgid "Maintenance Releases"
 msgstr "维护更新"
 
-#: wp-admin/about.php:285
+#: wp-admin/about.php:330
 msgid "Maintenance Release"
 msgstr "维护更新"
 
-#: wp-admin/about.php:275
+#: wp-admin/about.php:320
 msgid "Go to Dashboard"
 msgstr "前往“仪表盘”"
 
-#: wp-admin/about.php:275
+#: wp-admin/about.php:320
 msgid "Go to Dashboard &rarr; Home"
 msgstr "前往“仪表盘” &rarr; “首页”"
 
-#: wp-admin/about.php:272
+#: wp-admin/about.php:317
 msgid "Return to Dashboard &rarr; Updates"
 msgstr "返回“仪表盘” &rarr; “更新”"
 
-#: wp-admin/about.php:272
+#: wp-admin/about.php:317
 msgid "Return to Updates"
 msgstr "返回“更新”"
 
 #. translators: %s: WordPress 5.4 Field Guide link.
-#: wp-admin/about.php:259
+#: wp-admin/about.php:304
 msgid "There&#8217;s lots more for developers to love in WordPress 5.4. To discover more and learn how to make these changes shine on your sites, themes, plugins and more, check the <a href=\"%s\">WordPress 5.4 Field Guide</a>."
 msgstr "WordPress 5.4中还有更多会让开发者喜爱的更新项目。如需进一步了解这些修改会如何让你的网站、主题及插件等大放异彩，请参阅《<a href=\"%s\">WordPress 5.4 Field Guide</a>》。"
 
-#: wp-admin/about.php:246
+#: wp-admin/about.php:291
 msgid "In embeds, now the block editor supports TikTok—and CollegeHumor is gone."
 msgstr "在嵌入中，区块编辑器现已支持TikTok，并不再支持CollegeHumor。"
 
-#: wp-admin/about.php:245
+#: wp-admin/about.php:290
 msgid "Let users do more with two new APIs: block variations and gradients."
 msgstr "让用户通过两个新API做更多事：区块变体和渐变。"
 
-#: wp-admin/about.php:244
+#: wp-admin/about.php:289
 msgid "If you build plugins, now you can register collections of your blocks by namespace across categories—a great way to get more brand visibility."
 msgstr "如果您构建插件，现在您可以依命名空间跨分类注册区块集合，这是极好的提高品牌知名度的方式。"
 
-#: wp-admin/about.php:243
+#: wp-admin/about.php:288
 msgid "<strong>Radically</strong> simpler block styling. Negative margins and default padding are gone! Now you can style blocks the way you need them. And, a refactor got rid of four redundant wrapper divs."
 msgstr "<strong>极度</strong>简化的区块样式。区块不再提供负值margin及默认padding。您现在可以依需求为区块设定样式。此外，我们通过重构清除了四个多余的wrapper div。"
 
-#: wp-admin/about.php:241
+#: wp-admin/about.php:286
 msgid "Blocks! Simpler styling, new APIs and embeds"
 msgstr "区块！更简化的样式、全新的API及嵌入内容"
 
-#: wp-admin/about.php:237
+#: wp-admin/about.php:282
 msgid "Check your code and see where these new actions can replace your custom code, and if you&#8217;re concerned about duplication, add a check for the WordPress version."
 msgstr "请检查您的代码并确认这两个动作是否可以取代您的自定义代码。如果您在意代码重复，也可以加入对WordPress版本的检查。"
 
 #. translators: %s: 'wp_nav_menu_item_custom_fields_customize_template' action
 #. name.
-#: wp-admin/about.php:231
+#: wp-admin/about.php:276
 msgid "In the Customizer, %s fires at the end of the menu-items form-fields template."
 msgstr "在定制器中，%s会在菜单项表单字段模板的结尾触发。"
 
 #. translators: %s: 'wp_nav_menu_item_custom_fields' action name.
-#: wp-admin/about.php:222
+#: wp-admin/about.php:267
 msgid "On the Menus admin screen, %s fires just before the move buttons of a nav menu item in the menu editor."
 msgstr "在菜单管理页面中，%s会在菜单编辑器中导航菜单项目的移动按钮之前触发。"
 
-#: wp-admin/about.php:216
+#: wp-admin/about.php:261
 msgid "Two new actions let you add custom fields to menu items&mdash;without a plugin and without writing custom walkers."
 msgstr "两个全新动作能让开发者新增自定义字段至菜单项目中，不须插件也不须撰写自定义walker。"
 
-#: wp-admin/about.php:214
+#: wp-admin/about.php:259
 msgid "Add custom fields to menu items—natively"
 msgstr "将原生自定义字段加入菜单项目"
 
-#: wp-admin/about.php:198
+#: wp-admin/about.php:243
 msgid "Just for developers"
 msgstr "只为开发者"
 
-#: wp-admin/about.php:189
+#: wp-admin/about.php:234
 msgid "Plus, little enhancements throughout give the privacy tools a little cleaner look. Your eyes will thank you!"
 msgstr "此外，隐私工具的小幅改进让外观更简洁，这对视力保健很有帮助。"
 
-#: wp-admin/about.php:188
+#: wp-admin/about.php:233
 msgid "See progress as you process export and erasure requests through the privacy tools."
 msgstr "您现在可通过隐私工具查看处理导出及抹除数据要求的进度。"
 
-#: wp-admin/about.php:187
+#: wp-admin/about.php:232
 msgid "Now personal data exports include users session information and users location data from the community events widget. Plus, a table of contents!"
 msgstr "现在个人资料导出结果会包含用户会话信息以及来自社群活动收集的用户位置数据。此外亦会显示目录。"
 
-#: wp-admin/about.php:185
+#: wp-admin/about.php:230
 msgid "Take a look:"
 msgstr "来看看："
 
-#: wp-admin/about.php:184
+#: wp-admin/about.php:229
 msgid "5.4 helps with a variety of privacy issues around the world. So when users and stakeholders ask about regulatory compliance, or how your team handles user data, the answers should be a lot easier to get right."
 msgstr "5.4版有助于解决世界各地不同的隐私权议题，因此当用户及利害关系人询问法规合规性或网站经营团队如何处理用户资料时，应该会更容易得到正确回复。"
 
-#: wp-admin/about.php:183
+#: wp-admin/about.php:228
 msgid "Your fundamental right: privacy"
 msgstr "您的基本权利：隐私"
 
-#: wp-admin/about.php:167
+#: wp-admin/about.php:212
 msgid "Of course, if you want to work with the very latest tools and features, install the <a href=\"https://wordpress.org/plugins/gutenberg/\">Gutenberg plugin</a>. You&#8217;ll get to be the first to use new and exciting features in the block editor, before anyone else has seen them!"
 msgstr "如果您想使用最新工具及功能，请安装<a href=\"https://cn.wordpress.org/plugins/gutenberg/\">古腾堡</a>插件，便能领先其他人使用区块编辑器中新颖强大的功能。"
 
-#: wp-admin/about.php:165
+#: wp-admin/about.php:210
 msgid "Know at a glance whether you&#8217;re in a block&#8217;s Edit or Navigation mode. Or, if you have restricted vision, your screen reader will tell you which mode you&#8217;re in."
 msgstr "您一望即知目前处在区块的编辑模式或导航模式。如果您视力不佳，屏幕阅读器会告知目前所处编辑器模式。"
 
-#: wp-admin/about.php:164
+#: wp-admin/about.php:209
 msgid "Tips are gone. In their place, a Welcome Guide window you can bring up when you need it&mdash;and only when you need it&mdash;again and again."
 msgstr "编辑器不再提供贴士，取而代之的是在您需要时可随时启用的“欢迎指南”窗口。"
 
-#: wp-admin/about.php:163
+#: wp-admin/about.php:208
 msgid "Speed! 14% faster loading of the editor, 51% faster time-to-type!"
 msgstr "速度至上！编辑器载入时间加速14%，可供输入时间加速51%。"
 
-#: wp-admin/about.php:162
+#: wp-admin/about.php:207
 msgid "For when you need to navigate with the keyboard, better tabbing and focus. Plus, you can tab over to the sidebar of nearly any block."
 msgstr "当您需要以键盘进行操作时，现在提供更好的Tab键及聚焦方式。此外，您能使用Tab键切换至任何区块旁的边栏。"
 
-#: wp-admin/about.php:161
+#: wp-admin/about.php:206
 msgid "Clearer block navigation with block breadcrumbs. And easier selection once you get there."
 msgstr "区块导航标记提供更简洁的区块导航方式，能让您更容易选取区块。"
 
-#: wp-admin/about.php:159
+#: wp-admin/about.php:204
 msgid "Cleaner UI, clearer navigation—and easier tabbing!"
 msgstr "更简洁的用户界面、导航栏及选项卡！"
 
-#: wp-admin/about.php:152
+#: wp-admin/about.php:197
 msgid "And if you&#8217;ve ever thought your image in the Media+Text block should link to something else&mdash;perhaps a picture of a brochure should download that brochure as a document? Well, now it can."
 msgstr "如果您曾经想过让媒体及文字区块中的图片链接至其他内容，例如可下载为文件的图文手册，在新版本中现已支持这项功能。"
 
-#: wp-admin/about.php:151
+#: wp-admin/about.php:196
 msgid "Guess a whole lot less! Version 5.4 streamlines the whole process for placing and replacing multimedia in every block. Now it works the same way in almost every block!"
 msgstr "5.4版简化了每个区块中插入及替换多媒体内容的流程，现在大多数区块都有了相同的操作方式。"
 
-#: wp-admin/about.php:150
+#: wp-admin/about.php:195
 msgid "New ways with color: Gradients in the Buttons and Cover block, toolbar access to color options in Rich Text blocks, and for the first time, color options in the Group and Columns blocks."
 msgstr "变更色彩的新方式：按钮及封面区块加入渐变色功能，富文本区块工具栏提供色彩设定的功能，群组及列区块亦首次提供色彩设定。"
 
-#: wp-admin/about.php:149
+#: wp-admin/about.php:194
 msgid "Two brand-new blocks: Social Icons and Buttons make adding interactive features fast and easy."
 msgstr "两个全新区块：社交网络服务图标及按钮区块能轻松快速建立互动功能。"
 
-#: wp-admin/about.php:147
+#: wp-admin/about.php:192
 msgid "Two new blocks. And better blocks overall."
 msgstr "两个新增区块及更佳的区块整体使用体验。"
 
-#: wp-admin/about.php:133
+#: wp-admin/about.php:178
 msgid "And more speed everywhere, so as you build sections or galleries, or just type in a line of prose, you can feel how much faster your work flows."
 msgstr "每项功能都提升了速度，因此您无论是构建区段、图库或撰写内容，都会感到比以往工作流程快上许多。"
 
-#: wp-admin/about.php:130
+#: wp-admin/about.php:175
 msgid "More ways to make your vision real, and put blocks in the perfect place&mdash;even if a particular kind of block is new to you. More efficient processes."
 msgstr "即使您不熟悉某些类型的区块，一样能提供更加所见即所得、将区块插入正确位置的方式。"
 
-#: wp-admin/about.php:125
+#: wp-admin/about.php:170
 msgid "More ways to bring your visitors in, and keep them engaged, with the richness of embedded media from the web&#8217;s top services."
 msgstr "提供更多能利用网络顶尖服务多样化嵌入内容，引导网站访客并保持访客对网站参与度的方式。"
 
-#: wp-admin/about.php:124
+#: wp-admin/about.php:169
 msgid "More ways to make posts and pages come alive with your best images."
 msgstr "提供更多能以最佳图片让文章及页面更生动的方式。"
 
-#: wp-admin/about.php:121
+#: wp-admin/about.php:166
 msgid "Every major release adds more to the block editor."
 msgstr "每个版本都会为区块编辑器新增更多功能。"
 
 #. translators: %s: The current WordPress version number.
-#: wp-admin/about.php:114
+#: wp-admin/about.php:159
 msgid "Welcome to WordPress %s."
 msgstr "欢迎使用WordPress %s。"
 
 #. translators: %s: HelpHub URL
 #. translators: %s: Documentation URL.
-#: wp-admin/about.php:70 wp-admin/about.php:95 wp-admin/about.php:318
+#: wp-admin/about.php:70 wp-admin/about.php:90 wp-admin/about.php:115
+#: wp-admin/about.php:140 wp-admin/about.php:363
 msgid "For more information, see <a href=\"%s\">the release notes</a>."
 msgstr "欲了解更多，参见<a href=\"%s\">发行注记</a>。"
 
@@ -1454,12 +1456,12 @@ msgstr "欲了解更多，参见<a href=\"%s\">发行注记</a>。"
 #. than one security issue.
 #. translators: 1: WordPress version number, 2: Plural number of bugs. More
 #. than one security issue.
-#: wp-admin/about.php:58 wp-admin/about.php:83 wp-admin/about.php:312
+#: wp-admin/about.php:103 wp-admin/about.php:128 wp-admin/about.php:357
 msgid "<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bugs."
 msgstr[0] "<strong>%1$s版本</strong>修补了安全漏洞、修正了%2$s个问题。"
 
-#: wp-admin/about.php:53 wp-admin/about.php:292
+#: wp-admin/about.php:53 wp-admin/about.php:337
 msgid "Maintenance and Security Releases"
 msgstr "维护和安全更新"
 
@@ -11164,7 +11166,7 @@ msgstr "<a href=\"%1$s\">WordPress %2$s</a>现已可用！<a href=\"%3$s\" aria-
 #. translators: %s: WordPress version
 #: wp-admin/includes/update.php:300 wp-admin/install.php:239
 #: wp-admin/update-core.php:82 wp-admin/upgrade.php:83 wp-admin/about.php:73
-#: wp-admin/about.php:98
+#: wp-admin/about.php:93 wp-admin/about.php:118 wp-admin/about.php:143
 msgid "https://wordpress.org/support/wordpress-version/version-%s/"
 msgstr "https://wordpress.org/support/wordpress-version/version-%s/"
 
@@ -13845,3 +13847,19 @@ msgstr "WordPress"
 #: wp-admin/privacy.php:36 wp-admin/freedoms.php:42 wp-admin/about.php:37
 msgid "Credits"
 msgstr "鸣谢"
+
+#. Author URI of the plugin
+msgid "http://ma.tt/"
+msgstr "http://ma.tt/"
+
+#. Description of the plugin
+msgid "This is not just a plugin, it symbolizes the hope and enthusiasm of an entire generation summed up in two words sung most famously by Louis Armstrong: Hello, Dolly. When activated you will randomly see a lyric from <cite>Hello, Dolly</cite> in the upper right of your admin screen on every page."
+msgstr "这不是普通的插件，它象征着一代人希望和热情，浓缩成Louis Armstrong的四个字：你好，多莉。在启用后，在您站点后台每个页面的右上角都可以看到一句来自《俏红娘》音乐剧的英文原版台词。"
+
+#. Plugin URI of the plugin
+msgid "http://wordpress.org/plugins/hello-dolly/"
+msgstr "http://wordpress.org/plugins/hello-dolly/"
+
+#. Plugin Name of the plugin
+msgid "Hello Dolly"
+msgstr "你好多莉"
