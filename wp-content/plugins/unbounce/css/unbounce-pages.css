@@ -1,0 +1,102 @@
+.ub-plugin-wrapper {
+  padding-bottom: 100px;
+}
+
+.ub-logo {
+  width: 40px;
+  height: 40px;
+  float: left;
+  margin: -10px 10px 0 0;
+}
+
+.ub-unbounce-pages-heading {
+  margin-top: 30px;
+}
+
+.ub-authorize-message {
+  margin-top: 30px;
+}
+
+.ub-published-pages-heading {
+  float: left;
+  margin-right: 10px;
+}
+
+.ub-need-help-header {
+  margin-bottom: 7px;
+}
+
+.ub-version {
+  text-align: right;
+}
+
+.ub-page-list {
+  margin: 0;
+  padding: 0 20px 0 0;
+}
+
+.ub-table-scroll table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.ub-table-scroll thead,
+.ub-table-scroll tbody,
+.ub-table-scroll tr,
+.ub-table-scroll td,
+.ub-table-scroll th {
+  box-sizing: border-box;
+  display: block;
+}
+
+.ub-table-scroll tr:after {
+  content: ' ';
+  display: block;
+  visibility: hidden;
+  clear: both;
+}
+
+.ub-table-scroll tbody {
+  height: 350px;
+  overflow-y: auto;
+  width: 100%;
+}
+
+.ub-table-scroll tbody td, .ub-table-scroll thead th {
+  width: 100%;
+  float: left;
+}
+
+.ub-diagnostics-link {
+  float: left;
+}
+
+.ub-diagnostics-checks .dashicons-yes {
+  color: #7ad03a;
+}
+
+.ub-diagnostics-checks .dashicons-no-alt {
+  color: #dd3d36;
+}
+
+.ub-diagnostics-check-description  {
+  margin-left: 24px;
+}
+
+.causes {
+  list-style: disc;
+  padding: 0 20px;
+}
+
+.info {
+  background: #fff;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  border: 1px solid #0098db;
+  border-radius: 3px;
+}
+
+#ub-diagnostics-copy-result div {
+  margin: 10px 0 10px 0 !important;
+}

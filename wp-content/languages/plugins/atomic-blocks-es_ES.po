@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Atomic Blocks &#8211; Gutenberg Blocks Collection - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-08-01 02:05:49+0000\n"
+"PO-Revision-Date: 2020-09-18 08:55:59+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -11,13 +11,51 @@ msgstr ""
 "Language: es\n"
 "Project-Id-Version: Plugins - Atomic Blocks &#8211; Gutenberg Blocks Collection - Stable (latest release)\n"
 
-#: dist/getting-started/pages/settings-main.php:86
-msgid "Plugin Documentation"
-msgstr "Documentación del plugin"
+#: dist/init.php:131 dist/getting-started/getting-started.php:51
+#: dist/migration/migrate-page/ab-migrate.php:14
+#: dist/migration/class-notice.php:96
+msgid "Genesis Blocks"
+msgstr "Genesis Blocks"
 
-#: dist/getting-started/pages/settings-main.php:37
-msgid "General Settings"
-msgstr "Ajustes generales"
+#: dist/getting-started/pages/settings-main.php:11
+msgid "Genesis Pro Settings"
+msgstr "Ajustes de Genesis Pro"
+
+#: dist/getting-started/pages/gpb-getting-started.php:36
+msgid "Help us improve!"
+msgstr "¡Ayúdanos a mejorar!"
+
+#: dist/getting-started/pages/gpb-getting-started.php:14
+#: dist/getting-started/pages/settings-main.php:10
+msgid "Genesis Pro"
+msgstr "Genesis Pro"
+
+#: dist/getting-started/pages/gpb-getting-started.php:13
+#: dist/getting-started/pages/settings-main.php:26
+msgid "Visit StudioPress"
+msgstr "Visita StudioPress"
+
+#: dist/getting-started/getting-started.php:233
+msgid "Access denied."
+msgstr "Acceso denegado."
+
+#: dist/getting-started/pages/gpb-getting-started.php:114
+#: dist/getting-started/pages/ab-getting-started.php:271
+msgid "Browse Themes"
+msgstr "Explorar temas"
+
+#. translators: %1$s WP Engine privacy policy link.
+#: dist/getting-started/pages/gpb-getting-started.php:48
+msgid "privacy policy"
+msgstr "política de privacidad"
+
+#: dist/getting-started/pages/gpb-getting-started.php:44
+msgid "Disabled"
+msgstr "Desactivado"
+
+#: dist/getting-started/pages/gpb-getting-started.php:41
+msgid "Enabled"
+msgstr "Activo"
 
 #: dist/getting-started/pages/settings-main.php:97
 msgid "View Documentation"
@@ -27,6 +65,14 @@ msgstr "Ver la documentación"
 #: dist/getting-started/pages/settings-main.php:94
 msgid "Check out the %1$s documentation for feature and setting explanations, advanced usage, and code examples."
 msgstr "Consulta la documentación de %1$s para obtener explicaciones sobre las características y los ajustes, el uso avanzado y los ejemplos de código."
+
+#: dist/getting-started/pages/settings-main.php:86
+msgid "Plugin Documentation"
+msgstr "Documentación del plugin"
+
+#: dist/getting-started/pages/settings-main.php:37
+msgid "General Settings"
+msgstr "Ajustes generales"
 
 #. translators: %s: This functions name. Will always be
 #. AtomicBlocks\Layouts\Component_Registry::remove().
@@ -215,6 +261,13 @@ msgstr "correo electrónico"
 msgid "marketing"
 msgstr "marketing"
 
+#: includes/layout/register-layout-components.php:39
+#: includes/layout/register-layout-components.php:42
+#: includes/layout/register-layout-components.php:57
+#: includes/layout/register-layout-components.php:74
+msgid "landing"
+msgstr "página de destino"
+
 #: includes/layout/register-layout-components.php:37
 msgid "Product Launch"
 msgstr "Lanzamiento de producto"
@@ -233,13 +286,6 @@ msgstr "servicio"
 msgid "business"
 msgstr "negocio"
 
-#: includes/layout/register-layout-components.php:39
-#: includes/layout/register-layout-components.php:42
-#: includes/layout/register-layout-components.php:57
-#: includes/layout/register-layout-components.php:74
-msgid "landing"
-msgstr "página de destino"
-
 #: includes/layout/register-layout-components.php:21
 msgid "Business"
 msgstr "Negocio"
@@ -247,6 +293,10 @@ msgstr "Negocio"
 #: includes/layout/layout-endpoints.php:137
 msgid "Layout not found."
 msgstr "Diseño no encontrado."
+
+#. Author URI of the plugin
+msgid "http://atomicblocks.com"
+msgstr "http://atomicblocks.com"
 
 #: dist/getting-started/pages/settings-main.php:76
 msgid "Save Settings"
@@ -256,56 +306,17 @@ msgstr "Guardar configuración"
 msgid "Settings saved."
 msgstr "Ajustes guardados."
 
-#: dist/getting-started/getting-started.php:76
-msgid "Settings"
-msgstr "Ajustes"
-
-#: includes/newsletter/newsletter-functions.php:135
-msgid "Invalid list ID."
-msgstr "ID de lista no válido."
-
-#: includes/newsletter/newsletter-functions.php:134
-msgid "Invalid email address."
-msgstr "Dirección de correo electrónico no valida."
-
-#: includes/newsletter/newsletter-functions.php:36
-msgid "You must provide an email address."
-msgstr "Debes facilitar una dirección de correo electrónico."
-
-#: src/blocks/block-newsletter/index.php:206
-msgid "Thanks for subscribing."
-msgstr "Gracias por suscribirte."
-
-#: src/blocks/block-newsletter/index.php:181
-#: src/blocks/block-newsletter/index.js:21
-msgid "Subscribe"
-msgstr "Suscribirse"
+#: dist/getting-started/pages/settings-general.php:25
+msgid "Find your Mailchimp API key."
+msgstr "Busca la clave de la API de Mailchimp."
 
 #: dist/getting-started/pages/settings-general.php:16
 msgid "Mailchimp API Key"
 msgstr "Clave API de Mailchimp"
 
-#: includes/newsletter/newsletter-functions.php:47
-msgid "Please provide a valid email address."
-msgstr "Por favor, escribe una dirección de correo electrónico válida."
-
-#: src/blocks/block-newsletter/index.php:195
-msgid "Your Email Address"
-msgstr "Tu dirección de correo electrónico"
-
-#: src/blocks/block-newsletter/index.php:191
-msgid "Please wait..."
-msgstr "Por favor, espera..."
-
-#: dist/getting-started/pages/settings-general.php:25
-msgid "Find your Mailchimp API key."
-msgstr "Busca la clave de la API de Mailchimp."
-
-#. translators: %s This PHP class name. Will print
-#. AtomicBlocks\Newsletter\Mailchimp
-#: includes/classes/class-mailchimp.php:40
-msgid "An API key is required to use %s."
-msgstr "Se requiere una clave API para utilizar %s."
+#: dist/getting-started/getting-started.php:76
+msgid "Settings"
+msgstr "Ajustes"
 
 #: dist/getting-started/getting-started.php:45
 #: dist/getting-started/pages/settings-main.php:16
@@ -324,13 +335,46 @@ msgstr "El envío se realizó correctamente."
 msgid "The submission is being processed."
 msgstr "El envío se está procesando."
 
+#: includes/newsletter/newsletter-functions.php:237
+msgid "Invalid configuration. Site owner: Please configure your newsletter provider settings."
+msgstr "Configuración no válida. Propietario del sitio: Por favor, configura los ajustes del proveedor de boletín."
+
+#: includes/newsletter/newsletter-functions.php:136
+msgid "You must enter your email API key in the plugin settings page."
+msgstr "Debes introducir la clave de API del correo electrónico en la página de ajustes del plugin."
+
+#: includes/newsletter/newsletter-functions.php:135
+msgid "Invalid list ID."
+msgstr "ID de lista no válido."
+
+#: includes/newsletter/newsletter-functions.php:134
+msgid "Invalid email address."
+msgstr "Dirección de correo electrónico no valida."
+
 #: includes/newsletter/newsletter-functions.php:133
 msgid "Invalid newsletter provider."
 msgstr "Proveedor de boletines no válido."
 
+#: includes/newsletter/newsletter-functions.php:47
+msgid "Please provide a valid email address."
+msgstr "Por favor, escribe una dirección de correo electrónico válida."
+
+#: includes/newsletter/newsletter-functions.php:36
+msgid "You must provide an email address."
+msgstr "Debes facilitar una dirección de correo electrónico."
+
 #: includes/newsletter/newsletter-functions.php:32
 msgid "Invalid mailing provider configuration."
 msgstr "Configuración del proveedor de correo no válida."
+
+#: includes/newsletter/newsletter-functions.php:28
+msgid "Nonce verification failed. Please try again."
+msgstr "Error en la verificación nonce. Por favor, inténtalo de nuevo."
+
+#. translators: %s The error message returns from the Mailchimp API.
+#: includes/classes/class-mailchimp.php:105
+msgid "There was an error subscribing your email address. Please try again. Error: %s"
+msgstr "Se ha producido un error al suscribir tu dirección de correo electrónico. Por favor, inténtalo de nuevo. Error: %s"
 
 #. translators: %s The PHP method name. Will be
 #. AtomicBlocks\Newsletter\Mailchimp\subscribe.
@@ -342,22 +386,28 @@ msgstr "Se proporcionó un ID de lista de Mailchimp no válida en %s"
 msgid "An invalid email address was provided."
 msgstr "Se proporcionó una dirección de correo electrónico no válida."
 
-#: includes/newsletter/newsletter-functions.php:237
-msgid "Invalid configuration. Site owner: Please configure your newsletter provider settings."
-msgstr "Configuración no válida. Propietario del sitio: Por favor, configura los ajustes del proveedor de boletín."
+#. translators: %s This PHP class name. Will print
+#. AtomicBlocks\Newsletter\Mailchimp
+#: includes/classes/class-mailchimp.php:40
+msgid "An API key is required to use %s."
+msgstr "Se requiere una clave API para utilizar %s."
 
-#: includes/newsletter/newsletter-functions.php:136
-msgid "You must enter your email API key in the plugin settings page."
-msgstr "Debes introducir la clave de API del correo electrónico en la página de ajustes del plugin."
+#: src/blocks/block-newsletter/index.php:206
+msgid "Thanks for subscribing."
+msgstr "Gracias por suscribirte."
 
-#: includes/newsletter/newsletter-functions.php:28
-msgid "Nonce verification failed. Please try again."
-msgstr "Error en la verificación nonce. Por favor, inténtalo de nuevo."
+#: src/blocks/block-newsletter/index.php:195
+msgid "Your Email Address"
+msgstr "Tu dirección de correo electrónico"
 
-#. translators: %s The error message returns from the Mailchimp API.
-#: includes/classes/class-mailchimp.php:105
-msgid "There was an error subscribing your email address. Please try again. Error: %s"
-msgstr "Se ha producido un error al suscribir tu dirección de correo electrónico. Por favor, inténtalo de nuevo. Error: %s"
+#: src/blocks/block-newsletter/index.php:191
+msgid "Please wait..."
+msgstr "Por favor, espera..."
+
+#: src/blocks/block-newsletter/index.php:181
+#: src/blocks/block-newsletter/index.js:21
+msgid "Subscribe"
+msgstr "Suscribirse"
 
 #: includes/layout/register-layout-components.php:92
 #: includes/layout/register-layout-components.php:94
@@ -388,27 +438,15 @@ msgstr "perfil"
 msgid "author"
 msgstr "autor"
 
-#: dist/getting-started/pages/ab-getting-started.php:210
-msgid "Install Now"
-msgstr "Instalar ahora"
-
-#: dist/getting-started/pages/ab-getting-started.php:125
-msgid "Customizable Button"
-msgstr "Botón personalizable"
-
-#: dist/getting-started/pages/ab-getting-started.php:117
-msgid "Accordion Block"
-msgstr "Bloque de accordeón"
-
-#: dist/getting-started/pages/ab-getting-started.php:85
-msgid "Testimonial Block"
-msgstr "Bloque de recomendaciones"
-
 #. translators: %1$s StudioPress website URL. %2$s WP Engine website URL.
 #: dist/getting-started/pages/gpb-getting-started.php:122
 #: dist/getting-started/pages/ab-getting-started.php:279
 msgid "Made by the fine folks at %1$s and %2$s."
 msgstr "Hecho por la buena gente de %1$s y %2$s."
+
+#: dist/getting-started/pages/ab-getting-started.php:210
+msgid "Install Now"
+msgstr "Instalar ahora"
 
 #: dist/getting-started/pages/ab-getting-started.php:142
 msgid "Add an adjustable spacer between your blocks with an optional divider with styling options."
@@ -435,6 +473,10 @@ msgstr "Bloque capitular"
 msgid "Add a fancy stylized button to your post or page with size, shape, target, and color options."
 msgstr "Añade un botón estilizado y elegante a tu entrada o página con opciones de tamaño, forma, destino y color."
 
+#: dist/getting-started/pages/ab-getting-started.php:125
+msgid "Customizable Button"
+msgstr "Botón personalizable"
+
 #: dist/getting-started/pages/ab-getting-started.php:123
 msgid "Customizable Button Block"
 msgstr "Bloque de botón personalizable"
@@ -442,6 +484,10 @@ msgstr "Bloque de botón personalizable"
 #: dist/getting-started/pages/ab-getting-started.php:118
 msgid "Add an accordion text toggle with a title and descriptive text. Includes font size and toggle options."
 msgstr "Añade un texto de acordeón con un título y un texto descriptivo. Incluye opciones de tamaño de fuente y comportamiento."
+
+#: dist/getting-started/pages/ab-getting-started.php:117
+msgid "Accordion Block"
+msgstr "Bloque de accordeón"
 
 #: dist/getting-started/pages/ab-getting-started.php:115
 msgid "Accordion Toggle"
@@ -480,6 +526,10 @@ msgstr "Bloque de avisos en línea"
 #: dist/getting-started/pages/ab-getting-started.php:86
 msgid "Add a customer or client testimonial to your site with an avatar, text, citation and more."
 msgstr "Añade un cliente o testimonio de un cliente a tu sitio con un avatar, texto, cita y más."
+
+#: dist/getting-started/pages/ab-getting-started.php:85
+msgid "Testimonial Block"
+msgstr "Bloque de recomendaciones"
 
 #: dist/getting-started/pages/ab-getting-started.php:83
 msgid "Testimonials Block"
@@ -520,6 +570,7 @@ msgid "Available Atomic Blocks"
 msgstr "Atomic Blocks disponibles"
 
 #: dist/getting-started/pages/ab-getting-started.php:48
+#: dist/migration/migrate-page/ab-migrate.php:68
 msgid "Atomic Blocks Theme"
 msgstr "Tema Atomic Blocks"
 
@@ -586,8 +637,25 @@ msgstr "Suscríbete al boletín para recibir correos electrónicos cuando añada
 #: dist/getting-started/pages/settings-main.php:28
 #: dist/getting-started/pages/ab-getting-started.php:13
 #: dist/getting-started/pages/ab-getting-started.php:206
+#: dist/migration/migrate-page/ab-migrate.php:13
 msgid "Visit Atomic Blocks"
 msgstr "Visita Atomic Blocks"
+
+#. Description of the plugin
+msgid "A beautiful collection of handy Gutenberg blocks to help you get started with the new WordPress editor."
+msgstr "Una hermosa colección de prácticos bloques de Gutenberg para ayudarte a empezar con el nuevo editor de WordPress."
+
+#. Plugin Name of the plugin
+msgid "Atomic Blocks - Gutenberg Blocks Collection"
+msgstr "Atomic Blocks - Colección de bloques para Gutenberg"
+
+#. Author of the plugin
+msgid "atomicblocks"
+msgstr "atomicblocks"
+
+#. Plugin URI of the plugin
+msgid "https://atomicblocks.com"
+msgstr "https://atomicblocks.com"
 
 #: dist/getting-started/pages/ab-getting-started.php:242
 msgid "Visit AtomicBlocks.com"

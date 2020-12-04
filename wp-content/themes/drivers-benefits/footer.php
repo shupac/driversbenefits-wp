@@ -24,7 +24,7 @@
 			<a href="https://www.facebook.com/driversbenefits/" target="_blank" rel="no-referrer"><i class="fab fa-facebook-f"></i></a>
 			<a href="https://twitter.com/DriversBenefits" target="_blank" rel="no-referrer"><i class="fab fa-twitter"></i></a>
 		</div>
-		<p id="copyright">© Copyright 2020 Drivers Benefits Fund</p>
+		<p id="copyright">© Copyright 2020 | All Rights Reserved</p>
 	</footer>
 	<script src="/wp-content/themes/drivers-benefits/js/posts.js"></script>
 	<script src="/wp-content/themes/drivers-benefits/js/footer.js"></script>
